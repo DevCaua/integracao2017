@@ -2,9 +2,15 @@
 
 ## 1 - Requisitos de Software:  
 
+Ajuda os engenheiros de software a compreender melhor o problema que irão resolver. Inclui um conjunto de tarefas que levam a um entendimento do impacto do software sobre o negócio, do que o cliente precisa e de como os usuários finais irão interagir com a aplicação.
+
 ## 2 - Design de Software:  
 
+Os requisitos são analisados para produzir uma descrição da arquitetura do software. Um processo iterativo através do qual os requisitos são traduzidos em documento para construção de software.
+
 ## 3 - Construção de Software:  
+
+Codificação do sistema a partir da descrição computacional da fase de projeto em uma outra linguagem, onde se torna possível a compilação e geração do código executável para o desenvolvimento de software.Tem foco na minimuzação da complexidade, construção para verificação e antecipação de mudanças.
 
 ## 4 - Teste de Software:  
 
