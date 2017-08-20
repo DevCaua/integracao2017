@@ -16,15 +16,21 @@ Codificação do sistema a partir da descrição computacional da fase de projet
 
 ## 5 - Manutenção de Software:  
 
-## 6 - Gerência de Configuração de Software:  
+## 6 - Gerência de Configuração de Software: 
+
+A área de GCS tem como finalidade um conjunto de atividades que são responsáveis por mater a integridade e estabilidade do projeto durante sua evolução. Tem como responsabilidade o controle de mudança, controle de versão e a integração contínua dessa forma, todo progresso e alterações que ocorrem durante o andamento do projeto são registradas e monitoradas de maneira a tingir o objetivo final da Gerência de Configuração
 
 ## 7 - Gerência de Engenharia de Software:  
+
+A Gerência de engenharia de software tem como objetivo monitorar as atividades, otimizar o uso de recursos e ferramentas de maneira a garantir a entrega do produto de software de acordo com os requisitos mantendo a qualidade e integridade do projeto.
 
 ## 8 - Processo de Engenharia de Software:  
 
 ## 9 - Ferramentas e Métodos de Engenharia de Software:  
 
 ## 10 - Qualidade de Software:  
+
+É a área responsável por garantir que as necessidades e desejos explícitos e implícitos sejam assegurados contemplando as normas e requisitos de forma a satisfazer o cliente.
 
 ## 11 - Prática Profissional de Engenharia de Software:  
 
