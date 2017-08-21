@@ -28,17 +28,23 @@ A Gerência de engenharia de software tem como objetivo monitorar as atividades,
 
 ## 8 - Processo de Engenharia de Software:  
 
+Um processo de engenharia de software existe para ordenar o desenvolvimento de um produto de software, sendo que ele consiste em uma sequência de atividades com início e fim bem definidos. Cada atividade possui: parâmetros de entrada, de saída, formas de comunicação que serão utilizadas durante o decorrer da sua atividade e resultados esperados. É importante lembrar que um software é desenvolvido com o uso de vários processos.
 
+## 9 - Ferramentas e Métodos de Engenharia de Software:
 
-## 9 - Ferramentas e Métodos de Engenharia de Software:  
+As ferramentas e métodos de engenharia de software são utilizadas durante a execução de processo de software, sendo que um processo utiliza um método, que por sua vez, possui várias ferramentas. Cabe ao engenheiro de software escolher quais ferramentas e métodos serão mais assertivos para um determinado processo, levando em conta outros fatores como: restrições de tempo, custo e pessoal. São exemplos de métodos e ferramentas de ES: SCRUM, KANBAN, IDE's para desenvolvimento, etc.
 
 ## 10 - Qualidade de Software:  
 
 É a área responsável por garantir que as necessidades e desejos explícitos e implícitos sejam assegurados contemplando as normas e requisitos de forma a satisfazer o cliente.
 
-## 11 - Prática Profissional de Engenharia de Software:  
+## 11 - Prática Profissional de Engenharia de Software:
 
-## 12 - Economia de Engenharia de Software:  
+A prática profissional de engenharia de software envolve transpor o conhecimento teórico para prática nas áreas de conhecimento de ES. Os Engenheiros de Software deverão agir para preservar a reputação da profissão de maneira consistente com o interesse público e também deverão seguir o código de ética da profissão.
+
+## 12 - Economia de Engenharia de Software: 
+
+Essa área do conhecimento envolve o modelo de negócio que um produto de software será incluído, sendo que ela analisa as estratégias de inserção no mercado e, posteriormente, de comercialização do produto de software.
 
 ## 13 - Fundamentos de Computação:  
 
