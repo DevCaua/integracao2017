@@ -14,7 +14,9 @@ Codificação do sistema a partir da descrição computacional da fase de projet
 
 ## 4 - Teste de Software:  
 
-## 5 - Manutenção de Software:  
+## 5 - Manutenção de Software: 
+
+O SWEBOK aponta a manutenção de software como o conjunto de atividades econoicamente viáveis necessário para manter um suporte para o software. Tais atividades estão presentes nas fases anteriores à entrega do software: planejamento para atividades após a entrega do software; desenvolvimento voltado para a manutenabilidade do software; além do planejamento logístico para as atividades de transição e aposentadoria do software. Também há as atividades que estãopresentes na fase pós-entrega: modificação do software, treinamento, operação e criação de uma equipe de suporte. O objetivo da Manutenção de Software é ter um software modificado, porém, sem alterações em sua integridade, além de visar que o software continue satisfazendo os requisitos e necessidades do usuário.
 
 ## 6 - Gerência de Configuração de Software: 
 
@@ -25,6 +27,8 @@ A área de GCS tem como finalidade um conjunto de atividades que são responsáv
 A Gerência de engenharia de software tem como objetivo monitorar as atividades, otimizar o uso de recursos e ferramentas de maneira a garantir a entrega do produto de software de acordo com os requisitos mantendo a qualidade e integridade do projeto.
 
 ## 8 - Processo de Engenharia de Software:  
+
+
 
 ## 9 - Ferramentas e Métodos de Engenharia de Software:  
 
