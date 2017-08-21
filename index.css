@@ -1,0 +1,26 @@
+
+.navbar-brand small {
+  display:block;
+  font-size:12px;
+}
+
+.navbar-brand big {
+  padding: 80px;
+}
+
+.nav-item {
+    font-size: 18px;
+}
+
+.esw {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+.eswt {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px
+}
