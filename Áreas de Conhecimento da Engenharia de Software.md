@@ -14,6 +14,8 @@ Codificação do sistema a partir da descrição computacional da fase de projet
 
 ## 4 - Teste de Software:  
 
+Teste de Software: O Guia trata o teste de software como uma verificação dinâmica (requer a execução do software com entradas definidas), finita (um teste exaustivo poderia demandar meses para ser realizado, devido a todas as possibilidades, logo, um subconjunto de possibilidades é feito baseando em riscos e prioridades), selecionada (o conjunto de testes deve se adequar ao problema: as possibilidades tratadas em teste devem corresponder à efetividade esperada) e esperada (o resultado do teste deve ser predeterminado, para que se saiba se o resultado foi de acordo ou não).
+
 ## 5 - Manutenção de Software: 
 
 O SWEBOK aponta a manutenção de software como o conjunto de atividades econoicamente viáveis necessário para manter um suporte para o software. Tais atividades estão presentes nas fases anteriores à entrega do software: planejamento para atividades após a entrega do software; desenvolvimento voltado para a manutenabilidade do software; além do planejamento logístico para as atividades de transição e aposentadoria do software. Também há as atividades que estãopresentes na fase pós-entrega: modificação do software, treinamento, operação e criação de uma equipe de suporte. O objetivo da Manutenção de Software é ter um software modificado, porém, sem alterações em sua integridade, além de visar que o software continue satisfazendo os requisitos e necessidades do usuário.
