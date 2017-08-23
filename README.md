@@ -2,7 +2,7 @@
 
 #### Membros:  
 
-[Affonso Giesel](https://github.com/AffonsoGiesel)
+[Affonso Giesel](https://github.com/AffonsoGiesel)  
 [Ana Luísa Burjack](https://github.com/analuisaburjack)
 [Cauã Pessoa](https://github.com/Caua539)
 [João Vitor Santillo](https://github.com/jvsantillo)
