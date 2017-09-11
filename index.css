@@ -1,28 +1,58 @@
-
-body {
-  min-height: 75rem;
-  padding-top: 4.5rem;
-}
-.navbar-brand small {
-  display:block;
+.logo-small {
   font-size:12px;
 }
 
-.navbar-brand big {
-  padding: 80px;
+.logo-large {
+  font-size: 30px;
+  line-height: 100%;
 }
 
-.nav-item {
-    font-size: 18px;
+.container-fluid{
+  width: 90%;
+  
+}
+.col-sm-12, .col-md-6, .col-lg-3 {
+  padding: 1rem;
 }
 
-.esw {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 50px;
+
+.caixa {
+  background-color: #F76E6E;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  height: 12rem;
+  word-break: keep-all;
+  text-align: center;
+  font-size: 1rem;
+  color: white;
 }
 
-.eswt {
-    width: 100%;
+.nome-botao {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  line-height: 2rem;
 }
+
+a {
+  color: white;
+}
+
+@media (min-width: 992px) {
+  #navbarSupportedContent {
+    display: initial !important;
+  }
+  
+  #search-button {
+    float: right;
+  }
+  
+  .row {
+    margin-top: 25rem;
+  }
+  
+}
+
+
+
