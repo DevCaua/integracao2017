@@ -1,0 +1,112 @@
+
+body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+}
+
+.navbar-cor {
+    background-color: #F76E6E;
+}
+
+.logo-small {
+  font-size:12px;
+}
+
+.logo-large {
+  font-size: 30px;
+  line-height: 100%;
+}
+.nav-item {
+  font-size: 18px;
+}
+
+.toplink {
+  color: white !important;
+}
+
+.sidelink {
+  color: #F76E6E !important;
+}
+
+
+.menu{
+    margin-top: 0em;
+    margin-left: 0em;
+    background-color: #F76E6E;
+    height: 100%;
+    float: left;
+    position: fixed;
+}
+
+.menu-item {
+    width: 13em;
+    height: 2em;
+    margin-left: 2em;
+    margin-top: 1em;
+    border-bottom: 1px solid #000;
+    box-shadow: 3px 2px 4px #4E4B4B;
+    
+}
+
+.menu-item:hover{
+  text-transform: uppercase;
+  background-color: #EC5B5B;
+}
+.modulo-escolhido {
+  background-color: #f53d3d;
+  border-radius: 8px;
+}
+.conteudo-inicial{
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 20%;
+}
+
+/*
+ * Sidebar
+ */
+
+.sidebar {
+  position: fixed;
+  top: 51px;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 30px;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  border-right: 1px solid #eee;
+  text-align: center;
+}
+
+.active {
+  background-color: #F76E6E !important;
+}
+
+/* Sidebar navigation */
+.sidebar {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.sidebar .nav {
+  margin-bottom: 20px;
+}
+
+.sidebar .nav-item {
+  width: 100%;
+}
+
+.sidebar .nav-item + .nav-item {
+  margin-left: 0;
+}
+
+.sidebar .nav-link {
+  border-radius: 0;
+}
+
+@media (min-width: 992px) {
+  #navbarSupportedContent{
+    padding-left: 5rem;
+  }
+}
