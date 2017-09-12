@@ -116,6 +116,3 @@ Este plano propõe conduzir as atividades de desenvolvimento da aplicação refe
 
 ### 12. Ferramentas
   
-### 13. Ciclo de Vida do Projeto
-
-### 14. Aprovação
