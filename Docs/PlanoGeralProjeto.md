@@ -22,7 +22,7 @@ O projeto 'Presença web' visa aprensentar o PPC completo aos interessados do cu
 
 
 ### 4. Organizações Afetadas ou Impactadas
-
+Não foram identificadas organizações com possíveis impactos.
 
 ### 5. Recursos Não Humanos e de Ambiente
 
