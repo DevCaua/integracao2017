@@ -4,7 +4,6 @@
 Este plano propõe conduzir as atividades de desenvolvimento da aplicação referente ao projeto 'Presença Web', assim como organizar as atividades e etapas necessárias para a realização do avanço e conclusão do projeto.
 
 ### 2. Visão Geral do Projeto
-
 * Objetivos do Projeto
 * Organizações Afetadas ou Impactadas
 * Recursos Não Humanos e de Ambiente
@@ -19,6 +18,7 @@ Este plano propõe conduzir as atividades de desenvolvimento da aplicação refe
 * Aprovação
 
 ### 3. Objetivos do Projeto
+O projeto 'Presença web' visa aprensentar o PPC completo aos interessados do curso de Engenharia de Software, sendo assim, permitindo a visualização dos módulos: 'O Curso', 'Estrutura Curricular', 'Disciplinas' e 'Outras informações' e todos seus sub-itens.
 
 
 ### 4. Organizações Afetadas ou Impactadas
