@@ -1,7 +1,7 @@
 # Plano Geral do Projeto (PGP)
 
 ### 1. Sumário Executivo do Projeto
-Este plano propõe conduzir as atividades de desenvolvimento da aplicação referente ao projeto CHEPA, assim como organizar as atividades e etapas necessárias para a realização do avanço e conclusão do projeto.
+Este plano propõe conduzir as atividades de desenvolvimento da aplicação referente ao projeto de apresentação do PPC, assim como organizar as atividades e etapas necessárias para a realização do avanço e conclusão do projeto.
 
 ### 2. Visão Geral do Projeto
 
