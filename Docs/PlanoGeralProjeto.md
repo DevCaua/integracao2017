@@ -115,4 +115,23 @@ Este plano propõe conduzir as atividades de desenvolvimento da aplicação refe
 ### 11. Cronograma
 
 ### 12. Ferramentas
-  
+
+### Ferramenta para Gerência da Configuração  
+
+Github  
+
+### Ferramenta para Gerenciamento do projeto  
+
+Trello  
+
+### Ferramenta para desenvolvimento  
+
+Atom  
+AngularJS  
+Bibliotecas JS  
+wow.js  
+jQuery  
+Bibliotecas CSS  
+font-awesome.css  
+animate.css  
+Bootstrap  
