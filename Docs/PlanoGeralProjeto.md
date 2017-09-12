@@ -82,31 +82,31 @@ Este plano propõe conduzir as atividades de desenvolvimento da aplicação refe
 <table>
   <tr>
     <th>Recurso</th>
-    <th>Papel</th> 
+    <th>Responsabilidade</th> 
   </tr>
   <tr>
     <th>Affonso Antônio Giesel</th>
-    <th></th> 
+    <th>Validação da Implementação do Código-Fonte <br>Definição das Documentações pertinentes</th> 
   </tr>
   <tr>
     <th>Ana Luísa Alves Burjack</th>
-    <th></th> 
+    <th>Desenvolver a Proposta de Solução <br>Definição das Documentações pertinentes </th> 
   </tr>
   <tr>
     <th>Cauã Martins Pessoa</th>
-    <th></th> 
+    <th>Desenvolver a Proposta de Solução <br>Implementação do Código-Fonte</th> 
   </tr>
   <tr>
     <th>João Vitor Santillo</th>
-    <th></th> 
+    <th>Definição da Estrutura de Dados <br>Validação da Implementação do Código-Fonte</th> 
   </tr>
   <tr>
     <th>Natália Marufuji Aoki</th>
-    <th></th> 
+    <th>Definição das Documentações pertinentes <br>Implementação do Código-Fonte</th> 
   </tr>
   <tr>
     <th>Victor Stillo</th>
-    <th></th> 
+    <th>Definição da Estrutura de Dados <br> Definição do Processo</th> 
   </tr>
 </table>
 
