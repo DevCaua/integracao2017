@@ -53,13 +53,10 @@ Não foram identificadas organizações com possíveis impactos.
 ### 7. Estimativas do Projeto
 
 ### 8. Riscos do Projeto
-* Mudança de Escopo e Objetivos
-* Falta de Envolvimento Adequado dos Usuários
 * Requisitos mal entendidos ou definidos
 * Escopo e objetivos pouco claros ou equivocados
 * Prazos e tempo para tarefas mal estimados
 * Gerenciamento impróprio de mudanças
-* Volatilidade nos Requisitos
 * Custos mal estimados
 * Falta de poderes para o gerenciamento de projetos
 * Falha em Gerenciar as Expectativas Finais dos Usuários
@@ -76,7 +73,6 @@ Não foram identificadas organizações com possíveis impactos.
 * Usar nova metodologia de desenvolvimento em projetos importantes
 * Falta de tecnologias maduras ou existentes
 * Deficiência de execução em tempo real
-* Versão Mobile incompatível com modelos de aparelhos
 
 ### 9. Recursos Humanos 
 <table>
