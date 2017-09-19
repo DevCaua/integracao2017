@@ -1,7 +1,4 @@
-body {
-    background-image: url("http://www.swri.org/sites/default/files/styles/client_services_banner/public/industries/AdobeStock_111975726.jpeg?itok=fFY7iD-7&c=7360e45d6d05de818954440bb95c09fd");
-    background-color: #cccccc;
-}
+
 
 .logo-small {
   font-size:12px;
@@ -22,7 +19,6 @@ body {
 
 
 .caixa {
-  background-color: #F76E6E;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -39,6 +35,11 @@ body {
   margin-top: 2rem;
   line-height: 2rem;
 }
+
+.navbar {
+  background-color: #005ca1;
+}
+
 
 a {
   color: white;
