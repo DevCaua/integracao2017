@@ -109,6 +109,26 @@ Não foram identificadas organizações com possíveis impactos.
 ### 10. Processo  
 
 ### 11. Cronograma
+_Este cronograma é uma proposta, apenas. Ou seja, está passível de alteração conforme o projeto se delonga._ 
+#### Sprint 1 (15/08 a 04/09):  
+Análise do Problema, Levantamento de Requisitos, Apresentação da Proposta, Construção do Site Map, Definição da Solução.  
+#### Sprint 2 (05/09 a 18/09):  
+Definição e criação dos conteúdos e elementos dos tópicos: O Curso, Home, Equivalências com o PPC de 2009. Definição e criação dos conteúdos e elementos dos tópicos: Estrutura Curricular, Outras Informações;  
+#### Sprint 3 (19/09 a 02/10):  
+Adaptação do tema escolhido com mudança de cores, tamanho de ícones, adaptação de header e footer, criação de elementos na página principal e término da primeira versão do site; Desenvolvimento parcial do mecanismo de busca  
+#### Sprint 4 (03/10 a 09/10):   
+Desenvolvimento final do mecanismo de busca; Melhorias nos tópicos já desenvolvidos  
+#### Sprint 5 (10/10 a 16/10):  
+Melhorias nos tópicos já desenvolvidos  
+#### Sprint 6 (17/10 a 23/10):  
+Melhorias nos tópicos já desenvolvidos  
+#### Sprint 7 (24/10 a 30/10):  
+Melhorias nos tópicos já desenvolvidos  
+#### Sprint 8 (31/10 a 06/11):  
+Melhorias nos tópicos já desenvolvidos  
+#### Sprint 9 (07/11 a 13/11):  
+Melhorias nos tópicos já desenvolvidos  
+#### Entrega final (14/11)
 
 ### 12. Ferramentas
 
