@@ -5,7 +5,7 @@ body {
 }
 
 .navbar-cor {
-    background-color: #F76E6E;
+    background-color: #13293d;
 }
 
 .logo-small {
@@ -25,7 +25,7 @@ body {
 }
 
 .sidelink {
-  color: #F76E6E !important;
+  color: #13293d !important;
 }
 
 
@@ -53,7 +53,7 @@ body {
   background-color: #EC5B5B;
 }
 .modulo-escolhido {
-  background-color: #f53d3d;
+  background-color: #3D4F60;
   border-radius: 8px;
 }
 .conteudo-inicial{
@@ -80,7 +80,7 @@ body {
 }
 
 .active {
-  background-color: #F76E6E !important;
+  background-color: #13293d !important;
 }
 
 /* Sidebar navigation */

@@ -45,6 +45,10 @@ a {
   color: white;
 }
 
+a:hover {
+  color: #ffffff;
+}
+
 @media (min-width: 992px) {
   #navbarSupportedContent {
     display: initial !important;
