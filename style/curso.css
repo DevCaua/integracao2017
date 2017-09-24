@@ -29,28 +29,10 @@ body {
 }
 
 
-.menu{
-    margin-top: 0em;
-    margin-left: 0em;
-    background-color: #F76E6E;
-    height: 100%;
-    float: left;
-    position: fixed;
-}
 
-.menu-item {
-    width: 13em;
-    height: 2em;
-    margin-left: 2em;
-    margin-top: 1em;
-    border-bottom: 1px solid #000;
-    box-shadow: 3px 2px 4px #4E4B4B;
-    
-}
-
-.menu-item:hover{
-  text-transform: uppercase;
-  background-color: #EC5B5B;
+.toplink:hover{
+  background-color: #687683;
+  border-radius: 8px;
 }
 .modulo-escolhido {
   background-color: #3D4F60;
@@ -97,9 +79,6 @@ body {
   width: 100%;
 }
 
-.sidebar .nav-item + .nav-item {
-  margin-left: 0;
-}
 
 .sidebar .nav-link {
   border-radius: 0;
