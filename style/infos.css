@@ -1,0 +1,91 @@
+
+body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+}
+
+.navbar-cor {
+    background-color: #6b6d76;
+}
+
+.logo-small {
+  font-size:12px;
+}
+
+.logo-large {
+  font-size: 30px;
+  line-height: 100%;
+}
+.nav-item {
+  font-size: 18px;
+}
+
+.toplink {
+  color: white !important;
+}
+
+.sidelink {
+  color: #6b6d76 !important;
+}
+
+
+
+.toplink:hover{
+  background-color: #aeafb4;
+  border-radius: 8px;
+}
+.modulo-escolhido {
+  background-color: #93949b;
+  border-radius: 8px;
+}
+.conteudo-inicial{
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 20%;
+}
+
+/*
+ * Sidebar
+ */
+
+.sidebar {
+  position: fixed;
+  top: 51px;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 30px;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  border-right: 1px solid #eee;
+  text-align: center;
+}
+
+.active {
+  background-color: #6b6d76 !important;
+}
+
+/* Sidebar navigation */
+.sidebar {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.sidebar .nav {
+  margin-bottom: 20px;
+}
+
+.sidebar .nav-item {
+  width: 100%;
+}
+
+
+.sidebar .nav-link {
+  border-radius: 0;
+}
+
+@media (min-width: 992px) {
+  #navbarSupportedContent{
+    padding-left: 5rem;
+  }
+}
