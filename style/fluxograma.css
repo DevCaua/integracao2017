@@ -1,0 +1,53 @@
+.fluxograma-dependencias{
+	margin-top: 3em;
+}
+
+.painel-dependencias {
+	width: 10%;
+	display: inline-table;
+	vertical-align: top;
+}
+
+.titulos-dependencias {
+	margin-bottom: 3em;
+	text-align: center;
+}
+
+.titulo-periodo{
+	background: linear-gradient(to bottom, #005CA1, #2E79B2);
+	border-color: #004C84;
+	color: #DDDDDD;
+}
+
+.lista-optativas {
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+
+.painel-individual{
+	background: linear-gradient(to bottom, #8CAEC7, #B5CBDB); 
+	border-color: #809FB5;
+	color: #DDDDDD;
+}
+
+.quebra-linha {
+	word-wrap: break-word;
+}
+
+.classe-dependencias,
+.optativa-dependencia{
+    background: linear-gradient(to bottom, #C28213, #EEA62C); 
+    border-color: #9F6B10;
+    color: white;
+}
+
+.sem-dependencias,
+.optativa-sem-dependencia{
+	color:#454545;
+}
+
+@media(max-width: 980px){
+	.painel-dependencias{
+		display:inline-table;
+	}
+}
