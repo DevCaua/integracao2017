@@ -11,10 +11,17 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style/curso.css">
     
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/f81c0812b8.js"></script>
+
+    
+    <!-- Angular -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="//unpkg.com/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="scripts/curso.js"></script>
+
   </head>
-  <body>
+  <body ng-app = "ocurso">
     <nav class="navbar-cor navbar navbar-toggleable-md fixed-top navbar-inverse">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -43,40 +50,59 @@
         </div>
     </nav>
     <div class="container-fluid">
-      <div class="row">
-        <nav class="col-sm-3 col-md-2 hidden-xs-down bg-faded sidebar">
-          <ul class="nav nav-pills flex-column">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Apresentação</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link sidelink" href="#">Objetivos do Curso</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link sidelink" href="#">Princípios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link sidelink" href="#">Expectativas do Egresso</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <div class="conteudo-inicial">
-        O Bacharelado em Engenharia de Software foi criado em 2009, sendo a UFG a universidade brasileira pioneira. O curso é focado na graduação de um profissional capaz de especificar software; projetar (design) software (inclui arquitetura de software); construir (programar) software com qualidade; realizar atividades de manutenção de software, além de trabalhar em equipe, comunicar e escrever bem. Tem a duração de 9 semestres, predominantesmente no turno noturno.
-      </div>
+      <div id="wrapper">
+        <div id="sidebar-wrapper">
+            <aside id="sidebar">
+                <ul id="sidemenu" class="sidebar-nav">
+                    <li>
+                        <a ui-sref="apresentacao" ui-sref-active="active">
+                            <span class="sidebar-icon"><i class="fa fa-dashboard"></i></span>
+                            <span class="sidebar-title">Apresentação</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a ui-sref="contexto" ui-sref-active="active">
+                            <span class="sidebar-icon"><i class="fa fa-dashboard"></i></span>
+                            <span class="sidebar-title">Contexto</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a ui-sref="motivacao" ui-sref-active="active">
+                            <span class="sidebar-icon"><i class="fa fa-dashboard"></i></span>
+                            <span class="sidebar-title">Motivação</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a ui-sref="objetivos" ui-sref-active="active">
+                            <span class="sidebar-icon"><i class="fa fa-database"></i></span>
+                            <span class="sidebar-title">Objetivos do Curso</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a ui-sref="principios" ui-sref-active="active">
+                            <span class="sidebar-icon"><i class="fa fa-terminal"></i></span>
+                            <span class="sidebar-title">Princípios Norteadores</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a ui-sref="expectativas" ui-sref-active="active">
+                            <span class="sidebar-icon"><i class="fa fa-terminal"></i></span>
+                            <span class="sidebar-title">Expectativas do Egresso</span>
+                        </a>
+                    </li>
+                </ul>
+            </aside>            
+        </div>
+        <main id="page-content-wrapper" role="main">
+        </main>
+      </div> 
+      <ui-view>
+      </ui-view>
     </div>
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <script>
-      $(document).ready(function(){
-        $('.sidebar .nav-link').click(function(){
-          $('.sidebar .nav').find('a').addClass('sidelink').removeClass('active');
-          $(this).addClass('active').removeClass('sidelink');
-        });
-      });
-      
-    </script>
+    
   </body>
 </html>

@@ -11,10 +11,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style/disciplinas.css">
     
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Angular -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="//unpkg.com/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="scripts/disciplinas.js"></script>
   </head>
-  <body>
+  <body ng-app = 'disciplinas'>
     <nav class="navbar-cor navbar navbar-toggleable-md fixed-top navbar-inverse">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -46,8 +48,16 @@
       <div class="row">
         <nav class="col-sm-3 col-md-2 hidden-xs-down bg-faded sidebar">
           <ul class="nav nav-pills flex-column">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Período 1...</a>
+            <li class="nav-item dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">1º Período <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li class="dropdown-header">Disciplinas do 1º Período</li>
+                    <li><a href="#">Disc 1</a></li>
+                    <li><a href="#">Disc 2</a></li>
+                    <li><a href="#">Disc 3</a></li>
+                    <li><a href="#">Disc 4</a></li>
+                    <li><a href="#">Disc 5</a></li>
+                  </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link sidelink" href="#">Período 2...</a>
