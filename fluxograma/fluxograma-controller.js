@@ -5,22 +5,26 @@ angular.module('index').controller('FluxogramaController', function($scope) {
 		{
 			titulo : 'Computação e Sociedade',
 			possuiDependencia: false,
-			dependenciaAcionada: false
+			dependenciaAcionada: false,
+			link: './teste.html'
 		},
 		{
 			titulo : 'Introdução a Programação',
 			possuiDependencia: true,
-			dependenciaAcionada: false
+			dependenciaAcionada: false,
+			link: './teste.html'
 		},
 		{
 			titulo : 'Cálculo 1A',
 			possuiDependencia: true,
-			dependenciaAcionada: false
+			dependenciaAcionada: false,
+			link: './teste.html'
 		},
 		{
 			titulo : 'Fundamentos de Matemática para Computação',
 			possuiDependencia: true,
-			dependenciaAcionada: false
+			dependenciaAcionada: false,
+			link: './teste.html'
 		},
 	];
 
@@ -28,27 +32,32 @@ angular.module('index').controller('FluxogramaController', function($scope) {
 		{
 			titulo : 'Arquitetura de Computadores',
 			possuiDependencia: true,
-			dependenciaAcionada: false
+			dependenciaAcionada: false,
+			link: './teste.html'
 		},
 		{
 			titulo : 'Algortimos e Estrutura de Dados 1',
 			possuiDependencia: true,
-			dependenciaAcionada: false
+			dependenciaAcionada: false,
+			link: './teste.html'
 		},
 		{
 			titulo : 'Probabilidade e Estatística A',
 			possuiDependencia: true,
-			dependenciaAcionada: false
+			dependenciaAcionada: false,
+			link: './teste.html'
 		},
 		{
 			titulo : 'Álgebra Linear',
 			possuiDependencia: true,
-			dependenciaAcionada: false
+			dependenciaAcionada: false,
+			link: './teste.html'
 		},
 		{
 			titulo : 'Lógica Matemática',
 			possuiDependencia: true,
-			dependenciaAcionada: false
+			dependenciaAcionada: false,
+			link: './teste.html'
 		},
 	];
 
@@ -56,22 +65,26 @@ angular.module('index').controller('FluxogramaController', function($scope) {
 		{
 			titulo : 'Programação Orientada a Objetos',
 			possuiDependencia: true,
-			dependenciaAcionada: false
+			dependenciaAcionada: false,
+			link: './teste.html'
 		},
 		{
 			titulo : 'Algortimos e Estrutura de Dados 2',
 			possuiDependencia: true,
-			dependenciaAcionada: false
+			dependenciaAcionada: false,
+			link: './teste.html'
 		},
 		{
 			titulo : 'Linguagens e Paradigmas da Programação',
 			possuiDependencia: true,
-			dependenciaAcionada: false
+			dependenciaAcionada: false,
+			link: './teste.html'
 		},
 		{
 			titulo : 'Engenharia de Software',
 			possuiDependencia: true,
-			dependenciaAcionada: false
+			dependenciaAcionada: false,
+			link: './teste.html'
 		},
 	];
 
@@ -79,22 +92,26 @@ angular.module('index').controller('FluxogramaController', function($scope) {
 		{
 			titulo : 'Análise e Projeto de Algoritmo',
 			possuiDependencia: true,
-			dependenciaAcionada: false
+			dependenciaAcionada: false,
+			link: './teste.html'
 		},
 		{
 			titulo : 'Interação Humano-Computador',
 			possuiDependencia: true,
-			dependenciaAcionada: false
+			dependenciaAcionada: false,
+			link: './teste.html'
 		},
 		{
 			titulo : 'Banco de Dados',
 			possuiDependencia: true,
-			dependenciaAcionada: false
+			dependenciaAcionada: false,
+			link: './teste.html'
 		},
 		{
 			titulo : 'Projeto de software',
 			possuiDependencia: true,
-			dependenciaAcionada: false
+			dependenciaAcionada: false,
+			link: './teste.html'
 		},
 	];
 
@@ -102,22 +119,26 @@ angular.module('index').controller('FluxogramaController', function($scope) {
 		{
 			titulo : 'Contrução de Software',
 			possuiDependencia: false,
-			dependenciaAcionada: false
+			dependenciaAcionada: false,
+			link: './teste.html'
 		},
 		{
 			titulo : 'Modelagem de Software',
 			possuiDependencia: false,
-			dependenciaAcionada: false
+			dependenciaAcionada: false,
+			link: './teste.html'
 		},
 		{
 			titulo : 'Processos de Software',
 			possuiDependencia: false,
-			dependenciaAcionada: false
+			dependenciaAcionada: false,
+			link: './teste.html'
 		},
 		{
 			titulo : 'Engenharia de Sistemas',
 			possuiDependencia: false,
-			dependenciaAcionada: false
+			dependenciaAcionada: false,
+			link: './teste.html'
 		},
 	];
 
@@ -125,22 +146,26 @@ angular.module('index').controller('FluxogramaController', function($scope) {
 		{
 			titulo : 'Design de Software',
 			possuiDependencia: false,
-			dependenciaAcionada: false
+			dependenciaAcionada: false,
+			link: './teste.html'
 		},
 		{
 			titulo : 'Domínios de Software',
 			possuiDependencia: false,
-			dependenciaAcionada: false
+			dependenciaAcionada: false,
+			link: './teste.html'
 		},
 		{
 			titulo : 'Processos de Qualidade de Software',
 			possuiDependencia: false,
-			dependenciaAcionada: false
+			dependenciaAcionada: false,
+			link: './teste.html'
 		},
 		{
 			titulo : 'Gerência de Projeto de Software',
 			possuiDependencia: false,
-			dependenciaAcionada: false
+			dependenciaAcionada: false,
+			link: './teste.html'
 		},
 	];
 
@@ -148,27 +173,32 @@ angular.module('index').controller('FluxogramaController', function($scope) {
 		{
 			titulo : 'Software Concorrente e Distribuído',
 			possuiDependencia: false,
-			dependenciaAcionada: false
+			dependenciaAcionada: false,
+			link: './teste.html'
 		},
 		{
 			titulo : 'Experiência do Usuário de Software',
 			possuiDependencia: false,
-			dependenciaAcionada: false
+			dependenciaAcionada: false,
+			link: './teste.html'
 		},
 		{
 			titulo : 'Arquitetura de Software',
 			possuiDependencia: false,
-			dependenciaAcionada: false
+			dependenciaAcionada: false,
+			link: './teste.html'
 		},
 		{
 			titulo : 'Requisitos de Software',
 			possuiDependencia: false,
-			dependenciaAcionada: false
+			dependenciaAcionada: false,
+			link: './teste.html'
 		},
 		{
 			titulo : 'Governança e Gestão de Serviços de Software',
 			possuiDependencia: false,
-			dependenciaAcionada: false
+			dependenciaAcionada: false,
+			link: './teste.html'
 		},
 	];
 
@@ -176,22 +206,26 @@ angular.module('index').controller('FluxogramaController', function($scope) {
 		{
 			titulo : 'Software para Computação Ubíqua',
 			possuiDependencia: false,
-			dependenciaAcionada: false
+			dependenciaAcionada: false,
+			link: './teste.html'
 		},
 		{
 			titulo : 'Software para Persistência de Dados',
 			possuiDependencia: false,
-			dependenciaAcionada: false
+			dependenciaAcionada: false,
+			link: './teste.html'
 		},
 		{
 			titulo : 'Padrões de Arquitetura de Software',
 			possuiDependencia: false,
-			dependenciaAcionada: false
+			dependenciaAcionada: false,
+			link: './teste.html'
 		},
 		{
 			titulo : 'Testes de Software',
 			possuiDependencia: false,
-			dependenciaAcionada: false
+			dependenciaAcionada: false,
+			link: './teste.html'
 		},
 	];
 
@@ -199,7 +233,8 @@ angular.module('index').controller('FluxogramaController', function($scope) {
 		{
 			titulo : 'Prática em Engenharia de Software',
 			possuiDependencia: false,
-			dependenciaAcionada: false
+			dependenciaAcionada: false,
+			link: './teste.html'
 		},
 	];
 
@@ -209,19 +244,22 @@ angular.module('index').controller('FluxogramaController', function($scope) {
 			titulo : 'Sistemas Operacionais',
 			possuiDependencia: true,
 			dependenciaAcionada: false,
-			array: 1
+			array: 1,
+			link: './teste.html'
 		},
 		{
 			titulo : 'Pesquisa Operacional',
 			possuiDependencia: true,
 			dependenciaAcionada: false,
-			array: 1
+			array: 1,
+			link: './teste.html'
 		},
 		{
 			titulo : 'Linguagens Formais e Autônomas',
 			possuiDependencia: true,
 			dependenciaAcionada: false,
-			array: 1
+			array: 1,
+			link: './teste.html'
 		},
 	];
 
@@ -230,19 +268,22 @@ angular.module('index').controller('FluxogramaController', function($scope) {
 			titulo : 'Redes de Computadores',
 			possuiDependencia: false,
 			dependenciaAcionada: false,
-			array: 2
+			array: 2,
+			link: './teste.html'
 		},
 		{
 			titulo : 'Introdução a Lingua Brasileira de Sinais',
 			possuiDependencia: false,
 			dependenciaAcionada: false,
-			array: 2
+			array: 2,
+			link: './teste.html'
 		},
 		{
 			titulo : 'Compiladores',
 			possuiDependencia: true,
 			dependenciaAcionada: false,
-			array: 2
+			array: 2,
+			link: './teste.html'
 		},
 	];
 
@@ -251,19 +292,22 @@ angular.module('index').controller('FluxogramaController', function($scope) {
 			titulo : 'Sistemas Distribuídos',
 			possuiDependencia: true,
 			dependenciaAcionada: false,
-			array: 3
+			array: 3,
+			link: './teste.html'
 		},
 		{
 			titulo : 'Mercado e Economia de Software',
 			possuiDependencia: false,
 			dependenciaAcionada: false,
-			array: 3
+			array: 3,
+			link: './teste.html'
 		},
 		{
 			titulo : 'Metodologia e Experimentação em Engenharia de Software',
 			possuiDependencia: false,
 			dependenciaAcionada: false,
-			array: 3
+			array: 3,
+			link: './teste.html'
 		},
 	];
 
