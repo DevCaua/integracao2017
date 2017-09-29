@@ -9,7 +9,7 @@
 }
 
 .titulos-dependencias {
-	margin-bottom: 3em;
+	margin-bottom: 2em;
 	text-align: center;
 }
 
@@ -44,6 +44,17 @@
 .sem-dependencias,
 .optativa-sem-dependencia{
 	color:#454545;
+}
+
+.link_holder a{
+	visibility: hidden;
+	position: relative;
+	float: right; 
+}
+
+.link_holder:hover a{
+	visibility: visible;
+	float: none;
 }
 
 @media(max-width: 980px){
