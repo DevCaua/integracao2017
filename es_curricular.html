@@ -11,10 +11,18 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style/es_curricular.css">
     
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/f81c0812b8.js"></script>
+
+    <!-- Angular -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="//unpkg.com/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="scripts/curricular.js"></script>
+    
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
-  <body>
+  <body ng-app = "curricular">
     <nav class="navbar-cor navbar navbar-toggleable-md fixed-top navbar-inverse">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -43,24 +51,36 @@
         </div>
     </nav>
     <div class="container-fluid">
-      <div class="row">
-        <nav class="col-sm-3 col-md-2 hidden-xs-down bg-faded sidebar">
-          <ul class="nav nav-pills flex-column">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Matriz Curricular</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link sidelink" href="#">Fluxo Sugerido</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link sidelink" href="#">Carga Horária</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <div class="conteudo-inicial">
-        O Bacharelado em Engenharia de Software foi criado em 2009, sendo a UFG a universidade brasileira pioneira. O curso é focado na graduação de um profissional capaz de especificar software; projetar (design) software (inclui arquitetura de software); construir (programar) software com qualidade; realizar atividades de manutenção de software, além de trabalhar em equipe, comunicar e escrever bem. Tem a duração de 9 semestres, predominantesmente no turno noturno.
-      </div>
+      <div id="wrapper">
+        <div id="sidebar-wrapper">
+            <aside id="sidebar">
+                <ul id="sidemenu" class="sidebar-nav">
+                    <li>
+                        <a ui-sref="matriz" ui-sref-active="active">
+                            <span class="sidebar-icon"><i class="fa fa-dashboard"></i></span>
+                            <span class="sidebar-title">Matriz Curricular</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a ui-sref="fluxo" ui-sref-active="active">
+                            <span class="sidebar-icon"><i class="fa fa-dashboard"></i></span>
+                            <span class="sidebar-title">Fluxo Sugerido</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a ui-sref="carga" ui-sref-active="active">
+                            <span class="sidebar-icon"><i class="fa fa-dashboard"></i></span>
+                            <span class="sidebar-title">Carga Horária</span>
+                        </a>
+                    </li>
+                </ul>
+            </aside>            
+        </div>
+        <main id="page-content-wrapper" role="main">
+        </main>
+      </div> 
+      <ui-view>
+      </ui-view>
     </div>
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
