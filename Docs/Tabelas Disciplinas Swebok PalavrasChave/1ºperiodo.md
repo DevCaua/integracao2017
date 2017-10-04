@@ -33,6 +33,38 @@
             <td>
                 Pendente
             </td>
+        <td>Fundamentos de Matemática para Computação</td>
+            <td>
+                Lógica</br>	
+                Demonstrações</br>	
+                Indução</br>	
+                Matemática</br>	
+                Recursividade</br>	
+                Recorrência</br>	
+                Relações</br>	
+                Conjuntos</br>	
+                Combinatória</br>	
+                Teoria</br>	
+                Sequências</br>	
+                Séries</br>	
+                Funções</br>	
+                Representação</br>	
+                Mudança de base</br>	
+                Numérica</br>	
+                Matemática</br>	
+                Sem pré-requisito</br>	
+                Computação</br>	
+                Núcleo Comum</br>	
+                Obrigatória</br>	
+                1º Período</br>	
+                Teórica</br>
+            </td>
+            <td>
+                Pendente</br>
+            </td>
+            <td>
+                Pendente</br>
+            </td>
     </tr>
 </table>
 
