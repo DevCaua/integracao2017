@@ -7,8 +7,7 @@
     </tr>
     <tr>
         <td>Gerência de projeto de software</td>
-            <td>Empreendedorismo</br>
-                PMBOK</br>	
+            <td>PMBOK</br>	
                 6° período</br>	
                 Obrigatória</br>	
                 Núcleo específico</br>	
