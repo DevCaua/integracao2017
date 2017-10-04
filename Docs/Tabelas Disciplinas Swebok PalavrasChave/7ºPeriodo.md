@@ -7,8 +7,7 @@
     </tr>
     <tr>
         <td>Governança e gestão de serviços de software</td>
-            <td>Empreendedorismo</br>
-                Obrigatória</br>	
+            <td>Obrigatória</br>	
                 7° Período</br>	
                 Governança</br>	
                 Conformidade</br>	
