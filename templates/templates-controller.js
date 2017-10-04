@@ -1,4 +1,4 @@
-angular.module('index').controller("TemplatesController", function ($scope) {
+angular.module('ocurso').controller("TemplatesController", function ($scope) {
 
 	//variáveis de verificação da página em que o usuário está
 	var _curso = "Curso";

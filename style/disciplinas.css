@@ -1,6 +1,5 @@
 
 body {
-  min-height: 75rem;
   padding-top: 4.5rem;
 }
 
@@ -76,6 +75,7 @@ body {
 @media (min-width: 992px) {
     #wrapper #sidebar-wrapper {
         width: 225px;
+        overflow: auto;
     }
 }
 
@@ -91,7 +91,7 @@ body {
     height: 100%;
     margin-left: -225px;
     overflow-y: auto;
-    background: #d5ecf9;
+    background: #f5ca80;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
     -o-transition: all .5s ease;
@@ -101,7 +101,7 @@ body {
 #sidebar-wrapper .sidebar-nav {
     position: absolute;
     top: 0;
-    width: 225px;
+    width: 224px;
     font-size: 14px;
     margin: 0;
     padding: 0;
@@ -137,11 +137,14 @@ body {
 }
 
 #sidebar-wrapper .sidebar-nav li ul.panel-collapse li i {
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
+
 #sidebar-wrapper .sidebar-nav li ul.panel-collapse li {
-    text-indent: 15px;
+    text-indent: 1px;
+    white-space: pre-wrap;
+    word-break: keep-all;
 }
 
 #sidebar-wrapper .sidebar-nav li a .sidebar-icon {
@@ -179,16 +182,56 @@ body {
 }
 
 .sidebar-nav li:first-child a {
-    background: #97d0f0 !important;
+    background: #f5ca80 !important;
     color: #fff !important;
 }
 
 .sidebar-nav li:nth-child(2) a {
-    background: #59b4e8 !important;
+    background: #f3c16b !important;
     color: #fff !important;
 }
 
 .sidebar-nav li:nth-child(3) a {
-    background: #1b98e0 !important;
+    background: #f1b856 !important;
     color: #fff !important;
+}
+
+.sidebar-nav li:nth-child(4) a {
+    background: #f0af41 !important;
+    color: #fff !important;
+}
+
+.sidebar-nav li:nth-child(5) a {
+    background: #eea62c !important;
+    color: #fff !important;
+}
+
+.sidebar-nav li:nth-child(6) a {
+    background: #ed9e17 !important;
+    color: #fff !important;
+}
+
+.sidebar-nav li:nth-child(7) a {
+    background: #d89015 !important;
+    color: #fff !important;
+}
+
+.sidebar-nav li:nth-child(8) a {
+    background: #c28213 !important;
+    color: #fff !important;
+}
+
+.sidebar-nav li:nth-child(9) a {
+    background: #ad7311 !important;
+    color: #fff !important;
+}
+
+.sidebar-nav li ul.panel-collapse li a {
+    background: #fae4bf !important;
+    color: #ad7311 !important;
+    border-style: solid;
+    border-color: #573a09;
+    border-width: 1px;
+    height: 50px;
+    line-height: 50px;
 }
