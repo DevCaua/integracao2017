@@ -7,8 +7,7 @@
     </tr>
     <tr>
         <td>Engenharia de software</td>
-            <td>Empreendedorismo </br>
-                Requisitos</br>	
+            <td>Requisitos</br>	
                 Design</br>	
                 Construção</br>	
                 Teste</br>	
