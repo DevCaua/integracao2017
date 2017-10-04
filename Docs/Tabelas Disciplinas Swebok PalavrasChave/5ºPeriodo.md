@@ -7,8 +7,7 @@
     </tr>
     <tr>
         <td>Construção de Software</td>
-            <td>Empreendedorismo</br>
-                5° período</br>	
+            <td>5° período</br>	
                 Obrigatória</br>	
                 Núcleo específico</br>	
                 Projeto de Software</br>	
