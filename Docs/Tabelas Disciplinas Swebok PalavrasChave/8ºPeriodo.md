@@ -7,8 +7,7 @@
     </tr>
     <tr>
         <td>Software para persistência de dados</td>
-            <td>Empreendedorismo</br>
-                Banco de dados</br>	
+            <td>Banco de dados</br>	
                 Serialização de objetos</br>
                 XML</br>
                 JSON</br>	
