@@ -75,7 +75,6 @@ body {
 @media (min-width: 992px) {
     #wrapper #sidebar-wrapper {
         width: 225px;
-        overflow: auto;
     }
 }
 
@@ -88,7 +87,7 @@ body {
     position: fixed;
     left: 225px;
     width: 0;
-    height: 100%;
+    height: calc(100% - 72px);
     margin-left: -225px;
     overflow-y: auto;
     background: #f5ca80;
@@ -137,7 +136,7 @@ body {
 }
 
 #sidebar-wrapper .sidebar-nav li ul.panel-collapse li i {
-    margin-right: 20px;
+    margin-right: 15px;
 }
 
 
