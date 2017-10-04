@@ -6,7 +6,7 @@
       <th>Palavras relevantes SWEBOK</th>
     </tr>
     <tr>
-        <td>Computação e sociedade</td>
+        <td>Redes de computadores</td>
             <td>Optativa</br>	
                 4° período</br>	
                 Teórica</br>	
