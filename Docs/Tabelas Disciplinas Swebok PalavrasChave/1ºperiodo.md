@@ -7,18 +7,18 @@
     </tr>
     <tr>
         <td>Computação e sociedade</td>
-            <td>Empreendedorismo </br>
+            <td>Empreendedorismo</br>
                 1° período</br>
                 Obrigatória</br>
-                Núcleo Comum </br>
+                Núcleo Comum</br>
                 Computação</br>	
                 Código de ética</br>
                 Inclusão digital</br>
                 Mercado</br>
-                Meio ambiente	</br>
-                Normas </br>	
+                Meio ambiente</br>
+                Normas</br>	
                 Mercado de trabalho</br>
-                Leis
+                Leis</br>
             </td>
             <td>
                 Prática profissional de ES</br>
