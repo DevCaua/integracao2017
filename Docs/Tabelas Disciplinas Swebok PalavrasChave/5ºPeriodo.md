@@ -6,7 +6,7 @@
       <th>Palavras relevantes SWEBOK</th>
     </tr>
     <tr>
-        <td>Computação e sociedade</td>
+        <td>Construção de Software</td>
             <td>Empreendedorismo</br>
                 5° período</br>	
                 Obrigatória</br>	
