@@ -272,7 +272,18 @@
                 Processo de engenharia de software</br>	
                 Software Process Assessment and Improvement</br>	
             <td>
-                Pendente
+                Melhoria contínua</br>	
+                Processos</br> 	
+                Planos</br> 	
+                Mudança</br>	
+                Volatilidade</br>	
+                Controle</br>	
+                Monitoramento</br>	
+                Evolução</br>	
+                Métricas de processo</br>	
+                Capacidade de processo</br>	
+                Maturidade de processo</br>	
+                Termo de abertura do projeto</br>	
             </td>
          <tr> 
     </tr>
