@@ -33,6 +33,8 @@
             <td>
                 Pendente
             </td>
+    </tr>
+    <tr>
         <td>Fundamentos de Matemática para Computação</td>
             <td>
                 Lógica</br>	
