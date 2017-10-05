@@ -187,4 +187,82 @@
                 Relação de causa-efeito</br>
             </td>
     </tr>
+    tr>
+        <td>Mercado e Economia de Software</td>
+            <td>   
+                 	Núcleo Comum</br>	
+                    Teórica</br>	
+                    8º Período</br>	
+                    Sem Pré-Requisito</br>	
+                    Modelos de negócio</br>	
+                    Open source</br> 	
+                    On premisses</br>	
+                    Software Livre</br>	
+                    Código aberto</br>	
+                    Softex</br>	
+                    MpsBr / CMMI</br>	
+                    Mercados de software</br>	
+                    Planos de negócio</br>	
+                    SEBRAE</br>	
+                    Engenharia econômica</br>	
+                    Empreendedorismo</br>	
+                    Inovação</br>	
+            </td>
+            <td>
+                Software Enginnering Economic Fundamentals</br>
+                Fundamentos de engenahria econômica de software</br>
+                Life Cycle Economics</br>
+                Ciclo de vida econômico</br>
+                Risk and Uncertainty </br>
+                Riscos e incertezas</br>
+                Practical Considerations</br>
+                Considerações Práticas</br>
+                Finance</br>
+                Finanças</br> 
+                Accounting</br>
+                Contabilidade</br>
+                Controlling</br>
+                Controle</br>
+                Cash flow</br>
+                Fluxo de caixa</br>
+                Decision-making process</br>
+                Processo de tomada de decisão</br>
+                Valuation</br>
+                Avaliação de empresas</br>
+                Inflaction</br>
+                Inflação</br>
+                Depreciation</br>
+                Taxation</br>
+                Taxação</br>
+                Time-value of money</br>
+                Valor-hora do dinheiro</br>
+                Efficiency</br>
+                Eficiência</br>
+                Efetividade</br>
+                Productivity</br>
+                Produtividade</br>
+                Product</br> 
+                Produto</br>
+                Métodos de análise econômica</br>
+                Precificação</br>
+                Ciclo de vida do produto</br>
+                Ciclo de vida do processo</br>
+                Objetivos, estimativas e planos</br>
+                Priorização</br> 
+                Good-enough principle</br>
+                Princípio do suficientemente-bom</br>
+            </td>
+            <td>
+                Economia</br>
+                Modelos econômicos</br>
+                Capitalismo</br>
+                Software as service (SAAS)</br>
+                Contexto de Mercado</br>
+                Alinhamento economia/design</br>
+                Viabilidade da solução</br>
+                Estratégia de negócio</br>
+                Tomada de decisões</br>
+                Nível estratégico</br>
+            </td>
+    </tr>
 </table>
