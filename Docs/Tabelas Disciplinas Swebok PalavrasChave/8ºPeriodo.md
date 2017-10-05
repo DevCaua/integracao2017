@@ -123,4 +123,68 @@
                 Reutilização de software</br>
             </td>
     </tr>
+        <tr>
+        <td>Metodologia e experimentação em Engenharia de software</td>
+            <td>   
+                 	8° período	</br>
+                    Obrigatória	</br>
+                    Núcleo Específico</br>	
+                    Engenharia de software</br>	
+                    Experimentos</br>	
+                    Estudos primários</br>	
+                    Estudos secundários</br>	
+                    Revisão</br>	
+                    Mapeamento sistemático</br>	
+                    Prática</br>	
+                    Teórica</br>	
+                    Processo científico</br>	
+                    Validação</br>	
+                    Método científico</br>	
+                    Tipos de método</br>	
+                    Adaptabilidade de métodos</br>	
+                    Questionários</br>	
+                    Seminários</br>	
+                    Enquetes</br>	
+                    Análise</br> 	
+                    SBC</br>
+            </td>
+            <td>
+                Enginerring Foundations</br>
+                Fundamentos de engenahria</br>
+                Empirical Methods</br>
+                Métodos empíricos</br>
+                Experimental Techniques </br>
+                Técnicas Experimentais</br>
+                Statical Analysis</br>
+                Análise Estatística</br>
+                Unidades de análise, populção e amostra</br>
+                Unit of Analysis (Sampling Units), Population, and Sample</br> 
+                Concepts of Correlation and Regression</br>
+                Conceitos de correlção e regressão</br>
+                Measurament</br>
+                Medição</br>
+                Levels (Scales) of Measurement</br>
+                Níveis (escalas) de medição</br>
+                Direct and Derived Measures</br>
+                Medições diretas e derivadas</br>
+                Reliability and Validity</br>
+                Confiabilidade e validade</br>
+                Assessing Reliability</br>
+                Avaliando confiabilidade</br>
+                Engineering Design</br>
+                Projeto de engenharia</br> 
+            </td>
+            <td>
+                Resolução de problemas</br>
+                Experimentos</br>
+                Observação</br>
+                Abstração</br>
+                Retrospectiva</br>
+                Análise de resultados</br>
+                Estatística</br>
+                Processo criativo</br>
+                Criatividade</br>
+                Relação de causa-efeito</br>
+            </td>
+    </tr>
 </table>
