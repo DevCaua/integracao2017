@@ -75,6 +75,7 @@ body {
 @media (min-width: 992px) {
     #wrapper #sidebar-wrapper {
         width: 225px;
+        overflow-x: hidden;
     }
 }
 
@@ -228,9 +229,15 @@ body {
 .sidebar-nav li ul.panel-collapse li a {
     background: #fae4bf !important;
     color: #ad7311 !important;
-    border-style: solid;
+    border-bottom-style: solid;
+    border-right-style: solid;
     border-color: #573a09;
-    border-width: 1px;
+    border-width: 2px;
     height: 50px;
     line-height: 50px;
+    width:203px;
+}
+
+.sidebar-nav li ul.panel-collapse li i {
+    font-style: italic;
 }
