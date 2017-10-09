@@ -1,4 +1,7 @@
-angular.module('ocurso').controller("TemplatesController", function ($scope) {
+angular.module('ocurso').controller("TemplatesController", function ($scope, $stateParams) {
+
+	$scope.menuEscolhido = $stateParams.menuEscolhido;
+	$scope.subMenuSelecionado = $stateParams.subMenuSelecionado;
 
 	//variáveis de verificação da página em que o usuário está
 	var _curso = "Curso";
@@ -9,15 +12,25 @@ angular.module('ocurso').controller("TemplatesController", function ($scope) {
 	// array contendo os textos que serão mostrados na tela do curso
 	var arrayCurso = [
 		{
-			titulo: 'Motivos',
-			conteudo: 'testeMotivos'	
+			titulo: 'Apresentacao',
+			conteudo: 'O Bacharelado em Engenharia de Software foi criado em 2009, sendo a \
+            UFG a universidade brasileira pioneira. O curso é focado na graduação \
+            de um profissional capaz de especificar software; projetar (design) \
+            software (inclui arquitetura de software); construir (programar) software \
+            com qualidade; realizar atividades de manutenção de software, além de \
+            trabalhar em equipe, comunicar e escrever bem. Tem a duração de 9 semestres, \
+            predominantemente no turno noturno'	
 		},
 		{
-			titulo: 'Objetivos',
+			titulo: 'Contexto',
 			conteudo: 'testeObjetivos'	
 		},
 		{
-			titulo: 'Expectativas',
+			titulo: 'Motivacao',
+			conteudo: 'teste'	
+		},
+		{
+			titulo: 'Objetivos',
 			conteudo: 'teste'	
 		},
 		{
@@ -25,11 +38,7 @@ angular.module('ocurso').controller("TemplatesController", function ($scope) {
 			conteudo: 'teste'	
 		},
 		{
-			titulo: 'NDE',
-			conteudo: 'teste'	
-		},
-		{
-			titulo: 'TCC',
+			titulo: 'Expectativas',
 			conteudo: 'teste'	
 		},
 	];
@@ -87,10 +96,10 @@ angular.module('ocurso').controller("TemplatesController", function ($scope) {
 	];
 
 	//função para obter o template texto a ser mostrado em tela
-	$scope.obterTemplate = function(menuEscolhido, subMenuSelecionado){
-		console.log(menuEscolhido);
-		console.log(subMenuSelecionado);
-		return $scope.retornaTextoCorreto(menuEscolhido, subMenuSelecionado);
+	$scope.obterTemplate = function(){
+		console.log($scope.menuEscolhido);
+		console.log($scope.subMenuSelecionado);
+		return $scope.retornaTextoCorreto($scope.menuEscolhido, $scope.subMenuSelecionado);
 	}
 
 	$scope.retornaTextoCorreto = function(menuEscolhido, subMenuSelecionado){
