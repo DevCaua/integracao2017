@@ -9,5 +9,5 @@
 [Natália Marufuji](https://github.com/NataliaMarufuji)  
 [Victor Stillo](https://github.com/VictorStillo)  
 
-O progresso do projeto pode ser acompanhado no link abaixo:
+O progresso do projeto pode ser acompanhado no link abaixo:  
 https://caua539.github.io/integracao2017/
