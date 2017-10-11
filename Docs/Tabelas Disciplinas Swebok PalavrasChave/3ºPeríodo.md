@@ -68,4 +68,38 @@
                 Pendente
             </td>
     </tr>
+    <tr>
+        <td>Programação Orientada a Objetos</td>
+            <td>
+                Núcleo Comum</br>	
+                POO</br>	
+                Programação</br>	
+                Teórica</br>	
+                Prática</br>	
+                Com Pré-Requisito</br>	
+                Introdução à Programação</br>	
+                3º Período</br>	
+                Obrigatória</br>	
+                Abstração</br>	
+                Tipos abstratos</br>	
+                Dados</br>	
+                Classes</br>	
+                Métodos</br>	
+                Encapsulamento</br>	
+                Interface</br>	
+                UML</br>	
+                OO</br>	
+                Linguagem Orientada a Objetos</br>	
+                Padrões de projeto</br>	
+                "Mensagens, Instâncias e Inicialização"</br>	
+                Herança e Composição</br>	
+                Polimorfismo</br>	
+            </td>
+            <td>
+                Pendente
+            </td>
+            <td>
+                Pendente
+            </td>
+    </tr>
 </table>
