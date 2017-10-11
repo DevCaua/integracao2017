@@ -102,4 +102,45 @@
                 Pendente
             </td>
     </tr>
+    <tr>
+        <td>Linguagens e Paradigmas de Programação</td>
+            <td>
+                Núcleo Comum</br>	
+                Teórica</br>	
+                Prática</br>	
+                3º Período</br>	
+                Obrigatória</br>	
+                Com Pré-Requisito</br>	
+                Introdução à programação</br>	
+                Conceitos</br>	
+                Programação</br>	
+                Paradigmas de Programação</br>	
+                Procedural</br>	
+                Funcional</br>	
+                Lógico</br>	
+                Orientado a Objetos</br>	
+                OO</br>	
+                Script</br>	
+                Características</br>	
+                Linguagem de programação</br>	
+                Selecionando uma liguagem</br>	
+                Domínio de aplicação</br>	
+                Sintaxe</br>	
+                Semântica</br>	
+                Tipos</br>	
+                Dados</br>	
+                Estruturas de controle</br>	
+                Ambientes de Execução</br>	
+                Variáveis</br>	
+                Expressões</br>	
+                Subprogramas</br>	
+                Qual linguagem escolher</br>		
+            </td>
+            <td>
+                Pendente
+            </td>
+            <td>
+                Pendente
+            </td>
+    </tr>
 </table>
