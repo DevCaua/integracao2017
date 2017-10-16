@@ -1,0 +1,1 @@
+O curso de bacharelado em Engenharia de Software(BES) é oferecido pelo Instituto de Informática(INF) da Universidade Federal de Goiás(UFG). A primeira versão do Projeto Pedagógico do Curso(PPC) foi criada em 2008, a segunda versão, registrada nesse documento, é fruto de uma reflexão de dois anos do Núcleo Docente Estruturante (NDE) que reinverntou o BES
