@@ -246,19 +246,15 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 			conteudo: 'teste'	
 		},
 		{
-			titulo: 'NucleoLivre',
-			conteudo: 'TESTETESTETESTE'	
-		},
-		{
 			titulo: 'AtividadesComplementares',
 			conteudo: 'TESTETESTETESTE'	
 		},
 		{
-			titulo: 'INF',
+			titulo: 'Equivalencias',
 			conteudo: 'TESTETESTETESTE'	
 		},
 		{
-			titulo: 'PCC',
+			titulo: 'EnsinoPesquisa',
 			conteudo: 'TESTETESTETESTE'	
 		},
 	];
