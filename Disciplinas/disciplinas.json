@@ -1,9 +1,54 @@
 [
     {
+        "nome" : "Computação e Sociedade",
+        "palavrasChave" : ["Empreendedorismo",
+            "1° Período",	
+            "Obrigatória",	
+            "Núcleo Comum",	
+            "Computação",	
+            "Código de ética",	
+            "Inclusão digital",	
+            "Mercado",	
+            "Meio ambiente",	
+            "Normas", 	
+            "Mercado de trabalho",	
+            "Leis"	],
+        "areaSwebok" : ["Prática profissional de ES",
+            "Habilidades de comunicação",	
+            "Profissionalismo",	
+            "Dinâmica de grupo e psicologia",	
+            "Prática profissional em Engenharia de Software", 	
+            "Habilidade de Comunicação",	
+            "Dinâmicas em grupo e psicologia",	
+            "Profissionalismo"]
+    },
+
+    {
         "nome" : "nome da disciplina",
-        "cargaHoraria" : "64h",
-        "preRequisitos" : ["prerequisito1", "prerequisito2"],
-        "ementa" : "ementa",
+        "palavrasChave" : ["palavra1", "palavra2", "palavra3"],
+        "areaSwebok" : ["area1", "area2", "area3"]
+    },
+
+    {
+        "nome" : "nome da disciplina",
+        "palavrasChave" : ["palavra1", "palavra2", "palavra3"],
+        "areaSwebok" : ["area1", "area2", "area3"]
+    },
+
+    {
+        "nome" : "nome da disciplina",
+        "palavrasChave" : ["palavra1", "palavra2", "palavra3"],
+        "areaSwebok" : ["area1", "area2", "area3"]
+    },
+
+    {
+        "nome" : "nome da disciplina",
+        "palavrasChave" : ["palavra1", "palavra2", "palavra3"],
+        "areaSwebok" : ["area1", "area2", "area3"]
+    },
+
+    {
+        "nome" : "nome da disciplina",
         "palavrasChave" : ["palavra1", "palavra2", "palavra3"],
         "areaSwebok" : ["area1", "area2", "area3"]
     }
