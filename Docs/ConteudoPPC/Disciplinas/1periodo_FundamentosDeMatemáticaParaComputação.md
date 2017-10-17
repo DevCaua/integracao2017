@@ -11,8 +11,12 @@ Carga horária total: 64h
 ## Pré-Requisitos  
 Nenhum  
 
+## Pré-Requisito para  
+### (disciplina(s) que só pode(m) ser cursada(s) após Fundamentos de Matemática para Computação)  
+Arquitetura de Computadores
+
 ## Ementa  
-### (Corresponde ao conteúdo que será abordado durante as aulas)  
+### (corresponde ao conteúdo que será abordado durante as aulas)  
 1.  Noções de lógica. 
 2.	Introdução a demonstrações.
 3.	Indução matemática, Recursividade e Relações de Recorrência, Conjuntos e Combinatória. 
