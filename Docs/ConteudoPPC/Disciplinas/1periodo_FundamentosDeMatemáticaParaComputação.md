@@ -13,7 +13,12 @@ Nenhum
 
 ## Pré-Requisito para  
 ### (disciplina(s) que só pode(m) ser cursada(s) após Fundamentos de Matemática para Computação)  
-Arquitetura de Computadores
+* Arquitetura de Computadores  
+* Lógica Matemática  
+* Linguagens Formais e Autômatos  
+* Compiladores  
+* Banco de Dados  
+* Sistemas Operacionais
 
 ## Ementa  
 ### (corresponde ao conteúdo que será abordado durante as aulas)  
