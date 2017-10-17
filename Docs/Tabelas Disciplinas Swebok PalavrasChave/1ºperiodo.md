@@ -31,7 +31,20 @@
                 Professionalism</br>
             </td>
             <td>
-                Pendente
+                Conhecimentos
+                Habilidades
+                Atitudes
+                Impacto social do software
+                Impacto econômico do software
+                Ética profissional
+                Relacionamento Interpessoal
+                Certificação
+                Licenciamento
+                Problemas legais
+                Copyrights
+                Crimes cibernéticos
+                Cognição Individual
+                Dinâmica de grupo
             </td>
     </tr>
     <tr>
