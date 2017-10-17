@@ -13,7 +13,7 @@ Nenhum
 
 ## Pré-Requisito para  
 ### (disciplina(s) que só pode(m) ser cursada(s) após Computação e Sociedade)  
-Nenhum
+* Nenhum
 
 ## Ementa  
 ### (corresponde ao conteúdo que será abordado durante as aulas)  
