@@ -3,13 +3,24 @@
 <head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
-		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+		
+
+
+   		 <!-- Bootstrap CSS -->
+
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+
+   		 <!-- Angular -->
+   		 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+   		 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.js"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.min.js"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-animate.min.js"></script>
+
+
+		<script src="../main.js"></script>
 		<link rel="stylesheet" href="fluxograma.css">
-		<script src="assets/js/lib/angular.min.js"></script>
-		<script src="assets/js/jquery.js"></script>
-		<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-		<script src="assets/js/navbar-animation-fix.js"></script>
-		<script src="assets/js//main.js"></script>
 		<script src="fluxograma-controller.js"></script>		
 </head>
 <body ng-controller="FluxogramaController">
@@ -17,7 +28,7 @@
 	<div class="container-fluid fluxograma-dependencias">
 
 		<!-- primeiro período -->
-		<div class="container painel-dependencias">
+		<div class="painel-dependencias">
 			<div class="panel panel-default titulos-dependencias">
 			  <div class="panel-footer titulo-periodo">
 			    Primeiro
@@ -26,14 +37,14 @@
 
 			<div ng-repeat="fluxograma in fluxogramas1" ng-click="obterDependencias(fluxograma)" class="panel panel-default">
 			  <div class="panel-footer painel-individual quebra-linha link_holder" ng-class="{'classe-dependencias': fluxograma.dependenciaAcionada, 'sem-dependencias': !fluxograma.dependenciaAcionada}"> 
-			     <p>{{fluxograma.titulo}}</p>
+			     <p class="fonte-painel">{{fluxograma.titulo}}</p>
 			     <a href="{{fluxograma.link}}" target="_blank">Disciplina</a>
 			  </div>
 			</div>
 		</div>
 
 		<!-- segundo período -->
-		<div class="container painel-dependencias">
+		<div class="painel-dependencias">
 			<div class="panel panel-default titulos-dependencias">
 			  <div class="panel-footer titulo-periodo">
 			    Segundo
@@ -42,14 +53,14 @@
 
 			<div ng-repeat="fluxograma in fluxogramas2" class="panel panel-default" ng-click="obterDependencias(fluxograma)">
 			  <div class="panel-footer painel-individual quebra-linha link_holder" ng-class="{'classe-dependencias': fluxograma.dependenciaAcionada, 'sem-dependencias': !fluxograma.dependenciaAcionada}">
-			    <p>{{fluxograma.titulo}}</p>
+			    <p class="fonte-painel">{{fluxograma.titulo}}</p>
 			    <a href="{{fluxograma.link}}" target="_blank">Disciplina</a>
 			  </div>
 			</div>
 		</div>
 
 		<!-- terceiro período -->
-		<div class="container painel-dependencias">
+		<div class="painel-dependencias">
 			<div class="panel panel-default titulos-dependencias">
 			  <div class="panel-footer titulo-periodo">
 			    Terceiro
@@ -58,16 +69,16 @@
 
 			<div ng-repeat="fluxograma in fluxogramas3" ng-click="obterDependencias(fluxograma)" class="panel panel-default">
 			  <div class="panel-footer painel-individual quebra-linha link_holder" ng-class="{'classe-dependencias': fluxograma.dependenciaAcionada, 'sem-dependencias': !fluxograma.dependenciaAcionada}">
-			    <p>{{fluxograma.titulo}}</p>
+			    <p class="fonte-painel">{{fluxograma.titulo}}</p>
 			    <a href="{{fluxograma.link}}" target="_blank">Disciplina</a>
 			  </div>
 			</div>
 
 			<div class="panel panel-default">
 			  <div class="panel-heading painel-individual" data-toggle="collapse" data-target="#optativa1"  aria-expanded="false" ng-class="{'optativa-dependencia': optativaAcionada, 'optativa-sem-dependencia': !optativaAcionada}">
-				  <h3 class="panel-title quebra-linha">Optativa1</h3>  
+				  <h3 class="panel-title heading-optativas quebra-linha">Optativa1</h3>  
 				  <ul class="list-group lista-optativas collapse" id="optativa1">
-				  	<li ng-repeat="optativa in optativas1" class="list-group-item quebra-linha link_holder" ng-class="{'classe-dependencias': optativa.dependenciaAcionada, 'sem-dependencias': !optativa.dependenciaAcionada}" ng-click="obterDependenciasOptativas(optativa, $event)">{{optativa.titulo}}
+				  	<li ng-repeat="optativa in optativas1" class="list-group-item fonte-painel quebra-linha link_holder" ng-class="{'classe-dependencias': optativa.dependenciaAcionada, 'sem-dependencias': !optativa.dependenciaAcionada}" ng-click="obterDependenciasOptativas(optativa, $event)">{{optativa.titulo}}
 				  	<a href="{{optativa.link}}" target="_blank">Disciplina</a></li>
 				  </ul>
 				</div>
@@ -75,7 +86,7 @@
 		</div>
 
 		<!-- quarto período -->
-		<div class="container painel-dependencias">
+		<div class="painel-dependencias">
 			<div class="panel panel-default titulos-dependencias">
 			  <div class="panel-footer titulo-periodo">
 			    Quarto
@@ -84,16 +95,16 @@
 
 			<div ng-repeat="fluxograma in fluxogramas4" class="panel panel-default" ng-click="obterDependencias(fluxograma)">
 			  <div class="panel-footer painel-individual quebra-linha link_holder" ng-class="{'classe-dependencias': fluxograma.dependenciaAcionada, 'sem-dependencias': !fluxograma.dependenciaAcionada}">
-			    <p>{{fluxograma.titulo}}</p>
+			    <p class="fonte-painel">{{fluxograma.titulo}}</p>
 			    <a href="{{fluxograma.link}}" target="_blank">Disciplina</a>
 			  </div>
 			</div>
 
 			<div class="panel panel-default">
 			  <div class="panel-heading painel-individual" data-toggle="collapse" data-target="#optativa2" aria-expanded="false" ng-class="{'optativa-dependencia': optativaAcionada2, 'optativa-sem-dependencia': !optativaAcionada2}">
-				  <h3 class="panel-title quebra-linha" >Optativa2</h3>  
+				  <h3 class="panel-title heading-optativas quebra-linha" >Optativa2</h3>  
 				  <ul class="list-group lista-optativas collapse" id="optativa2">
-				  	<li ng-repeat="optativa in optativas2" class="list-group-item quebra-linha link_holder" ng-class="{'classe-dependencias': optativa.dependenciaAcionada, 'sem-dependencias': !optativa.dependenciaAcionada}" ng-click="obterDependenciasOptativas(optativa, $event)">{{optativa.titulo}}
+				  	<li ng-repeat="optativa in optativas2" class="list-group-item fonte-painel quebra-linha link_holder" ng-class="{'classe-dependencias': optativa.dependenciaAcionada, 'sem-dependencias': !optativa.dependenciaAcionada}" ng-click="obterDependenciasOptativas(optativa, $event)">{{optativa.titulo}}
 				  	<a href="{{optativa.link}}" target="_blank">Disciplina</a></li>
 				  </ul>
 				</div>
@@ -101,7 +112,7 @@
 		</div>
 
 		<!-- quinto período -->
-		<div class="container painel-dependencias">
+		<div class="painel-dependencias">
 			<div class="panel panel-default titulos-dependencias">
 			  <div class="panel-footer titulo-periodo">
 			    Quinto
@@ -110,14 +121,14 @@
 
 			<div ng-repeat="fluxograma in fluxogramas5" class="panel panel-default" ng-click="obterDependencias(fluxograma)">
 			  <div class="panel-footer painel-individual quebra-linha link_holder" ng-class="{'classe-dependencias': fluxograma.dependenciaAcionada, 'sem-dependencias': !fluxograma.dependenciaAcionada}">
-			    <p>{{fluxograma.titulo}}</p>
+			    <p class="fonte-painel">{{fluxograma.titulo}}</p>
 			    <a href="{{fluxograma.link}}" target="_blank">Disciplina</a>
 			  </div>
 			</div>
 		</div>
 
 		<!-- sexto período -->
-		<div class="container painel-dependencias">
+		<div class="painel-dependencias">
 			<div class="panel panel-default titulos-dependencias">
 			  <div class="panel-footer titulo-periodo">
 			    Sexto
@@ -126,14 +137,14 @@
 
 			<div ng-repeat="fluxograma in fluxogramas6" class="panel panel-default" ng-click="obterDependencias(fluxograma)">
 			  <div class="panel-footer painel-individual quebra-linha link_holder" ng-class="{'classe-dependencias': fluxograma.dependenciaAcionada, 'sem-dependencias': !fluxograma.dependenciaAcionada}">
-			    <p>{{fluxograma.titulo}}</p>
+			    <p class="fonte-painel">{{fluxograma.titulo}}</p>
 			    <a href="{{fluxograma.link}}" target="_blank">Disciplina</a>
 			  </div>
 			</div>
 		</div>
 
 		<!-- sétimo período -->
-		<div class="container painel-dependencias">
+		<div class="painel-dependencias">
 			<div class="panel panel-default titulos-dependencias">
 			  <div class="panel-footer titulo-periodo">
 			    Sétimo
@@ -142,14 +153,14 @@
 
 			<div ng-repeat="fluxograma in fluxogramas7" class="panel panel-default" ng-click="obterDependencias(fluxograma)">
 			  <div class="panel-footer painel-individual quebra-linha link_holder" ng-class="{'classe-dependencias': fluxograma.dependenciaAcionada, 'sem-dependencias': !fluxograma.dependenciaAcionada}">
-			    <p>{{fluxograma.titulo}}</p>
+			    <p class="fonte-painel">{{fluxograma.titulo}}</p>
 			    <a href="{{fluxograma.link}}" target="_blank">Disciplina</a>
 			  </div>
 			</div>
 		</div>
 
 		<!-- oitavo período -->
-		<div class="container painel-dependencias">
+		<div class="painel-dependencias">
 			<div class="panel panel-default titulos-dependencias">
 			  <div class="panel-footer titulo-periodo">
 			    Oitavo
@@ -158,16 +169,16 @@
 
 			<div ng-repeat="fluxograma in fluxogramas8" class="panel panel-default" ng-click="obterDependencias(fluxograma)">
 			  <div class="panel-footer painel-individual quebra-linha link_holder" ng-class="{'classe-dependencias': fluxograma.dependenciaAcionada, 'sem-dependencias': !fluxograma.dependenciaAcionada}">
-			    <p>{{fluxograma.titulo}}</p>
+			    <p class="fonte-painel">{{fluxograma.titulo}}</p>
 			    <a href="{{fluxograma.link}}" target="_blank">Disciplina</a>
 			  </div>
 			</div>
 
 			<div class="panel panel-default">
 			  <div class="panel-heading painel-individual" data-toggle="collapse" data-target="#optativa3" aria-expanded="false" ng-class="{'optativa-dependencia': optativaAcionada3, 'optativa-sem-dependencia': !optativaAcionada3}">
-				  <h3 class="panel-title quebra-linha" >Optativa3</h3>  
+				  <h3 class="panel-title heading-optativas quebra-linha" >Optativa3</h3>  
 				  <ul class="list-group lista-optativas collapse" id="optativa3">
-				  	<li ng-repeat="optativa in optativas3" class="list-group-item quebra-linha link_holder" ng-class="{'classe-dependencias': optativa.dependenciaAcionada, 'sem-dependencias': !optativa.dependenciaAcionada}" ng-click="obterDependenciasOptativas(optativa, $event)">{{optativa.titulo}}
+				  	<li ng-repeat="optativa in optativas3" class="list-group-item fonte-painel quebra-linha link_holder" ng-class="{'classe-dependencias': optativa.dependenciaAcionada, 'sem-dependencias': !optativa.dependenciaAcionada}" ng-click="obterDependenciasOptativas(optativa, $event)">{{optativa.titulo}}
 				  	<a href="{{optativa.link}}" target="_blank">Disciplina</a></li>
 				  </ul>
 				</div>
@@ -175,7 +186,7 @@
 		</div>
 
 		<!-- nono período -->
-		<div class="container painel-dependencias">
+		<div class="painel-dependencias">
 			<div class="panel panel-default titulos-dependencias">
 			  <div class="panel-footer titulo-periodo">
 			    Nono
@@ -184,7 +195,7 @@
 
 			<div ng-repeat="fluxograma in fluxogramas9" class="panel panel-default" ng-click="obterDependencias(fluxograma)">
 			  <div class="panel-footer painel-individual quebra-linha link_holder" ng-class="{'classe-dependencias': fluxograma.dependenciaAcionada, 'sem-dependencias': !fluxograma.dependenciaAcionada}">
-			    <p>{{fluxograma.titulo}}</p>
+			    <p class="fonte-painel">{{fluxograma.titulo}}</p>
 			    <a href="{{fluxograma.link}}" target="_blank">Disciplina</a>
 			  </div>
 			</div>

@@ -1,4 +1,4 @@
-angular.module('index').controller('FluxogramaController', function($scope) {
+angular.module('index',[]).controller('FluxogramaController', function($scope) {
 
 	// matérias agrupadas por períodos
 	$scope.fluxogramas1 = [
