@@ -31,20 +31,20 @@
                 Professionalism</br>
             </td>
             <td>
-                Conhecimentos
-                Habilidades
-                Atitudes
-                Impacto social do software
-                Impacto econômico do software
-                Ética profissional
-                Relacionamento Interpessoal
-                Certificação
-                Licenciamento
-                Problemas legais
-                Copyrights
-                Crimes cibernéticos
-                Cognição Individual
-                Dinâmica de grupo
+                Conhecimentos</br>
+                Habilidades</br>
+                Atitudes</br>
+                Impacto social do software</br>
+                Impacto econômico do software</br>
+                Ética profissional</br>
+                Relacionamento Interpessoal</br>
+                Certificação</br>
+                Licenciamento</br>
+                Problemas legais</br>
+                Copyrights</br>
+                Crimes cibernéticos</br>
+                Cognição Individual</br>
+                Dinâmica de grupo</br>
             </td>
     </tr>
     <tr>
