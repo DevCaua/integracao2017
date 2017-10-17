@@ -13,8 +13,8 @@ Nenhum
 
 ## Pré-Requisito para  
 ### (disciplina(s) que só pode(m) ser cursada(s) após Cálculo 1A)  
-Probabilidade e Estatística A  
-Interação Humano-Computador
+* Probabilidade e Estatística A  
+* Interação Humano-Computador
 
 ## Ementa  
 ### (Corresponde ao conteúdo que será abordado durante as aulas)  
