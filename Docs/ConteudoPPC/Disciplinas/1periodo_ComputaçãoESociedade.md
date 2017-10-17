@@ -11,8 +11,12 @@ Carga horária total: 32h
 ## Pré-Requisitos  
 Nenhum  
 
+## Pré-Requisito para  
+### (disciplina(s) que só pode(m) ser cursada(s) após Computação e Sociedade)  
+Arquitetura de Computadores
+
 ## Ementa  
-### (Corresponde ao conteúdo que será abordado durante as aulas)  
+### (corresponde ao conteúdo que será abordado durante as aulas)  
 1.  História da computação. 
 2.	Estudo e análise de casos de aplicação de computadores na sociedade e para o meio ambiente. 
 3.	Subáreas da computação e áreas interdisciplinares. 
