@@ -4,7 +4,7 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
     var apresentacaoState = {
         name: 'apresentacao',
         url: '/apresentacao',
-        template: '<div class="conteudo"><template-conteudo template="obterTemplate()"></template-conteudo></div>',
+        template: '<div class="conteudo-pagina"><template-conteudo template="obterTemplate()"></template-conteudo></div>',
       	controller: 'TemplatesController',
       	params:{
       		menuEscolhido: 'Curso',
@@ -26,7 +26,7 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
     var contextoState = {
         name: 'contexto',
         url: '/contexto',
-        template: '<div class="conteudo"><template-conteudo template="obterTemplate()"></template-conteudo></div>',
+        template: '<div class="conteudo-pagina"><template-conteudo template="obterTemplate()"></template-conteudo></div>',
         controller: 'TemplatesController',
         params:{
             menuEscolhido: 'Curso',
@@ -37,7 +37,7 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
     var motivacaoState = {
         name: 'motivacao',
         url: '/motivacao',
-        template: '<div class="conteudo"><template-conteudo template="obterTemplate()"></template-conteudo></div>',
+        template: '<div class="conteudo-pagina"><template-conteudo template="obterTemplate()"></template-conteudo></div>',
         controller: 'TemplatesController',
         params:{
             menuEscolhido: 'Curso',
@@ -48,7 +48,7 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
     var objetivoState = {
         name: 'objetivos',
         url: '/objetivos',
-        template: '<div class="conteudo"><template-conteudo template="obterTemplate()"></template-conteudo></div>',
+        template: '<div class="conteudo-pagina"><template-conteudo template="obterTemplate()"></template-conteudo></div>',
         controller: 'TemplatesController',
         params:{
             menuEscolhido: 'Curso',
@@ -59,7 +59,7 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
     var principioState = {
         name: 'principios',
         url: '/principios',
-        template: '<div class="conteudo"><template-conteudo template="obterTemplate()"></template-conteudo></div>',
+        template: '<div class="conteudo-pagina"><template-conteudo template="obterTemplate()"></template-conteudo></div>',
         controller: 'TemplatesController',
         params:{
             menuEscolhido: 'Curso',
@@ -70,7 +70,7 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
     var expectativaState = {
         name: 'expectativas',
         url: '/expectativas',
-        template: '<div class="conteudo"><template-conteudo template="obterTemplate()"></template-conteudo></div>',
+        template: '<div class="conteudo-pagina"><template-conteudo template="obterTemplate()"></template-conteudo></div>',
         controller: 'TemplatesController',
         params:{
             menuEscolhido: 'Curso',
@@ -169,7 +169,7 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
     $stateProvider.state(fluxoState);
     $stateProvider.state(cargaState);
 
-    // state Outras Informações
+    // state Informações
     $stateProvider.state(atividadesState);
     $stateProvider.state(ensinoState);
     $stateProvider.state(equivalenciasState);
