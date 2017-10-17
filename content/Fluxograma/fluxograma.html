@@ -35,7 +35,7 @@
 			  </div>
 			</div>
 
-			<div ng-repeat="fluxograma in fluxogramas1" ng-click="obterDependencias(fluxograma)" class="panel panel-default">
+			<div ng-repeat="fluxograma in fluxogramas1"  tabindex="-1" ng-blur="blur()" ng-click="obterDependencias(fluxograma)" class="panel panel-default">
 			  <div class="panel-footer painel-individual quebra-linha link_holder" ng-class="{'classe-dependencias': fluxograma.dependenciaAcionada, 'sem-dependencias': !fluxograma.dependenciaAcionada}"> 
 			     <p class="fonte-painel">{{fluxograma.titulo}}</p>
 			     <a href="{{fluxograma.link}}" target="_blank">Disciplina</a>
@@ -51,7 +51,7 @@
 			  </div>
 			</div>
 
-			<div ng-repeat="fluxograma in fluxogramas2" class="panel panel-default" ng-click="obterDependencias(fluxograma)">
+			<div ng-repeat="fluxograma in fluxogramas2" class="panel panel-default" tabindex="-1" ng-blur="blur()" ng-click="obterDependencias(fluxograma)">
 			  <div class="panel-footer painel-individual quebra-linha link_holder" ng-class="{'classe-dependencias': fluxograma.dependenciaAcionada, 'sem-dependencias': !fluxograma.dependenciaAcionada}">
 			    <p class="fonte-painel">{{fluxograma.titulo}}</p>
 			    <a href="{{fluxograma.link}}" target="_blank">Disciplina</a>
@@ -67,7 +67,7 @@
 			  </div>
 			</div>
 
-			<div ng-repeat="fluxograma in fluxogramas3" ng-click="obterDependencias(fluxograma)" class="panel panel-default">
+			<div ng-repeat="fluxograma in fluxogramas3" tabindex="-1" ng-blur="blur()" ng-click="obterDependencias(fluxograma)" class="panel panel-default">
 			  <div class="panel-footer painel-individual quebra-linha link_holder" ng-class="{'classe-dependencias': fluxograma.dependenciaAcionada, 'sem-dependencias': !fluxograma.dependenciaAcionada}">
 			    <p class="fonte-painel">{{fluxograma.titulo}}</p>
 			    <a href="{{fluxograma.link}}" target="_blank">Disciplina</a>
@@ -78,7 +78,7 @@
 			  <div class="panel-heading painel-individual" data-toggle="collapse" data-target="#optativa1"  aria-expanded="false" ng-class="{'optativa-dependencia': optativaAcionada, 'optativa-sem-dependencia': !optativaAcionada}">
 				  <h3 class="panel-title heading-optativas quebra-linha">Optativa1</h3>  
 				  <ul class="list-group lista-optativas collapse" id="optativa1">
-				  	<li ng-repeat="optativa in optativas1" class="list-group-item fonte-painel quebra-linha link_holder" ng-class="{'classe-dependencias': optativa.dependenciaAcionada, 'sem-dependencias': !optativa.dependenciaAcionada}" ng-click="obterDependenciasOptativas(optativa, $event)">{{optativa.titulo}}
+				  	<li ng-repeat="optativa in optativas1" tabindex="-1" ng-blur="blur()" class="list-group-item fonte-painel quebra-linha link_holder" ng-class="{'classe-dependencias': optativa.dependenciaAcionada, 'sem-dependencias': !optativa.dependenciaAcionada}" ng-click="obterDependenciasOptativas(optativa, $event)">{{optativa.titulo}}
 				  	<a href="{{optativa.link}}" target="_blank">Disciplina</a></li>
 				  </ul>
 				</div>
@@ -93,7 +93,7 @@
 			  </div>
 			</div>
 
-			<div ng-repeat="fluxograma in fluxogramas4" class="panel panel-default" ng-click="obterDependencias(fluxograma)">
+			<div ng-repeat="fluxograma in fluxogramas4" class="panel panel-default" tabindex="-1" ng-blur="blur()" ng-click="obterDependencias(fluxograma)">
 			  <div class="panel-footer painel-individual quebra-linha link_holder" ng-class="{'classe-dependencias': fluxograma.dependenciaAcionada, 'sem-dependencias': !fluxograma.dependenciaAcionada}">
 			    <p class="fonte-painel">{{fluxograma.titulo}}</p>
 			    <a href="{{fluxograma.link}}" target="_blank">Disciplina</a>
@@ -104,7 +104,7 @@
 			  <div class="panel-heading painel-individual" data-toggle="collapse" data-target="#optativa2" aria-expanded="false" ng-class="{'optativa-dependencia': optativaAcionada2, 'optativa-sem-dependencia': !optativaAcionada2}">
 				  <h3 class="panel-title heading-optativas quebra-linha" >Optativa2</h3>  
 				  <ul class="list-group lista-optativas collapse" id="optativa2">
-				  	<li ng-repeat="optativa in optativas2" class="list-group-item fonte-painel quebra-linha link_holder" ng-class="{'classe-dependencias': optativa.dependenciaAcionada, 'sem-dependencias': !optativa.dependenciaAcionada}" ng-click="obterDependenciasOptativas(optativa, $event)">{{optativa.titulo}}
+				  	<li ng-repeat="optativa in optativas2" class="list-group-item fonte-painel quebra-linha link_holder" ng-class="{'classe-dependencias': optativa.dependenciaAcionada, 'sem-dependencias': !optativa.dependenciaAcionada}" tabindex="-1" ng-blur="blur()" ng-click="obterDependenciasOptativas(optativa, $event)">{{optativa.titulo}}
 				  	<a href="{{optativa.link}}" target="_blank">Disciplina</a></li>
 				  </ul>
 				</div>
@@ -119,7 +119,7 @@
 			  </div>
 			</div>
 
-			<div ng-repeat="fluxograma in fluxogramas5" class="panel panel-default" ng-click="obterDependencias(fluxograma)">
+			<div ng-repeat="fluxograma in fluxogramas5" class="panel panel-default" tabindex="-1" ng-blur="blur()" ng-click="obterDependencias(fluxograma)">
 			  <div class="panel-footer painel-individual quebra-linha link_holder" ng-class="{'classe-dependencias': fluxograma.dependenciaAcionada, 'sem-dependencias': !fluxograma.dependenciaAcionada}">
 			    <p class="fonte-painel">{{fluxograma.titulo}}</p>
 			    <a href="{{fluxograma.link}}" target="_blank">Disciplina</a>
@@ -135,7 +135,7 @@
 			  </div>
 			</div>
 
-			<div ng-repeat="fluxograma in fluxogramas6" class="panel panel-default" ng-click="obterDependencias(fluxograma)">
+			<div ng-repeat="fluxograma in fluxogramas6" class="panel panel-default" tabindex="-1" ng-blur="blur()" ng-click="obterDependencias(fluxograma)">
 			  <div class="panel-footer painel-individual quebra-linha link_holder" ng-class="{'classe-dependencias': fluxograma.dependenciaAcionada, 'sem-dependencias': !fluxograma.dependenciaAcionada}">
 			    <p class="fonte-painel">{{fluxograma.titulo}}</p>
 			    <a href="{{fluxograma.link}}" target="_blank">Disciplina</a>
@@ -151,7 +151,7 @@
 			  </div>
 			</div>
 
-			<div ng-repeat="fluxograma in fluxogramas7" class="panel panel-default" ng-click="obterDependencias(fluxograma)">
+			<div ng-repeat="fluxograma in fluxogramas7" class="panel panel-default" tabindex="-1" ng-blur="blur()" ng-click="obterDependencias(fluxograma)">
 			  <div class="panel-footer painel-individual quebra-linha link_holder" ng-class="{'classe-dependencias': fluxograma.dependenciaAcionada, 'sem-dependencias': !fluxograma.dependenciaAcionada}">
 			    <p class="fonte-painel">{{fluxograma.titulo}}</p>
 			    <a href="{{fluxograma.link}}" target="_blank">Disciplina</a>
@@ -167,7 +167,7 @@
 			  </div>
 			</div>
 
-			<div ng-repeat="fluxograma in fluxogramas8" class="panel panel-default" ng-click="obterDependencias(fluxograma)">
+			<div ng-repeat="fluxograma in fluxogramas8" class="panel panel-default" tabindex="-1" ng-blur="blur()" ng-click="obterDependencias(fluxograma)">
 			  <div class="panel-footer painel-individual quebra-linha link_holder" ng-class="{'classe-dependencias': fluxograma.dependenciaAcionada, 'sem-dependencias': !fluxograma.dependenciaAcionada}">
 			    <p class="fonte-painel">{{fluxograma.titulo}}</p>
 			    <a href="{{fluxograma.link}}" target="_blank">Disciplina</a>
@@ -178,7 +178,7 @@
 			  <div class="panel-heading painel-individual" data-toggle="collapse" data-target="#optativa3" aria-expanded="false" ng-class="{'optativa-dependencia': optativaAcionada3, 'optativa-sem-dependencia': !optativaAcionada3}">
 				  <h3 class="panel-title heading-optativas quebra-linha" >Optativa3</h3>  
 				  <ul class="list-group lista-optativas collapse" id="optativa3">
-				  	<li ng-repeat="optativa in optativas3" class="list-group-item fonte-painel quebra-linha link_holder" ng-class="{'classe-dependencias': optativa.dependenciaAcionada, 'sem-dependencias': !optativa.dependenciaAcionada}" ng-click="obterDependenciasOptativas(optativa, $event)">{{optativa.titulo}}
+				  	<li ng-repeat="optativa in optativas3" tabindex="-1" ng-blur="blur()" class="list-group-item fonte-painel quebra-linha link_holder" ng-class="{'classe-dependencias': optativa.dependenciaAcionada, 'sem-dependencias': !optativa.dependenciaAcionada}" ng-click="obterDependenciasOptativas(optativa, $event)">{{optativa.titulo}}
 				  	<a href="{{optativa.link}}" target="_blank">Disciplina</a></li>
 				  </ul>
 				</div>
@@ -193,7 +193,7 @@
 			  </div>
 			</div>
 
-			<div ng-repeat="fluxograma in fluxogramas9" class="panel panel-default" ng-click="obterDependencias(fluxograma)">
+			<div ng-repeat="fluxograma in fluxogramas9" class="panel panel-default" tabindex="-1" ng-blur="blur()" ng-click="obterDependencias(fluxograma)">
 			  <div class="panel-footer painel-individual quebra-linha link_holder" ng-class="{'classe-dependencias': fluxograma.dependenciaAcionada, 'sem-dependencias': !fluxograma.dependenciaAcionada}">
 			    <p class="fonte-painel">{{fluxograma.titulo}}</p>
 			    <a href="{{fluxograma.link}}" target="_blank">Disciplina</a>

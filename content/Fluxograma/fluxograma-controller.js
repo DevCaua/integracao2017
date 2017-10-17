@@ -687,4 +687,14 @@ angular.module('index',[]).controller('FluxogramaController', function($scope) {
 	$scope.ativarCollapse = function(){
 		$('.collapse').collapse('hide');
 	}
+
+	$scope.blur = function(){
+		console.log("acionado");
+		$scope.fluxogramaCompleto.forEach(function(atual){
+			atual.dependenciaAcionada = false;
+		})
+		$scope.optativaAcionada = false;
+		$scope.optativaAcionada2 = false;
+		$scope.optativaAcionada3 = false;
+	}
 });
