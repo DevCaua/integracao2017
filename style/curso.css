@@ -185,7 +185,27 @@ body {
 }
 
 .sidebar-nav li:nth-child(6) a {
-    background: #13293d !important;
+    background: #13293D !important;
     color: #fff !important;
 }
 
+.sidebar-nav li:nth-child(7) a {
+    background: #0E1E2D !important;
+    color: #fff !important;
+}
+
+.tabela-identificacao{
+    width: 40em;
+    margin-top: 2em;
+}
+
+.tabela-identificacao tr th{
+    width: 1em;
+    height: 3em;
+    border: 1px solid #DBDFE2;
+    padding: 1em;
+}
+
+.tabela-identificacao tr:nth-child(2n+0){
+    background-color: #E4EEF3;
+}
