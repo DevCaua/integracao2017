@@ -132,7 +132,18 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 		},
 		{
 			titulo: 'Objetivos',
-			conteudo: 'teste'	
+			conteudo: '<b>Objetivo geral</b></br></br>\
+						O BES tem como objetivo “Formar profissionais aptos a contribuir efetivamente com a produção de softwares de qualidade seguindo princípios éticos e postura profissional”</br></br>\
+						<b>Objetivos específicos</b></br></br>\
+						- Reconhecer e valorizar o respeito à diversidade. Conforme se lê na Constituição Federal em seu Art. 3., inciso IV: “promover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação”.</br>\
+						- Promover relações étnico-raciais respeitosas, assim como a socialização da história da formação dos brasileiros.</br>\
+						- Ampliar a compreensão acerca de questões ambientais e, ao mesmo tempo, valorizar projetos sustentáveis.</br>\
+						- Contribuir com a demanda da sociedade por softwares de qualidade</br>\
+						- Conceber e desenvolver produtos inovadores</br>\
+						- Promover a engenharia de software na industria de software regional</br>\
+						- Viabilizar atividade econômica de alto valor (produção de software)</br>\
+						- Criar alternativa econômica para o Estado de Goiás.</br>\
+						- Fortalecer a indústria de software de Goiânia.'
 		},
 		{
 			titulo: 'Principios',
@@ -140,7 +151,63 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 		},
 		{
 			titulo: 'Expectativas',
-			conteudo: 'teste'	
+			conteudo: '<b>Perfil do Egresso</b></br></br>\
+			O egresso do BES é um profissional com capacitação sólida em engenharia de software. Essa capacitação advém de formação básica consistente em computação e de abrangente e aprofundada em engenharia de software.</br>\
+			O mercado de atuação do egresso é abrangente, e decorre da dependência da sociedade por software. Adicionalmente, tal dependência tem se expandido com novos produtos, serviços e processos.</br>\
+			A bacharela ou o bacharel em Engenharia de Software é capaz de efetivamente contribuir com equipes na produção de modelos abstratos de software e realizá-los por meio de código de qualidade. Essa contribuição é pautada por postura profissional e conduta ética.</br>\
+			As habilidades do egresso incluem o que é necessário para lidar com requisitos de software, propor uma solução (software design), construí-la, testá-la e mantê-la, usando processos adequados.</br></br>\
+			<b>Habilidades do Egresso</b></br></br>\
+			<b><i>Da perspectiva de relações pessoais, o egresso deve ser capaz de:</i></b></br></br>\
+			- Participar de forma harmoniosa, profissional e ética durante a elaboração de produtos de software atribuídos a equipes.</br>\
+			- Liderar ação contínua de formação de sua própria reputação na área.</br>\
+			- Participar da comunicação de ideias com clareza, seja na forma verbal ou escrita.</br></br>\
+			<b><i>Da perspectiva técnica, o egresso deve ser capaz de:</i></b></br></br>\
+			- Participar de atividades para eliciar, analisar, especificar, validar e gerenciar requisitos de software.</br>\
+			- Participar da definição da solução de software que atende requisitos, ou seja, da definição da arquitetura e do projeto detalhado desse software.</br>\</br>\
+			- Participar da elaboração de modelos de análise e de projeto (design) de software.</br>\
+			- Participar da aplicação de técnicas de projeto ao desenvolver softwares concorrentes, distribuídos, orientados a objetos, orientados a eventos e que implementam a persistência de dados.</br>\
+			- Participar da avaliação de design de software considerando, dentre outros quesitos: abstração, coesão, acoplamento e encapsulamento.</br>\
+			- Participar da aplicação de técnicas de tratamento de exceção e tolerância a falhas.</br>\
+			- Auxiliar a escolha de processo e de metodologia de design de software.</br>\
+			- Auxiliar a revisão de design de software</br>\
+			- Participar do emprego de estilos, visões, modelos e padrões de arquitetura de software.</br>\
+			- Participar do projeto de componentes e módulos de software usando modelos, padrões de projeto e notações.</br>\
+			- Auxiliar a execução de análise estática.</br>\
+			- Auxiliar a escolha de processos e modelos apropriados para a construção de software.</br>\
+			- Auxiliar a escolha de linguagens e ferramentas apropriadas para a construção de software.</br>\
+			- Auxiliar a escolha de frameworks, plataformas e ambientes de construção de construção de software.</br>\
+			- Participar da construção de software seguindo padrões de gerência de configuração e controle de versão.</br>\
+			- Participar da coleta e do monitoramento de medidas de qualidade de código.</br>\
+			- Participar da criação de design detalhado que minimiza a complexidade e melhora a qualidade.</br>\
+			- Participar da criação de código que implementa projetos detalhados.</br>\
+			- Indicar o uso de padrões de projeto.</br>\
+			- Participar da refatoração (refactoring) de código.</br>\
+			- Participar da construção de software que segue padrões de código.</br>\
+			- Participar da construção de software que faz uso de técnicas de codificação defensiva.</br>\
+			- Participar da geração de código a partir de modelos de projeto.</br>\
+			- Participar do uso apropriado de ferramentas e técnicas de depuração.</br>\
+			- Participar da criação de testes de unidade.</br>\
+			- Participar da construção de software que satisfaz objetivos de cobertura de testes.</br>\
+			- Participar da construção de software que segue estratégias e processos de integração e implantação.</br>\
+			- Participar da construção e realização de testes de integração.</br>\
+			- Participar da construção de software em equipe ao colaborar com outros membros da equipe.</br>\
+			- Participar de revisões e inspeções.</br>\
+			- Participar da elaboração e implementação de planos de testes.</br>\
+			- Participar da definição de um ambiente de teste e da correspondente implementação.</br>\
+			- Participar da identificação, design e implementação de testes.</br>\
+			- Participar da elaboração de relatórios de testes.</br>\
+			- Auxiliar a elaboração e execução de plano de transição de software.</br>\
+			- Auxiliar a elaboração e execução de planos de manutenção de software.</br>\
+			- Auxiliar a execução de atividades de processos de software.</br>\
+			- Auxiliar a definição e personalização de processos de software.</br>\
+			- Auxiliar a implementação e execução de processos de software.</br>\
+			- Auxiliar a coleta de dados para avaliação de processos de software.</br>\
+			- Auxiliar a definição e o desenvolvimento de software que satisfaz objetivos e atributos de qualidade.</br>\</br>\</br>\
+			- Auxiliar a identificação de medidas de qualidade apropriadas.</br>\</br>\
+			- Auxiliar a elaboração de planos e revisões de qualidade.</br>\
+			- Participar da construção de software que segue princípios recomendados para segurança de código.</br>\
+			- Participar da construção de software que segue um plano de gerência de configuração de software.</br>\
+			- Participar da documentação de software.'	
 		},
 	];
 
