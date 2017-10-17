@@ -169,7 +169,7 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
     $stateProvider.state(fluxoState);
     $stateProvider.state(cargaState);
 
-    // state Informações
+    // state Outras Informações
     $stateProvider.state(atividadesState);
     $stateProvider.state(ensinoState);
     $stateProvider.state(equivalenciasState);
