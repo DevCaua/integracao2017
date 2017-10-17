@@ -176,7 +176,7 @@ body {
         left: 45px;
         margin-top: -45px;
         z-index: 1000;
-        width: 200px;
+        width: 225px;
         height: 0;
     }
 }
@@ -230,14 +230,9 @@ body {
     background: #fae4bf !important;
     color: #ad7311 !important;
     border-bottom-style: solid;
-    border-right-style: solid;
     border-color: #573a09;
     border-width: 2px;
     height: 50px;
     line-height: 50px;
-    width:203px;
-}
-
-.sidebar-nav li ul.panel-collapse li i {
-    font-style: italic;
+    width:225px;
 }
