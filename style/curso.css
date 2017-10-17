@@ -205,3 +205,10 @@ body {
 .tabela-identificacao tr:nth-child(2n+0){
     background-color: #E4EEF3;
 }
+
+.conteudo-pagina{
+  margin-top: 10%;
+  margin-bottom: 15%;
+  position: relative;
+}
+
