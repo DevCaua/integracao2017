@@ -1,6 +1,6 @@
 ## Características  
 Núcleo Comum  
-Disciplina ministrada pelo INF  
+Disciplina ministrada pelo INF (Instituto de Informática)  
 Disciplina Obrigatória
 
 ## Carga Horária  
