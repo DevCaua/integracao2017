@@ -132,7 +132,7 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 		},
 		{
 			titulo: 'Objetivos',
-			conteudo: '<b>Objetivo geral</b></br></br>\
+			conteudo: '<p><b>Objetivo geral</b></br></br>\
 						O BES tem como objetivo “Formar profissionais aptos a contribuir efetivamente com a produção de softwares de qualidade seguindo princípios éticos e postura profissional”</br></br>\
 						<b>Objetivos específicos</b></br></br>\
 						- Reconhecer e valorizar o respeito à diversidade. Conforme se lê na Constituição Federal em seu Art. 3., inciso IV: “promover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação”.</br>\
@@ -143,7 +143,7 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 						- Promover a engenharia de software na industria de software regional</br>\
 						- Viabilizar atividade econômica de alto valor (produção de software)</br>\
 						- Criar alternativa econômica para o Estado de Goiás.</br>\
-						- Fortalecer a indústria de software de Goiânia.'
+						- Fortalecer a indústria de software de Goiânia.</p>'
 		},
 		{
 			titulo: 'Principios',
@@ -151,7 +151,7 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 		},
 		{
 			titulo: 'Expectativas',
-			conteudo: '<b>Perfil do Egresso</b></br></br>\
+			conteudo: '<p><b>Perfil do Egresso</b></br></br>\
 			O egresso do BES é um profissional com capacitação sólida em engenharia de software. Essa capacitação advém de formação básica consistente em computação e de abrangente e aprofundada em engenharia de software.</br>\
 			O mercado de atuação do egresso é abrangente, e decorre da dependência da sociedade por software. Adicionalmente, tal dependência tem se expandido com novos produtos, serviços e processos.</br>\
 			A bacharela ou o bacharel em Engenharia de Software é capaz de efetivamente contribuir com equipes na produção de modelos abstratos de software e realizá-los por meio de código de qualidade. Essa contribuição é pautada por postura profissional e conduta ética.</br>\
@@ -207,7 +207,7 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 			- Auxiliar a elaboração de planos e revisões de qualidade.</br>\
 			- Participar da construção de software que segue princípios recomendados para segurança de código.</br>\
 			- Participar da construção de software que segue um plano de gerência de configuração de software.</br>\
-			- Participar da documentação de software.'	
+			- Participar da documentação de software.</p>'	
 		},
 	];
 
