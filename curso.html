@@ -56,7 +56,6 @@
         </div>
     </nav>
     <div class="container-fluid">
-      <div id="wrapper">
         <div id="sidebar-wrapper">
             <aside id="sidebar">
                 <ul id="sidemenu" class="sidebar-nav">
@@ -105,11 +104,10 @@
                 </ul>
             </aside>            
         </div>
-        <main id="page-content-wrapper" role="main">
-        </main>
-      </div> 
-      <ui-view>
-      </ui-view>
+        <div id="page-content-wrapper">
+            <ui-view>
+            </ui-view>
+        </div>
     </div>
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>

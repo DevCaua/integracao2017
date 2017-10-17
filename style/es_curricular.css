@@ -1,20 +1,12 @@
 
 body {
-  min-height: 75rem;
   padding-top: 4.5rem;
 }
 
 /* CONTEUDO */
 
-.conteudo {
-  text-align: center;
-  margin-top: 10%;
-  margin-left: 20%;
-}
-
 .ng-scope {
     z-index: 1000;
-    position: fixed;
     left: 15%;
     height: 100%;
     margin-left: 5%;
@@ -63,7 +55,7 @@ body {
 
 /* SIDEBAR */
 
-#wrapper {
+.container-fluid {
     padding-left: 0;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
@@ -72,13 +64,13 @@ body {
 }
 
 @media (min-width: 992px) {
-    #wrapper {
+    .container-fluid {
         padding-left: 225px;
     }
 }
 
 @media (min-width: 992px) {
-    #wrapper #sidebar-wrapper {
+    .container-fluid #sidebar-wrapper {
         width: 225px;
     }
 }

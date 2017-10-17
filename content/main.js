@@ -4,7 +4,7 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
     var apresentacaoState = {
         name: 'apresentacao',
         url: '/apresentacao',
-        template: '<div class="conteudo-pagina"><template-conteudo template="obterTemplate()"></template-conteudo></div>',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
       	controller: 'TemplatesController',
       	params:{
       		menuEscolhido: 'Curso',
@@ -15,7 +15,7 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
     var identificacaoState = {
         name: 'identificacao',
         url: '/identificacao',
-        template: '<div><template-conteudo template="obterTemplate()"></template-conteudo></div>',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
         controller: 'TemplatesController',
         params:{
             menuEscolhido: 'Curso',
@@ -26,7 +26,7 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
     var contextoState = {
         name: 'contexto',
         url: '/contexto',
-        template: '<div class="conteudo-pagina"><template-conteudo template="obterTemplate()"></template-conteudo></div>',
+        template: '<template-conteudo class="conteudo-page" template="obterTemplate()"></template-conteudo>',
         controller: 'TemplatesController',
         params:{
             menuEscolhido: 'Curso',
@@ -37,7 +37,7 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
     var motivacaoState = {
         name: 'motivacao',
         url: '/motivacao',
-        template: '<div class="conteudo-pagina"><template-conteudo template="obterTemplate()"></template-conteudo></div>',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
         controller: 'TemplatesController',
         params:{
             menuEscolhido: 'Curso',
@@ -48,7 +48,7 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
     var objetivoState = {
         name: 'objetivos',
         url: '/objetivos',
-        template: '<div class="conteudo-pagina"><template-conteudo template="obterTemplate()"></template-conteudo></div>',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
         controller: 'TemplatesController',
         params:{
             menuEscolhido: 'Curso',
@@ -59,7 +59,7 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
     var principioState = {
         name: 'principios',
         url: '/principios',
-        template: '<div class="conteudo-pagina"><template-conteudo template="obterTemplate()"></template-conteudo></div>',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
         controller: 'TemplatesController',
         params:{
             menuEscolhido: 'Curso',
@@ -70,7 +70,7 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
     var expectativaState = {
         name: 'expectativas',
         url: '/expectativas',
-        template: '<div class="conteudo-pagina"><template-conteudo template="obterTemplate()"></template-conteudo></div>',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
         controller: 'TemplatesController',
         params:{
             menuEscolhido: 'Curso',
@@ -78,21 +78,21 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
         }
     }
 
-        var matrizState = {
+    var matrizState = {
         name: 'matriz',
         url: '/matriz',
-        template: '<div class="conteudo"><template-conteudo template="obterTemplate()"></template-conteudo></div>',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
         controller: 'TemplatesController',
         params:{
             menuEscolhido: 'EC',
             subMenuSelecionado: 'MatrizCurricular'
-      }
+        }
     }
   
     var fluxoState = {
         name: 'fluxo',
         url: '/fluxo',
-        template: '<div class="conteudo"><template-conteudo template="obterTemplate()"></template-conteudo></div>',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
         controller: 'TemplatesController',
         params:{
             menuEscolhido: 'EC',
@@ -103,7 +103,7 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
     var cargaState = {
         name: 'carga',
         url: '/carga',
-        template: '<div class="conteudo"><template-conteudo template="obterTemplate()"></template-conteudo></div>',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
         controller: 'TemplatesController',
         params:{
             menuEscolhido: 'EC',
@@ -114,7 +114,7 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
     var atividadesState = {
         name: 'atividades',
         url: '/atividades',
-        template: '<div class="conteudo"><template-conteudo template="obterTemplate()"></template-conteudo></div>',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
         controller: 'TemplatesController',
         params:{
             menuEscolhido: 'Informacoes',
@@ -125,7 +125,7 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
     var estagioState = {
         name: 'estagio',
         url: '/estagio',
-        template: '<div class="conteudo"><template-conteudo template="obterTemplate()"></template-conteudo></div>',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
         controller: 'TemplatesController',
         params:{
             menuEscolhido: 'Informacoes',
@@ -136,7 +136,7 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
     var equivalenciasState = {
         name: 'equivalencias',
         url: '/equivalencias',
-        template: '<div class="conteudo"><template-conteudo template="obterTemplate()"></template-conteudo></div>',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
         controller: 'TemplatesController',
         params:{
             menuEscolhido: 'Informacoes',
@@ -147,7 +147,7 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
     var ensinoState = {
         name: 'ensino-pesquisa',
         url: '/ensino-pesquisa',
-        template: '<div class="conteudo"><template-conteudo template="obterTemplate()"></template-conteudo></div>',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
         controller: 'TemplatesController',
         params:{
             menuEscolhido: 'Informacoes',

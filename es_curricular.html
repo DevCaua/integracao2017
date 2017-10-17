@@ -26,7 +26,7 @@
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
-  <body ng-app = "curricular">
+  <body>
     <nav class="navbar-cor navbar navbar-toggleable-md fixed-top navbar-inverse">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -55,36 +55,34 @@
         </div>
     </nav>
     <div class="container-fluid">
-      <div id="wrapper">
-        <div id="sidebar-wrapper">
-            <aside id="sidebar">
-                <ul id="sidemenu" class="sidebar-nav">
-                    <li>
-                        <a ui-sref="matriz" ui-sref-active="active">
-                            <span class="sidebar-icon"><i class="fa fa-dashboard"></i></span>
-                            <span class="sidebar-title">Matriz Curricular</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a ui-sref="fluxo" ui-sref-active="active">
-                            <span class="sidebar-icon"><i class="fa fa-dashboard"></i></span>
-                            <span class="sidebar-title">Fluxo Sugerido</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a ui-sref="carga" ui-sref-active="active">
-                            <span class="sidebar-icon"><i class="fa fa-dashboard"></i></span>
-                            <span class="sidebar-title">Carga Horária</span>
-                        </a>
-                    </li>
-                </ul>
-            </aside>            
-        </div>
-        <main id="page-content-wrapper" role="main">
-        </main>
-      </div> 
-      <ui-view>
-      </ui-view>
+      <div id="sidebar-wrapper">
+          <aside id="sidebar">
+              <ul id="sidemenu" class="sidebar-nav">
+                  <li>
+                      <a ui-sref="matriz" ui-sref-active="active">
+                          <span class="sidebar-icon"><i class="fa fa-dashboard"></i></span>
+                          <span class="sidebar-title">Matriz Curricular</span>
+                      </a>
+                  </li>
+                  <li>
+                      <a ui-sref="fluxo" ui-sref-active="active">
+                          <span class="sidebar-icon"><i class="fa fa-dashboard"></i></span>
+                          <span class="sidebar-title">Fluxo Sugerido</span>
+                      </a>
+                  </li>
+                  <li>
+                      <a ui-sref="carga" ui-sref-active="active">
+                          <span class="sidebar-icon"><i class="fa fa-dashboard"></i></span>
+                          <span class="sidebar-title">Carga Horária</span>
+                      </a>
+                  </li>
+              </ul>
+          </aside>            
+      </div>
+      <div id="page-content-wrapper">
+        <ui-view>
+        </ui-view>
+      </div>
     </div>
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
