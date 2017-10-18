@@ -124,11 +124,19 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		// array contendo os textos das disciplinas do primeiro semestre
 	var arrayQuintoSemestre = [
 		{
-			titulo: 'disciplina1',
+			titulo: 'ConstrucaoSoftware',
 			conteudo: 'O Bacharelado em Engenharia de Software foi criado em 2009, sendo a UFG a universidade brasileira pioneira. O curso é focado na graduação de um profissional capaz de especificar software; projetar (design) software (inclui arquitetura de software); construir (programar) software com qualidade; realizar atividades de manutenção de software, além de trabalhar em equipe, comunicar e escrever bem. Tem a duração de 9 semestres, predominantesmente no turno noturno.'	
 		},
 		{
-			titulo: 'disciplina2',
+			titulo: 'ModelagemSoftware',
+			conteudo: 'TESTETESTETESTE'	
+		},
+		{
+			titulo: 'ProcessosSoftware',
+			conteudo: 'O Bacharelado em Engenharia de Software foi criado em 2009, sendo a UFG a universidade brasileira pioneira. O curso é focado na graduação de um profissional capaz de especificar software; projetar (design) software (inclui arquitetura de software); construir (programar) software com qualidade; realizar atividades de manutenção de software, além de trabalhar em equipe, comunicar e escrever bem. Tem a duração de 9 semestres, predominantesmente no turno noturno.'	
+		},
+		{
+			titulo: 'EngenhariaSistema',
 			conteudo: 'TESTETESTETESTE'	
 		},
 	];
@@ -136,11 +144,19 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		// array contendo os textos das disciplinas do primeiro semestre
 	var arraySextoSemestre = [
 		{
-			titulo: 'disciplina1',
+			titulo: 'DesignSoftware',
 			conteudo: 'O Bacharelado em Engenharia de Software foi criado em 2009, sendo a UFG a universidade brasileira pioneira. O curso é focado na graduação de um profissional capaz de especificar software; projetar (design) software (inclui arquitetura de software); construir (programar) software com qualidade; realizar atividades de manutenção de software, além de trabalhar em equipe, comunicar e escrever bem. Tem a duração de 9 semestres, predominantesmente no turno noturno.'	
 		},
 		{
-			titulo: 'disciplina2',
+			titulo: 'DominioSoftware',
+			conteudo: 'TESTETESTETESTE'	
+		},
+		{
+			titulo: 'QualidadeSoftware',
+			conteudo: 'O Bacharelado em Engenharia de Software foi criado em 2009, sendo a UFG a universidade brasileira pioneira. O curso é focado na graduação de um profissional capaz de especificar software; projetar (design) software (inclui arquitetura de software); construir (programar) software com qualidade; realizar atividades de manutenção de software, além de trabalhar em equipe, comunicar e escrever bem. Tem a duração de 9 semestres, predominantesmente no turno noturno.'	
+		},
+		{
+			titulo: 'GerenciaSoftware',
 			conteudo: 'TESTETESTETESTE'	
 		},
 	];
@@ -148,11 +164,23 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		// array contendo os textos das disciplinas do primeiro semestre
 	var arraySetimoSemestre = [
 		{
-			titulo: 'disciplina1',
+			titulo: 'SoftwareConcorrente',
 			conteudo: 'O Bacharelado em Engenharia de Software foi criado em 2009, sendo a UFG a universidade brasileira pioneira. O curso é focado na graduação de um profissional capaz de especificar software; projetar (design) software (inclui arquitetura de software); construir (programar) software com qualidade; realizar atividades de manutenção de software, além de trabalhar em equipe, comunicar e escrever bem. Tem a duração de 9 semestres, predominantesmente no turno noturno.'	
 		},
 		{
-			titulo: 'disciplina2',
+			titulo: 'ExperienciaUsuario',
+			conteudo: 'TESTETESTETESTE'	
+		},
+		{
+			titulo: 'ArquiteturaSoftware',
+			conteudo: 'TESTETESTETESTE'	
+		},
+		{
+			titulo: 'RequisitosSoftware',
+			conteudo: 'O Bacharelado em Engenharia de Software foi criado em 2009, sendo a UFG a universidade brasileira pioneira. O curso é focado na graduação de um profissional capaz de especificar software; projetar (design) software (inclui arquitetura de software); construir (programar) software com qualidade; realizar atividades de manutenção de software, além de trabalhar em equipe, comunicar e escrever bem. Tem a duração de 9 semestres, predominantesmente no turno noturno.'	
+		},
+		{
+			titulo: 'GovernancaSoftware',
 			conteudo: 'TESTETESTETESTE'	
 		},
 	];

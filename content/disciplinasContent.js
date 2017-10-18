@@ -188,7 +188,7 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
       	}
     }
 
-        var ihcState = {
+    var ihcState = {
         name: 'ihc',
         url: '/Interacao_Humano_Computador',
         template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
@@ -199,7 +199,7 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
       	}
     }
 
-        var bdState = {
+    var bdState = {
         name: 'bd',
         url: '/Banco_de_Dados',
         template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
@@ -210,7 +210,7 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
       	}
     }
 
-        var projetoSoftwareState = {
+    var projetoSoftwareState = {
         name: 'projetoSoftware',
         url: '/Projeto_De_Software',
         template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
@@ -221,7 +221,7 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
       	}
     }
 
-        var redesCompState = {
+    var redesCompState = {
         name: 'redesComp',
         url: '/Redes_de_Computadores',
         template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
@@ -232,7 +232,7 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
       	}
     }
 
-        var linguaBrasileiraState = {
+    var linguaBrasileiraState = {
         name: 'linguaBrasileira',
         url: '/Introducao_a_Lingua_Brasileira_de_Sinais',
         template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
@@ -243,7 +243,7 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
       	}
     }
 
-        var compiladoresState = {
+    var compiladoresState = {
         name: 'compiladores',
         url: '/Compiladores',
         template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
@@ -253,6 +253,150 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
       		subMenuSelecionado: 'Compiladores'
       	}
     }
+
+    var construcaoSoftwareState = {
+        name: 'construcaoSoftware',
+        url: '/Construcao_de_Software',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
+      	controller: 'TemplatesDisciplinasController',
+      	params:{
+      		semestreEscolhido: 'Quinto',
+      		subMenuSelecionado: 'ConstrucaoSoftware'
+      	}
+    }
+
+    var modelagemSoftwareState = {
+        name: 'modelagemSoftware',
+        url: '/Modelagem_de_Software',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
+      	controller: 'TemplatesDisciplinasController',
+      	params:{
+      		semestreEscolhido: 'Quinto',
+      		subMenuSelecionado: 'ModelagemSoftware'
+      	}
+    }
+
+    var processosSoftwareState = {
+        name: 'processosSoftware',
+        url: '/Processos_de_Software',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
+      	controller: 'TemplatesDisciplinasController',
+      	params:{
+      		semestreEscolhido: 'Quinto',
+      		subMenuSelecionado: 'ProcessosSoftware'
+      	}
+    }
+
+    var engenhariaSistemaState = {
+        name: 'engenhariaSistema',
+        url: '/Engenharia_de_Sistemas',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
+      	controller: 'TemplatesDisciplinasController',
+      	params:{
+      		semestreEscolhido: 'Quinto',
+      		subMenuSelecionado: 'EngenhariaSistema'
+      	}
+    }
+
+    var designSoftwareState = {
+        name: 'designSoftware',
+        url: '/Design_de_Software',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
+      	controller: 'TemplatesDisciplinasController',
+      	params:{
+      		semestreEscolhido: 'Sexto',
+      		subMenuSelecionado: 'DesignSoftware'
+      	}
+    }
+
+    var dominioSoftwareState = {
+        name: 'dominioSoftware',
+        url: '/Dominio_de_Software',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
+      	controller: 'TemplatesDisciplinasController',
+      	params:{
+      		semestreEscolhido: 'Sexto',
+      		subMenuSelecionado: 'DominioSoftware'
+      	}
+    }
+
+    var qualidadeSoftwareState = {
+        name: 'qualidadeSoftware',
+        url: '/Processos_de_Qualidade_de_Software',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
+      	controller: 'TemplatesDisciplinasController',
+      	params:{
+      		semestreEscolhido: 'Sexto',
+      		subMenuSelecionado: 'QualidadeSoftware'
+      	}
+    }
+
+    var gerenciaSoftwareState = {
+        name: 'gerenciaSoftware',
+        url: '/Gerencia_de_Projeto_de_Software',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
+      	controller: 'TemplatesDisciplinasController',
+      	params:{
+      		semestreEscolhido: 'Sexto',
+      		subMenuSelecionado: 'GerenciaSoftware'
+      	}
+    }
+
+    var softwareConcorrenteState = {
+        name: 'softwareConcorrente',
+        url: '/Software_Concorrente_e_Distribuido',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
+      	controller: 'TemplatesDisciplinasController',
+      	params:{
+      		semestreEscolhido: 'Setimo',
+      		subMenuSelecionado: 'SoftwareConcorrente'
+      	}
+    }
+
+    var experienciaUsuarioState = {
+        name: 'experienciaUsuario',
+        url: '/Experiencia_do_Usuario_de_Software',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
+      	controller: 'TemplatesDisciplinasController',
+      	params:{
+      		semestreEscolhido: 'Setimo',
+      		subMenuSelecionado: 'ExperienciaUsuario'
+      	}
+    }
+
+    var arquiteturaSoftwareState = {
+        name: 'arquiteturaSoftware',
+        url: '/Arquitetura_de_Software',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
+      	controller: 'TemplatesDisciplinasController',
+      	params:{
+      		semestreEscolhido: 'Setimo',
+      		subMenuSelecionado: 'ArquiteturaSoftware'
+      	}
+    }
+
+    var requisitosSoftwareState = {
+        name: 'requisitosSoftware',
+        url: '/Requisitos_de_Software',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
+      	controller: 'TemplatesDisciplinasController',
+      	params:{
+      		semestreEscolhido: 'Setimo',
+      		subMenuSelecionado: 'SoftwareConcorrente'
+      	}
+    }
+
+    var governancaSoftwareState = {
+        name: 'governancaSoftware',
+        url: '/Governanca_e_Gestao_dos_Servicos_de_Software',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
+      	controller: 'TemplatesDisciplinasController',
+      	params:{
+      		semestreEscolhido: 'Setimo',
+      		subMenuSelecionado: 'GovernancaSoftware'
+      	}
+    }
+
 
 
     //primeiro semestre
@@ -286,4 +430,22 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
     $stateProvider.state(linguaBrasileiraState);
     $stateProvider.state(compiladoresState);
 
+    //quinto semestre
+    $stateProvider.state(construcaoSoftwareState);
+    $stateProvider.state(modelagemSoftwareState);
+    $stateProvider.state(processosSoftwareState);
+    $stateProvider.state(engenhariaSistemaState);
+
+    //sexto semestre
+    $stateProvider.state(designSoftwareState);
+    $stateProvider.state(dominioSoftwareState);
+    $stateProvider.state(qualidadeSoftwareState);
+    $stateProvider.state(gerenciaSoftwareState);
+
+    //setimo semestre
+    $stateProvider.state(softwareConcorrenteState);
+    $stateProvider.state(experienciaUsuarioState);
+    $stateProvider.state(arquiteturaSoftwareState);
+    $stateProvider.state(requisitosSoftwareState);
+    $stateProvider.state(governancaSoftwareState);
 });
