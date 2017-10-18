@@ -11,6 +11,15 @@ Carga horária total: 64h
 ## Pré-Requisitos  
 Fundamentos de Matemática para Computação  
 
+## Pré-Requisito para  
+### (disciplina(s) que só pode(m) ser cursada(s) após Arquitetura de Computadores)  
+
+#### Diretamente:
+* Sistemas Operacionais  
+
+#### Indiretamente:  
+* Nenhum
+
 ## Ementa  
 ### (Corresponde ao conteúdo que será abordado durante as aulas)  
 1.	Visão geral dos computadores modernos.

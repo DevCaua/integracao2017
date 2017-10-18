@@ -11,6 +11,17 @@ Carga horária total: 64h
 ## Pré-Requisitos  
 Introdução à Programação  
 
+## Pré-Requisito para  
+### (disciplina(s) que só pode(m) ser cursada(s) após Algoritmos e Estruturas de Dados 1)  
+
+#### Diretamente:
+* Algoritmos e Estruturas de Dados 2    
+* Interação Humano-Computador  
+
+#### Indiretamente:  
+* Análise e Projeto de Algoritmos
+* Compiladores  
+
 ## Ementa  
 ### (Corresponde ao conteúdo que será abordado durante as aulas)  
 1.	Noções de complexidade de algoritmos (notações de complexidade). 

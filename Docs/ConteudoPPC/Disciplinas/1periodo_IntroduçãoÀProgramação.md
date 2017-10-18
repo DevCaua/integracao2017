@@ -11,6 +11,22 @@ Carga horária total: 128h
 ## Pré-Requisitos  
 Nenhum  
 
+## Pré-Requisito para  
+### (disciplina(s) que só pode(m) ser cursada(s) após Introdução à Programação)  
+
+#### Diretamente:
+* Programação Orientada a Objetos    
+* Linguagens e Paradigmas de Programação  
+* Algoritmos e Estruturas de Dados 1  
+
+#### Indiretamente:  
+* Projeto de Software
+* Algoritmos e Estruturas de Dados 2  
+* Análise e Projeto de Algoritmos
+* Interação Humano-Computador  
+* Compiladores  
+* Sistemas Distribuídos
+
 ## Ementa  
 ### (Corresponde ao conteúdo que será abordado durante as aulas)  
 1.	Introdução a algoritmos. 
