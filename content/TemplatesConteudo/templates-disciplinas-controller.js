@@ -60,11 +60,31 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		// array contendo os textos das disciplinas do primeiro semestre
 	var arrayTerceiroSemestre = [
 		{
-			titulo: 'disciplina1',
+			titulo: 'Poo',
 			conteudo: 'O Bacharelado em Engenharia de Software foi criado em 2009, sendo a UFG a universidade brasileira pioneira. O curso é focado na graduação de um profissional capaz de especificar software; projetar (design) software (inclui arquitetura de software); construir (programar) software com qualidade; realizar atividades de manutenção de software, além de trabalhar em equipe, comunicar e escrever bem. Tem a duração de 9 semestres, predominantesmente no turno noturno.'	
 		},
 		{
-			titulo: 'disciplina2',
+			titulo: 'Algoritmos2',
+			conteudo: 'TESTETESTETESTE'	
+		},
+		{
+			titulo: 'LinguagensProg',
+			conteudo: 'O Bacharelado em Engenharia de Software foi criado em 2009, sendo a UFG a universidade brasileira pioneira. O curso é focado na graduação de um profissional capaz de especificar software; projetar (design) software (inclui arquitetura de software); construir (programar) software com qualidade; realizar atividades de manutenção de software, além de trabalhar em equipe, comunicar e escrever bem. Tem a duração de 9 semestres, predominantesmente no turno noturno.'	
+		},
+		{
+			titulo: 'EngenhariaSoftware',
+			conteudo: 'TESTETESTETESTE'	
+		},
+		{
+			titulo: 'SistemasOp',
+			conteudo: 'O Bacharelado em Engenharia de Software foi criado em 2009, sendo a UFG a universidade brasileira pioneira. O curso é focado na graduação de um profissional capaz de especificar software; projetar (design) software (inclui arquitetura de software); construir (programar) software com qualidade; realizar atividades de manutenção de software, além de trabalhar em equipe, comunicar e escrever bem. Tem a duração de 9 semestres, predominantesmente no turno noturno.'	
+		},
+		{
+			titulo: 'PesquisaOp',
+			conteudo: 'TESTETESTETESTE'	
+		},
+		{
+			titulo: 'LinguagensFormais',
 			conteudo: 'TESTETESTETESTE'	
 		},
 	];
@@ -72,11 +92,31 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		// array contendo os textos das disciplinas do primeiro semestre
 	var arrayQuartoSemestre = [
 		{
-			titulo: 'disciplina1',
+			titulo: 'AnaliseAlg',
 			conteudo: 'O Bacharelado em Engenharia de Software foi criado em 2009, sendo a UFG a universidade brasileira pioneira. O curso é focado na graduação de um profissional capaz de especificar software; projetar (design) software (inclui arquitetura de software); construir (programar) software com qualidade; realizar atividades de manutenção de software, além de trabalhar em equipe, comunicar e escrever bem. Tem a duração de 9 semestres, predominantesmente no turno noturno.'	
 		},
 		{
-			titulo: 'disciplina2',
+			titulo: 'Ihc',
+			conteudo: 'TESTETESTETESTE'	
+		},
+		{
+			titulo: 'BD',
+			conteudo: 'O Bacharelado em Engenharia de Software foi criado em 2009, sendo a UFG a universidade brasileira pioneira. O curso é focado na graduação de um profissional capaz de especificar software; projetar (design) software (inclui arquitetura de software); construir (programar) software com qualidade; realizar atividades de manutenção de software, além de trabalhar em equipe, comunicar e escrever bem. Tem a duração de 9 semestres, predominantesmente no turno noturno.'	
+		},
+		{
+			titulo: 'ProjetoSoftware',
+			conteudo: 'TESTETESTETESTE'	
+		},
+		{
+			titulo: 'RedesComp',
+			conteudo: 'O Bacharelado em Engenharia de Software foi criado em 2009, sendo a UFG a universidade brasileira pioneira. O curso é focado na graduação de um profissional capaz de especificar software; projetar (design) software (inclui arquitetura de software); construir (programar) software com qualidade; realizar atividades de manutenção de software, além de trabalhar em equipe, comunicar e escrever bem. Tem a duração de 9 semestres, predominantesmente no turno noturno.'	
+		},
+		{
+			titulo: 'LinguaBrasileira',
+			conteudo: 'TESTETESTETESTE'	
+		},
+		{
+			titulo: 'Compiladores',
 			conteudo: 'TESTETESTETESTE'	
 		},
 	];
