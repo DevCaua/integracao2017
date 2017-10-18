@@ -5,7 +5,6 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 
 	//variáveis de verificação da página em que o usuário está
 	var _curso = "Curso";
-	var _disciplinas = "Disciplinas";
 	var _estruturaCurricular = "EC";
 	var _informacoes = "Informacoes";
 
@@ -211,18 +210,6 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 		},
 	];
 
-	// array contendo os textos que serão mostrados na tela de disciplinas
-	var arrayDisciplinas = [
-		{
-			titulo: 'disciplina1',
-			conteudo: 'O Bacharelado em Engenharia de Software foi criado em 2009, sendo a UFG a universidade brasileira pioneira. O curso é focado na graduação de um profissional capaz de especificar software; projetar (design) software (inclui arquitetura de software); construir (programar) software com qualidade; realizar atividades de manutenção de software, além de trabalhar em equipe, comunicar e escrever bem. Tem a duração de 9 semestres, predominantesmente no turno noturno.'	
-		},
-		{
-			titulo: 'disciplina2',
-			conteudo: 'TESTETESTETESTE'	
-		},
-	];
-
 	// array contendo os textos que serão mostrados na tela de Estrutura Curricular
 	var arrayEstruturaCurricular = [
 		{
@@ -271,8 +258,6 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 			return $scope.obtemTextoDoItemSelecionado(arrayCurso, subMenuSelecionado);
 		}else if(menuEscolhido == _estruturaCurricular){
 			return $scope.obtemTextoDoItemSelecionado(arrayEstruturaCurricular, subMenuSelecionado);
-		}else if(menuEscolhido == _disciplinas){
-			return $scope.obtemTextoDoItemSelecionado(arrayDisciplinas, subMenuSelecionado);
 		}else if(menuEscolhido == _informacoes){
 			return $scope.obtemTextoDoItemSelecionado(arrayInformacoes, subMenuSelecionado);
 		}

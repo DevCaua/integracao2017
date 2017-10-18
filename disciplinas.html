@@ -7,9 +7,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
+        <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    
     <link rel="stylesheet" type="text/css" href="style/disciplinas.css">
     
     <!-- Font Awesome -->
@@ -17,11 +16,12 @@
 
     <!-- Angular -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-    <script src="//unpkg.com/angular-ui-router/release/angular-ui-router.min.js"></script>
-    
-    <script src="content/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-resource/1.6.6/angular-resource.min.js"></script>
+
+    <script src="content/disciplinasContent.js"></script>
     <script src="content/TemplatesConteudo/templates-diretivas.js"></script>
-    <script src="content/TemplatesConteudo/templates-controller.js"></script>
+    <script src="content/TemplatesConteudo/templates-disciplinas-controller.js"></script>
     
   </head>
   
@@ -64,10 +64,11 @@
                       <b class="caret"></b>
                     </a>
                     <ul id="submenu-1" class="panel-collapse collapse panel-switch" role="menu">
-                      <li><a href="#"><i class="fa fa-caret-right"> Computação e Sociedade</i></a></li>
-                      <li><a href="#"><i class="fa fa-caret-right"> Introdução à Programação</i></a></li>
-                      <li><a href="#"><i class="fa fa-caret-right"> Cálculo 1A</i></a></li>
-                      <li><a href="#"><i class="fa fa-caret-right"> Fundamentos de Matemática para Computação</i></a></li>
+                      <li>
+                      <a ui-sref="computacaoSociedade" ui-sref-active="active" class="fa fa-caret-right"> Computação e Sociedade</i></a></li>
+                      <li><a ui-sref="intProgramacao" ui-sref-active="active"><i class="fa fa-caret-right"> Introdução à Programação</i></a></li>
+                      <li><a ui-sref="calculo" ui-sref-active="active"><i class="fa fa-caret-right"> Cálculo 1A</i></a></li>
+                      <li><a ui-sref="fundMatematica" ui-sref-active="active"><i class="fa fa-caret-right"> Fundamentos de Matemática para Computação</i></a></li>
                     </ul>
                   </li>
                   <li>
@@ -77,11 +78,11 @@
                       <b class="caret"></b>
                     </a>
                     <ul id="submenu-2" class="panel-collapse collapse panel-switch" role="menu">
-                      <li><a href="#"><i class="fa fa-caret-right"> Arquitetura de Computadores</i></a></li>
-                      <li><a href="#"><i class="fa fa-caret-right"> Algoritmo e Estruturas de Dados 1</i></a></li>
-                      <li><a href="#"><i class="fa fa-caret-right"> Probabilidade e Estatísica A</i></a></li>
-                      <li><a href="#"><i class="fa fa-caret-right"> Álgebra Linear</i></a></li>
-                      <li><a href="#"><i class="fa fa-caret-right"> Lógica Matemática</i></a></li>
+                      <li><a ui-sref="arquitetura" ui-sref-active="active"><i class="fa fa-caret-right"> Arquitetura de Computadores</i></a></li>
+                      <li><a ui-sref="algoritmos1" ui-sref-active="active"><i class="fa fa-caret-right"> Algoritmo e Estruturas de Dados 1</i></a></li>
+                      <li><a ui-sref="probEstatistica" ui-sref-active="active"><i class="fa fa-caret-right"> Probabilidade e Estatísica A</i></a></li>
+                      <li><a ui-sref="algebraLinear" ui-sref-active="active"><i class="fa fa-caret-right"> Álgebra Linear</i></a></li>
+                      <li><a ui-sref="logicaMat" ui-sref-active="active"><i class="fa fa-caret-right"> Lógica Matemática</i></a></li>
                     </ul>
                   </li>
                   <li>
