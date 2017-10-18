@@ -397,6 +397,94 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
       	}
     }
 
+    var softwaresUbiquosState = {
+        name: 'softwaresUbiquos',
+        url: '/Software_Para_Sistemas_Obiquos',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
+      	controller: 'TemplatesDisciplinasController',
+      	params:{
+      		semestreEscolhido: 'Oitavo',
+      		subMenuSelecionado: 'SoftwaresUbiquos'
+      	}
+    }
+
+    var softwarePersistenciaState = {
+        name: 'softwarePersistencia',
+        url: '/Software_Para_Persistencia_de_Dados',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
+      	controller: 'TemplatesDisciplinasController',
+      	params:{
+      		semestreEscolhido: 'Oitavo',
+      		subMenuSelecionado: 'SoftwarePersistencia'
+      	}
+    }
+
+    var padroesArqSoftwareState = {
+        name: 'padroesArqSoftware',
+        url: '/Padroes_de_Arquitetura_de_Software',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
+      	controller: 'TemplatesDisciplinasController',
+      	params:{
+      		semestreEscolhido: 'Oitavo',
+      		subMenuSelecionado: 'PadroesArqSoftware'
+      	}
+    }
+
+    var testesSoftwareState = {
+        name: 'testesSoftware',
+        url: '/Testes_de_Software',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
+      	controller: 'TemplatesDisciplinasController',
+      	params:{
+      		semestreEscolhido: 'Oitavo',
+      		subMenuSelecionado: 'TestesSoftware'
+      	}
+    }
+
+    var sitemasDistState = {
+        name: 'sitemasDist',
+        url: '/Sistemas_Distribuidos',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
+      	controller: 'TemplatesDisciplinasController',
+      	params:{
+      		semestreEscolhido: 'Oitavo',
+      		subMenuSelecionado: 'SitemasDist'
+      	}
+    }
+
+    var mercadoState = {
+        name: 'mercado',
+        url: '/Mercado_e_Economia_de_Software',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
+      	controller: 'TemplatesDisciplinasController',
+      	params:{
+      		semestreEscolhido: 'Oitavo',
+      		subMenuSelecionado: 'Mercado'
+      	}
+    }
+
+    var metodologiaESState = {
+        name: 'metodologiaES',
+        url: '/Metodologia_e_Experimentacao_em_Engenharia_de_Software',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
+      	controller: 'TemplatesDisciplinasController',
+      	params:{
+      		semestreEscolhido: 'Oitavo',
+      		subMenuSelecionado: 'MetodologiaES'
+      	}
+    }
+
+    var praticaESState = {
+        name: 'praticaES',
+        url: '/Pratica_em_Engenharia_de_Software',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
+      	controller: 'TemplatesDisciplinasController',
+      	params:{
+      		semestreEscolhido: 'Nono',
+      		subMenuSelecionado: 'PraticaES'
+      	}
+    }
+
 
 
     //primeiro semestre
@@ -448,4 +536,16 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
     $stateProvider.state(arquiteturaSoftwareState);
     $stateProvider.state(requisitosSoftwareState);
     $stateProvider.state(governancaSoftwareState);
+
+    //oitavo semestre
+    $stateProvider.state(softwaresUbiquosState);
+    $stateProvider.state(softwarePersistenciaState);
+    $stateProvider.state(padroesArqSoftwareState);
+    $stateProvider.state(testesSoftwareState);
+    $stateProvider.state(sitemasDistState);
+    $stateProvider.state(mercadoState);
+    $stateProvider.state(metodologiaESState);
+
+    //nono semestre
+    $stateProvider.state(praticaESState);
 });
