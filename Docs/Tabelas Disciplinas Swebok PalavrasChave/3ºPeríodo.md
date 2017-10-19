@@ -103,10 +103,39 @@
                 Polimorfismo</br>	
             </td>
             <td>
-                Pendente
+                Computing Foundations</br>
+                Fundamentos de computação</br>
+                Problem Solving Techniques</br>
+                Técnicas de resolução de problemas</br>
+                Abstraction</br>
+                Abstração</br>
+                Programming Language Basics</br>
+                Básico de linguagens de programação</br>
+                Construction Technologies</br>
+                Tecnologias de construção</br>
+                Ferramentas de construção de software</br>
+                Software Construction Tools</br>
+                Unit Testing Tools</br>
+                Ferramentas de teste de unidade</br>
+                Ferramentas de análise</br>
             </td>
             <td>
-                Pendente
+                Ferramentas de desenvolvimento </br>
+                Conceitos de OO</br>
+                Abstração </br>
+                Herança </br>
+                Encapsulamento</br>
+                Polimorfismo</br>
+                Construção de API</br>
+                Projeto de API</br>
+                Problemas em tempo de execução</br>
+                Reflexão</br>
+                Flexibilidade </br>
+                Flexível</br>
+                Adaptabilidade</br>
+                Adaptável</br>
+                Ambiente de desenvolvimento</br>
+                Ambiente de construção de interface gráfica</br>
             </td>
     </tr>
     <tr>
@@ -144,10 +173,26 @@
                 Qual linguagem escolher</br>		
             </td>
             <td>
-                Pendente
+                Programming Language Basics</br>
+                Básico das linguagens de programação</br>
+                Programming Language Overview</br>
+                Visão geral das linguagens de programação</br>
+                Sintaxe e semântica das linguagens de programação</br>
+                Syntax and Semantics of Programming Languages</br>
+                Low-level Programming languages</br>
+                Linguagens de programação de baixo nível</br>
+                High-level Programming languages</br>
+                Linguagens de programação de alto nível</br>
+                Declarative vs. Imperative Programming Languages</br>
+                Linguagens de programação declarativas contra linguagens de programação imperativas</br>
+                Mathematical Foundations</br>
+                Fundamentos matemáticos</br>
             </td>
             <td>
-                Pendente
+                Gramática de atributos</br>
+                Conceitos de linguagens de programação</br>
+                Algoritmos</br>
+                Classificação de linguagens</br>
             </td>
     </tr>
 </table>
