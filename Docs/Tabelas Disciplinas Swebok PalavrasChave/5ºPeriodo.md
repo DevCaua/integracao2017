@@ -67,7 +67,23 @@
                 Básico de linguagens de programação</br>
             </td>
             <td>
-                Pendente
+                API
+                GUI
+                Interface gráfica de usuário
+                Interface de programação de aplicações
+                TDD
+                Desenvolvimento orientado à testes
+                UML
+                Debugging
+                Depuração
+                Teste de unidade
+                Teste de integração
+                Software Design
+                Projeto de software
+                Algoritmos
+                Padrões de construção
+                Minimização de complexidade 
+                Antecipação de problemas
             </td>
     </tr>
 </table>
