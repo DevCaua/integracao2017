@@ -53,7 +53,17 @@
                 Computação Paralela e distribuída</br>
             </td>
             <td>
-                Pendente
+                Conjunto de computadores</br>
+                Nós de rede</br>
+                Paradigmas de computação</br>
+                Computação distribuída</br>
+                Computação em GRID</br>
+                Computação na rede</br>
+                Computação em nuvem</br>
+                Rede local</br>
+                WAN</br>
+                LAN</br>
+                Hosts (hospedeiros)</br>
             </td>
     </tr>
 </table>
