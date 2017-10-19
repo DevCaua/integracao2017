@@ -67,23 +67,23 @@
                 Básico de linguagens de programação</br>
             </td>
             <td>
-                API
-                GUI
-                Interface gráfica de usuário
-                Interface de programação de aplicações
-                TDD
-                Desenvolvimento orientado à testes
-                UML
-                Debugging
-                Depuração
-                Teste de unidade
-                Teste de integração
-                Software Design
-                Projeto de software
-                Algoritmos
-                Padrões de construção
-                Minimização de complexidade 
-                Antecipação de problemas
+                API</br>
+                GUI</br>
+                Interface gráfica de usuário</br>
+                Interface de programação de aplicações</br>
+                TDD</br>
+                Desenvolvimento orientado à testes</br></br>
+                UML</br>
+                Debugging</br>
+                Depuração</br>
+                Teste de unidade</br>
+                Teste de integração</br>
+                Software Design</br>
+                Projeto de software</br>
+                Algoritmos</br>
+                Padrões de construção</br>
+                Minimização de complexidade</br>
+                Antecipação de problemas</br>
             </td>
     </tr>
 </table>
