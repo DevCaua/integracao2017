@@ -72,7 +72,7 @@
                 Interface gráfica de usuário</br>
                 Interface de programação de aplicações</br>
                 TDD</br>
-                Desenvolvimento orientado à testes</br></br>
+                Desenvolvimento orientado à testes</br>
                 UML</br>
                 Debugging</br>
                 Depuração</br>
