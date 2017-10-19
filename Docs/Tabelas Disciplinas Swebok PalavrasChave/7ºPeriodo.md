@@ -30,7 +30,7 @@
                 Valor ao negócio</br>
             </td>
             <td>
-                Software Enginerring Process</br>	
+                Software Enginering Process</br>	
                 Processo de engenharia de software</br>	
                 Software Life Cycles</br>	
                 Ciclos de vida de software</br>	
@@ -55,7 +55,16 @@
                 Decisões de substituição e aposentadoria</br>
             </td>
             <td>
-                Pendente
+                Matriz SWOT</br>
+                FOFA</br>
+                Estruturação ITIL</br>
+                Operacional</br>
+                Gerencial</br>
+                Estratégico</br>
+                Alinhamento Estratégico</br>
+                Investimento de recursos organizacionais</br>
+                Minimum cost lifetime</br>
+                Custo minímo do ciclo de vida</br>
             </td>
     </tr>
 </table>
