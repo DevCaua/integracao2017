@@ -51,10 +51,19 @@
                 Obrigatória</br>	
             </td>
             <td>
-                Pendente
+                Discrete Probability</br>
+                Probabilidade discreta</br>
+                Basics of Counting</br>
+                Contagem Básica</br>
             </td>
             <td>
-                Pendente
+                Combinação</br>
+                Permutação</br>
+                Probabilidade múltipla</br>
+                Modelos de probabilidade</br>
+                Distribuição probabilística</br>
+                Densidade</br>
+                Variáveis</br>
             </td>
     </tr>
 </table>
