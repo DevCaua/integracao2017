@@ -63,7 +63,15 @@
                 Tarefas de SGBDs</br>
             </td>
             <td>
-                Pendente
+                Organização de dados</br>
+                Processamento de dados</br>
+                Persistência de dados</br>
+                Tipos de estruturas de dados</br>
+                Operações sobre dados</br>
+                Linguagens de programação vs. Dados</br>
+                Classificação de estruturas de dados</br>
+                Eficiência de estrutura de dados </br>
+                Eficácia de ED's </br>
             </td>
     </tr>
     <tr>
