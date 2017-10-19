@@ -220,4 +220,30 @@
                 Segurança das informações</br>
             </td>
     </tr>
+    <tr>
+        <td>Introdução à Língua Brasileira de Sinais</td>
+            <td>Núcleo Específico</br>
+                Teórica	</br>
+                4º Período</br>
+                Letras</br>
+                Optativa</br>
+                Sem Pré-Requisito</br>
+                LIBRAS</br>
+                Surdo</br>
+                Surdez</br>
+                Língua de Sinais</br>
+                Intérprete</br>	
+            </td>
+            <td>
+                Software Quality</br>
+                Qualidade de software</br>
+            </td>
+            <td>
+                Cumprimento de requisitos de software</br>
+                Acessibilidade</br>
+                Inclusão</br>
+                Aderência a normas</br>
+                Cumprimento de leis de acessibilidade</br>
+            </td>
+    </tr>
 </table>

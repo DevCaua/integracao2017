@@ -195,4 +195,45 @@
                 Classificação de linguagens</br>
             </td>
     </tr>
+    <tr>
+        <td>Pesquisa Operacional</td>
+            <td>
+                Núcleo Específico</br>
+                Teórica</br>
+                3º Período</br>
+                Optativa	</br>
+                Com pré-Requisito	</br>
+                Álgebra Linear	</br>
+                Modelagem	</br>
+                Programação Linear	</br>
+                Resolução gráfica	</br>
+                PL	</br>
+                Problema	</br>
+                Algoritmo	</br>
+                Simplex	</br>
+                Dualidade	</br>
+                Simplex-Dual	</br>
+                Pós-Otimização	</br>
+                Análise de Sensibilidade</br>			
+            </td>
+            <td>
+                Algorithms and Complexity</br>
+                Algoritmos e complexidade </br>
+                Mathematical Foundations</br>
+                Fundamentos matemáticos</br>
+                Engineering Foundations</br>
+                Fundamentos de engenharia</br>
+            </td>
+            <td>
+                Matemática aplicada</br>
+                Análise de problemas complexos</br>
+                Melhoria de performance</br>
+                Otimização de performance</br>
+                Métodos analíticos</br>
+                Modelagem Matemática</br>
+                Modelagem de sistemas</br>
+                Aboradagem interdisciplinar</br>
+                Simulação</br>
+            </td>
+    </tr>
 </table>
