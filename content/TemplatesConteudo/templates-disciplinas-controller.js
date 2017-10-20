@@ -738,23 +738,188 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 	var arraySetimoSemestre = [
 		{
 			titulo: 'SoftwareConcorrente',
-			conteudo: 'O Bacharelado em Engenharia de Software foi criado em 2009, sendo a UFG a universidade brasileira pioneira. O curso é focado na graduação de um profissional capaz de especificar software; projetar (design) software (inclui arquitetura de software); construir (programar) software com qualidade; realizar atividades de manutenção de software, além de trabalhar em equipe, comunicar e escrever bem. Tem a duração de 9 semestres, predominantesmente no turno noturno.'	
+			conteudo: '<p><b>Características</b></br><br>\
+						- Núcleo Comum</br>\
+						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
+						- Disciplina Obrigatória</br><br>\
+						<b>Carga Horária</b></br><br>\
+						- Horas Teóricas: 32h</br>\
+						- Horas Práticas: 32h</br>\
+						- Carga horária total: 64h<br></br>\
+						<b>Pré-Requisitos</b></br><br>\
+						- Nenhum</br></br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Software Concorrente e Distribuído)</br>\
+						Diretamente<br>\
+						- Nenhum</br></br>\
+						Indiretamente<br>\
+						- Nenhum</br></br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						- Qualidade de produto (4h): escalabilidade, tolerância a falhas, disponibilidade, desempenho.</br>\
+						- Conceitos (4h): middleware, distribuição, paralelismo, concorrência, RESTful, web, internet das coisas, contêineres, troca de mensagens, micro-serviços, serviços web.</br>\
+						- Métodos para construção de software distribuído e para construção de software concorrente (8h).</br>\
+						- Concorrência (16h): paralelismo, aplicações IO-intensive e CPU-intensive, thread safe, memória compartilhada, Software Transactional Memory, atores, abordagens para explorar concorrência.</br>\
+						- Distribuição (24h): projeto, implementação e uso de interface de programação, RESTful, serviços web e micro-serviços (microservices).</br>\
+						- Troca de mensagens (messaging) (8h).</br></br>\
+						<b>Condições Mínimas(qual o domínio do conteúdo abordado que o estudante deve ter, no final da disciplina, para que ele seja aprovado)</b></br><br>\
+						<i>Seguindo instruções (passo-a-passo), o estudante deve ser capaz de:</i></br></br>\
+						- Usar processos para a construção de software (criação de código, controle de versão, inspeção e integração).</br>\
+						- Detalhar projeto (design) em conformidade com requisitos de software.</br>\
+						- Localizar e reutilizar código (bibliotecas e frameworks).</br>\
+						- Colaborar com a construção de código em equipe.</br>\
+						- Avaliar a qualidade interna de código e, quando apropriado, aplicar estratégias recomendadas de refatoração.</br>\
+						- Explicar conceitos de concorrência e distribuição.</br>\
+						- Criar código que faz uso de concorrência, distribuição e ferramentas correlatas.</br></br>\
+						<i>Sem que instruções sejam dadas, o estudante, com a assistência do professor, deve ser capaz de:</i></br></br>\
+						- Explicar a construção de software, concorrência/distribuição e a relação desses com a engenharia de software e de sistema./br>\
+						- Usar e configurar ferramentas para edição, documentação, compilação, depuração (debugging), build, teste, controle de versão, coleta de medidas (desempenho, consumo de memória, análise estática e cobertura), integração contínua, e aplicativos fundamentais de linha de comandos./br>\
+						- Criar código orientado a objetos em conformidade com o projeto (design) detalhado seguindo estratégias recomendadas</br></br>\
+						<i>Sem instruções e sem a assistência do professor, o estudante deve ser capaz de:</i></br></br>\
+						- Esse nível não se aplica a essa disciplina.</p>'		
 		},
 		{
 			titulo: 'ExperienciaUsuario',
-			conteudo: 'TESTETESTETESTE'	
+			conteudo: '<p><b>Características</b></br><br>\
+						- Núcleo Comum</br>\
+						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
+						- Disciplina Obrigatória</br><br>\
+						<b>Carga Horária</b></br><br>\
+						- Horas Teóricas: 32h</br>\
+						- Horas Práticas: 32h</br>\
+						- Carga horária total: 64h<br></br>\
+						<b>Pré-Requisitos</b></br><br>\
+						- Nenhum</br></br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Experiência do Usu´´ario de Software)</br>\
+						Diretamente<br>\
+						- Nenhum</br></br>\
+						Indiretamente<br>\
+						- Nenhum</br></br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						- Qualidade em uso (4h): usabilidade, acessibilidade.</br>\
+						- Design centrado no usuário (8h): diretrizes, pesquisa, personas, jornadas de usuário, modelagem (especificação) e ferramentas.</br>\
+						- Projeto de interação (16h): diretrizes, criação, modelagem (especificação) e ferramentas.</br>\
+						- Design de software e interfaces gráficas (8): padrões arquiteturais para design da camada de apresentação (MVC, MVP, MVVM e outros).</br>\
+						- Implementação de interfaces (20h).</br>\
+						- Modelos de validação de experiência (8h): modelos, métodos e técnicas para validação de experiência do usuário.</br></br>\
+						<b>Condições Mínimas(qual o domínio do conteúdo abordado que o estudante deve ter, no final da disciplina, para que ele seja aprovado)</b></br><br>\
+						<i>Seguindo instruções (passo-a-passo), o estudante deve ser capaz de:</i></br></br>\
+						- Usar processos para a construção de software (criação de código, controle de versão, inspeção e integração).</br>\
+						- Detalhar projeto (design) em conformidade com requisitos de software.</br>\
+						- Colaborar com a construção de código em equipe.</br>\
+						- Auxiliar na criação de requisitos de usabilidade.</br>\
+						- Criar e registrar projeto de interação que atende requisitos de usabilidade.</br></br>\
+						<i>Sem que instruções sejam dadas, o estudante, com a assistência do professor, deve ser capaz de:</i></br></br>\
+						- Explicar a construção de software, experiência do usuário e a relação com a Engenharia de Software e a noção se sistema.</br>\
+						- Usar e configurar ferramentas para edição, documentação, compilação, depuração (debugging), build, teste, controle de versão, coleta de medidas (desempenho, consumo de memória, análise estática e cobertura), integração contínua, e aplicativos fundamentais de linha de comandos.</br>\
+						- Criar código orientado a objetos em conformidade com o projeto (design) detalhado seguindo estratégias recomendadas</br>\
+						- Usar ferramentas e bibliotecas para o desenvolvimento de código de interfaces.</br>\
+						- Criar código em conformidade com o projeto de interação correspondente.</br></br>\
+						<i>Sem instruções e sem a assistência do professor, o estudante deve ser capaz de:</i></br></br>\
+						- Esse nível não se aplica a essa disciplina.</p>'
 		},
 		{
 			titulo: 'ArquiteturaSoftware',
-			conteudo: 'TESTETESTETESTE'	
+			conteudo: '<p><b>Características</b></br><br>\
+						- Núcleo Comum</br>\
+						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
+						- Disciplina Obrigatória</br><br>\
+						<b>Carga Horária</b></br><br>\
+						- Horas Teóricas: 32h</br>\
+						- Horas Práticas: 32h</br>\
+						- Carga horária total: 64h<br></br>\
+						<b>Pré-Requisitos</b></br><br>\
+						- Nenhum</br></br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Arquitetura de Software)</br>\
+						Diretamente<br>\
+						- Nenhum</br></br>\
+						Indiretamente<br>\
+						- Nenhum</br></br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						- Conceitos (4h): software, qualidade de software, requisitos de software, arquitetura de software e projeto detalhado.</br>\
+						- Requisitos funcionais e requisitos de qualidade (8h): conceituação e identificação de requisitos relevantes para a arquitetura.</br>\
+						- Documentação de arquitetura de software (8h).</br>\
+						- Fundamentos de arquitetura de software (4h): importância, contexto, estilos.</br>\
+						- Método de desenvolvimento de arquitetura de software (8h).</br>\
+						- Técnicas para satisfazer requisitos de qualidade (16h).</br>\
+						- Criação de arquiteturas de software (16h).</br></br>\
+						<b>Condições Mínimas(qual o domínio do conteúdo abordado que o estudante deve ter, no final da disciplina, para que ele seja aprovado)</b></br><br>\
+						<i>Seguindo instruções (passo-a-passo), o estudante deve ser capaz de:</i></br></br>\
+						- Documentar arquitetura de software.</br>\
+						- Criar arquitetura de software</br></br>\
+						<i>Sem que instruções sejam dadas, o estudante, com a assistência do professor, deve ser capaz de:</i></br></br>\
+						- Compreender a documentação de arquitetura de software</br></br>\
+						<i>Sem instruções e sem a assistência do professor, o estudante deve ser capaz de:</i></br></br>\
+						- Explicar o que é software, qualidade de software, requisitos de software, arquitetura de software, projeto detalhado, e a relação entre eles.</p>'
 		},
 		{
 			titulo: 'RequisitosSoftware',
-			conteudo: 'O Bacharelado em Engenharia de Software foi criado em 2009, sendo a UFG a universidade brasileira pioneira. O curso é focado na graduação de um profissional capaz de especificar software; projetar (design) software (inclui arquitetura de software); construir (programar) software com qualidade; realizar atividades de manutenção de software, além de trabalhar em equipe, comunicar e escrever bem. Tem a duração de 9 semestres, predominantesmente no turno noturno.'	
+			conteudo: '<p><b>Características</b></br><br>\
+						- Núcleo Comum</br>\
+						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
+						- Disciplina Obrigatória</br><br>\
+						<b>Carga Horária</b></br><br>\
+						- Horas Teóricas: 32h</br>\
+						- Horas Práticas: 32h</br>\
+						- Carga horária total: 64h<br></br>\
+						<b>Pré-Requisitos</b></br><br>\
+						- Nenhum</br></br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Requisitos de Software)</br>\
+						Diretamente<br>\
+						- Nenhum</br></br>\
+						Indiretamente<br>\
+						- Nenhum</br></br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						- Processo de requisitos (16h): definições básicas, eliciação de requisitos, análise de requisitos, especificação de requisitos, verificação e validação de requisitos.</br>\
+						- Modelos e métodos da engenharia de requisitos (32).</br>\
+						- Gerência de projetos de engenharia de requisitos (8).</br>\
+						- Processo de projeto arquitetural (8h): relação com requisitos.</br></br>\
+						<b>Condições Mínimas(qual o domínio do conteúdo abordado que o estudante deve ter, no final da disciplina, para que ele seja aprovado)</b></br><br>\
+						<i>Seguindo instruções (passo-a-passo), o estudante deve ser capaz de:</i></br></br>\
+						- Usar um processo de requisitos de software.</br>\
+						- Eliciar de requisitos de software.</br>\
+						- Construir modelos conceituais de software.</br>\
+						- Especificar requisitos de software.</br>\
+						- Identificar e utilizar ferramentas de requisitos de software.</br></br>\
+						<i>Sem que instruções sejam dadas, o estudante, com a assistência do professor, deve ser capaz de:</i></br></br>\
+						- Verificar e validar requisitos de software.</br></br>\
+						<i>Sem instruções e sem a assistência do professor, o estudante deve ser capaz de:</i></br></br>\
+						- Explicar requisitos de software, a relação dessa área de conhecimento com as demais da engenharia de software, arquitetura de software em especial, e a relação com o conceito de sistema.</br>\
+						- Colaborar em uma equipe na execução de um processo de requisitos.</p>'		
 		},
 		{
 			titulo: 'GovernancaSoftware',
-			conteudo: 'TESTETESTETESTE'	
+			conteudo: '<p><b>Características</b></br><br>\
+						- Núcleo Comum</br>\
+						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
+						- Disciplina Obrigatória</br><br>\
+						<b>Carga Horária</b></br><br>\
+						- Horas Teóricas: 48h</br>\
+						- Horas Práticas: 16h</br>\
+						- Carga horária total: 64h<br></br>\
+						<b>Pré-Requisitos</b></br><br>\
+						- Nenhum</br></br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Governança e Gestão de Serviços de Software)</br>\
+						Diretamente<br>\
+						- Nenhum</br></br>\
+						Indiretamente<br>\
+						- Nenhum</br></br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						- Governança (8h): governança corporativa; governança de TI (GTI); governança de Software (GS); princípios da GS; conformidade (compliance); alinhamento dos serviços de software ao negócio da organização; normas, frameworks, padrões, modelos de qualidade e de maturidade de GS.</br>\
+						- Abordagens para GS (8h): aplicação de abordagens de GS em um contexto organizacional. Objetivos de controle para GS; indicadores e avaliação de desempenho de software; direcionamento, avaliação e controle do uso de serviços de software para apoiar os objetivos de uma organização.</br>\
+						- Planejamento e controle estratégico de software (8h): alinhamento entre objetivos organizacionais e objetivos relacionados a software; avaliação, direcionamento e monitoramento de processos de software; diagnóstico de maturidade de processos de software; alinhamento de políticas de software ao plano diretor de TI de uma organização. Gestão de riscos de software; riscos organizacionais; riscos relacionados à segurança física e lógica de software.</br>\
+						- Governança de dados (8h): Segurança da informação em uma organização; Segurança de software.</br>\
+						- Software como um serviço (SaaS) (8h): serviços de Software (SS); gestão de Serviços de Software (GSS); Estratégia organizacional para SS; Modelos, normas e padrões relacionados à GSS.</br>\
+						- Ciclo de vida de SS (8h): planejamento; desenvolvimento; implantação e sustentação; Operação de SS e apoio (suporte) à operação de SS; Descontinuação de SS.</br>\
+						- Manutenção de SS (8h): correção, adaptação e evolução de SS; gestão de incidentes e problemas em SS; controle de mudança e de configuração; controle de qualidade.</br>\
+						- Gerência de processos de negócio (BPM – Business Process Management) aplicada à GSS (8h): representação de SS como processos de negócio; notação para modelagem de processos de negócio (BPMN); análise, validação e evolução de processos de negócio e de SS.</br></br>\
+						<b>Condições Mínimas(qual o domínio do conteúdo abordado que o estudante deve ter, no final da disciplina, para que ele seja aprovado)</b></br><br>\
+						<i>Seguindo instruções (passo-a-passo), o estudante deve ser capaz de:</i></br></br>\
+						- Planejar a estratégia de software para uma organização, considerando a pouca disponibilidade de informações de longo prazo, a escassez de recursos para implementação dessa estratégia e a necessidade de alinhamento entre a GS e a governança corporativa.</br>\
+						- Planejar e implementar (projetar, desenvolver, implantar, monitorar, medir, controlar e sustentar) uma estratégia organizacional para GSS em conformidade com o plano estratégico da organização.</br></br>\
+						<i>Sem que instruções sejam dadas, o estudante, com a assistência do professor, deve ser capaz de:</i></br></br>\
+						- Controlar o uso atual e futuro de software, otimizando o seu valor agregado para o negócio da organização.</br>\
+						- Modelar SS e processos de negócio, usando BPMN, em conformidade com os requisitos organizacionais dos processos e serviços.</br></br>\
+						<i>Sem instruções e sem a assistência do professor, o estudante deve ser capaz de:</i></br></br>\
+						- Esse nível não se aplica a essa disciplina.</p>'	
 		},
 	];
 
