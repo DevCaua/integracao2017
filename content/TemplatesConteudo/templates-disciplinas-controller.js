@@ -512,12 +512,12 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 			conteudo: '<p><b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
-						- Disciplina Obrigatória</br><br>\
-						<b>Carga Horária</b></br><br>\
+						- Disciplina Obrigatória</br></br>\
+						<b>Carga Horária</b></br></br>\
 						- Horas Teóricas: 48h</br>\
 						- Horas Práticas: 16h</br>\
 						- Carga horária total: 64h<br></br>\
-						<b>Pré-Requisitos</b></br><br>\
+						<b>Pré-Requisitos</b></br></br>\
 						- Fundamentos de Matemática para Computação</br>\
 						- Lógica Matemática</br></br>\
 						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Banco de Dados)</br>\
@@ -525,7 +525,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Nenhum</br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br></br>\
 						- Conceitos básicos de Banco de Dados.</br>\
 						- Modelo relacional.</br>\
 						- Linguagens para Banco de Dados: álgebra relacional, cálculo relacional e SQL.</br>\
@@ -535,31 +535,31 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'ProjetoSoftware',
-			conteudo: '<p><b>Características</b></br><br>\
+			conteudo: '<p><b>Características</b></br></br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
-						- Disciplina Obrigatória</br><br>\
+						- Disciplina Obrigatória</br></br>\
 						<b>Carga Horária</b></br><br>\
 						- Horas Teóricas: 64h</br>\
 						- Horas Práticas: 00h</br>\
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b></br><br>\
 						- Introdução à Programação</br>\
-						- Programação Orientada a Objetos</br>\ 
+						- Programação Orientada a Objetos</br>\
 						- Engenharia de Software</br></br>\
 						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Projeto de Software)</br>\
-						Diretamente<br>\
+						Diretamente</br>\
 						- Nenhum</br></br>\
-						Indiretamente<br>\
+						Indiretamente</br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br></br>\
 						- Fundamentos de design de software.</br>\
 						- Questões básicas de design de software: concorrência, controle e tratamento de eventos, persistência de dados, distribuição, tratamento de erro e exceção, tolerância a falhas, interação e apresentação, e segurança. Estrutura e arquitetura de software.</br>\
 						- Projeto de interface de usuário.</br>\
 						- Análise de qualidade e avaliação de design de software.</br>\
 						- Notação de design de software.</br>\
 						- Métodos e estratégias de design de software.</br>\
-						- Ferramentas de design de software</p>'
+						- Ferramentas de design de software.</p>'
 		},
 		{
 			titulo: 'RedesComp',
@@ -649,7 +649,33 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'ModelagemSoftware',
-			conteudo: 'TESTETESTETESTE'	
+			conteudo: '<p><b>Características</b></br><br>\
+						- Núcleo Comum</br>\
+						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
+						- Disciplina Obrigatória</br><br>\
+						<b>Carga Horária</b></br><br>\
+						- Horas Teóricas: 16h</br>\
+						- Horas Práticas: 48h</br>\
+						- Carga horária total: 64h<br></br>\
+						<b>Pré-Requisitos</b></br><br>\
+						- Nenhum</br></br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Modelagem de Software)</br>\
+						Diretamente<br>\
+						- Nenhum</br></br>\
+						Indiretamente<br>\
+						- Nenhum</br></br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						- Conceitos (4h): software, qualidade de software, requisitos de software, projeto de software.</br>\
+						- Processo de projeto de software (4h).</br>\
+						- Notações para registro de modelos orientados a objetos (16h).</br>\
+						- Modelagem de software orientado a objetos (40h).</b></br><br>\
+						<b>Condições Mínimas(qual o domínio do conteúdo abordado que o estudante deve ter, no final da disciplina, para que ele seja aprovado)</b></br><br>\
+						<i>Seguindo instruções (passo-a-passo), o estudante deve ser capaz de:</i></br></br>\
+						- Criar modelos de projeto de software orientado a objetos</br></br>\
+						<i>Sem que instruções sejam dadas, o estudante, com a assistência do professor, deve ser capaz de:</i></br></br>\
+						- Explicar o que é software, qualidade de software, requisitos de software e a relação entre eles.</br></br>\
+						<i>Sem instruções e sem a assistência do professor, o estudante deve ser capaz de:</i></br></br>\
+						- Empregar notações para registro de projeto de software orientado a objetos.</p>'
 		},
 		{
 			titulo: 'ProcessosSoftware',
@@ -657,7 +683,34 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'EngenhariaSistema',
-			conteudo: 'TESTETESTETESTE'	
+			conteudo: '<p><b>Características</b></br><br>\
+						- Núcleo Comum</br>\
+						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
+						- Disciplina Obrigatória</br><br>\
+						<b>Carga Horária</b></br><br>\
+						- Horas Teóricas: 64h</br>\
+						- Horas Práticas: 00h</br>\
+						- Carga horária total: 64h<br></br>\
+						<b>Pré-Requisitos</b></br><br>\
+						- Nenhum</br></br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Engenharia de Sistemas)</br>\
+						Diretamente<br>\
+						- Nenhum</br></br>\
+						Indiretamente<br>\
+						- Nenhum</br></br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						- Fundamentos de engenharia (16h): métodos empíricos e técnicas experimentais; análise estatística; medição; design; modelagem, prototipação e simulação; normas e padrões; análise de causa raiz.</br>\
+						- Fundamentos de sistema (16h): taxonomias de sistema; sistemas de engenharia (sistemas produzidos por engenharia - engineered systems); sistemas intensivos em software (software-intensive systems); sistemas de sistemas; complexidade de sistemas; propriedades emergentes; princípios do pensamento sistêmico; representação de sistemas por modelos.</br>\
+						- Engenharia de Sistemas (32h): abordagens e metodologias; partes interessadas (stakeholders) e suas necessidades; ciclo de vida de sistemas de engenharia (concepção, conceitos operacionais, design, validação de design, construção, validação de construção, implantação, sustentação e descontinuação); processos do ciclo de vida de sistemas (negociação, preparação para projeto organizacional, gestão técnica, processos técnicos); qualidade de processo.</br></br>\
+						<b>Condições Mínimas(qual o domínio do conteúdo abordado que o estudante deve ter, no final da disciplina, para que ele seja aprovado)</b></br><br>\
+						<i>Seguindo instruções (passo-a-passo), o estudante deve ser capaz de:</i></br></br>\
+						- Modelar o ciclo de vida de um sistema intensivo em software, considerando as implicações e perspectivas dos processos do ciclo de vida de sistemas.</br>\
+						- Selecionar um modelo de ciclo de vida de software adequado ao modelo de ciclo de vida de engenharia de sistemas e integrar os dois modelos.</br></br>\
+						<i>Sem que instruções sejam dadas, o estudante, com a assistência do professor, deve ser capaz de:</i></br></br>\
+						- Definir o conceito do sistema proposto (propósito desejado, contexto operacional, partes interessadas e conceito de uso do sistema).</br>\
+						- Desenvolver conceitos operacionais do sistema (ambientes operacionais, características priorizadas, atributos de qualidade, cenários operacionais, suposições, dependências, limitações e exclusões).</br></br>\
+						<i>Sem instruções e sem a assistência do professor, o estudante deve ser capaz de:</i></br></br>\
+						- Esse nível não se aplica a essa disciplina.</p>'
 		},
 	];
 
