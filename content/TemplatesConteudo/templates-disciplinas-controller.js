@@ -17,7 +17,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 	var arrayPrimeiroSemestre = [
 		{
 			titulo: 'ComputacaoSociedade',
-			conteudo: '<b>Características</b></br><br>\
+			conteudo: '<p><b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
 						- Disciplina Obrigatória</br><br>\
@@ -39,11 +39,11 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Questões ambientais, raciais, de saúde e de inclusão digital relacionadas à Computação.<br>\
 						- Ética na Computação.<br>\
 						- Empresas de tecnologia da informação.<br>\
-						- Incubadoras de empresas.'
+						- Incubadoras de empresas.</p>'
 		},
 		{
 			titulo: 'IntProgramacao',
-			conteudo: '<b>Características</b></br><br>\
+			conteudo: '<p><b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
 						- Disciplina Obrigatória</br><br>\
@@ -53,7 +53,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Carga horária total: 128h<br></br>\
 						<b>Pré-Requisitos</b></br><br>\
 						- Nenhum</br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Computação e Sociedade)</br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Introdução à Programação)</br>\
 						Diretamente<br>\
 						- Programação Orientada a Objetos</br>\
 						- Linguagens e Paradigmas de Programação</br>\
@@ -74,11 +74,11 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Tipos de acesso a arquivos: sequencial e indexado.<br>\
 						- Tipos de arquivos (texto e binário).<br>\
 						- Transcrição de algoritmos para uma linguagem de programação.<br>\
-						- Domínio de uma linguagem de programação: sintaxe e semântica; interpretação e compilação de programas; ambiente de desenvolvimento de programas; estilo de codificação; documentação de código; técnicas de depuração e técnicas de profiling; desenvolvimento e uso de bibliotecas.'
+						- Domínio de uma linguagem de programação: sintaxe e semântica; interpretação e compilação de programas; ambiente de desenvolvimento de programas; estilo de codificação; documentação de código; técnicas de depuração e técnicas de profiling; desenvolvimento e uso de bibliotecas.</p>'
 		},
 		{
 			titulo: 'Calculo',
-			conteudo: '<b>Características</b></br><br>\
+			conteudo: '<p><b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo IME (Instituto de Matemática e Estatística)</br>\
 						- Disciplina Obrigatória</br><br>\
@@ -88,7 +88,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Carga horária total: 96h<br></br>\
 						<b>Pré-Requisitos</b></br><br>\
 						- Nenhum</br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Computação e Sociedade)</br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Cálculo 1A)</br>\
 						Diretamente<br>\
 						- Probabilidade e Estatística A</br></br>\
 						Indiretamente<br>\
@@ -100,11 +100,11 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Derivadas e aplicações.<br>\
 						- Polinômio de Taylor.<br>\
 						- Integrais. Técnicas de Integração. Integrais impróprias.<br>\
-						- Aplicações.'	
+						- Aplicações.</p>'	
 		},
 		{
 			titulo: 'FundMatematica',
-			conteudo: '<b>Características</b></br><br>\
+			conteudo: '<p><b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
 						- Disciplina Obrigatória</br><br>\
@@ -114,7 +114,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b></br><br>\
 						- Nenhum</br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Computação e Sociedade)</br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Fundamentos de Matemática para Computação)</br>\
 						Diretamente<br>\
 						- Lógica Matemática</br>\
 						- Arquitetura de Computadores</br>\
@@ -130,7 +130,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Indução matemática, Recursividade e Relações de Recorrência, Conjuntos e Combinatória.<br>\
 						- Séries e sequências.<br>\
 						- Relações e Funções.<br>\
-						- Representações numéricas e Mudança de base numérica.'	
+						- Representações numéricas e Mudança de base numérica.</p>'	
 		},
 	];
 
@@ -138,23 +138,134 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 	var arraySegundoSemestre = [
 		{
 			titulo: 'Arquitetura',
-			conteudo: 'O Bacharelado em Engenharia de Software foi criado em 2009, sendo a UFG a universidade brasileira pioneira. O curso é focado na graduação de um profissional capaz de especificar software; projetar (design) software (inclui arquitetura de software); construir (programar) software com qualidade; realizar atividades de manutenção de software, além de trabalhar em equipe, comunicar e escrever bem. Tem a duração de 9 semestres, predominantesmente no turno noturno.'	
+			conteudo: '<p><b>Características</b></br><br>\
+						- Núcleo Comum</br>\
+						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
+						- Disciplina Obrigatória</br><br>\
+						<b>Carga Horária</b></br><br>\
+						- Horas Teóricas: 48h</br>\
+						- Horas Práticas: 16h</br>\
+						- Carga horária total: 64h<br></br>\
+						<b>Pré-Requisitos</b></br><br>\
+						- Fundamentos de Matemática para Computação</br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Arquitetura de Computadores)</br>\
+						Diretamente<br>\
+						- Sistemas Operacionais</br></br>\
+						Indiretamente<br>\
+						- Nenhum</br></br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						- Visão geral dos computadores modernos.<br>\
+						- Evolução da arquitetura dos computadores.<br>\
+						- Memória e representação de dados e instruções.<br>\
+						- Processador, ciclo de instrução, formato e endereçamento.<br>\
+						- Noções básicas de programação em linguagem de montagem.<br>\
+						- Dispositivos de entrada e saída.<br>\
+						- Sistemas de interconexão (barramentos).<br>\
+						- Interfaceamento e técnicas de entrada e saída.<br>\
+						- Hierarquia de memória.<br>\
+						- Introdução a arquiteturas paralelas e métricas de desempenho.</p>'	
 		},
 		{
 			titulo: 'Algoritmos1',
-			conteudo: 'TESTETESTETESTE'	
+			conteudo: '<p><b>Características</b></br><br>\
+						- Núcleo Comum</br>\
+						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
+						- Disciplina Obrigatória</br><br>\
+						<b>Carga Horária</b></br><br>\
+						- Horas Teóricas: 32h</br>\
+						- Horas Práticas: 32h</br>\
+						- Carga horária total: 64h<br></br>\
+						<b>Pré-Requisitos</b></br><br>\
+						- Introdução à Programação</br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Algoritmos e Estruturas de Dados 1)</br>\
+						Diretamente<br>\
+						- Algoritmos e Estruturas de Dados 2</br>\
+						- Interação Humano-Computador</br></br>\
+						Indiretamente<br>\
+						- Análise e Projeto de Algoritmos</br>\
+						- Compiladores</br></br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						- Noções de complexidade de algoritmos (notações de complexidade).<br>\
+						- Algoritmos de pesquisa: pesquisa sequencial e binária.<br>\
+						- Algoritmos de ordenação.<br>\
+						- Tipos abstratos de dados.<br>\
+						- Estruturas de dados utilizando vetores: pilhas, filas, listas (simples e circulares).<br>\
+						- Estruturas de dados com alocação dinâmica de memória: pilhas, filas, listas (simplesmente encadeadas, duplamente encadeadas e circulares).</p>'	
 		},
 		{
 			titulo: 'ProbEstatistica',
-			conteudo: 'O Bacharelado em Engenharia de Software foi criado em 2009, sendo a UFG a universidade brasileira pioneira. O curso é focado na graduação de um profissional capaz de especificar software; projetar (design) software (inclui arquitetura de software); construir (programar) software com qualidade; realizar atividades de manutenção de software, além de trabalhar em equipe, comunicar e escrever bem. Tem a duração de 9 semestres, predominantesmente no turno noturno.'	
+			conteudo: '<p><b>Características</b></br><br>\
+						- Núcleo Comum</br>\
+						- Disciplina ministrada pelo IME (Instituto de Matemática e Estatística)</br>\
+						- Disciplina Obrigatória</br><br>\
+						<b>Carga Horária</b></br><br>\
+						- Horas Teóricas: 64h</br>\
+						- Horas Práticas: 00h</br>\
+						- Carga horária total: 64h<br></br>\
+						<b>Pré-Requisitos</b></br><br>\
+						- Cálculo 1A</br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Probabilidade Estatística A)</br>\
+						Diretamente<br>\
+						- Interação Humano-Computador</br></br>\
+						Indiretamente<br>\
+						- Nenhum</br></br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						- Estatística descritiva. Noções sobre amostragem.<br>\
+						- Introdução à teoria de conjuntos.<br>\
+						- Introdução à teoria de probabilidade: espaço amostral, eventos, frequência relativa, fundamentos de probabilidade, probabilidade condicional, eventos independentes e teorema de Bayes.<br>\
+						- Variáveis aleatórias: conceitos básicos, esperança e variância.<br>\
+						- Distribuições discretas de probabilidade: uniforme, binomial e Poisson.<br>\
+						- Distribuições contínuas de probabilidade: uniforme, exponencial, normal e t-Student.<br>\
+						- Estimação pontual e intervalar para uma população: média e proporção<br>\
+						- Teste de hipóteses para uma população: média e proporção.<br>\
+						- Correlação linear e regressão linear simples.</p>'
 		},
 		{
 			titulo: 'AlgebraLinear',
-			conteudo: 'TESTETESTETESTE'	
+			conteudo: '<p><b>Características</b></br><br>\
+						- Núcleo Comum</br>\
+						- Disciplina ministrada pelo IME (Instituto de Matemática e Estatística)</br>\
+						- Disciplina Obrigatória</br><br>\
+						<b>Carga Horária</b></br><br>\
+						- Horas Teóricas: 64h</br>\
+						- Horas Práticas: 00h</br>\
+						- Carga horária total: 64h<br></br>\
+						<b>Pré-Requisitos</b></br><br>\
+						- Cálculo 1A</br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Álgebra Linear)</br>\
+						Diretamente<br>\
+						- Pesquisa Operacional</br></br>\
+						Indiretamente<br>\
+						- Nenhum</br></br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						- Sistemas lineares e matrizes.</br>\
+						- Espaços vetoriais.</br>\
+						- Transformações lineares.</br>\
+						- Autovalores e autovetores.</br>\
+						- Espaços com produto interno.</p>'	
 		},
 		{
 			titulo: 'LogicaMat',
-			conteudo: 'TESTETESTETESTE'	
+			conteudo: '<p><b>Características</b></br><br>\
+						- Núcleo Comum</br>\
+						- Disciplina ministrada pelo IME (Instituto de Matemática e Estatística)</br>\
+						- Disciplina Obrigatória</br><br>\
+						<b>Carga Horária</b></br><br>\
+						- Horas Teóricas: 64h</br>\
+						- Horas Práticas: 00h</br>\
+						- Carga horária total: 64h<br></br>\
+						<b>Pré-Requisitos</b></br><br>\
+						- Fundamentos de Matemática para Computação</br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Lógica Matemática)</br>\
+						Diretamente<br>\
+						- Banco de Dados</br></br>\
+						Indiretamente<br>\
+						- Nenhum</br></br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						- Noções básicas: linguagem natural vs linguagens formais; verdade, validade, satisfatibilidade; lógica proposicional (sintaxe e semântica, propriedades e relações semânticas, consequência lógica, simplificação de fórmulas); lógica de primeira ordem (sintaxe e semântica, propriedades e relações semânticas, formas normais);</br>\
+						- Métodos de validação: métodos diretos de prova; métodos de prova por contradição; indução estrutural.</br>\
+						- Linguagem para experimentação.</br>\
+						- Aplicações básicas.</p>'	
 		},
 	];
 
