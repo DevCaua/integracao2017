@@ -113,7 +113,7 @@ body {
 
 @media (min-width: 992px) {
     #sidebar-wrapper .sidebar-nav li {
-        text-indent: 0;
+        text-indent: -10px;
         line-height: 50px;
     }
 }
@@ -121,7 +121,19 @@ body {
 #sidebar-wrapper .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #428bca;
+}
+
+#sidebar-wrapper .sidebar-nav li button {
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    text-align: left; 
+    border-radius: 0;
+    border-color: transparent;
+}
+
+#sidebar-wrapper .sidebar-nav li button .sidebar-title{
+    vertical-align: -2px;
 }
 
 #sidebar-wrapper .sidebar-nav li ul.panel-collapse {
@@ -145,19 +157,17 @@ body {
     word-break: keep-all;
 }
 
-#sidebar-wrapper .sidebar-nav li a .sidebar-icon {
-    width: 45px;
-    height: 45px;
-    font-size: 14px;
-    padding: 0 2px;
+#sidebar-wrapper .sidebar-nav li button .sidebar-icon {
+    width: 30px;
+    font-size: 18px;
     display: inline-block;
-    text-indent: 7px;
-    margin-right: 1px;
+    text-indent: -5px;
+    padding-right: 4px;
     color: #fff;
     float: left;
 }
 
-#sidebar-wrapper .sidebar-nav li a .caret {
+#sidebar-wrapper .sidebar-nav li button .caret {
   position: absolute;
   right: 23px;
   top: auto;
@@ -184,47 +194,47 @@ body {
     }
 }
 
-.sidebar-nav li:first-child a {
+.sidebar-nav li:first-child button {
     background: #f5ca80 !important;
     color: #fff !important;
 }
 
-.sidebar-nav li:nth-child(2) a {
+.sidebar-nav li:nth-child(2) button {
     background: #f3c16b !important;
     color: #fff !important;
 }
 
-.sidebar-nav li:nth-child(3) a {
+.sidebar-nav li:nth-child(3) button {
     background: #f1b856 !important;
     color: #fff !important;
 }
 
-.sidebar-nav li:nth-child(4) a {
+.sidebar-nav li:nth-child(4) button {
     background: #f0af41 !important;
     color: #fff !important;
 }
 
-.sidebar-nav li:nth-child(5) a {
+.sidebar-nav li:nth-child(5) button {
     background: #eea62c !important;
     color: #fff !important;
 }
 
-.sidebar-nav li:nth-child(6) a {
+.sidebar-nav li:nth-child(6) button {
     background: #ed9e17 !important;
     color: #fff !important;
 }
 
-.sidebar-nav li:nth-child(7) a {
+.sidebar-nav li:nth-child(7) button {
     background: #d89015 !important;
     color: #fff !important;
 }
 
-.sidebar-nav li:nth-child(8) a {
+.sidebar-nav li:nth-child(8) button {
     background: #c28213 !important;
     color: #fff !important;
 }
 
-.sidebar-nav li:nth-child(9) a {
+.sidebar-nav li:nth-child(9) button {
     background: #ad7311 !important;
     color: #fff !important;
 }
