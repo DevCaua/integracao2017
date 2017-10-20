@@ -176,7 +176,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Horas Práticas: 32h</br>\
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b></br><br>\
-						- Introdução à Programação</br>\
+						- Introdução à Programação</br></br>\
 						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Algoritmos e Estruturas de Dados 1)</br>\
 						Diretamente<br>\
 						- Algoritmos e Estruturas de Dados 2</br>\
@@ -203,7 +203,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Horas Práticas: 00h</br>\
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b></br><br>\
-						- Cálculo 1A</br>\
+						- Cálculo 1A</br></br>\
 						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Probabilidade Estatística A)</br>\
 						Diretamente<br>\
 						- Interação Humano-Computador</br></br>\
@@ -231,7 +231,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Horas Práticas: 00h</br>\
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b></br><br>\
-						- Cálculo 1A</br>\
+						- Cálculo 1A</br></br>\
 						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Álgebra Linear)</br>\
 						Diretamente<br>\
 						- Pesquisa Operacional</br></br>\
@@ -255,7 +255,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Horas Práticas: 00h</br>\
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b></br><br>\
-						- Fundamentos de Matemática para Computação</br>\
+						- Fundamentos de Matemática para Computação</br></br>\
 						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Lógica Matemática)</br>\
 						Diretamente<br>\
 						- Banco de Dados</br></br>\
@@ -273,31 +273,177 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 	var arrayTerceiroSemestre = [
 		{
 			titulo: 'Poo',
-			conteudo: 'O Bacharelado em Engenharia de Software foi criado em 2009, sendo a UFG a universidade brasileira pioneira. O curso é focado na graduação de um profissional capaz de especificar software; projetar (design) software (inclui arquitetura de software); construir (programar) software com qualidade; realizar atividades de manutenção de software, além de trabalhar em equipe, comunicar e escrever bem. Tem a duração de 9 semestres, predominantesmente no turno noturno.'	
+			conteudo: '<p><b>Características</b></br><br>\
+						- Núcleo Comum</br>\
+						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
+						- Disciplina Obrigatória</br><br>\
+						<b>Carga Horária</b></br><br>\
+						- Horas Teóricas: 32h</br>\
+						- Horas Práticas: 32h</br>\
+						- Carga horária total: 64h<br></br>\
+						<b>Pré-Requisitos</b></br><br>\
+						- Introdução à Programação</br></br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Programação Orientada a Objetos)</br>\
+						Diretamente<br>\
+						- Projeto de Software/br>\
+						- Sistemas Distribuídos</br></br>\
+						Indiretamente<br>\
+						- Nenhum</br></br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						- Abstração e tipos abstratos de dados.</br>\
+						- Classes, métodos, encapsulamento, interface. Mensagens, instâncias e inicialização. Herança e composição. Polimorfismo.</br>\
+						- Uso de uma linguagem orientada a objetos.</br>\
+						- Noções de UML.</br>\
+						- Noções de padrões de projeto orientado a objetos.</p>'
 		},
 		{
 			titulo: 'Algoritmos2',
-			conteudo: 'TESTETESTETESTE'	
+			conteudo: '<p><b>Características</b></br><br>\
+						- Núcleo Comum</br>\
+						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
+						- Disciplina Obrigatória</br><br>\
+						<b>Carga Horária</b></br><br>\
+						- Horas Teóricas: 64h</br>\
+						- Horas Práticas: 00h</br>\
+						- Carga horária total: 64h<br></br>\
+						<b>Pré-Requisitos</b></br><br>\
+						- Introdução à Programação</br>\
+						- Algoritmos e Estruturas de Dados 1</br></br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Algoritmos e Estruturas de Dados 2)</br>\
+						Diretamente<br>\
+						- Análise e Projeto de Algoritmos</br>\
+						- Compiladores</br></br>\
+						Indiretamente<br>\
+						- Nenhum</br></br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						- Árvores: formas de representação, recursão em árvores, árvores binárias, árvores binárias de busca, árvores balanceadas (AVL e rubro-negras).</br>\
+						- Filas de prioridades. Heaps, Heapsort. Hashing: tipos de funções de hashing; tratamento de colisões.</br>\
+						- Definições de Grafos.</br>\
+						- Estruturas de Dados para representação de grafos.</br>\
+						- Algoritmos básicos em grafos.</p>'	
 		},
 		{
 			titulo: 'LinguagensProg',
-			conteudo: 'O Bacharelado em Engenharia de Software foi criado em 2009, sendo a UFG a universidade brasileira pioneira. O curso é focado na graduação de um profissional capaz de especificar software; projetar (design) software (inclui arquitetura de software); construir (programar) software com qualidade; realizar atividades de manutenção de software, além de trabalhar em equipe, comunicar e escrever bem. Tem a duração de 9 semestres, predominantesmente no turno noturno.'	
+			conteudo: '<p><b>Características</b></br><br>\
+						- Núcleo Comum</br>\
+						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
+						- Disciplina Obrigatória</br><br>\
+						<b>Carga Horária</b></br><br>\
+						- Horas Teóricas: 32h</br>\
+						- Horas Práticas: 32h</br>\
+						- Carga horária total: 64h<br></br>\
+						<b>Pré-Requisitos</b></br><br>\
+						- Introdução à Programação</br></br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Linguagens e Paradigmas de Programação)</br>\
+						Diretamente<br>\
+						- Nenhum</br></br>\
+						Indiretamente<br>\
+						- Nenhum</br></br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						- Estudo dos conceitos de linguagens de programação e dos paradigmas de programação: procedural, funcional, lógico, orientado a objeto e script.</br>\
+						- Reflexão sobre as características desejáveis em uma linguagem de programação e os critérios de seleção de linguagens de acordo com as especificidades dos domínios de aplicação.</br>\
+						- Uso de uma linguagem orientada a objetos.</br>\
+						- Descrição de sintaxe e semântica.</br>\
+						- Estudo sobre tipos de dados, estruturas de controle, ambientes de execução, variáveis, expressões e subprogramas em linguagens de programação.</p>'
 		},
 		{
 			titulo: 'EngenhariaSoftware',
-			conteudo: 'TESTETESTETESTE'	
+			conteudo: '<p><b>Características</b></br><br>\
+						- Núcleo Comum</br>\
+						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
+						- Disciplina Obrigatória</br><br>\
+						<b>Carga Horária</b></br><br>\
+						- Horas Teóricas: 64h</br>\
+						- Horas Práticas: 00h</br>\
+						- Carga horária total: 64h<br></br>\
+						<b>Pré-Requisitos</b></br><br>\
+						- Nenhum</br></br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Engenharia de Software)</br>\
+						Diretamente<br>\
+						- Projeto de Software</br></br>\
+						Indiretamente<br>\
+						- Nenhum</br></br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						- Requisitos de software.</br>\
+						- Projeto (design) de software.</br>\
+						- Construção de software.</br>\
+						- Teste de software.</br>\
+						- Manutenção de software.</br>\
+						- Gerência de configuração de software.</br>\
+						- Gerência de projeto de software.</br>\
+						- Processo de engenharia de software.</br>\
+						- Modelos e métodos de engenharia de software.</br>\
+						- Qualidade de software.</br>\
+						- Prática profissional de engenharia de software.</br>\
+						- Economia para engenharia de software.</br>\
+						- Fundamentos de engenharia.</p>'
 		},
 		{
 			titulo: 'SistemasOp',
-			conteudo: 'O Bacharelado em Engenharia de Software foi criado em 2009, sendo a UFG a universidade brasileira pioneira. O curso é focado na graduação de um profissional capaz de especificar software; projetar (design) software (inclui arquitetura de software); construir (programar) software com qualidade; realizar atividades de manutenção de software, além de trabalhar em equipe, comunicar e escrever bem. Tem a duração de 9 semestres, predominantesmente no turno noturno.'	
+			conteudo: '<p><b>Características</b></br><br>\
+						- Núcleo Comum</br>\
+						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
+						- Disciplina Obrigatória</br><br>\
+						<b>Carga Horária</b></br><br>\
+						- Horas Teóricas: 32h</br>\
+						- Horas Práticas: 32h</br>\
+						- Carga horária total: 64h<br></br>\
+						<b>Pré-Requisitos</b></br><br>\
+						- Fundamentos de Matemática para Computação Arquitetura de Computadores</br></br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Sistemas Operacionais)</br>\
+						Diretamente<br>\
+						- Nenhum</br></br>\
+						Indiretamente<br>\
+						- Nenhum</br></br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						- Conceitos de Hardware e Software.</br>\
+						- Tipos de Sistemas Operacionais. Organização da Estrutura Interna do Sistema Operacional. Gerência de Processos. Gerência do Processador. Gerência de Memória. Gerência de Dispositivos de Entrada e Saída. Sistemas de Arquivos.</br>\
+						- Estudos de casos de sistemas operacionais atuais.</p>'
 		},
 		{
 			titulo: 'PesquisaOp',
-			conteudo: 'TESTETESTETESTE'	
+			conteudo: '<p><b>Características</b></br><br>\
+						- Núcleo Comum</br>\
+						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
+						- Disciplina Obrigatória</br><br>\
+						<b>Carga Horária</b></br><br>\
+						- Horas Teóricas: 64h</br>\
+						- Horas Práticas: 00h</br>\
+						- Carga horária total: 64h<br></br>\
+						<b>Pré-Requisitos</b></br><br>\
+						- Álgebra Linear</br></br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Pesquisa Operacional)</br>\
+						Diretamente<br>\
+						- Nenhum</br></br>\
+						Indiretamente<br>\
+						- Nenhum</br></br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						- Modelagem.</br>\
+						- Problema de Programação Linear (PL). Resolução gráfica de PL.</br>\
+						- Algoritmo Simplex. Dualidade. Algoritmo Simplex-Dual.</br>\
+						- Pós-otimização e Análise de Sensibilidade.</p>'
 		},
 		{
 			titulo: 'LinguagensFormais',
-			conteudo: 'TESTETESTETESTE'	
+			conteudo: '<p><b>Características</b></br><br>\
+						- Núcleo Comum</br>\
+						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
+						- Disciplina Obrigatória</br><br>\
+						<b>Carga Horária</b></br><br>\
+						- Horas Teóricas: 64h</br>\
+						- Horas Práticas: 00h</br>\
+						- Carga horária total: 64h<br></br>\
+						<b>Pré-Requisitos</b></br><br>\
+						- Fundamentos de Matemática para Computação</br></br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Linguagens Formais e Autômatos)</br>\
+						Diretamente<br>\
+						- Compiladores</br></br>\
+						Indiretamente<br>\
+						- Nenhum</br></br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						- Conceitos básicos de linguagens.</br>\
+						- Mecanismos geradores (gramáticas) e reconhecedores (determinísticos e não determinísticos) de linguagens regulares, livres de contexto e sensíveis ao contexto; relação entre estas classes de linguagens e suas principais propriedades.</br>\
+						- Hierarquia de Chomsky.</p>'
 		},
 	];
 
