@@ -451,31 +451,193 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 	var arrayQuartoSemestre = [
 		{
 			titulo: 'AnaliseAlg',
-			conteudo: 'O Bacharelado em Engenharia de Software foi criado em 2009, sendo a UFG a universidade brasileira pioneira. O curso é focado na graduação de um profissional capaz de especificar software; projetar (design) software (inclui arquitetura de software); construir (programar) software com qualidade; realizar atividades de manutenção de software, além de trabalhar em equipe, comunicar e escrever bem. Tem a duração de 9 semestres, predominantesmente no turno noturno.'	
+			conteudo: '<p><b>Características</b></br><br>\
+						- Núcleo Comum</br>\
+						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
+						- Disciplina Obrigatória</br><br>\
+						<b>Carga Horária</b></br><br>\
+						- Horas Teóricas: 64h</br>\
+						- Horas Práticas: 00h</br>\
+						- Carga horária total: 64h<br></br>\
+						<b>Pré-Requisitos</b></br><br>\
+						- Fundamentos de Matemática para Computação</br>\
+						- Algoritmos e Estruturas de Dados 1</br>\
+						- Algoritmos e Estruturas de Dados 2</br></br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Análise e Projeto de Algoritmos)</br>\
+						Diretamente<br>\
+						- Nenhum</br></br>\
+						Indiretamente<br>\
+						- Nenhum</br></br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						- Medidas de complexidade, análise assintótica de limites de complexidade para algoritmos iterativos e recursivos, técnicas de prova de cotas inferiores.</br>\
+						- Corretude de Algoritmos.</br>\
+						- Exemplos de análise de algoritmos.</br>\
+						- Técnicas de projeto de algoritmos: dividir para conquistar, programação dinâmica, algoritmos gulosos.</br>\
+						- Introdução à NP-Completude.</p>'
 		},
 		{
 			titulo: 'Ihc',
-			conteudo: 'TESTETESTETESTE'	
+			conteudo: '<p><b>Características</b></br><br>\
+						- Núcleo Comum</br>\
+						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
+						- Disciplina Obrigatória</br><br>\
+						<b>Carga Horária</b></br><br>\
+						- Horas Teóricas: 32h</br>\
+						- Horas Práticas: 32h</br>\
+						- Carga horária total: 64h<br></br>\
+						<b>Pré-Requisitos</b></br><br>\
+						- Introdução à Programação</br>\
+						- Cálculo 1A</br>\
+						- Algoritmos e Estruturas de Dados 1</br>\
+						- Probabilidade e Estatística A</br></br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Interação Humano-Computador)</br>\
+						Diretamente<br>\
+						- Nenhum</br></br>\
+						Indiretamente<br>\
+						- Nenhum</br></br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						- Aspectos gerais sobre interação humano-computador.</br>\
+						- Características humanísticas e biológicas, envolvendo questões sobre genealogia, gênero, aspectos étnicos, raciais e culturais, direitos e aspectos políticos, deficiências, limitações e capacidades, dentre outros.</br>\
+						- Ciclo da interação e principais problemas. Metas de usabilidade e experiência do usuário.</br>\
+						- Fatores humanos em software interativo: teoria, princípios e regras básicas. Modelos conceituais e metáforas.</br>\
+						- Estilos de interação. Elementos de interação (menus, formulários, manipulação direta e outros). Voz, linguagem natural, sons, páginas Web. Padrões para interface.</br>\
+						- Localização e internacionalização.</br>\
+						- Princípios de projeto de interfaces humano-computador. Métodos de projeto de interação. Projeto visual (cores, ícones, fontes e outros). Tempo de resposta e retroalimentação.</br>\
+						- Dispositivos de interação.</br>\
+						- Métodos de avaliação de interfaces: avaliação heurística, abordagens para testes realizados com apoio de usuários, técnicas de testes para páginas Web, entre outros.</br>\
+						- Visão geral de ferramentas de desenvolvimento de interfaces humano-computador.</p>'
 		},
 		{
 			titulo: 'BD',
-			conteudo: 'O Bacharelado em Engenharia de Software foi criado em 2009, sendo a UFG a universidade brasileira pioneira. O curso é focado na graduação de um profissional capaz de especificar software; projetar (design) software (inclui arquitetura de software); construir (programar) software com qualidade; realizar atividades de manutenção de software, além de trabalhar em equipe, comunicar e escrever bem. Tem a duração de 9 semestres, predominantesmente no turno noturno.'	
+			conteudo: '<p><b>Características</b></br><br>\
+						- Núcleo Comum</br>\
+						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
+						- Disciplina Obrigatória</br><br>\
+						<b>Carga Horária</b></br><br>\
+						- Horas Teóricas: 48h</br>\
+						- Horas Práticas: 16h</br>\
+						- Carga horária total: 64h<br></br>\
+						<b>Pré-Requisitos</b></br><br>\
+						- Fundamentos de Matemática para Computação</br>\
+						- Lógica Matemática</br></br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Banco de Dados)</br>\
+						Diretamente<br>\
+						- Nenhum</br></br>\
+						Indiretamente<br>\
+						- Nenhum</br></br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						- Conceitos básicos de Banco de Dados.</br>\
+						- Modelo relacional.</br>\
+						- Linguagens para Banco de Dados: álgebra relacional, cálculo relacional e SQL.</br>\
+						- Modelo Entidade-Relacionamento e extensões.</br>\
+						- Mapeamento ER-relacional.</br>\
+						- Normalização.</p>'
 		},
 		{
 			titulo: 'ProjetoSoftware',
-			conteudo: 'TESTETESTETESTE'	
+			conteudo: '<p><b>Características</b></br><br>\
+						- Núcleo Comum</br>\
+						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
+						- Disciplina Obrigatória</br><br>\
+						<b>Carga Horária</b></br><br>\
+						- Horas Teóricas: 64h</br>\
+						- Horas Práticas: 00h</br>\
+						- Carga horária total: 64h<br></br>\
+						<b>Pré-Requisitos</b></br><br>\
+						- Introdução à Programação</br>\
+						- Programação Orientada a Objetos</br>\ 
+						- Engenharia de Software</br></br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Projeto de Software)</br>\
+						Diretamente<br>\
+						- Nenhum</br></br>\
+						Indiretamente<br>\
+						- Nenhum</br></br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						- Fundamentos de design de software.</br>\
+						- Questões básicas de design de software: concorrência, controle e tratamento de eventos, persistência de dados, distribuição, tratamento de erro e exceção, tolerância a falhas, interação e apresentação, e segurança. Estrutura e arquitetura de software.</br>\
+						- Projeto de interface de usuário.</br>\
+						- Análise de qualidade e avaliação de design de software.</br>\
+						- Notação de design de software.</br>\
+						- Métodos e estratégias de design de software.</br>\
+						- Ferramentas de design de software</p>'
 		},
 		{
 			titulo: 'RedesComp',
-			conteudo: 'O Bacharelado em Engenharia de Software foi criado em 2009, sendo a UFG a universidade brasileira pioneira. O curso é focado na graduação de um profissional capaz de especificar software; projetar (design) software (inclui arquitetura de software); construir (programar) software com qualidade; realizar atividades de manutenção de software, além de trabalhar em equipe, comunicar e escrever bem. Tem a duração de 9 semestres, predominantesmente no turno noturno.'	
+			conteudo: '<p><b>Características</b></br><br>\
+						- Núcleo Comum</br>\
+						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
+						- Disciplina Obrigatória</br><br>\
+						<b>Carga Horária</b></br><br>\
+						- Horas Teóricas: 32h</br>\
+						- Horas Práticas: 32h</br>\
+						- Carga horária total: 64h<br></br>\
+						<b>Pré-Requisitos</b></br><br>\
+						- Nenhum</br></br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Redes de Computadores)</br>\
+						Diretamente<br>\
+						- Nenhum</br></br>\
+						Indiretamente<br>\
+						- Nenhum</br></br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						- Fundamentos.</br>\
+						- Arquitetura de Redes TCP/IP (Internet).</br>\
+						- Camadas de Aplicação, Transporte, Rede, Enlace e Física.</br>\
+						- Gerenciamento de Redes.</br>\
+						- Redes Sem Fio e Mobilidade.</br>\
+						- Estudo de Caso de Tópicos Emergentes em Redes.</p>'
 		},
 		{
 			titulo: 'LinguaBrasileira',
-			conteudo: 'TESTETESTETESTE'	
+			conteudo: '<p><b>Características</b></br><br>\
+						- Núcleo Comum</br>\
+						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
+						- Disciplina Obrigatória</br><br>\
+						<b>Carga Horária</b></br><br>\
+						- Horas Teóricas: 64h</br>\
+						- Horas Práticas: 00h</br>\
+						- Carga horária total: 64h<br></br>\
+						<b>Pré-Requisitos</b></br><br>\
+						- Nenhum</br></br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Introdução à Língua Brasileira de Sinais)</br>\
+						Diretamente<br>\
+						- Nenhum</br></br>\
+						Indiretamente<br>\
+						- Nenhum</br></br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						- Introdução às práticas de compreensão e produção em LIBRAS através do uso de estruturas e funções comunicativas elementares.</br>\
+						- Concepções sobre a Língua de Sinais.</br>\
+						- O surdo e a sociedade.</p>'
 		},
 		{
 			titulo: 'Compiladores',
-			conteudo: 'TESTETESTETESTE'	
+			conteudo: '<p><b>Características</b></br><br>\
+						- Núcleo Comum</br>\
+						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
+						- Disciplina Obrigatória</br><br>\
+						<b>Carga Horária</b></br><br>\
+						- Horas Teóricas: 64h</br>\
+						- Horas Práticas: 00h</br>\
+						- Carga horária total: 64h<br></br>\
+						<b>Pré-Requisitos</b></br><br>\
+						- Fundamentos de Matemática para Computação</br>\
+						- Introdução à Programação</br>\
+						- Algoritmos e Estruturas de Dados 1</br>\
+						- Linguagens Formais e Autômatos</br>\
+						- Algoritmos e Estruturas de Dados 2</br></br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Compiladores)</br>\
+						Diretamente<br>\
+						- Nenhum</br></br>\
+						Indiretamente<br>\
+						- Nenhum</br></br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						- A estrutura de um compilador.</br>\
+						- Análises léxica e sintática.</br>\
+						- Definições dirigidas por sintaxe e análise semântica.</br>\
+						- Organização da tabela de símbolos.</br>\
+						- Representação intermediária do programa-fonte.</br>\
+						- Geração do código-objeto da compilação.</br>\
+						- Introdução à otimização do código-objeto.</br>\
+						- Implementação de um compilador.</p>'
 		},
 	];
 
