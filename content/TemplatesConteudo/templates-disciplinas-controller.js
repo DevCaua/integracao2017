@@ -927,7 +927,41 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 	var arrayOitavoSemestre = [
 		{
 			titulo: 'SoftwaresUbiquos',
-			conteudo: 'O Bacharelado em Engenharia de Software foi criado em 2009, sendo a UFG a universidade brasileira pioneira. O curso é focado na graduação de um profissional capaz de especificar software; projetar (design) software (inclui arquitetura de software); construir (programar) software com qualidade; realizar atividades de manutenção de software, além de trabalhar em equipe, comunicar e escrever bem. Tem a duração de 9 semestres, predominantesmente no turno noturno.'	
+			conteudo: '<p><b>Características</b></br><br>\
+						- Núcleo Comum</br>\
+						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
+						- Disciplina Obrigatória</br><br>\
+						<b>Carga Horária</b></br><br>\
+						- Horas Teóricas: 32h</br>\
+						- Horas Práticas: 32h</br>\
+						- Carga horária total: 64h<br></br>\
+						<b>Pré-Requisitos</b></br><br>\
+						- Nenhum</br></br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Software para Sistemas Ubiquos)</br>\
+						Diretamente<br>\
+						- Nenhum</br></br>\
+						Indiretamente<br>\
+						- Nenhum</br></br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						- Sistemas de informação que fazem uso de dispositivos (ubíquos) (16h): smartphones, sensores, internet das coisas (IoT), stream analytics e aspectos de segurança (vulnerabilidades, criptografia, certificados digitais).</br>\
+						- Definição de arquiteturas para soluções móveis (16): conectar serviços, possivelmente de grande volume, fluxo e em tempo real, com a necessidade de analisá-los.</br>\
+						- Desenvolvimento de código para smartphone, sensor ou outro dispositivo capaz de alimentar/receber informações de sistema de informação (32h).</br></br>\
+						<b>Condições Mínimas(qual o domínio do conteúdo abordado que o estudante deve ter, no final da disciplina, para que ele seja aprovado)</b></br><br>\
+						<i>Seguindo instruções (passo-a-passo), o estudante deve ser capaz de:</i></br></br>\
+						- Auxiliar na criação de modelo de ameaça.</br>\
+						- Criar código que faz uso de recursos de segurança (criptografia de dados, assinatura e verificação de assinatura digital)..</br></br>\
+						<i>Sem que instruções sejam dadas, o estudante, com a assistência do professor, deve ser capaz de:</i></br></br>\
+						- Explicar a construção de software, dispositivos e a relação desses com a engenharia de software e de sistema.</br>\
+						- Usar e configurar ferramentas para edição, compilação, depuração (debugging), build, teste, controle de versão, coleta de medidas (desempenho, consumo de memória, análise estática e cobertura), integração contínua, e aplicativos de linha de comandos para busca e encadear comandos.</br>\
+						- Criar código orientado a objetos em conformidade com o projeto (design) detalhado seguindo estratégias recomendadas.</br>\
+						- Usar processos para a construção de software (criação de código, controle de versão, inspeção e integração).</br>\
+						- Detalhar projeto (design) em conformidade com requisitos de software.</br>\
+						- Detalhar projeto de interação (design) em conformidade com requisitos de software.</br>\
+						- Localizar e reutilizar código (bibliotecas e frameworks).</br>\
+						- Colaborar com a construção de código em equipe.</br>\
+						- Explicar a construção de software, segurança e a relação desses com a engenharia de software e de sistema.</br></br>\
+						<i>Sem instruções e sem a assistência do professor, o estudante deve ser capaz de:</i></br></br>\
+						- Explicar a construção de software e a relação dessa área de conhecimento com as demais da engenharia de software.</p>'	
 		},
 		{
 			titulo: 'SoftwarePersistencia',
@@ -943,7 +977,28 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'SitemasDist',
-			conteudo: 'O Bacharelado em Engenharia de Software foi criado em 2009, sendo a UFG a universidade brasileira pioneira. O curso é focado na graduação de um profissional capaz de especificar software; projetar (design) software (inclui arquitetura de software); construir (programar) software com qualidade; realizar atividades de manutenção de software, além de trabalhar em equipe, comunicar e escrever bem. Tem a duração de 9 semestres, predominantesmente no turno noturno.'	
+			conteudo: '<p><b>Características</b></br><br>\
+						- Núcleo Comum</br>\
+						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
+						- Disciplina Obrigatória</br><br>\
+						<b>Carga Horária</b></br><br>\
+						- Horas Teóricas: 32h</br>\
+						- Horas Práticas: 32h</br>\
+						- Carga horária total: 64h<br></br>\
+						<b>Pré-Requisitos</b></br><br>\
+						- Introdução à Programação</br>\
+						- Programação Orientada a Objetos</br></br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Software para Sistemas Ubiquos)</br>\
+						Diretamente<br>\
+						- Nenhum</br></br>\
+						Indiretamente<br>\
+						- Nenhum</br></br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						- Introdução a Sistemas Distribuídos.</br>\
+						- Invocação Remota.</br>\
+						- Objetos Distribuídos.</br>\
+						- Arquiteturas Orientadas a Serviços e utilização de serviços Web.</br>\
+						- Computação Móvel e Ubíqua. Estudo de Casos de Tópicos Emergentes em Sistemas Distribuídos.</p>'	
 		},
 		{
 			titulo: 'Mercado',
