@@ -825,86 +825,86 @@
 
     {
         "nome" : "Processos de Qualidade de Software",
-        "palavrasChave" : ["Núcleo Comum	
-            Obrigatória	
-            6º Período	
-            Teórica	
-            Prática	
-            Sem Pré-Requisito	
-            Custos	
-            Qualidade de Software	
-            Impactos	
-            Garantia	
-            Produto	
-            Processo	
-            Verifivação e Validação	
-            V&V	
-            Requisito	
-            Projeto	
-            Design	
-            Código	
-            Integração	
-            Documentação	
-            Revisão e Auditoria	
-            Revisão Gerencial	
-            Revisão Técnica	"],
+        "palavrasChave" : ["Núcleo Comum",	
+            "Obrigatória",	
+            "6º Período",	
+            "Teórica",
+            "Prática",	
+            "Sem Pré-Requisito",	
+            "Custos",	
+            "Qualidade de Software",	
+            "Impactos",	
+            "Garantia",	
+            "Produto",	
+            "Processo",	
+            "Verifivação e Validação",	
+            "V&V",	
+            "Requisito",	
+            "Projeto",	
+            "Design",	
+            "Código",	
+            "Integração",	
+            "Documentação",	
+            "Revisão e Auditoria",	
+            "Revisão Gerencial",	
+            "Revisão Técnica"],
         "areaSwebok" : ["area1", "area2", "area3"]
     },
 
     {
         "nome" : "Gerência de Projeto de Software",
-        "palavrasChave" : ["PMBOK	
-            6° período	
-            Obrigatória	
-            Núcleo específico	
-            Ciclo de Vida	
-            Produto	
-            Projeto	
-            Serviços web	
-            mpsBr / CMMI	
-            Aquisição 	
-            Desenvolvimento 	
-            Refatoração	
-            Descontinuação	
-            Escopo	
-            Cronograma	
-            Tempo	
-            Custos	
-            Qualidade 	
-            Recursos humanos	
-            Métodos ágeis	
-            Partes interessadas	
-            Integração	
-            Gestão	
-            Aquisições	
-            Riscos	
-            Comunicações"],
-        "areaSwebok" : ["Software Engineering Management	
-            Gerenciamento da engenharia de software	
-            Initiation and Scope Definition	
-            Iniciação e definição do escopo	
-            Software Project Planning	
-            Planejamento do projeto de software	
-            Determine Deliverables	
-            Determinação de entregáveis	
-            Effort, Schedule and cost estimation	
-            Estimativa de esforço, cronograma e custos	
-            Resource Allocation	
-            Alocação de recursos	
-            Risk Management	
-            Gerenciamento de riscos	
-            Quality Management 	
-            Plan Management	
-            Gerenciamento do planejamento	
-            Software Project Enactment	
-            Controle do projeto de software	
-            Review and evaluation	
-            Revisão e avaliação	
-            Closure	
-            Encerramento do projeto	
-            Software Engineering Process	
-            Processo de engenharia de software	
-            Software Process Assessment and Improvement"]
+        "palavrasChave" : ["PMBOK",	
+            "6° período",	
+            "Obrigatória",	
+            "Núcleo específico",	
+            "Ciclo de Vida",	
+            "Produto",	
+            "Projeto",	
+            "Serviços web",	
+            "mpsBr / CMMI",	
+            "Aquisição",	
+            "Desenvolvimento", 	
+            "Refatoração",	
+            "Descontinuação",	
+            "Escopo",	
+            "Cronograma",	
+            "Tempo",	
+            "Custos",	
+            "Qualidade",	
+            "Recursos humanos",	
+            "Métodos ágeis",	
+            "Partes interessadas",	
+            "Integração",	
+            "Gestão",	
+            "Aquisições",	
+            "Riscos",	
+            "Comunicações"],
+        "areaSwebok" : ["Software Engineering Management",	
+            "Gerenciamento da engenharia de software",	
+            "Initiation and Scope Definition",	
+            "Iniciação e definição do escopo",	
+            "Software Project Planning",	
+            "Planejamento do projeto de software",	
+            "Determine Deliverables",	
+            "Determinação de entregáveis",	
+            "Effort, Schedule and cost estimation",	
+            "Estimativa de esforço, cronograma e custos",	
+            "Resource Allocation",	
+            "Alocação de recursos",	
+            "Risk Management",	
+            "Gerenciamento de riscos",	
+            "Quality Management", 	
+            "Plan Management",	
+            "Gerenciamento do planejamento",	
+            "Software Project Enactment",	
+            "Controle do projeto de software",	
+            "Review and evaluation",	
+            "Revisão e avaliação",	
+            "Closure",	
+            "Encerramento do projeto",	
+            "Software Engineering Process",	
+            "Processo de engenharia de software",	
+            "Software Process Assessment and Improvement"]
     },
 
     {
