@@ -909,221 +909,221 @@
 
     {
         "nome" : "Software Concorrente e Distribuído",
-        "palavrasChave" : ["Núcleo Comum	
-            Teórica	
-            Prática	
-            7º Período	
-            Obrigatória	
-            Sem Pré-Requisito	
-            Qualidade de Produto	
-            Escalabilidade	
-            Tolerância a falhas	
-            Disponibilidade	
-            Desempenho	
-            Middleware	
-            Distribuição	
-            Paralelismo	
-            Concorrência	
-            RESTful	
-            Web	
-            Internet das Coisas	
-            Contêineres	
-            Troca de Mensagens	
-            Micro-Serviços	
-            Serviços web	
-            Construção de software	
-            Software distribuído	
-            Software Concorrente	
-            Aplicações IO-intensive	
-            Aplicações CPU-intensive	
-            Thread Safe	
-            Memória Compartilhada	
-            Software Transactional Memory	
-            Atores	
-            Abordagens para esplorar concorrência	
-            Projeto	
-            Implementação e uso de interface de programação	
-            Microservices	
-            Messaging"],
+        "palavrasChave" : ["Núcleo Comum",	
+            "Teórica",	
+            "Prática",	
+            "7º Período",	
+            "Obrigatória",	
+            "Sem Pré-Requisito",	
+            "Qualidade de Produto",	
+            "Escalabilidade",	
+            "Tolerância a falhas",
+            "Disponibilidade",	
+            "Desempenho",	
+            "Middleware",	
+            "Distribuição",	
+            "Paralelismo",	
+            "Concorrência",	
+            "RESTful",	
+            "Web",	
+            "Internet das Coisas",	
+            "Contêineres",	
+            "Troca de Mensagens",	
+            "Micro-Serviços",	
+            "Serviços web",	
+            "Construção de software",	
+            "Software distribuído",	
+            "Software Concorrente",	
+            "Aplicações IO-intensive",	
+            "Aplicações CPU-intensive",	
+            "Thread Safe",	
+            "Memória Compartilhada",	
+            "Software Transactional Memory",	
+            "Atores",	
+            "Abordagens para esplorar concorrência",	
+            "Projeto",	
+            "Implementação e uso de interface de programação",	
+            "Microservices",	
+            "Messaging"],
         "areaSwebok" : ["area1", "area2", "area3"]
     },
 
     {
         "nome" : "Experiência do Usuário de Software",
-        "palavrasChave" : ["Núcleo Comum	
-            Teórica	
-            Prática	
-            7º Período	
-            Obrigatória	
-            Sem Pré-Requisito	
-            Qualidade em Uso	
-            Usabilidade	
-            Acessibilidade	
-            Design	
-            Modelagem	
-            Usuário	
-            Modelos de Validação de Experiência	
-            Interface Gráfica	
-            Camada de Apresentação	
-            Projeto de Interação	
-            Design Centrado no Usuário	"],
+        "palavrasChave" : ["Núcleo Comum",	
+            "Teórica",	
+            "Prática",	
+            "7º Período",	
+            "Obrigatória",	
+            "Sem Pré-Requisito",	
+            "Qualidade em Uso",	
+            "Usabilidade",	
+            "Acessibilidade",	
+            "Design",	
+            "Modelagem",	
+            "Usuário",	
+            "Modelos de Validação de Experiência",
+            "Interface Gráfica",	
+            "Camada de Apresentação",	
+            "Projeto de Interação",	
+            "Design Centrado no Usuário"],
         "areaSwebok" : ["area1", "area2", "area3"]
     },
 
     {
         "nome" : "Arquitetura de Software",
-        "palavrasChave" : ["Núcleo Comum	
-            Teórica	
-            Prática	
-            7º Período	
-            Obrigatória	
-            Sem Pré-Requisito	
-            Qualidade de Software	
-            Requisitos de Software	
-            Projeto Detalhado	
-            Requisitos de Qualidade	
-            Requisitos Funcionais	
-            Método de Desenvolvimento	
-            Documentação	"],
+        "palavrasChave" : ["Núcleo Comum",	
+            "Teórica",	
+            "Prática",	
+            "7º Período",	
+            "Obrigatória",	
+            "Sem Pré-Requisito",	
+            "Qualidade de Software",	
+            "Requisitos de Software",	
+            "Projeto Detalhado",	
+            "Requisitos de Qualidade",	
+            "Requisitos Funcionais",	
+            "Método de Desenvolvimento",	
+            "Documentação"],
         "areaSwebok" : ["area1", "area2", "area3"]
     },
 
     {
         "nome" : "Requisitos de Software",
-        "palavrasChave" : ["Núcleo Comum	
-            Teórica	
-            Prática	
-            7º Período	
-            Obrigatória	
-            Sem Pré-Requisito	
-            Processo	
-            Elicitação de requisitos	
-            Análise de requisitos	
-            Especificação de Requisitos	
-            Verificação e Validação	
-            V&V	
-            Engenharia de Requisitos	
-            Analista de Requisitos	
-            Modelos e métodos	
-            Gerência de Projetos	
-            GPS	
-            Projeto arquitetural	"],
+        "palavrasChave" : ["Núcleo Comum",	
+            "Teórica",	
+            "Prática",	
+            "7º Período",	
+            "Obrigatória",	
+            "Sem Pré-Requisito",	
+            "Processo",	
+            "Elicitação de requisitos",	
+            "Análise de requisitos",	
+            "Especificação de Requisitos",	
+            "Verificação e Validação",	
+            "V&V",	
+            "Engenharia de Requisitos",	
+            "Analista de Requisitos",	
+            "Modelos e métodos",	
+            "Gerência de Projetos",	
+            "GPS",	
+            "Projeto arquitetural"],
         "areaSwebok" : ["area1", "area2", "area3"]
     },
 
     {
         "nome" : "Governança e Gestão de Serviços de Software",
-        "palavrasChave" : ["Obrigatória	
-            7° Período	
-            Governança	
-            Conformidade	
-            Compliance	
-            Alinhamento	
-            Estratégias	
-            Negócios	
-            Corporações	
-            ITIL V3	
-            COBIT	
-            Abordagens de governança	
-            Planejamento de software	
-            Controle estratégico de software	
-            Saas	
-            Governança de dados	
-            Segurança da informação	
-            Ciclo de vida de um serviço	
-            Manutenção de um serviço	
-            BPM	
-            Valor ao negócio"],
-        "areaSwebok" : ["Software Enginerring Process	
-            Processo de engenharia de software	
-            Software Life Cycles	
-            Ciclos de vida de software	
-            Life cycles economics	
-            Economia nos ciclos de vida	
-            Product / Product Life Cycles	
-            Produto / Ciclo de vida de produto	
-            Portfolio	
-            Investment Decisions	
-            Decisões de investimento	
-            Planning Horizon	
-            Planejando o futuro	
-            Price and Pricing	
-            Preço e Precificação	
-            Cost and Costing	
-            Custo	
-            Perforamance Measurament	
-            Medição de performance"]
+        "palavrasChave" : ["Obrigatória",
+            "7° Período",	
+            "Governança",	
+            "Conformidade",	
+            "Compliance",	
+            "Alinhamento",	
+            "Estratégias",	
+            "Negócios",	
+            "Corporações",	
+            "ITIL V3",	
+            "COBIT",	
+            "Abordagens de governança",	
+            "Planejamento de software",	
+            "Controle estratégico de software",	
+            "Saas",	
+            "Governança de dados",	
+            "Segurança da informação",	
+            "Ciclo de vida de um serviço",	
+            "Manutenção de um serviço",	
+            "BPM",	
+            "Valor ao negócio"],
+        "areaSwebok" : ["Software Enginerring Process",	
+            "Processo de engenharia de software",	
+            "Software Life Cycles",	
+            "Ciclos de vida de software",	
+            "Life cycles economics",	
+            "Economia nos ciclos de vida",	
+            "Product / Product Life Cycles",	
+            "Produto / Ciclo de vida de produto",	
+            "Portfolio",	
+            "Investment Decisions",	
+            "Decisões de investimento",	
+            "Planning Horizon",	
+            "Planejando o futuro",	
+            "Price and Pricing",	
+            "Preço e Precificação",	
+            "Cost and Costing",	
+            "Custo",	
+            "Perforamance Measurament",	
+            "Medição de performance"]
     },
 
     {
         "nome" : "Sistemas Distribuídos",
-        "palavrasChave" : ["Núcleo Específico	
-            Teórica	
-            8º Período	
-            Com Pré-Requisito	
-            Programação Orientada a Objetos	
-            Invocação Remota	
-            Objetos Distribuídos	
-            Arquiteturas	
-            Serviços Web	
-            Orientadas a Serviços	
-            Computação Móvel	
-            Computação Ubíqua	"],
+        "palavrasChave" : ["Núcleo Específico",	
+            "Teórica",	
+            "8º Período",	
+            "Com Pré-Requisito",	
+            "Programação Orientada a Objetos",	
+            "Invocação Remota",	
+            "Objetos Distribuídos",	
+            "Arquiteturas",	
+            "Serviços Web",	
+            "Orientadas a Serviços",	
+            "Computação Móvel",	
+            "Computação Ubíqua"],
         "areaSwebok" : ["area1", "area2", "area3"]
     },
 
     {
         "nome" : "Software para Sistemas Ubíquos",
-        "palavrasChave" : ["Teórica	
-            Prática	
-            Núcleo Comum	
-            8º Período	
-            Obrigatória	
-            Sem Pré-Requisito	
-            Sistema de Informação	
-            SI	
-            Dispositivos Ubíquos	
-            Smartphones	
-            Internet das Coisas	
-            IoT	
-            Hardware	
-            Stream analytics	
-            Sensores	
-            Segurança	
-            Vulnerabilidade	
-            Criptografica	
-            Certificados Digitais	
-            Arquitetura de Software	
-            Soluções Móveis	
-            Mobile	
-            Fluxo de serviços	
-            Serviços de Grande Volume"],
+        "palavrasChave" : ["Teórica",	
+            "Prática",	
+            "Núcleo Comum",	
+            "8º Período",	
+            "Obrigatória",	
+            "Sem Pré-Requisito",	
+            "Sistema de Informação",	
+            "SI",	
+            "Dispositivos Ubíquos",	
+            "Smartphones",	
+            "Internet das Coisas",	
+            "IoT",	
+            "Hardware",	
+            "Stream analytics",	
+            "Sensores",	
+            "Segurança",	
+            "Vulnerabilidade",	
+            "Criptografica",	
+            "Certificados Digitais",	
+            "Arquitetura de Software",	
+            "Soluções Móveis",	
+            "Mobile",	
+            "Fluxo de serviços",	
+            "Serviços de Grande Volume"],
         "areaSwebok" : ["area1", "area2", "area3"]
     },
 
     {
         "nome" : "Software para Persistência de Dados",
-        "palavrasChave" : ["Banco de dados	
-            Serialização de objetos	
-            XML 	
-            JSON	
-            NOsql	
-            Firebase	
-            Mapamento 	
-            Álgebra Relacional	
-            Diagrama entidade-relacionamento	
-            Integração de BD	
-            Refatoração	
-            Normalização	
-            1° forma normal (1FN)	
-            2° forma normal (2FN)	
-            3° forma normal (3FN)	
-            Oracle	
-            SQL 	
-            CRUD	
-            8° Período	
-            Obrigatória 	
-            Núcleo específico"],
+        "palavrasChave" : ["Banco de dados",	
+            "Serialização de objetos",	
+            "XML", 	
+            "JSON",	
+            "NOsql",	
+            "Firebase",	
+            "Mapamento",	
+            "Álgebra Relacional",	
+            "Diagrama entidade-relacionamento",	
+            "Integração de BD",	
+            "Refatoração",	
+            "Normalização",	
+            "1° forma normal (1FN)",	
+            "2° forma normal (2FN)",	
+            "3° forma normal (3FN)",	
+            "Oracle",	
+            "SQL", 	
+            "CRUD",	
+            "8° Período",	
+            "Obrigatória",	
+            "Núcleo específico"],
         "areaSwebok" : ["area1", "area2", "area3"]
     },
 
