@@ -139,7 +139,7 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
         template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
         controller: 'TemplatesController',
         params:{
-            menuEscolhido: 'Informacoes',
+            menuEscolhido: 'EC',
             subMenuSelecionado: 'AtividadesComplementares'
         }
     }

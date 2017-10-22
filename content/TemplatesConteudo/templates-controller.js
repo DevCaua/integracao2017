@@ -281,12 +281,54 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 			conteudo: 'teste'	
 		},
 		{
+			titulo: 'AtividadesComplementares',
+			conteudo: '<p>O estudante do BES deve cumprir o mínimo de 192 horas em atividades complementares para a integralização curricular. Essas horas correspondem a 6% da carga horária do curso, conforme a distribuição da carga horária do curso na Tabela 4 (p. 38).</br></br>\
+			As atividades complementares contemplam ações de monitoria, produção científica, extensão, produção técnica e de representação e qualificação, dentre outras. O cumprimento das atividades complementares é estabelecido formalmente pelo Regulamento de Atividades Complementares do Bacharelado em Engenharia de Software.</p>'	
+		},
+		{
 			titulo: 'FluxoSugerido',
 			conteudo: 'TESTETESTETESTE'	
 		},
 		{
 			titulo: 'CargaHoraria',
-			conteudo: 'TESTETESTETESTE'	
+			conteudo: '<p>As Tabelas 1, 2 e 3, juntamente com a definição das horas do Núcleo Livre (NL) e das atividades complementares, seções acima, resultam nos valores compilados na Tabela 4.</br></br>\
+			<table class="tabela">\
+				<tr>\
+					<th><b>Componentes Curriculares</b></th>\
+					<th><b>CHT</b></th>\
+					<th><b>Percentual</b></th>\
+				</tr>\
+				<tr>\
+					<th>Núcleo Comum (NC)</th>\
+					<th>1088</th>\
+					<th>34%</th>\
+				</tr>\
+				<tr>\
+					<th>Núcleo Específico (NE) (obrigatório)</th>\
+					<th>1600</th>\
+					<th>50%</th>\
+				</tr>\
+				<tr>\
+					<th>Núcleo Específico (NE) (optativo)</th>\
+					<th>192</th>\
+					<th>6%</th>\
+				</tr>\
+				<tr>\
+					<th>Núcleo Livre (NL)</th>\
+					<th>128</th>\
+					<th>4%</th>\
+				</tr>\
+				<tr>\
+					<th>Atividades Complementares</th>\
+					<th>192</th>\
+					<th>6%</th>\
+				</tr>\
+				<tr>\
+					<th><b>CARGA HORÁRIA TOTAL (CHT)</b></th>\
+					<th><b>3200</b></th>\
+					<th><b>100%</b></th>\
+				</tr>\
+			</table></p>'	
 		},
 	];
 
@@ -299,10 +341,6 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 			Convém observar que o estágio está restrito às empresas devidamente conveniadas com a UFG ou que se utilizam de agentes de integração conveniados. Adicionalmente, dois outros papéis são obrigatórios no estágio: (a) supervisor (no local do estágio) e (b) orientador (professor do curso).</br><br>\
 			Durante o estágio, que não pode ultrapassar 24 meses em mesmo local, o estudante deverá apresentar o Termo de Compromisso, o Plano de Estágio, além da frequência e dos relatórios semestrais.</br></br>\
 			Os documentos citados acima, bem como outros detalhes do estágio, em conformidade com a Lei 11.788/2008, são definidos pelo Regulamento de Estágio de Curso do Bacharelado em Engenharia de Software.</p>'	
-		},
-		{
-			titulo: 'AtividadesComplementares',
-			conteudo: 'TESTETESTETESTE'	
 		},
 		{
 			titulo: 'Equivalencias',
