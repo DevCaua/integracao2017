@@ -110,6 +110,17 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
             subMenuSelecionado: 'MatrizCurricular'
         }
     }
+
+    var nlState = {
+        name: 'nl',
+        url: '/nucleo_livre',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
+        controller: 'TemplatesController',
+        params:{
+            menuEscolhido: 'EC',
+            subMenuSelecionado: 'NL'
+        }
+    }
   
     var fluxoState = {
         name: 'fluxo',
@@ -223,6 +234,7 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
 
     // state Estrutura Curricular
     $stateProvider.state(matrizState);
+    $stateProvider.state(nlState);
     $stateProvider.state(fluxoState);
     $stateProvider.state(cargaState);
 

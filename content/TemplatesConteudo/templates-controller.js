@@ -278,12 +278,503 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 	var arrayEstruturaCurricular = [
 		{
 			titulo: 'MatrizCurricular',
-			conteudo: 'teste'	
+			conteudo: '<table class="tabela-matriz">\
+						<tr>\
+							<th>Nº</th>\
+							<th>Disciplina</th>\
+							<th>Pré</th>\
+							<th>Unidade</th>\
+							<th>TEO</th>\
+							<th>PRA</th>\
+							<th>CHT</th>\
+							<th>Núcleo</th>\
+						</tr>\
+						<tr>\
+							<th>1</th>\
+							<th>Computação e Sociedade</th>\
+							<th></th>\
+							<th>INF</th>\
+							<th>32</th>\
+							<th>0</th>\
+							<th>32</th>\
+							<th>NC</th>\
+						</tr>\
+						<tr>\
+							<th>2</th>\
+							<th>Introdução à Programação</th>\
+							<th></th>\
+							<th>INF</th>\
+							<th>48</th>\
+							<th>80</th>\
+							<th>128</th>\
+							<th>NC</th>\
+						</tr>\
+						<tr>\
+							<th>3</th>\
+							<th>Cálculo 1A</th>\
+							<th></th>\
+							<th>IME</th>\
+							<th>96</th>\
+							<th>0</th>\
+							<th>96</th>\
+							<th>NC</th>\
+						</tr>\
+						<tr>\
+							<th>4</th>\
+							<th>Fundamentos de Matemática para Computação</th>\
+							<th></th>\
+							<th>INF</th>\
+							<th>64</th>\
+							<th>0</th>\
+							<th>64</th>\
+							<th>NC</th>\
+						</tr>\
+						<tr>\
+							<th>5</th>\
+							<th>Arquitetura de Computadores</th>\
+							<th>4</th>\
+							<th>INF</th>\
+							<th>64</th>\
+							<th>0</th>\
+							<th>64</th>\
+							<th>NC</th>\
+						</tr>\
+						<tr>\
+							<th>6</th>\
+							<th>Algoritmos e Estruturas de Dados 1</th>\
+							<th>2</th>\
+							<th>INF</th>\
+							<th>32</th>\
+							<th>32</th>\
+							<th>64</th>\
+							<th>NC</th>\
+						</tr>\
+						<tr>\
+							<th>7</th>\
+							<th>Probabilidade e Estatística A</th>\
+							<th>3</th>\
+							<th>IME</th>\
+							<th>64</th>\
+							<th>0</th>\
+							<th>64</th>\
+							<th>NC</th>\
+						</tr>\
+						<tr>\
+							<th>8</th>\
+							<th>Álgebra Linear</th>\
+							<th></th>\
+							<th>IME</th>\
+							<th>64</th>\
+							<th>0</th>\
+							<th>64</th>\
+							<th>NC</th>\
+						</tr>\
+						<tr>\
+							<th>9</th>\
+							<th>Lógica Matemática</th>\
+							<th>4</th>\
+							<th>INF</th>\
+							<th>64</th>\
+							<th>0</th>\
+							<th>64</th>\
+							<th>NC</th>\
+						</tr>\
+						<tr>\
+							<th>10</th>\
+							<th>Programação Orientada a Objetos</th>\
+							<th>2</th>\
+							<th>INF</th>\
+							<th>32</th>\
+							<th>32</th>\
+							<th>64</th>\
+							<th>NC</th>\
+						</tr>\
+						<tr>\
+							<th>11</th>\
+							<th>Algoritmos e Estruturas de Dados 2</th>\
+							<th>6</th>\
+							<th>INF</th>\
+							<th>64</th>\
+							<th>0</th>\
+							<th>64</th>\
+							<th>NC</th>\
+						</tr>\
+						<tr>\
+							<th>12</th>\
+							<th>Linguagens e Paradigmas de Programação</th>\
+							<th>3</th>\
+							<th>INF</th>\
+							<th>32</th>\
+							<th>32</th>\
+							<th>64</th>\
+							<th>NC</th>\
+						</tr>\
+						<tr>\
+							<th>13</th>\
+							<th>Engenharia de Software</th>\
+							<th></th>\
+							<th>INF</th>\
+							<th>64</th>\
+							<th>0</th>\
+							<th>64</th>\
+							<th>NC</th>\
+						</tr>\
+						<tr>\
+							<th>14</th>\
+							<th>Análise e Projeto de Algoritmos</th>\
+							<th>4,11</th>\
+							<th>INF</th>\
+							<th>64</th>\
+							<th>0</th>\
+							<th>64</th>\
+							<th>NC</th>\
+						</tr>\
+						<tr>\
+							<th>15</th>\
+							<th>Interação Humano-Computador</th>\
+							<th>6,7</th>\
+							<th>INF</th>\
+							<th>32</th>\
+							<th>32</th>\
+							<th>64</th>\
+							<th>NC</th>\
+						</tr>\
+						<tr>\
+							<th>16</th>\
+							<th>Banco de Dados</th>\
+							<th>9</th>\
+							<th>INF</th>\
+							<th>48</th>\
+							<th>16</th>\
+							<th>64</th>\
+							<th>NC</th>\
+						</tr>\
+							<th>17</th>\
+							<th>Projeto de Software</th>\
+							<th>10,13</th>\
+							<th>INF</th>\
+							<th>64</th>\
+							<th>0</th>\
+							<th>64</th>\
+							<th>NC</th>\
+						</tr>\
+					</table><br></br>\
+					As disciplinas da Tabela 1 fornecem uma sólida formação em Computação, o que inclui o recomendado para a formação em Matemática. Além dessas, outras seis de Computação são oferecidas como optativas na Tabela 3 (p. 37).</br></br>\
+					As disciplinas da Tabela 2, por outro lado, são específicas da Engenharia de Software.Todas elas são obrigatórias, fazem parte do Núcleo Específico (NE) e são oferecidas pelo INF</br></br></p>\
+					<table class="tabela-matriz">\
+						<tr>\
+							<th>Nº</th>\
+							<th>Disciplina</th>\
+							<th>Pré</th>\
+							<th>Unidade</th>\
+							<th>TEO</th>\
+							<th>PRA</th>\
+							<th>CHT</th>\
+							<th>Núcleo</th>\
+						</tr>\
+						<tr>\
+							<th>18</th>\
+							<th>Construção de Software</th>\
+							<th></th>\
+							<th>INF</th>\
+							<th>48</th>\
+							<th>80</th>\
+							<th>128</th>\
+							<th>NE</th>\
+						</tr>\
+						<tr>\
+							<th>19</th>\
+							<th>Modelagem de Software</th>\
+							<th></th>\
+							<th>INF</th>\
+							<th>16</th>\
+							<th>48</th>\
+							<th>64</th>\
+							<th>NE</th>\
+						</tr>\
+						<tr>\
+							<th>20</th>\
+							<th>Processos de Software</th>\
+							<th></th>\
+							<th>INF</th>\
+							<th>32</th>\
+							<th>32</th>\
+							<th>64</th>\
+							<th>NE</th>\
+						</tr>\
+						<tr>\
+							<th>21</th>\
+							<th>Engenharia de Sistemas</th>\
+							<th></th>\
+							<th>INF</th>\
+							<th>64</th>\
+							<th>0</th>\
+							<th>64</th>\
+							<th>NE</th>\
+						</tr>\
+						<tr>\
+							<th>22</th>\
+							<th>Design de Software</th>\
+							<th></th>\
+							<th>INF</th>\
+							<th>48</th>\
+							<th>80</th>\
+							<th>128</th>\
+							<th>NE</th>\
+						</tr>\
+						<tr>\
+							<th>23</th>\
+							<th>Domínios de Software</th>\
+							<th></th>\
+							<th>INF</th>\
+							<th>16</th>\
+							<th>48</th>\
+							<th>64</th>\
+							<th>NE</th>\
+						</tr>\
+						<tr>\
+							<th>24</th>\
+							<th>Processos de Qualidade de Software</th>\
+							<th></th>\
+							<th>INF</th>\
+							<th>48</th>\
+							<th>16</th>\
+							<th>64</th>\
+							<th>NE</th>\
+						</tr>\
+						<tr>\
+							<th>25</th>\
+							<th>Gerência de Projeto de Software</th>\
+							<th></th>\
+							<th>INF</th>\
+							<th>32</th>\
+							<th>32</th>\
+							<th>64</th>\
+							<th>NE</th>\
+						</tr>\
+						<tr>\
+							<th>26</th>\
+							<th>Software Concorrente e Distribuído</th>\
+							<th></th>\
+							<th>INF</th>\
+							<th>32</th>\
+							<th>32</th>\
+							<th>64</th>\
+							<th>NE</th>\
+						</tr>\
+						<tr>\
+							<th>27</th>\
+							<th>Experiência do Usuário de Software</th>\
+							<th></th>\
+							<th>INF</th>\
+							<th>32</th>\
+							<th>32</th>\
+							<th>64</th>\
+							<th>NE</th>\
+						</tr>\
+						<tr>\
+							<th>28</th>\
+							<th>Arquitetura de Software</th>\
+							<th></th>\
+							<th>INF</th>\
+							<th>32</th>\
+							<th>32</th>\
+							<th>64</th>\
+							<th>NE</th>\
+						</tr>\
+						<tr>\
+							<th>29</th>\
+							<th>Requisitos de Software</th>\
+							<th></th>\
+							<th>INF</th>\
+							<th>32</th>\
+							<th>32</th>\
+							<th>64</th>\
+							<th>NE</th>\
+						</tr>\
+						<tr>\
+							<th>30</th>\
+							<th>Governança e Gestão de Serviços de Software</th>\
+							<th></th>\
+							<th>INF</th>\
+							<th>48</th>\
+							<th>16</th>\
+							<th>64</th>\
+							<th>NE</th>\
+						</tr>\
+						<tr>\
+							<th>31</th>\
+							<th>Software para Sistemas Ubíquos</th>\
+							<th></th>\
+							<th>INF</th>\
+							<th>32</th>\
+							<th>32</th>\
+							<th>64</th>\
+							<th>NE</th>\
+						</tr>\
+						<tr>\
+							<th>32</th>\
+							<th>Software para Persistência de Dados</th>\
+							<th></th>\
+							<th>INF</th>\
+							<th>32</th>\
+							<th>32</th>\
+							<th>64</th>\
+							<th>NE</th>\
+						</tr>\
+						<tr>\
+							<th>33</th>\
+							<th>Padrões de Arquitetura de Software</th>\
+							<th></th>\
+							<th>INF</th>\
+							<th>32</th>\
+							<th>32</th>\
+							<th>64</th>\
+							<th>NE</th>\
+						</tr>\
+						<tr>\
+							<th>34</th>\
+							<th>Testes de Software</th>\
+							<th></th>\
+							<th>INF</th>\
+							<th>32</th>\
+							<th>32</th>\
+							<th>64</th>\
+							<th>NE</th>\
+						</tr>\
+						<tr>\
+							<th>35</th>\
+							<th>Prática em Engenharia de Software</th>\
+							<th></th>\
+							<th>INF</th>\
+							<th>0</th>\
+							<th>320</th>\
+							<th>320</th>\
+							<th>NE</th>\
+						</tr>\
+					</table></br></br>\
+					São nove as disciplinas optativas. O estudante terá que escolher três delas, conforme as opções oferecidas na Tabela 3 abaixo.</br></br>\
+					<table class="tabela-matriz">\
+						<tr>\
+							<th>Nº</th>\
+							<th>Disciplina</th>\
+							<th>Pré</th>\
+							<th>Unidade</th>\
+							<th>TEO</th>\
+							<th>PRA</th>\
+							<th>CHT</th>\
+							<th>Núcleo</th>\
+							<th>Optativa</th>\
+						</tr>\
+						<tr>\
+							<th>36</th>\
+							<th>Pesquisa Operacional</th>\
+							<th>8</th>\
+							<th>INF</th>\
+							<th>64</th>\
+							<th>0</th>\
+							<th>64</th>\
+							<th>NE</th>\
+							<th>1</th>\
+						</tr>\
+						<tr>\
+							<th>37</th>\
+							<th>Linguagens Formais e Autômatos</th>\
+							<th>4</th>\
+							<th>INF</th>\
+							<th>64</th>\
+							<th>0</th>\
+							<th>64</th>\
+							<th>NE</th>\
+							<th>1</th>\
+						</tr>\
+						<tr>\
+							<th>38</th>\
+							<th>Sistemas Operacionais</th>\
+							<th>5</th>\
+							<th>INF</th>\
+							<th>64</th>\
+							<th>0</th>\
+							<th>64</th>\
+							<th>NE</th>\
+							<th>1</th>\
+						</tr>\
+						<tr>\
+							<th>39</th>\
+							<th>Compiladores</th>\
+							<th>11,37</th>\
+							<th>INF</th>\
+							<th>64</th>\
+							<th>0</th>\
+							<th>64</th>\
+							<th>2</th>\
+						</tr>\
+						<tr>\
+							<th>40</th>\
+							<th>Redes de Computadores</th>\
+							<th></th>\
+							<th>INF</th>\
+							<th>64</th>\
+							<th>0</th>\
+							<th>64</th>\
+							<th>NE</th>\
+							<th>2</th>\
+						</tr>\
+						<tr>\
+							<th>41</th>\
+							<th>Introdução à Língua Brasileira de Sinais</th>\
+							<th></th>\
+							<th>LETRAS</th>\
+							<th>64</th>\
+							<th>0</th>\
+							<th>64</th>\
+							<th>NE</th>\
+							<th>2</th>\
+						</tr>\
+						<tr>\
+							<th>42</th>\
+							<th>Sistemas Distribuídos</th>\
+							<th>10</th>\
+							<th>INF</th>\
+							<th>64</th>\
+							<th>0</th>\
+							<th>64</th>\
+							<th>NE</th>\
+							<th>3</th>\
+						</tr>\
+						<tr>\
+							<th>43</th>\
+							<th>Metodologia e Experimentação em Engenharia de Software</th>\
+							<th></th>\
+							<th>INF</th>\
+							<th>64</th>\
+							<th>0</th>\
+							<th>64</th>\
+							<th>NE</th>\
+							<th>3</th>\
+						</tr>\
+						<tr>\
+							<th>44</th>\
+							<th>Mercado e Economia de Software</th>\
+							<th></th>\
+							<th>INF</th>\
+							<th>64</th>\
+							<th>0</th>\
+							<th>64</th>\
+							<th>NE</th>\
+							<th>3</th>\
+						</tr>\
+					</table></p>'	
 		},
 		{
 			titulo: 'AtividadesComplementares',
 			conteudo: '<p>O estudante do BES deve cumprir o mínimo de 192 horas em atividades complementares para a integralização curricular. Essas horas correspondem a 6% da carga horária do curso, conforme a distribuição da carga horária do curso na Tabela 4 (p. 38).</br></br>\
 			As atividades complementares contemplam ações de monitoria, produção científica, extensão, produção técnica e de representação e qualificação, dentre outras. O cumprimento das atividades complementares é estabelecido formalmente pelo Regulamento de Atividades Complementares do Bacharelado em Engenharia de Software.</p>'	
+		},
+		{
+			titulo: 'NL',
+			conteudo: '<p>O Núcleo Livre (NL) é o conjunto de conteúdos voltado para promover a interdisciplinaridade e a transdisciplinaridade, dentre outros objetivos.</br></br>\
+			A carga horária definida pelo BES para o NL é de 128 horas, que é o mínimo estabelecido pelo Regimento Geral dos Cursos de Graduação (RGCG) da UFG [RGCG]. Tais 128 horas perfazem 4% da carga horária do curso, conforme a Tabela 4 (p. 38).</p>'	
 		},
 		{
 			titulo: 'FluxoSugerido',
@@ -358,15 +849,15 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 		{
 			titulo: 'AvaliacaoProcesso',
 			conteudo: '<p>O que é realizado em nome do curso para que o estudante adquira o perfil esperado pode ser avaliado considerando informações geradas externamente e outras internamente. A avaliação do curso pelo MEC e os resultados obtidos pelos estudantes do curso no ENADE são exemplos de insumos para a avaliação do processo de ensino. Internamente, a avaliação do docente pelo discente (instrumento formal e institucionalizado na UFG), o desempenho dos estudantes do curso nas disciplinas e os planos de ensino das disciplinas são fontes valiosas de informação.</br></br>\
-O NDE do curso é o principal consumidor dessas informações com o propósito de detectar possíveis melhorias e fomentar a introdução delas. Por exemplo, embora o docente tenha autonomia metodológica ao planejar e executar o plano de ensino de uma disciplina, cabe ao NDE analisar o plano e, quando considerar oportuno, recomendar ajustes. Essas e outras ações devem ser realizadas durante a semana de planejamento pedagógico e administrativo (semana formalmente institucionalizada na UFG), que ocorre no início de cada período letivo. Convém destacar que o plano de ensino de cada disciplina deve ser aprovado formalmente pelo Conselho Diretor da unidade antes do início do período letivo. Adicionalmente, a ação de avaliação não deve estar restrita à semana de planejamento, mas contínua. O objetivo é viabilizar a introdução de uma eventual mudança o mais próximo possível do instante no qual a necessidade foi detectada.</br></br>\
-Outra ação relevante do NDE na semana de planejamento pedagógico é apresentar as lições aprendidas no período anterior. Oferecer visibilidade de processos de ensino exitosos, o que é um instrumento de valorização do docente e, ao mesmo tempo, forma de socializar o que produziu bons resultados, também é uma ação a ser executada nessa semana. Enfim, acerca da avaliação do processo de ensino, o NDE possui papel relevante na identificação de dificuldades e busca de alternativas, em comunhão com os docentes do curso.</br></br>\
-A avaliação do processo de ensino, da aprendizagem e do curso, dentre outros, são assuntos pertinentes ao NDE (p. 23). De fato, são interconectados. Em vez de estabelecer ações específicas no presente PPC, são fornecidos princípios adotados pelo NDE do curso (p. 23). Ou seja, orientar os estudantes do curso a cada início do período letivo acerca das normas da UFG, de prazos, da meta de integralização curricular de cada um deles, são algumas ações relevantes, tendo em vista tais princípios.</br></br>\
-A avaliação da aprendizagem pode ser materializada de várias formas. São comuns avaliações (provas) escritas e individuais, a avaliação por meio de relatórios ou trabalhos escritos e apresentações orais, dentre outras. A avaliação contínua por meio de exercícios realizados ao longo de toda uma disciplina também é uma forma. De fato, vale ressaltar que um método adequado de avaliação em um cenário não o é em outro.</br></br>\
-A avaliação do processo de ensino e aprendizagem do BES deve atender, no seu planejamento e na forma contínua de sua execução, o estipulado pelo Regulamento Geral dos Cursos de Graduação (RGCG) da UFG [CEPEC 2012], notadamente em seu Capítulo IV, Seção 1 - “Da verificação da Aprendizagem”.</br></br>\
-Cabe ressaltar que o Sistema de Avaliação do BES tem como objetivo primeiro de sua aplicação, por meio de sua Estrutura Curricular (p. 35), utilizando instrumentos pedagógicos norteados pelos Princípios Norteadores (p. 18), permitir que cada estudante adquira o perfil desejado (p. 15).</br></br>\
-A avaliação do estudante deve levar em consideração não apenas o atendimento de requisitos técnicos de produtos e processos das diversas disciplinas da Engenharia de Software, mas também demonstrar postura ética e profissional ao desenvolver ações do curso.</br></br>\
-Convém destacar que as disciplinas específicas de Engenharia de Software são acompanhadas, cada uma delas, de seção de “Condições mínimas” (p. 56), que identificam elementos obrigatórios a serem satisfeitos pelo estudante para ser considerado aprovado na disciplina. Embora essa seja uma interpretação correta, a intenção é estabelecer um contrato claro do compromisso do estudante e do docente com a disciplina em questão. A avaliação de cada uma dessas disciplinas, portanto, necessariamente deve observar as condições mínimas estabelecidas. De fato, a condução de toda a disciplina deve ser orientada por tais condições.</br></br>\
-Dada a especificidade da disciplina “Prática em Engenharia de Software” (p. 75), o sistema de avaliação também é específico. Nesse caso, as avaliações devem envolver o domínio de processos e a geração de produtos de Engenharia de Software. Em particular, atividades avaliativas podem ser realizadas mesclando teoria e prática em um ambiente real de desenvolvimento de software, no qual a qualidade estabelecida para os entregáveis do projeto em questão é verificada.</p>'	
+						O NDE do curso é o principal consumidor dessas informações com o propósito de detectar possíveis melhorias e fomentar a introdução delas. Por exemplo, embora o docente tenha autonomia metodológica ao planejar e executar o plano de ensino de uma disciplina, cabe ao NDE analisar o plano e, quando considerar oportuno, recomendar ajustes. Essas e outras ações devem ser realizadas durante a semana de planejamento pedagógico e administrativo (semana formalmente institucionalizada na UFG), que ocorre no início de cada período letivo. Convém destacar que o plano de ensino de cada disciplina deve ser aprovado formalmente pelo Conselho Diretor da unidade antes do início do período letivo. Adicionalmente, a ação de avaliação não deve estar restrita à semana de planejamento, mas contínua. O objetivo é viabilizar a introdução de uma eventual mudança o mais próximo possível do instante no qual a necessidade foi detectada.</br></br>\
+						Outra ação relevante do NDE na semana de planejamento pedagógico é apresentar as lições aprendidas no período anterior. Oferecer visibilidade de processos de ensino exitosos, o que é um instrumento de valorização do docente e, ao mesmo tempo, forma de socializar o que produziu bons resultados, também é uma ação a ser executada nessa semana. Enfim, acerca da avaliação do processo de ensino, o NDE possui papel relevante na identificação de dificuldades e busca de alternativas, em comunhão com os docentes do curso.</br></br>\
+						A avaliação do processo de ensino, da aprendizagem e do curso, dentre outros, são assuntos pertinentes ao NDE (p. 23). De fato, são interconectados. Em vez de estabelecer ações específicas no presente PPC, são fornecidos princípios adotados pelo NDE do curso (p. 23). Ou seja, orientar os estudantes do curso a cada início do período letivo acerca das normas da UFG, de prazos, da meta de integralização curricular de cada um deles, são algumas ações relevantes, tendo em vista tais princípios.</br></br>\
+						A avaliação da aprendizagem pode ser materializada de várias formas. São comuns avaliações (provas) escritas e individuais, a avaliação por meio de relatórios ou trabalhos escritos e apresentações orais, dentre outras. A avaliação contínua por meio de exercícios realizados ao longo de toda uma disciplina também é uma forma. De fato, vale ressaltar que um método adequado de avaliação em um cenário não o é em outro.</br></br>\
+						A avaliação do processo de ensino e aprendizagem do BES deve atender, no seu planejamento e na forma contínua de sua execução, o estipulado pelo Regulamento Geral dos Cursos de Graduação (RGCG) da UFG [CEPEC 2012], notadamente em seu Capítulo IV, Seção 1 - “Da verificação da Aprendizagem”.</br></br>\
+						Cabe ressaltar que o Sistema de Avaliação do BES tem como objetivo primeiro de sua aplicação, por meio de sua Estrutura Curricular (p. 35), utilizando instrumentos pedagógicos norteados pelos Princípios Norteadores (p. 18), permitir que cada estudante adquira o perfil desejado (p. 15).</br></br>\
+						A avaliação do estudante deve levar em consideração não apenas o atendimento de requisitos técnicos de produtos e processos das diversas disciplinas da Engenharia de Software, mas também demonstrar postura ética e profissional ao desenvolver ações do curso.</br></br>\
+						Convém destacar que as disciplinas específicas de Engenharia de Software são acompanhadas, cada uma delas, de seção de “Condições mínimas” (p. 56), que identificam elementos obrigatórios a serem satisfeitos pelo estudante para ser considerado aprovado na disciplina. Embora essa seja uma interpretação correta, a intenção é estabelecer um contrato claro do compromisso do estudante e do docente com a disciplina em questão. A avaliação de cada uma dessas disciplinas, portanto, necessariamente deve observar as condições mínimas estabelecidas. De fato, a condução de toda a disciplina deve ser orientada por tais condições.</br></br>\
+						Dada a especificidade da disciplina “Prática em Engenharia de Software” (p. 75), o sistema de avaliação também é específico. Nesse caso, as avaliações devem envolver o domínio de processos e a geração de produtos de Engenharia de Software. Em particular, atividades avaliativas podem ser realizadas mesclando teoria e prática em um ambiente real de desenvolvimento de software, no qual a qualidade estabelecida para os entregáveis do projeto em questão é verificada.</p>'	
 		},
 		{
 			titulo: 'AvaliacaoProjeto',
