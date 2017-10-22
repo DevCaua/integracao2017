@@ -177,6 +177,39 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
         }
     }
 
+    var avaliacaoProcessoState = {
+        name: 'avaliacao-processo',
+        url: '/avaliacao-processo',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
+        controller: 'TemplatesController',
+        params:{
+            menuEscolhido: 'Informacoes',
+            subMenuSelecionado: 'AvaliacaoProcesso'
+        }
+    }
+
+    var avaliacaoProjetoState = {
+        name: 'avaliacao-projeto',
+        url: '/avaliacao-projeto',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
+        controller: 'TemplatesController',
+        params:{
+            menuEscolhido: 'Informacoes',
+            subMenuSelecionado: 'AvaliacaoProjeto'
+        }
+    }
+
+    var politicaState = {
+        name: 'politica',
+        url: '/politica',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
+        controller: 'TemplatesController',
+        params:{
+            menuEscolhido: 'Informacoes',
+            subMenuSelecionado: 'Politica'
+        }
+    }
+
     // state Curso
     $stateProvider.state(apresentacaoState);
     $stateProvider.state(identificacaoState);
@@ -198,6 +231,9 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
     $stateProvider.state(ensinoState);
     $stateProvider.state(equivalenciasState);
     $stateProvider.state(estagioState);
+    $stateProvider.state(avaliacaoProcessoState);
+    $stateProvider.state(avaliacaoProjetoState);
+    $stateProvider.state(politicaState);
     
   });
 

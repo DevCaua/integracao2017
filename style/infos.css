@@ -167,3 +167,18 @@ body {
     background: #6b6d76 !important;
     color: #fff !important;
 }
+
+.sidebar-nav li:nth-child(5) a {
+    background: #62646C !important;
+    color: #fff !important;
+}
+
+.sidebar-nav li:nth-child(6) a {
+    background: #4E5056 !important;
+    color: #fff !important;
+}
+
+.sidebar-nav li:nth-child(7) a {
+    background: #3B3C41 !important;
+    color: #fff !important;
+}
