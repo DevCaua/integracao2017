@@ -78,6 +78,28 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
         }
     }
 
+    var NDEState = {
+        name: 'NDE',
+        url: '/NDE',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
+        controller: 'TemplatesController',
+        params:{
+            menuEscolhido: 'Curso',
+            subMenuSelecionado: 'NDE'
+        }
+    }
+
+    var TCCState = {
+        name: 'TCC',
+        url: '/TCC',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
+        controller: 'TemplatesController',
+        params:{
+            menuEscolhido: 'Curso',
+            subMenuSelecionado: 'TCC'
+        }
+    }
+
     var matrizState = {
         name: 'matriz',
         url: '/matriz',
@@ -163,6 +185,8 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
     $stateProvider.state(objetivoState);
     $stateProvider.state(principioState);
     $stateProvider.state(expectativaState);
+    $stateProvider.state(NDEState);
+    $stateProvider.state(TCCState);
 
     // state Estrutura Curricular
     $stateProvider.state(matrizState);

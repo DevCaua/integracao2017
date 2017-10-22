@@ -149,37 +149,47 @@ body {
 }
 
 .sidebar-nav li:first-child a {
-    background: #7e8a95 !important;
+    background: #A7ADB2 !important;
     color: #fff !important;
 }
 
 .sidebar-nav li:nth-child(2) a {
-    background: #687683 !important;
+    background: #91989F !important;
     color: #fff !important;
 }
 
 .sidebar-nav li:nth-child(3) a {
-    background: #536371 !important;
+    background: #7B848C !important;
     color: #fff !important;
 }
 
 .sidebar-nav li:nth-child(4) a {
-    background: #3d4f60 !important;
+    background: #656F79 !important;
     color: #fff !important;
 }
 
 .sidebar-nav li:nth-child(5) a {
-    background: #283c4e !important;
+    background: #4F5B66 !important;
     color: #fff !important;
 }
 
 .sidebar-nav li:nth-child(6) a {
-    background: #13293D !important;
+    background: #394653 !important;
     color: #fff !important;
 }
 
 .sidebar-nav li:nth-child(7) a {
+    background: #233240 !important;
+    color: #fff !important;
+}
+
+.sidebar-nav li:nth-child(8) a {
     background: #0E1E2D !important;
+    color: #fff !important;
+}
+
+.sidebar-nav li:nth-child(9) a {
+    background: #0C1925 !important;
     color: #fff !important;
 }
 
