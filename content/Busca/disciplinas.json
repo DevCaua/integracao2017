@@ -1129,93 +1129,93 @@
 
     {
         "nome" : "Padrões de Arquitetura de Software",
-        "palavrasChave" : ["8° período	
-            Obrigatória	
-            Núcleo específico	
-            Arquitetura de Software	
-            Microservices	
-            Blackboard	
-            MVC 	
-            Serviços	
-            Plugins	
-            Filtros	
-            Criação de arquiteturas	
-            Design de software	
-            Avaliação de arquiteturas	
-            Documentação	
-            Conformidade com padrões	
-            Multitier	
-            Invocação implícita	
-            ISO/IEC/IEEE 42010"],
+        "palavrasChave" : ["8° período",	
+            "Obrigatória",	
+            "Núcleo específico",	
+            "Arquitetura de Software",	
+            "Microservices",	
+            "Blackboard",	
+            "MVC",	
+            "Serviços",	
+            "Plugins",	
+            "Filtros",	
+            "Criação de arquiteturas",	
+            "Design de software",	
+            "Avaliação de arquiteturas",	
+            "Documentação",	
+            "Conformidade com padrões",	
+            "Multitier",	
+            "Invocação implícita",	
+            "ISO/IEC/IEEE 42010"],
         "areaSwebok" : ["area1", "area2", "area3"]
     },
 
     {
         "nome" : "Metodologia e Experimentação em Engenharia de Software",
-        "palavrasChave" : ["8° período	
-            Obrigatória	
-            Núcleo Específico	
-            Engenharia de software	
-            Experimentos	
-            Estudos primários	
-            Estudos secundários	
-            Revisão	
-            Mapeamento sistemático	
-            Prática	
-            Teórica	
-            Processo científico	
-            Validação	
-            Método científico	
-            Tipos de método	
-            Adaptabilidade de métodos	
-            Questionários	
-            Seminários	
-            Enquetes	
-            Análise 	
-            SBC"],
+        "palavrasChave" : ["8° período",	
+            "Obrigatória",	
+            "Núcleo Específico",	
+            "Engenharia de software",	
+            "Experimentos",	
+            "Estudos primários",	
+            "Estudos secundários",	
+            "Revisão",	
+            "Mapeamento sistemático",	
+            "Prática",	
+            "Teórica",	
+            "Processo científico",	
+            "Validação",	
+            "Método científico",	
+            "Tipos de método",	
+            "Adaptabilidade de métodos",	
+            "Questionários",	
+            "Seminários",	
+            "Enquetes",	
+            "Análise", 	
+            "SBC"],
         "areaSwebok" : ["area1", "area2", "area3"]
     },
 
     {
         "nome" : "Mercado e Economia de Software",
-        "palavrasChave" : ["Núcleo Comum	
-            Teórica	
-            8º Período	
-            Sem Pré-Requisito	
-            Modelos de negócio	
-            Open source 	
-            On premisses	
-            Software Livre	
-            Código aberto	
-            Softex	
-            MpsBr / CMMI	
-            Mercados de software	
-            Planos de negócio	
-            SEBRAE	
-            Engenharia econômica	
-            Empreendedorismo	
-            Inovação"],
+        "palavrasChave" : ["Núcleo Comum",	
+            "Teórica",	
+            "8º Período",	
+            "Sem Pré-Requisito",	
+            "Modelos de negócio",	
+            "Open source", 	
+            "On premisses",	
+            "Software Livre",	
+            "Código aberto",	
+            "Softex",	
+            "MpsBr / CMMI",	
+            "Mercados de software",	
+            "Planos de negócio",	
+            "SEBRAE",	
+            "Engenharia econômica",	
+            "Empreendedorismo",	
+            "Inovação"],
         "areaSwebok" : ["area1", "area2", "area3"]
     },
 
     {
         "nome" : "Prática em Engenharia de Software",
-        "palavrasChave" : ["Núcleo Comum	
-            Prática	
-            9º Período	
-            Sem Pré-Requisito	
-            Fábrica de Software	
-            Experiência de Mercado	
-            Projetos Reais	
-            Extensão	
-            Sociedade	
-            FS/INF	
-            Aplicação da Teoria	
-            Código de Ética	
-            Postura Profissional	
-            Processos técnicos	
-            Gestão de Engenharia de Software	
-            Tecnologias"],
+        "palavrasChave" : ["Núcleo Comum",	
+            "Prática",	
+            "9º Período",	
+            "Sem Pré-Requisito",	
+            "Fábrica de Software",	
+            "Experiência de Mercado",	
+            "Projetos Reais",	
+            "Extensão",	
+            "Sociedade",	
+            "FS/INF",	
+            "Aplicação da Teoria",	
+            "Código de Ética",	
+            "Postura Profissional",	
+            "Processos técnicos",	
+            "Gestão de Engenharia de Software",	
+            "Tecnologias"],
         "areaSwebok" : ["area1", "area2", "area3"]
     }
 ]
