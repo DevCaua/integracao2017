@@ -18,6 +18,12 @@ body {
     transition: all .5s ease;
 }
 
+iframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
 /* NAVBAR */
 
 .navbar-cor {

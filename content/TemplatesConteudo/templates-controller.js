@@ -778,7 +778,7 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 		},
 		{
 			titulo: 'FluxoSugerido',
-			conteudo: 'TESTETESTETESTE'	
+			conteudo: ' <iframe src="content/Fluxograma/fluxograma.html"></iframe> '	
 		},
 		{
 			titulo: 'CargaHoraria',
