@@ -718,19 +718,145 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 	var arraySextoSemestre = [
 		{
 			titulo: 'DesignSoftware',
-			conteudo: 'O Bacharelado em Engenharia de Software foi criado em 2009, sendo a UFG a universidade brasileira pioneira. O curso é focado na graduação de um profissional capaz de especificar software; projetar (design) software (inclui arquitetura de software); construir (programar) software com qualidade; realizar atividades de manutenção de software, além de trabalhar em equipe, comunicar e escrever bem. Tem a duração de 9 semestres, predominantesmente no turno noturno.'	
+			conteudo: '<p><b>Características</b></br><br>\
+						- Núcleo Comum</br>\
+						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
+						- Disciplina Obrigatória</br><br>\
+						<b>Carga Horária</b></br><br>\
+						- Horas Teóricas: 48h</br>\
+						- Horas Práticas: 80h</br>\
+						- Carga horária total: 128h<br></br>\
+						<b>Pré-Requisitos</b></br><br>\
+						- Nenhum</br></br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Engenharia de Sistemas)</br>\
+						Diretamente<br>\
+						- Nenhum</br></br>\
+						Indiretamente<br>\
+						- Nenhum</br></br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						- Conceitos (8h): design, software, qualidade de software, requisitos de software, arquitetura de software e projeto detalhado.</br>\
+						- Contexto de projeto de software (4h).</br>\
+						- Processos e artefatos de projeto de software (8h).</br>\
+						- Notações de projeto de software (8h).</br>\
+						- Princípios e fundamentos de projeto de software (16h): abstração, acoplamento, coesão, decomposição, encapsulamento, separar interface e implementação, suficiência, completitude, simplicidade e separation of concerns.</br>\
+						- Aspectos de projeto de software (16h): concorrência, controle e tratamento de eventos, tratamento de exceção, persistência, distribuição, interação (apresentação).</br>\
+						- Qualidade de projeto de software (8h): técnicas de avaliação, medidas, ferramentas.</br>\
+						- Métodos e estratégias de projeto (4h).</br>\
+						- Método para projeto orientado a objetos (4h).</br>\
+						- Padrões de projeto orientado a objetos (16h).</br>\
+						- Prática de projeto de software orientado a objetos (36h).</br></br>\
+						<b>Condições Mínimas(qual o domínio do conteúdo abordado que o estudante deve ter, no final da disciplina, para que ele seja aprovado)</b></br><br>\
+						<i>Seguindo instruções (passo-a-passo), o estudante deve ser capaz de:</i></br></br>\
+						- Criar projeto de software a partir de um problema.</br></br>\
+						<i>Sem que instruções sejam dadas, o estudante, com a assistência do professor, deve ser capaz de:</i></br></br>\
+						- Aplicar princípios de projeto de software.</br>\
+						- Empregar aspectos de projeto de software</br>\
+						- Fazer uso de medidas de qualidade de projeto de software.</br></br>\
+						<i>Sem instruções e sem a assistência do professor, o estudante deve ser capaz de:</i></br></br>\
+						- Explicar o que é software, qualidade de software, requisitos de software, arquitetura de software, projeto detalhado, design, e a relação entre eles.</p>'
 		},
 		{
 			titulo: 'DominioSoftware',
-			conteudo: 'TESTETESTETESTE'	
+			conteudo: '<p><b>Características</b></br><br>\
+						- Núcleo Comum</br>\
+						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
+						- Disciplina Obrigatória</br><br>\
+						<b>Carga Horária</b></br><br>\
+						- Horas Teóricas: 16h</br>\
+						- Horas Práticas: 48h</br>\
+						- Carga horária total: 64h<br></br>\
+						<b>Pré-Requisitos</b></br><br>\
+						- Nenhum</br></br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Engenharia de Sistemas)</br>\
+						Diretamente<br>\
+						- Nenhum</br></br>\
+						Indiretamente<br>\
+						- Nenhum</br></br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						- Visão ampla de domínios de desenvolvimento (4h): sistemas, componentes e a relação entre eles.</br>\
+						- Especificidades de alguns domínios de desenvolvimento (8h).</br>\
+						- Especificidades de um domínio (12h): requisitos, projeto, construção.</br>\
+						- Desenvolvimento de software em um domínio (ênfase na construção) (40h).</br></br>\
+						<b>Condições Mínimas(qual o domínio do conteúdo abordado que o estudante deve ter, no final da disciplina, para que ele seja aprovado)</b></br><br>\
+						<i>Seguindo instruções (passo-a-passo), o estudante deve ser capaz de:</i></br></br>\
+						- Usar processos para a construção de software (criação de código, controle de versão, inspeção e integração).</br>\
+						- Detalhar projeto (design) em conformidade com requisitos de software.</br>\
+						- Colaborar com a construção de código em equipe.</br>\
+						- Explicar domínios de desenvolvimento (categorias) e as especificidades correspondentes.</br>\
+						- Explicar um domínio de software e as estratégias de desenvolvimento correspondentes.</br></br>\
+						<i>Sem que instruções sejam dadas, o estudante, com a assistência do professor, deve ser capaz de:</i></br></br>\
+						- Explicar a construção de software, a relação dessa área de conhecimento com as demais da engenharia de software e a relação com o conceito de sistema.</br>\
+						- Usar e configurar ferramentas para edição, documentação, compilação, depuração (debugging), build, teste, controle de versão, coleta de medidas (desempenho, consumo de memória, análise estática e cobertura), integração contínua, e aplicativos fundamentais de linha de comandos.</br>\
+						- Criar código orientado a objetos em conformidade com o projeto (design) detalhado seguindo estratégias recomendada.</br></br>\
+						<i>Sem instruções e sem a assistência do professor, o estudante deve ser capaz de:</i></br></br>\
+						- Esse nível não se aplica para essa disciplina.</p>'
 		},
 		{
 			titulo: 'QualidadeSoftware',
-			conteudo: 'O Bacharelado em Engenharia de Software foi criado em 2009, sendo a UFG a universidade brasileira pioneira. O curso é focado na graduação de um profissional capaz de especificar software; projetar (design) software (inclui arquitetura de software); construir (programar) software com qualidade; realizar atividades de manutenção de software, além de trabalhar em equipe, comunicar e escrever bem. Tem a duração de 9 semestres, predominantesmente no turno noturno.'	
+			conteudo: '<p><b>Características</b></br><br>\
+						- Núcleo Comum</br>\
+						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
+						- Disciplina Obrigatória</br><br>\
+						<b>Carga Horária</b></br><br>\
+						- Horas Teóricas: 48h</br>\
+						- Horas Práticas: 16h</br>\
+						- Carga horária total: 64h<br></br>\
+						<b>Pré-Requisitos</b></br><br>\
+						- Nenhum</br></br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Engenharia de Sistemas)</br>\
+						Diretamente<br>\
+						- Nenhum</br></br>\
+						Indiretamente<br>\
+						- Nenhum</br></br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						- Visão Geral de Qualidade de Software (4h): custos e impactos da qualidade de software, questões éticas e culturais da qualidade de software.</br>\
+						- Processo de garantia da qualidade de software (10h): garantia do produto e garantia do processo.</br>\
+						- Processo de Verificação e Validação de Software (36h): requisito, projeto (design), código, integração, documentação.</br>\
+						- Processos de Revisão e Auditoria de Software (14h): revisões gerenciais e revisões técnicas.</br></br>\
+						<b>Condições Mínimas(qual o domínio do conteúdo abordado que o estudante deve ter, no final da disciplina, para que ele seja aprovado)</b></br><br>\
+						<i>Seguindo instruções (passo-a-passo), o estudante deve ser capaz de:</i></br></br>\
+						- Usar um processo da garantia da qualidade de software.</br>\
+						- Usar um processo para a verificação e validação de software.</br>\
+						- Usar um processo para a revisão e auditoria de software.</br>\
+						- Documentar resultados dos processos de qualidade de software.</br>\
+						- Identificar e utilizar ferramentas de apoio ao controle de qualidade de artefatos de software.</br></br>\
+						<i>Sem que instruções sejam dadas, o estudante, com a assistência do professor, deve ser capaz de:</i></br></br>\
+						- Explicar a diferença e a relação entre a garantia do produto e a garantia do processo.</br></br>\
+						<i>Sem instruções e sem a assistência do professor, o estudante deve ser capaz de:</i></br></br>\
+						- Explicar processos de qualidade de software, a relação dessa área de conhecimento com as demais da engenharia de software e a relação com o conceito de sistema.</br>\
+						- Colaborar em uma equipe na execução de um processo de qualidade.</p>'
 		},
 		{
 			titulo: 'GerenciaSoftware',
-			conteudo: 'TESTETESTETESTE'	
+			conteudo: '<p><b>Características</b></br><br>\
+						- Núcleo Comum</br>\
+						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
+						- Disciplina Obrigatória</br><br>\
+						<b>Carga Horária</b></br><br>\
+						- Horas Teóricas: 32h</br>\
+						- Horas Práticas: 32h</br>\
+						- Carga horária total: 64h<br></br>\
+						<b>Pré-Requisitos</b></br><br>\
+						- Nenhum</br></br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Engenharia de Sistemas)</br>\
+						Diretamente<br>\
+						- Nenhum</br></br>\
+						Indiretamente<br>\
+						- Nenhum</br></br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						- Projeto e gerência de projeto (4h): ciclo de vida de produto, serviço e projeto; partes interessadas (stakeholders); correlação entre projetos, operações e programas; gerência de portfólio de projetos; escritório de projetos (PMO).</br>\
+						- Tipos de projeto de software (4h): aquisição, desenvolvimento, refatoração, descontinuação.</br>\
+						- Tipos de ciclo de vida de projeto de software (4h): preditivo, iterativo, adaptativo; processos empíricos e processos definidos e sua relação com métodos ágeis e métodos planejados para gerência de projeto de software.</br>\
+						- Modelos de qualidade de processo de gerência de projeto de software (4h).</br>\
+						- Áreas de conhecimento da gerência de projetos aplicadas a projetos de software (48h): escopo, tempo, custo, qualidade, recursos humanos, comunicações, riscos, aquisições, integração e partes interessadas.</br></br>\
+						<b>Condições Mínimas(qual o domínio do conteúdo abordado que o estudante deve ter, no final da disciplina, para que ele seja aprovado)</b></br><br>\
+						<i>Seguindo instruções (passo-a-passo), o estudante deve ser capaz de:</i></br></br>\
+						- Usar normas, modelos e ferramentas de gerência de projeto para planejamento e acompanhamento de projeto de software.</br>\
+						- Selecionar e implementar o tipo de ciclo de vida de software (ou paradigma de engenharia de software - cascata, espiral, iterativo, baseado em modelo de maturidade, etc.) de acordo com as características do contexto do projeto de software.</br></br>\
+						<i>Sem que instruções sejam dadas, o estudante, com a assistência do professor, deve ser capaz de:</i></br></br>\
+						- Selecionar e implementar o tipo de modelo de processo (dirigido por plano, incremental ou adaptativo) de acordo com as características do contexto do projeto de software.</br></br>\
+						<i>Sem instruções e sem a assistência do professor, o estudante deve ser capaz de:</i></br></br>\
+						- Esse nível não se aplica para essa disciplina.</p>'	
 		},
 	];
 
@@ -965,15 +1091,108 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'SoftwarePersistencia',
-			conteudo: 'TESTETESTETESTE'	
+			conteudo: '<p><b>Características</b></br><br>\
+						- Núcleo Comum</br>\
+						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
+						- Disciplina Obrigatória</br><br>\
+						<b>Carga Horária</b></br><br>\
+						- Horas Teóricas: 32h</br>\
+						- Horas Práticas: 32h</br>\
+						- Carga horária total: 64h<br></br>\
+						<b>Pré-Requisitos</b></br><br>\
+						- Nenhum</br></br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Software para Sistemas Ubiquos)</br>\
+						Diretamente<br>\
+						- Nenhum</br></br>\
+						Indiretamente<br>\
+						- Nenhum</br></br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						- Visão geral de persistência (12h): arquivos em formato texto/binário. Serialização de objetos. Documentos XML. JSON. Bancos de dados relacionais. Bancos NoSql.</br>\
+						- Modelagem e implementação de bancos de dados (28h).</br>\
+						- Mapeamento entre OO e relacional (8h).</br>\
+						- Refatoração de bancos de dados (8h)./br>\
+						- Integração de bancos de dados (8h).</br></br>\
+						<b>Condições Mínimas(qual o domínio do conteúdo abordado que o estudante deve ter, no final da disciplina, para que ele seja aprovado)</b></br><br>\
+						<i>Seguindo instruções (passo-a-passo), o estudante deve ser capaz de:</i></br></br>\
+						- Identificar e usar estratégia adequada de persistência de dados para um dado problema.</br>\
+						- Refatorar (refactoring) bases de dados.</br></br>\
+						<i>Sem que instruções sejam dadas, o estudante, com a assistência do professor, deve ser capaz de:</i></br></br>\
+						- Explicar a construção de software, persistência e a relação desses com a engenharia de software e de sistema.</br>\
+						- Usar ferramentas para definição e manipulação de bancos de dados.</br>\
+						- Criar código que cria, busca, atualiza e remove dados em bancos de dados.</br></br>\
+						<i>Sem instruções e sem a assistência do professor, o estudante deve ser capaz de:</i></br></br>\
+						- Esse nível não se aplica a essa promotoria.</br></br>\
+						<i>Observação:</i></br></br>\
+						- Faltou exigências de construção (anteriores).</p>'	
 		},
 		{
 			titulo: 'PadroesArqSoftware',
-			conteudo: 'O Bacharelado em Engenharia de Software foi criado em 2009, sendo a UFG a universidade brasileira pioneira. O curso é focado na graduação de um profissional capaz de especificar software; projetar (design) software (inclui arquitetura de software); construir (programar) software com qualidade; realizar atividades de manutenção de software, além de trabalhar em equipe, comunicar e escrever bem. Tem a duração de 9 semestres, predominantesmente no turno noturno.'	
+			conteudo: '<p><b>Características</b></br><br>\
+						- Núcleo Comum</br>\
+						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
+						- Disciplina Obrigatória</br><br>\
+						<b>Carga Horária</b></br><br>\
+						- Horas Teóricas: 32h</br>\
+						- Horas Práticas: 32h</br>\
+						- Carga horária total: 64h<br></br>\
+						<b>Pré-Requisitos</b></br><br>\
+						- Nenhum</br></br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Software para Sistemas Ubiquos)</br>\
+						Diretamente<br>\
+						- Nenhum</br></br>\
+						Indiretamente<br>\
+						- Nenhum</br></br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						- Conceitos (12h): arquitetura de software e padrões de arquitetura (blackboard, microservices, invocação implícita, arquitetura orientada a serviços, multitier, arquitetura orienta a eventos, plugin, filtros e pipes, MVC.</br>\
+						- Norma ISO/IEC/IEEE 42010:2011 (8h).</br>\
+						- Análise (avaliação) de arquiteturas de software (12h).</br>\
+						- Criação de arquiteturas de software (32h).</br></br>\
+						<b>Condições Mínimas(qual o domínio do conteúdo abordado que o estudante deve ter, no final da disciplina, para que ele seja aprovado)</b></br><br>\
+						<i>Seguindo instruções (passo-a-passo), o estudante deve ser capaz de:</i></br></br>\
+						- Realizar análise de arquitetura de software.</br>\
+						- Criar arquitetura de software que se beneficia de padrões de arquitetura.</br></br>\
+						<i>Sem que instruções sejam dadas, o estudante, com a assistência do professor, deve ser capaz de:</i></br></br>\
+						- Explicar padrões de arquitetura e ilustrar o uso.</br>\
+						- Documentar arquitetura de software.</br></br>\
+						<i>Sem instruções e sem a assistência do professor, o estudante deve ser capaz de:</i></br></br>\
+						- Compreender a documentação de arquitetura de software.</p>'
 		},
 		{
 			titulo: 'TestesSoftware',
-			conteudo: 'TESTETESTETESTE'	
+			conteudo: '<p><b>Características</b></br><br>\
+						- Núcleo Comum</br>\
+						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
+						- Disciplina Obrigatória</br><br>\
+						<b>Carga Horária</b></br><br>\
+						- Horas Teóricas: 32h</br>\
+						- Horas Práticas: 32h</br>\
+						- Carga horária total: 64h<br></br>\
+						<b>Pré-Requisitos</b></br><br>\
+						- Nenhum</br></br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Software para Sistemas Ubiquos)</br>\
+						Diretamente<br>\
+						- Nenhum</br></br>\
+						Indiretamente<br>\
+						- Nenhum</br></br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						- Processo de construção (8h): definições básicas, atividades e documentação.</br>\
+						- Processo de Teste de Software (56): definições básicas, técnicas de teste, teste baseado em intuição e experiência do engenheiro de software, atividades do processo, documentação e ferramentas.</br></br>\
+						<b>Condições Mínimas(qual o domínio do conteúdo abordado que o estudante deve ter, no final da disciplina, para que ele seja aprovado)</b></br><br>\
+						<i>Seguindo instruções (passo-a-passo), o estudante deve ser capaz de:</i></br></br>\
+						- Usar um processo de teste de software.</br>\
+						- Desenvolver planos de teste para o teste de unidade.</br>\
+						- Aplicar teste exploratório no teste de sistema.</br>\
+						- Realizar medições pertinentes a teste de software.</br>\
+						- Identificar e utilizar ferramentas de teste de software.</br></br>\
+						<i>Sem que instruções sejam dadas, o estudante, com a assistência do professor, deve ser capaz de:</i></br></br>\
+						- Propor casos de teste segundo algum critério da técnica de teste funcional para o teste de unidade.</br>\
+						- Propor casos de teste segundo algum critério da técnica de teste estrutural para o teste de unidade.</br>\
+						- Construir código para automação do teste de software.</br>\
+						- Documentar atividades do teste de software.</br></br>\
+						<i>Sem instruções e sem a assistência do professor, o estudante deve ser capaz de:</i></br></br>\
+						- Explicar o teste de software, a relação dessa área de conhecimento com as demais da engenharia de software e a relação com o conceito de sistema.</br>\
+						- Construir código para automação do teste de software.</br>\
+						- Compreender a documentação de arquitetura de software.</p>'
 		},
 		{
 			titulo: 'SitemasDist',
@@ -1002,11 +1221,63 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'Mercado',
-			conteudo: 'TESTETESTETESTE'	
+			conteudo: '<p><b>Características</b></br><br>\
+						- Núcleo Comum</br>\
+						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
+						- Disciplina Obrigatória</br><br>\
+						<b>Carga Horária</b></br><br>\
+						- Horas Teóricas: 48h</br>\
+						- Horas Práticas: 16h</br>\
+						- Carga horária total: 64h<br></br>\
+						<b>Pré-Requisitos</b></br><br>\
+						- Nenhum</br></br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Software para Sistemas Ubiquos)</br>\
+						Diretamente<br>\
+						- Nenhum</br></br>\
+						Indiretamente<br>\
+						- Nenhum</br></br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						- Modelos de negócio para software (aluguel, serviço, código aberto). </br>\
+						- Leis, normas, impostos e legislação brasileira para o mercado local e para a exportação de software. </br>\
+						- Programas de incentivo à exportação e à produção de software.</br>\
+						- Características e exigências do mercado interno e externo. </br>\
+						- Identificação de oportunidades de inovação em software. </br>\
+						- Planos de negócio de software para o mercado nacional e global</br>\
+						- Engenharia Econômica. Fornecimento, demanda e produção. Lucro produzido por capital (interest). Análise custo-benefício. Análise breakeven. Retorno de investimento. Avaliação de alternativas. Economia aplicada ao desenvolvimento de software.</br></br>\
+						<b>Condições Mínimas(qual o domínio do conteúdo abordado que o estudante deve ter, no final da disciplina, para que ele seja aprovado)</b></br><br>\
+						<i>Seguindo instruções (passo-a-passo), o estudante deve ser capaz de:</i></br></br>\
+						- Explicar a relação entre decisões técnicas e o alinhamento com objetivos de negócio no qual software está inserido.</br>\
+						- Explicar as principais leis e normas pertinentes à indústria de software no Brasil.</br>\
+						- Elaborar plano de negócio para software inovador.</p>'
 		},
 		{
 			titulo: 'MetodologiaES',
-			conteudo: 'TESTETESTETESTE'	
+			conteudo: '<p><b>Características</b></br><br>\
+						- Núcleo Comum</br>\
+						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
+						- Disciplina Obrigatória</br><br>\
+						<b>Carga Horária</b></br><br>\
+						- Horas Teóricas: 48h</br>\
+						- Horas Práticas: 16h</br>\
+						- Carga horária total: 64h<br></br>\
+						<b>Pré-Requisitos</b></br><br>\
+						- Nenhum</br></br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Software para Sistemas Ubiquos)</br>\
+						Diretamente<br>\
+						- Nenhum</br></br>\
+						Indiretamente<br>\
+						- Nenhum</br></br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						- Metodologia Científica (16h): aplicação de metodologia científica em atividades de Engenharia de Software.</br>\
+						- Fundamentos da Engenharia de Software Experimental (16h): contexto da experimentação na Engenharia de Software; principais tipos de experimentos aplicados à Engenharia de Software; estudos primários e secundários; revisão e mapeamento sistemático da literatura.</br>\
+						- Realização de Experimentos em Engenharia de Software (32h).</br></br>\
+						<b>Condições Mínimas(qual o domínio do conteúdo abordado que o estudante deve ter, no final da disciplina, para que ele seja aprovado)</b></br><br>\
+						<i>Seguindo instruções (passo-a-passo), o estudante deve ser capaz de:</i></br></br>\
+						- Realizar estudo secundário sistemático em Engenharia de Software.</br></br>\
+						<i>Sem que instruções sejam dadas, o estudante, com a assistência do professor, deve ser capaz de:</i></br></br>\
+						- Aplicar princípios científicos da Engenharia de Software Experimental na realização de experimentos com software.</br></br>\
+						<i>Sem instruções e sem a assistência do professor, o estudante deve ser capaz de:</i></br></br>\
+						- Esse nível não se aplica a essa disciplina.</p>'
 		},
 	];
 
