@@ -7,28 +7,28 @@ angular.module('index',[]).controller('FluxogramaController', function($scope) {
 			possuiDependencia: false,
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Computacao_e_Sociedade'
 		},
 		{
 			titulo : 'Introdução a Programação',
 			possuiDependencia: true,
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Introducao_a_Programacao'
 		},
 		{
 			titulo : 'Cálculo 1A',
 			possuiDependencia: true,
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Calculo_1A'
 		},
 		{
 			titulo : 'Fundamentos de Matemática para Computação',
 			possuiDependencia: true,
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Fundamentos_de_Matematica_para_Computacao'
 		},
 	];
 
@@ -38,35 +38,35 @@ angular.module('index',[]).controller('FluxogramaController', function($scope) {
 			possuiDependencia: true,
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Arquitetura_De_Computadores'
 		},
 		{
 			titulo : 'Algortimos e Estrutura de Dados 1',
 			possuiDependencia: true,
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Algoritmos_e_Estrutura_de_Dados_1'
 		},
 		{
 			titulo : 'Probabilidade e Estatística A',
 			possuiDependencia: true,
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Probabilidade_e_Estatistica'
 		},
 		{
 			titulo : 'Álgebra Linear',
 			possuiDependencia: true,
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Arquitetura_Linear'
 		},
 		{
 			titulo : 'Lógica Matemática',
 			possuiDependencia: true,
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Logica_Matematica'
 		},
 	];
 
@@ -76,28 +76,28 @@ angular.module('index',[]).controller('FluxogramaController', function($scope) {
 			possuiDependencia: true,
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Programacao_Orientada_Objetos'
 		},
 		{
 			titulo : 'Algortimos e Estrutura de Dados 2',
 			possuiDependencia: true,
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Algoritmos_e_Estrutura_de_Dados_2'
 		},
 		{
 			titulo : 'Linguagens e Paradigmas da Programação',
 			possuiDependencia: true,
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Linguagens_e_Paradigmas_da_Programacao'
 		},
 		{
 			titulo : 'Engenharia de Software',
 			possuiDependencia: true,
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Engenharia_de_Software'
 		},
 	];
 
@@ -107,28 +107,28 @@ angular.module('index',[]).controller('FluxogramaController', function($scope) {
 			possuiDependencia: true,
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Analise_e_Projeto_de_Algoritmos'
 		},
 		{
 			titulo : 'Interação Humano-Computador',
 			possuiDependencia: true,
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Interacao_Humano_Computador'
 		},
 		{
 			titulo : 'Banco de Dados',
 			possuiDependencia: true,
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Banco_de_Dados'
 		},
 		{
 			titulo : 'Projeto de software',
 			possuiDependencia: true,
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Projeto_De_Software'
 		},
 	];
 
