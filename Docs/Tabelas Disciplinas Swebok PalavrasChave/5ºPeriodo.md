@@ -86,4 +86,57 @@
                 Antecipação de problemas</br>
             </td>
     </tr>
+    <tr>
+        <td>Modelagem de Software</td>
+            <td>Núcleo Comum</br>
+                Teórica	</br>
+                Prática	</br>
+                5º Período	</br>
+                Obrigatória	</br>
+                Sem Pré-Requisito	</br>
+                Conceitos</br>
+                Software</br>
+                Qualidade de Software</br>
+                Requisitos de Software</br>
+                Projeto de Software	</br>
+                Design de Software	</br>
+                Processo de projeto de software	</br>
+                Notações	</br>
+                Registro de modelos orientados a objetos</br>
+                Modelagem de software orientado a objetos</br>
+            </td>
+            <td>
+                Software Requirements</br>	
+                Requisitos de software</br>	
+                Software Design</br>	
+                Projeto de software</br>	
+                Software Quality</br>	
+                Qualidade de software</br>	
+                Software structure and architecture</br>	
+                Estrutura do software</br>	
+                Arquitetura do software</br>	
+                Software Design Strategies</br>	
+                Software Design Methods</br>	
+                Estratégias de projeto de software</br>	
+                Métodos de projeto de software</br>	
+            </td>
+            <td>
+                Criatividade</br>
+                Planejamento</br>
+                Organização</br>
+                Estratégia</br>
+                Desenho do software</br>
+                Discussões</br>
+                UML</br>
+                Diagrama de classe 
+                Diagrama de objetos</br>
+                Diagrama de Colaboração</br>
+                Diagrama de Sequência</br>
+                Diagrama de Atividades</br>
+                Diagrama de Estados</br>
+                Diagrama de Componentes</br>
+                Diagrama de Pacotes</br>
+                Diagrama de Depuração</br>
+            </td>
+    </tr>
 </table>
