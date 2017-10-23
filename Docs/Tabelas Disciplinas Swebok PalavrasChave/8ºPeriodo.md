@@ -273,4 +273,107 @@
                 Nível estratégico</br>
             </td>
     </tr>
+    <tr>
+        <td>Software para sistemas ubíquos</td>
+            <td>Teórica</br>	
+                Prática	</br>
+                Núcleo Comum	</br>
+                8º Período	</br>
+                Obrigatória	</br>
+                Sem Pré-Requisito	</br>
+                Sistema de Informação	</br>
+                SI	</br>
+                Dispositivos Ubíquos	</br>
+                Smartphones	</br>
+                Internet das Coisas	</br>
+                IoT	</br>
+                Hardware	</br>
+                Stream analytics	</br>
+                Sensores	</br>
+                Segurança	</br>
+                Vulnerabilidade	</br>
+                Criptografica	</br>
+                Certificados Digitais	</br>
+                Arquitetura de Software	</br>
+                Soluções Móveis	</br>
+                Mobile	</br>
+                Fluxo de serviços	</br>
+                Serviços de Grande Volume	</br>
+            </td>
+            <td>
+                Software Engineering Process</br>
+                Processo de engenharia de software</br>
+                Software Design</br>
+                Projeto de software</br>
+                Software Construction</br>
+                Construção de software</br>
+                Software Testing</br>
+                Teste de Software</br>
+                Software Maintenance</br>
+                Manutenção de software</br>
+                Computing Fundamentals</br>
+                Fundamentos de computação</br>
+                Abstraction</br>
+                Abstração</br>
+                Data Structure and Representation</br>
+                Estrutura de dados e representação</br>
+                Algorithmics and Complexity</br>
+                Alogoritmos e Complexidade</br>
+            </td>
+            <td>
+                Internet das coisas</br>
+                Dispotivos vestíveis</br>
+                Internet</br>
+                Computação pervasiva</br>
+            </td>
+    </tr>
+    <tr>
+        <td>Teste de software</td>
+            <td>Núcleo Comum	</br>
+                Teórica	</br>
+                Prática	</br>
+                8º Período	</br>
+                Sem Pré-Requisito	</br>
+                Construção de Teste	</br>
+                Documentação	</br>
+                Processo	</br>
+                Técnicas de teste	</br>
+                Intuição e Experiência	</br>
+                Ferramentas	</br>
+            </td>
+            <td>
+                Software Testing</br>
+                Teste de software</br>
+                Software Construction</br>
+                Construção de software</br>
+                Computing Fundamentals</br>
+                Fundamentos de computação</br>
+                Abstraction</br>
+                Abstração</br>
+                Software Testing Fundamentals</br>
+                Fundamentos de teste de software</br>
+                Test Levels</br>
+                Níveis de teste</br>
+                Técnicas de teste</br>
+                Test-Related Measures</br>
+                Métricas relacionadas a testes</br>
+                Test Process</br>
+                Processo de teste</br>
+                Software Testing Tools</br>
+            </td>
+            <td>
+                Análise dinâmica</br>
+                Verificação e validação</br>
+                Verificação Dinâmica</br>
+                Domínio de execução</br>
+                Trade-off</br>
+                TDD</br>
+                Desenvolvimento orinetado a testes</br>
+                Testes de integração</br>
+                Testes de aceitação</br>
+                Testes de unidade</br>
+                Testes de segurança</br>
+                Testes de exploração</br>
+            </td>
+    </tr>
 </table>
