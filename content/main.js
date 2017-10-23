@@ -125,8 +125,12 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
     var fluxoState = {
         name: 'fluxo',
         url: '/fluxo',
-        templateUrl: 'fluxograma.html',
-        controller: 'FluxogramaController'
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
+        controller: 'TemplatesController',
+        params:{
+            menuEscolhido: 'EC',
+            subMenuSelecionado: 'FluxoSugerido'
+        }
     }
     
     var cargaState = {
