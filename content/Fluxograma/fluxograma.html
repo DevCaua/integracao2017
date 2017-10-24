@@ -104,7 +104,7 @@
 			  <div class="panel-heading painel-individual" data-toggle="collapse" data-target="#optativa2" aria-expanded="false" ng-class="{'optativa-dependencia': optativaAcionada2, 'optativa-sem-dependencia': !optativaAcionada2}">
 				  <h3 class="panel-title heading-optativas quebra-linha" >Optativa2</h3>  
 				  <ul class="list-group lista-optativas collapse" id="optativa2">
-				  	<li ng-repeat="optativa in optativas1" tabindex="-1" ng-blur="blur()" class="list-group-item fonte-painel quebra-linha link_holder" ng-class="{'classe-dependencias': optativa.dependenciaAcionada, 'sem-dependencias': !optativa.dependenciaAcionada, 'selecionado': fluxograma.opcaoSelecionada}" ng-click="obterDependenciasOptativas(optativa, $event)">{{optativa.titulo}}
+				  	<li ng-repeat="optativa in optativas2" tabindex="-1" ng-blur="blur()" class="list-group-item fonte-painel quebra-linha link_holder" ng-class="{'classe-dependencias': optativa.dependenciaAcionada, 'sem-dependencias': !optativa.dependenciaAcionada, 'selecionado': fluxograma.opcaoSelecionada}" ng-click="obterDependenciasOptativas(optativa, $event)">{{optativa.titulo}}
 				  	<a href="{{optativa.link}}" target="_blank">Disciplina</a></li>
 				  </ul>
 				</div>

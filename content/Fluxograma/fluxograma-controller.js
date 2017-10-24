@@ -138,28 +138,28 @@ angular.module('index',[]).controller('FluxogramaController', function($scope) {
 			possuiDependencia: false,
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Construcao_de_Software'
 		},
 		{
 			titulo : 'Modelagem de Software',
 			possuiDependencia: false,
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Modelagem_de_Software'
 		},
 		{
 			titulo : 'Processos de Software',
 			possuiDependencia: false,
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Processos_de_Software'
 		},
 		{
 			titulo : 'Engenharia de Sistemas',
 			possuiDependencia: false,
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Engenharia_de_Sistemas'
 		},
 	];
 
@@ -169,28 +169,28 @@ angular.module('index',[]).controller('FluxogramaController', function($scope) {
 			possuiDependencia: false,
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Design_de_Software'
 		},
 		{
 			titulo : 'Domínios de Software',
 			possuiDependencia: false,
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Dominio_de_Software'
 		},
 		{
 			titulo : 'Processos de Qualidade de Software',
 			possuiDependencia: false,
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Processos_de_Qualidade_de_Software'
 		},
 		{
 			titulo : 'Gerência de Projeto de Software',
 			possuiDependencia: false,
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Gerencia_de_Projeto_de_Software'
 		},
 	];
 
@@ -200,35 +200,35 @@ angular.module('index',[]).controller('FluxogramaController', function($scope) {
 			possuiDependencia: false,
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Software_Concorrente_e_Distribuido'
 		},
 		{
 			titulo : 'Experiência do Usuário de Software',
 			possuiDependencia: false,
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Experiencia_do_Usuario_de_Software'
 		},
 		{
 			titulo : 'Arquitetura de Software',
 			possuiDependencia: false,
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Arquitetura_de_Software'
 		},
 		{
 			titulo : 'Requisitos de Software',
 			possuiDependencia: false,
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Requisitos_de_Software'
 		},
 		{
 			titulo : 'Governança e Gestão de Serviços de Software',
 			possuiDependencia: false,
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Governanca_e_Gestao_dos_Servicos_de_Software'
 		},
 	];
 
@@ -238,28 +238,28 @@ angular.module('index',[]).controller('FluxogramaController', function($scope) {
 			possuiDependencia: false,
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Software_Para_Sistemas_Obiquos'
 		},
 		{
 			titulo : 'Software para Persistência de Dados',
 			possuiDependencia: false,
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Software_Para_Persistencia_de_Dados'
 		},
 		{
 			titulo : 'Padrões de Arquitetura de Software',
 			possuiDependencia: false,
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Padroes_de_Arquitetura_de_Software'
 		},
 		{
 			titulo : 'Testes de Software',
 			possuiDependencia: false,
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Testes_de_Software'
 		},
 	];
 
@@ -269,7 +269,7 @@ angular.module('index',[]).controller('FluxogramaController', function($scope) {
 			possuiDependencia: false,
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Pratica_em_Engenharia_de_Software'
 		},
 	];
 
@@ -281,7 +281,7 @@ angular.module('index',[]).controller('FluxogramaController', function($scope) {
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
 			array: 1,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Sistemas_Operacionais'
 		},
 		{
 			titulo : 'Pesquisa Operacional',
@@ -289,7 +289,7 @@ angular.module('index',[]).controller('FluxogramaController', function($scope) {
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
 			array: 1,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Pesquisa_Operacional'
 		},
 		{
 			titulo : 'Linguagens Formais e Autônomas',
@@ -297,7 +297,7 @@ angular.module('index',[]).controller('FluxogramaController', function($scope) {
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
 			array: 1,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Linguagens_Formais_e_Automatos'
 		},
 	];
 
@@ -308,7 +308,7 @@ angular.module('index',[]).controller('FluxogramaController', function($scope) {
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
 			array: 2,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Redes_de_Computadores'
 		},
 		{
 			titulo : 'Introdução a Lingua Brasileira de Sinais',
@@ -316,7 +316,7 @@ angular.module('index',[]).controller('FluxogramaController', function($scope) {
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
 			array: 2,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Introducao_a_Lingua_Brasileira_de_Sinais'
 		},
 		{
 			titulo : 'Compiladores',
@@ -324,7 +324,7 @@ angular.module('index',[]).controller('FluxogramaController', function($scope) {
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
 			array: 2,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Compiladores'
 		},
 	];
 
@@ -335,7 +335,7 @@ angular.module('index',[]).controller('FluxogramaController', function($scope) {
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
 			array: 3,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Sistemas_Distribuidos'
 		},
 		{
 			titulo : 'Mercado e Economia de Software',
@@ -343,7 +343,7 @@ angular.module('index',[]).controller('FluxogramaController', function($scope) {
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
 			array: 3,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Mercado_e_Economia_de_Software'
 		},
 		{
 			titulo : 'Metodologia e Experimentação em Engenharia de Software',
@@ -351,7 +351,7 @@ angular.module('index',[]).controller('FluxogramaController', function($scope) {
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
 			array: 3,
-			link: './teste.html'
+			link: '../../disciplinas.html#!/Metodologia_e_Experimentacao_em_Engenharia_de_Software'
 		},
 	];
 
@@ -637,18 +637,19 @@ angular.module('index',[]).controller('FluxogramaController', function($scope) {
 			if(!$scope.optativaSelecionada){
 				$scope.ativarCollapse();
 			}
-		}else{
+		}else if(!fluxograma.possuiDependencia && !$scope.optativaSelecionada){
 			$scope.ativarCollapse();
 		}
 	}
 
 	// obtém as dependências das disciplinas optativas e previne o painel de fechar
 	$scope.obterDependenciasOptativas = function(fluxograma, event){
-		fluxograma.opcaoSelecionada = true;
+
 		$scope.optativaSelecionada = true; // colocar verdadeiro antes de chamar a função de buscar dependências
-		$scope.obterDependencias(fluxograma);
 		$scope.desativaCollapse(event);
+		$scope.obterDependencias(fluxograma);
 		$scope.optativaSelecionada = false; // reinicia a variavel com valor falso
+		fluxograma.opcaoSelecionada = true;
 	}
 
 	//busca o array de dependencia
