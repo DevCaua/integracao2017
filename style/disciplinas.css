@@ -53,6 +53,11 @@ body {
 
 .btn-warning {
     display: none;
+    width: 40px;
+}
+
+.btn-warning:focus {
+    box-shadow: 0 0 0 0;
 }
 
 .container-fluid {
@@ -240,12 +245,21 @@ body {
 }
 
 .sidebar-nav li ul.panel-collapse li a {
-    background: #fae4bf !important;
-    color: #ad7311 !important;
+    background: #fae4bf;
+    color: #ad7311;
     border-bottom-style: solid;
     border-color: #EDCC94;
     border-width: 1px;
     height: 50px;
     line-height: 50px;
     width:225px;
+}
+
+.sidebar-nav li button:hover, .selected {
+    background: #fff !important;
+    color: #ed9e17 !important;
+}
+
+.sidebar-nav li button:hover .sidebar-icon {
+    color: #ed9e17 !important;
 }

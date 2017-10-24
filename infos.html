@@ -93,6 +93,7 @@
                             <span class="sidebar-title">Política de qualificação</span>
                         </a>
                     </li>
+                    <button type="button" data-name="hide" value="Toggle" id="toggle" class="btn btn-warning my-2 my-sm-0"><span class="sidebar-icon"><i class="fa fa-caret-square-o-right"></i></span></button>
                 </ul>
             </aside>            
         </div>
@@ -106,6 +107,19 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <script>
+        $(document).ready(function () {
+  	    $("#toggle").click(function () {
+	        if ($(this).data('name') == 'show') {
+	            $("#sidebar-wrapper").css("width", "45px")
+	            $(this).data('name', 'hide')
+	            $('.sidebar-nav').find('.fa-caret-square-o-left').removeClass('fa-caret-square-o-left').addClass('fa-caret-square-o-right')
+	        } else {
+	            $("#sidebar-wrapper").css("width", "225px")
+	            $(this).data('name', 'show')
+	            $('.sidebar-nav').find('.fa-caret-square-o-right').removeClass('fa-caret-square-o-right').addClass('fa-caret-square-o-left')
+		      }
+		    });
+		  });
     </script>
   </body>
 </html>
