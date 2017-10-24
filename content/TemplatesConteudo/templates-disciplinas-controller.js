@@ -679,7 +679,35 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'ProcessosSoftware',
-			conteudo: 'O Bacharelado em Engenharia de Software foi criado em 2009, sendo a UFG a universidade brasileira pioneira. O curso é focado na graduação de um profissional capaz de especificar software; projetar (design) software (inclui arquitetura de software); construir (programar) software com qualidade; realizar atividades de manutenção de software, além de trabalhar em equipe, comunicar e escrever bem. Tem a duração de 9 semestres, predominantesmente no turno noturno.'	
+			conteudo: '<p><b>Características</b></br><br>\
+						- Núcleo Comum</br>\
+						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
+						- Disciplina Obrigatória</br><br>\
+						<b>Carga Horária</b></br><br>\
+						- Horas Teóricas: 32h</br>\
+						- Horas Práticas: 32h</br>\
+						- Carga horária total: 64h<br></br>\
+						<b>Pré-Requisitos</b></br><br>\
+						- Nenhum</br></br>\
+						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Modelagem de Software)</br>\
+						Diretamente<br>\
+						- Nenhum</br></br>\
+						Indiretamente<br>\
+						- Nenhum</br></br>\
+						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						- Visão geral (8h): processo, método e modelo.</br>\
+						- Processos específicos de software: processos de implementação (12h), processos de suporte (12h) e processos de reutilização (2h).</br>\
+						- Qualidade de Processo: modelos de qualidade de processos (12h), avaliação da qualidade do processo (12h) e abordagens de implementação de processo (6h).</br><br>\
+						<b>Condições Mínimas(qual o domínio do conteúdo abordado que o estudante deve ter, no final da disciplina, para que ele seja aprovado)</b></br><br>\
+						<i>Seguindo instruções (passo-a-passo), o estudante deve ser capaz de:</i></br></br>\
+						- Explicar processos de software, a relação dessa área de conhecimento com as demais da engenharia de software e a relação com o conceito de sistema.</br>\
+						- Explicar o uso de modelos de qualidade de processo: implementação e avaliação.</br>\
+						- Obter resultados de processo usando métodos e modelos.</br></br>\
+						<i>Sem que instruções sejam dadas, o estudante, com a assistência do professor, deve ser capaz de:</i></br></br>\
+						- Esse nível não se aplica a essa disciplina.\
+						<i>Sem instruções e sem a assistência do professor, o estudante deve ser capaz de:</i></br></br>\
+						- Correlacionar os conceitos de processo de software, método de software, modelo de software, modelo de processo e modelo de qualidade de processo.</br>\
+						- Explicar quais são os processos específicos de software: objetivo de cada processo e principais resultados.</p>'
 		},
 		{
 			titulo: 'EngenhariaSistema',
