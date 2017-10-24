@@ -68,9 +68,9 @@
 }
 
 .selecionado{
-	background: linear-gradient(to bottom, #006900, #2E972E); 
-    border-color: #9F6B10;
-    color: white;
+	background: linear-gradient(to bottom, #006900, #2E972E)!important; 
+    border-color: #9F6B10!important;
+    color: white!important;
 }
 
 @media(max-width: 980px){

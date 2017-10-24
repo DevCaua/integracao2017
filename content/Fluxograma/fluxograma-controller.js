@@ -634,7 +634,7 @@ angular.module('index',[]).controller('FluxogramaController', function($scope) {
 				}
 			})
 			$scope.verificaDependencia(fluxograma);
-			if(!$scope.optativaSelecionada){
+			if(!$scope.optativaSelecionada && (!$scope.optativaAcionada || !$scope.optativaAcionada2 || !$scope.optativaAcionada3)){
 				$scope.ativarCollapse();
 			}
 		}else if(!fluxograma.possuiDependencia && !$scope.optativaSelecionada){
@@ -645,11 +645,11 @@ angular.module('index',[]).controller('FluxogramaController', function($scope) {
 	// obtém as dependências das disciplinas optativas e previne o painel de fechar
 	$scope.obterDependenciasOptativas = function(fluxograma, event){
 
-		$scope.optativaSelecionada = true; // colocar verdadeiro antes de chamar a função de buscar dependências
-		$scope.desativaCollapse(event);
-		$scope.obterDependencias(fluxograma);
-		$scope.optativaSelecionada = false; // reinicia a variavel com valor falso
-		fluxograma.opcaoSelecionada = true;
+			$scope.optativaSelecionada = true; // colocar verdadeiro antes de chamar a função de buscar dependências
+			$scope.desativaCollapse(event);
+			$scope.obterDependencias(fluxograma);
+			$scope.optativaSelecionada = false; // reinicia a variavel com valor falso
+			fluxograma.opcaoSelecionada = true;
 	}
 
 	//busca o array de dependencia
@@ -703,6 +703,7 @@ angular.module('index',[]).controller('FluxogramaController', function($scope) {
 	$scope.configuracaoInicial = function(){
 		$scope.fluxogramaCompleto.forEach(function(atual){
 			atual.dependenciaAcionada = false;
+			atual.opcaoSelecionada = false;
 		})
 		$scope.arrayDependencias = [];
 		$scope.optativaAcionada = false;
@@ -737,11 +738,17 @@ angular.module('index',[]).controller('FluxogramaController', function($scope) {
 
 	$scope.blur = function(){
 		console.log("acionado");
-		$scope.fluxogramaCompleto.forEach(function(atual){
-			atual.dependenciaAcionada = false;
-		})
-		$scope.optativaAcionada = false;
-		$scope.optativaAcionada2 = false;
-		$scope.optativaAcionada3 = false;
+		if(!$scope.optativaSelecionada && ($scope.optativaAcionada || $scope.optativaAcionada2 || $scope.optativaAcionada3)){
+			return;
+		}else{
+			$scope.fluxogramaCompleto.forEach(function(atual){
+						atual.dependenciaAcionada = false;
+						atual.opcaoSelecionada = false;
+					})
+					$scope.optativaAcionada = false;
+					$scope.optativaAcionada2 = false;
+					$scope.optativaAcionada3 = false;
+		}
+		
 	}
 });
