@@ -1,0 +1,37 @@
+
+body {
+  padding-top: 4.5rem;
+}
+
+
+/* NAVBAR */
+
+.navbar-cor {
+    background-color: #1b98e0;
+}
+
+.logo-small {
+  font-size:12px;
+}
+
+.logo-large {
+  font-size: 30px;
+  line-height: 100%;
+}
+.nav-item {
+  font-size: 18px;
+}
+
+.toplink {
+  color: white !important;
+}
+
+.toplink:hover{
+  background-color: #82c6ee;
+  border-radius: 8px;
+}
+.modulo-escolhido {
+  background-color: #59b4e8;
+  border-radius: 8px;
+}
+
