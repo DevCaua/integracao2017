@@ -27,4 +27,17 @@ Nenhum
 3.  Camadas de Aplicação, Transporte, Rede, Enlace e Física.
 4.  Gerenciamento de Redes.
 5.  Redes Sem Fio e Mobilidade.
-6.  Estudo de Caso de Tópicos Emergentes em Redes
+6.  Estudo de Caso de Tópicos Emergentes em Redes  
+
+## SWEBOK - Guide to the Software Engineering Body of Knowledge
+### (qual(is) capítulos, tópicos e subtópicos do SWEBOK que se relacionam com essa disciplina)  
+Obs: a versão utilizada é a V3.0  
+
+#### Capítulos  
+* 
+
+#### Tópicos  
+*   
+
+#### Subtópicos
+* 

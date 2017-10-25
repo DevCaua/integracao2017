@@ -28,4 +28,17 @@ Lógica Matemática
 3.  Linguagens para Banco de Dados: álgebra relacional, cálculo relacional e SQL.
 4.  Modelo Entidade-Relacionamento e extensões.
 5.  Mapeamento ER-relacional.
-6.  Normalização.
+6.  Normalização.  
+
+## SWEBOK - Guide to the Software Engineering Body of Knowledge
+### (qual(is) capítulos, tópicos e subtópicos do SWEBOK que se relacionam com essa disciplina)  
+Obs: a versão utilizada é a V3.0  
+
+#### Capítulos  
+* 
+
+#### Tópicos  
+*   
+
+#### Subtópicos
+* 

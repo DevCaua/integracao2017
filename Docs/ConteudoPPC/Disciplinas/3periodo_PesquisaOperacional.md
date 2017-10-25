@@ -25,4 +25,17 @@ Carga horária total: 64h
 1.  Modelagem.
 2.  Problema de Programação Linear (PL). Resolução gráfica de PL.
 3.  Algoritmo Simplex. Dualidade. Algoritmo Simplex-Dual.
-4.  Pós-otimização e Análise de Sensibilidade.
+4.  Pós-otimização e Análise de Sensibilidade.  
+
+## SWEBOK - Guide to the Software Engineering Body of Knowledge
+### (qual(is) capítulos, tópicos e subtópicos do SWEBOK que se relacionam com essa disciplina)  
+Obs: a versão utilizada é a V3.0  
+
+#### Capítulos  
+* 
+
+#### Tópicos  
+*   
+
+#### Subtópicos
+* 

@@ -30,4 +30,17 @@ Programação Orientada a Objetos
 4.  Análise de qualidade e avaliação de design de software.
 5.  Notação de design de software.
 6.  Métodos e estratégias de design de software.
-7.  Ferramentas de design de software
+7.  Ferramentas de design de software  
+
+## SWEBOK - Guide to the Software Engineering Body of Knowledge
+### (qual(is) capítulos, tópicos e subtópicos do SWEBOK que se relacionam com essa disciplina)  
+Obs: a versão utilizada é a V3.0  
+
+#### Capítulos  
+* 
+
+#### Tópicos  
+*   
+
+#### Subtópicos
+* 

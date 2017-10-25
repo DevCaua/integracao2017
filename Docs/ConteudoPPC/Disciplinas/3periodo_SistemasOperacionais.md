@@ -26,3 +26,16 @@ Arquitetura de Computadores
 1.  Conceitos de Hardware e Software.
 2.  Tipos de Sistemas Operacionais. Organização da Estrutura Interna do Sistema Operacional. Gerência de Processos. Gerência do Processador. Gerência de Memória. Gerência de Dispositivos de Entrada e Saída. Sistemas de Arquivos.
 3.  Estudos de casos de sistemas operacionais atuais.
+
+## SWEBOK - Guide to the Software Engineering Body of Knowledge
+### (qual(is) capítulos, tópicos e subtópicos do SWEBOK que se relacionam com essa disciplina)  
+Obs: a versão utilizada é a V3.0  
+
+#### Capítulos  
+* 
+
+#### Tópicos  
+*   
+
+#### Subtópicos
+* 

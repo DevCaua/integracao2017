@@ -24,4 +24,17 @@ Fundamentos de Matemática para Computação
 ### (Corresponde ao conteúdo que será abordado durante as aulas)  
 1.  Conceitos básicos de linguagens.
 2.  Mecanismos geradores (gramáticas) e reconhecedores (determinísticos e não determinísticos) de linguagens regulares, livres de contexto e sensíveis ao contexto; relação entre estas classes de linguagens e suas principais propriedades.
-3.  Hierarquia de Chomsky.
+3.  Hierarquia de Chomsky.  
+
+## SWEBOK - Guide to the Software Engineering Body of Knowledge
+### (qual(is) capítulos, tópicos e subtópicos do SWEBOK que se relacionam com essa disciplina)  
+Obs: a versão utilizada é a V3.0  
+
+#### Capítulos  
+* 
+
+#### Tópicos  
+*   
+
+#### Subtópicos
+* 

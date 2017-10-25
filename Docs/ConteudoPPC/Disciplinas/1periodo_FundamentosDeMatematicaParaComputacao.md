@@ -32,4 +32,17 @@ Nenhum
 3.	Indução matemática, Recursividade e Relações de Recorrência, Conjuntos e Combinatória. 
 4.	Séries e sequências. 
 5.	Relações e Funções. 
-6.	Representações numéricas e Mudança de base numérica
+6.	Representações numéricas e Mudança de base numérica  
+
+## SWEBOK - Guide to the Software Engineering Body of Knowledge
+### (qual(is) capítulos, tópicos e subtópicos do SWEBOK que se relacionam com essa disciplina)  
+Obs: a versão utilizada é a V3.0  
+
+#### Capítulos  
+* 
+
+#### Tópicos  
+*   
+
+#### Subtópicos
+* 

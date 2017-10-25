@@ -30,4 +30,17 @@ Cálculo 1A
 6.  Distribuições contínuas de probabilidade: uniforme, exponencial, normal e t-Student.
 7.  Estimação pontual e intervalar para uma população: média e proporção.
 8.  Teste de hipóteses para uma população: média e proporção.
-9.  Correlação linear e regressão linear simples
+9.  Correlação linear e regressão linear simples  
+
+## SWEBOK - Guide to the Software Engineering Body of Knowledge
+### (qual(is) capítulos, tópicos e subtópicos do SWEBOK que se relacionam com essa disciplina)  
+Obs: a versão utilizada é a V3.0  
+
+#### Capítulos  
+* 
+
+#### Tópicos  
+*   
+
+#### Subtópicos
+* 

@@ -29,3 +29,16 @@ Algoritmos e Estruturas de Dados 1
 3.  Definições de Grafos.
 4.  Estruturas de Dados para representação de grafos.
 5.  Algoritmos básicos em grafos.
+
+## SWEBOK - Guide to the Software Engineering Body of Knowledge
+### (qual(is) capítulos, tópicos e subtópicos do SWEBOK que se relacionam com essa disciplina)  
+Obs: a versão utilizada é a V3.0  
+
+#### Capítulos  
+* 
+
+#### Tópicos  
+*   
+
+#### Subtópicos
+* 

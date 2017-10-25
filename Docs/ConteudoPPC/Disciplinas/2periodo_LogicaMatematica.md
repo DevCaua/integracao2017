@@ -26,3 +26,16 @@ Fundamentos de Matemática para Computação
 2.  Métodos de validação: métodos diretos de prova; métodos de prova por contradição; indução estrutural.
 3.  Linguagem para experimentação.
 4.  Aplicações básicas.
+
+## SWEBOK - Guide to the Software Engineering Body of Knowledge
+### (qual(is) capítulos, tópicos e subtópicos do SWEBOK que se relacionam com essa disciplina)  
+Obs: a versão utilizada é a V3.0  
+
+#### Capítulos  
+* 
+
+#### Tópicos  
+*   
+
+#### Subtópicos
+* 

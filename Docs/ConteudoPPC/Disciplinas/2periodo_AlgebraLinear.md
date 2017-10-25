@@ -27,3 +27,16 @@ Cálculo 1A
 3.  Transformações lineares.
 4.  Autovalores e autovetores.
 5.  Espaços com produto interno.
+
+## SWEBOK - Guide to the Software Engineering Body of Knowledge
+### (qual(is) capítulos, tópicos e subtópicos do SWEBOK que se relacionam com essa disciplina)  
+Obs: a versão utilizada é a V3.0  
+
+#### Capítulos  
+* 
+
+#### Tópicos  
+*   
+
+#### Subtópicos
+* 

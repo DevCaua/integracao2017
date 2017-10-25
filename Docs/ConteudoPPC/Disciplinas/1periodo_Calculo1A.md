@@ -29,3 +29,19 @@ Nenhum
 5.	Polinômio de Taylor. 
 6.	Integrais. Técnicas de Integração. Integrais impróprias. 
 7.	Aplicações.
+
+## SWEBOK - Guide to the Software Engineering Body of Knowledge
+### (qual(is) capítulos, tópicos e subtópicos do SWEBOK que se relacionam com essa disciplina)  
+Obs: a versão utilizada é a V3.0  
+
+#### Capítulos  
+* Mathematical Foundations - Fundamentos de Matemática (cap 14)
+
+#### Tópicos  
+* Basics of Counting - Princípio Fundamental da Contagem (cap 14 - top 4)  
+* Numerical Precision, Accuracy, and Errors - Exatidão Numérica, Precisão e Erros (cap 14 - top 9)  
+* Number Theory - Teoria dos Números (cap 14 - top 10)
+* Algebraic Structures - Estruturas Algébricas (cap 14 - top 11)  
+
+#### Subtópicos
+* Nenhum

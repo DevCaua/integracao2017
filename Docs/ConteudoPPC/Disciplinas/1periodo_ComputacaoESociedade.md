@@ -27,3 +27,16 @@ Nenhum
 8.	Ética na Computação. 
 9.	Empresas de tecnologia da informação. 
 10.	Incubadoras de empresas.
+
+## SWEBOK - Guide to the Software Engineering Body of Knowledge
+### (qual(is) capítulos, tópicos e subtópicos do SWEBOK que se relacionam com essa disciplina)  
+Obs: a versão utilizada é a V3.0  
+
+#### Capítulos  
+* Software Engineering Professional Practice - Prática Profissional de Engenharia de Software (cap 11)  
+
+#### Tópicos  
+* Comunication Skills - Habilidades de Comunicação (cap 11 top 3)  
+
+#### Subtópicos
+* 

@@ -32,3 +32,16 @@ Fundamentos de Matemática para Computação
 8.	Interfaceamento e técnicas de entrada e saída. 
 9.	Hierarquia de memória.
 10.	Introdução a arquiteturas paralelas e métricas de desempenho.
+
+## SWEBOK - Guide to the Software Engineering Body of Knowledge
+### (qual(is) capítulos, tópicos e subtópicos do SWEBOK que se relacionam com essa disciplina)  
+Obs: a versão utilizada é a V3.0  
+
+#### Capítulos  
+* 
+
+#### Tópicos  
+*   
+
+#### Subtópicos
+* 

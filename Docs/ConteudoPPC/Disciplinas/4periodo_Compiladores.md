@@ -33,4 +33,17 @@ Algoritmos e Estruturas de Dados 2
 5.  Representação intermediária do programa-fonte.
 6.  Geração do código-objeto da compilação.
 7.  Introdução à otimização do código-objeto.
-8.  Implementação de um compilador.
+8.  Implementação de um compilador.  
+
+## SWEBOK - Guide to the Software Engineering Body of Knowledge
+### (qual(is) capítulos, tópicos e subtópicos do SWEBOK que se relacionam com essa disciplina)  
+Obs: a versão utilizada é a V3.0  
+
+#### Capítulos  
+* 
+
+#### Tópicos  
+*   
+
+#### Subtópicos
+* 

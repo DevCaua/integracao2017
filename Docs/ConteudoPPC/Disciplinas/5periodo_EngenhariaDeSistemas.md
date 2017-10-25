@@ -38,4 +38,17 @@ Nenhum
 * Desenvolver conceitos operacionais do sistema (ambientes operacionais, características priorizadas, atributos de qualidade, cenários operacionais, suposições, dependências, limitações e exclusões).
 
 #### Sem instruções e sem a assistência do professor, o estudante deve ser capaz de:  
-* Esse nível não se aplica a essa disciplina
+* Esse nível não se aplica a essa disciplina  
+
+## SWEBOK - Guide to the Software Engineering Body of Knowledge
+### (qual(is) capítulos, tópicos e subtópicos do SWEBOK que se relacionam com essa disciplina)  
+Obs: a versão utilizada é a V3.0  
+
+#### Capítulos  
+* 
+
+#### Tópicos  
+*   
+
+#### Subtópicos
+* 

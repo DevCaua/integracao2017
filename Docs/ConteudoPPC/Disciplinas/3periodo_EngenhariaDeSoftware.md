@@ -34,4 +34,17 @@ Nenhum
 10. Qualidade de software.
 11. Prática profissional de engenharia de software.
 12. Economia para engenharia de software.
-13. Fundamentos de engenharia.
+13. Fundamentos de engenharia.  
+
+## SWEBOK - Guide to the Software Engineering Body of Knowledge
+### (qual(is) capítulos, tópicos e subtópicos do SWEBOK que se relacionam com essa disciplina)  
+Obs: a versão utilizada é a V3.0  
+
+#### Capítulos  
+* 
+
+#### Tópicos  
+*   
+
+#### Subtópicos
+* 

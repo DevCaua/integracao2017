@@ -37,4 +37,17 @@ Nenhum
 * Explicar o que é software, qualidade de software, requisitos de software e a relação entre eles.  
 
 #### Sem instruções e sem a assistência do professor, o estudante deve ser capaz de:  
-* Empregar notações para registro de projeto de software orientado a objetos.
+* Empregar notações para registro de projeto de software orientado a objetos.  
+
+## SWEBOK - Guide to the Software Engineering Body of Knowledge
+### (qual(is) capítulos, tópicos e subtópicos do SWEBOK que se relacionam com essa disciplina)  
+Obs: a versão utilizada é a V3.0  
+
+#### Capítulos  
+* 
+
+#### Tópicos  
+*   
+
+#### Subtópicos
+* 

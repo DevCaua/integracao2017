@@ -25,3 +25,16 @@ Nenhum
 1.  Introdução às práticas de compreensão e produção em LIBRAS através do uso de estruturas e funções comunicativas elementares.
 2.  Concepções sobre a Língua de Sinais.
 3.  O surdo e a sociedade
+
+## SWEBOK - Guide to the Software Engineering Body of Knowledge
+### (qual(is) capítulos, tópicos e subtópicos do SWEBOK que se relacionam com essa disciplina)  
+Obs: a versão utilizada é a V3.0  
+
+#### Capítulos  
+* 
+
+#### Tópicos  
+*   
+
+#### Subtópicos
+* 

@@ -34,4 +34,17 @@ Probabilidade e Estatística A
 7.  Princípios de projeto de interfaces humano-computador. Métodos de projeto de interação. Projeto visual (cores, ícones, fontes e outros). Tempo de resposta e retroalimentação.
 8.  Dispositivos de interação.
 9.  Métodos de avaliação de interfaces: avaliação heurística, abordagens para testes realizados com apoio de usuários, técnicas de testes para páginas Web, entre outros.
-10. Visão geral de ferramentas de desenvolvimento de interfaces humano-computador.
+10. Visão geral de ferramentas de desenvolvimento de interfaces humano-computador.  
+
+## SWEBOK - Guide to the Software Engineering Body of Knowledge
+### (qual(is) capítulos, tópicos e subtópicos do SWEBOK que se relacionam com essa disciplina)  
+Obs: a versão utilizada é a V3.0  
+
+#### Capítulos  
+* 
+
+#### Tópicos  
+*   
+
+#### Subtópicos
+* 

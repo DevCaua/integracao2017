@@ -29,4 +29,17 @@ Algoritmos e Estruturas de Dados 2
 2.  Corretude de Algoritmos.
 3.  Exemplos de análise de algoritmos.
 4.  Técnicas de projeto de algoritmos: dividir para conquistar, programação dinâmica, algoritmos gulosos.
-5.  Introdução à NP-Completude.
+5.  Introdução à NP-Completude.  
+
+## SWEBOK - Guide to the Software Engineering Body of Knowledge
+### (qual(is) capítulos, tópicos e subtópicos do SWEBOK que se relacionam com essa disciplina)  
+Obs: a versão utilizada é a V3.0  
+
+#### Capítulos  
+* 
+
+#### Tópicos  
+*   
+
+#### Subtópicos
+* 
