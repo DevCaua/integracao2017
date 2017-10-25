@@ -212,3 +212,24 @@ body {
 .sidebar-nav li a:hover .sidebar-icon {
     color: #6b6d76 !important;
 }
+
+.tabela tr th{
+    width: 30em;
+    height: 3em;
+    border: 1px solid #DBDFE2;
+    padding: 1em;
+}
+
+.tabela tr th:nth-child(2),
+.tabela tr th:nth-child(3){
+     width: 1em;
+}
+
+.tabela tr:nth-child(1){
+    background-color: #39444E;
+    color: #A7ACB0;
+}
+
+.tabela tr:nth-child(2n+0){
+    background-color: #E4EEF3;
+}
