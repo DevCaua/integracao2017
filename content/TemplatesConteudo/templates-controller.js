@@ -835,7 +835,152 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 		},
 		{
 			titulo: 'Equivalencias',
-			conteudo: 'TESTETESTETESTE'	
+			conteudo: '<table class="tabela">\
+						<tr>\
+							<th><b>Disciplina do PPC De 2009-1</b></th>\
+							<th><b>CH</b></th>\
+							<th><b>Natureza</b></th>\
+							<th><b>Aproveita como - No PPC de 2017-1</b></th>\
+						</tr>\
+						<tr>\
+							<th>Introdução a Engenharia de Software</th>\
+							<th>64</th>\
+							<th>NE-OBR</th>\
+							<th>Engenharia de Software</th>\
+						</tr>\
+						<tr>\
+							<th>Ética, Normas e Postura Profissional</th>\
+							<th>64</th>\
+							<th>NC-OBR</th>\
+							<th>Computação e Sociedade</th>\
+						</tr>\
+						<tr>\
+							<th>Matemática Discreta</th>\
+							<th>64</th>\
+							<th>NC-OBR</th>\
+							<th>Fundamentos de Matemática para Computação</th>\
+						</tr>\
+						<tr>\
+							<th>Lógica</th>\
+							<th>64</th>\
+							<th>NC-OBR</th>\
+							<th>Lógica Matemática</th>\
+						</tr>\
+						<tr>\
+							<th>Introdução à Programação</th>\
+							<th>64</th>\
+							<th>NC-OBR</th>\
+							<th>Introdução à Programação</th>\
+						</tr>\
+						<tr>\
+							<th>Método de Desenvolvimento de Software</th>\
+							<th>64</th>\
+							<th>NC-OBR</th>\
+							<th>Programação Orientada a Objetos</th>\
+						</tr>\
+						<tr>\
+							<th>Construção de Software</th>\
+							<th>64</th>\
+							<th>NC-OBR</th>\
+							<th>Domínios de Software</th>\
+						</tr>\
+						<tr>\
+							<th>Arquitetura de Computadores</th>\
+							<th>64</th>\
+							<th>NC-OBR</th>\
+							<th>Arquitetura de Computadores</th>\
+						</tr>\
+						<tr>\
+							<th>Algoritmos: Fundamentos e Estruturas de Dados</th>\
+							<th>64</th>\
+							<th>NC-OBR</th>\
+							<th>Algoritmos e Estruturas de Dados 1</th>\
+						</tr>\
+						<tr>\
+							<th>Banco de Dados</th>\
+							<th>64</th>\
+							<th>NC-OBR</th>\
+							<th>Banco de Dados</th>\
+						</tr>\
+						<tr>\
+							<th>Engenharia de Software</th>\
+							<th>64</th>\
+							<th>NE-OBR</th>\
+							<th>Engenharia de Software</th>\
+						</tr>\
+						<tr>\
+							<th>Sistema Operacional</th>\
+							<th>64</th>\
+							<th>NE-OBR</th>\
+							<th>Sistemas Operacionais</th>\
+						</tr>\
+						<tr>\
+							<th>Redes e Sistemas Distribuídos/th>\
+							<th>64</th>\
+							<th>NE-OBR</th>\
+							<th>Redes de Computadores</th>\
+						</tr>\
+						<tr>\
+							<th>Algoritmos: Ordenação e Busca</th>\
+							<th>64</th>\
+							<th>NC-OBR</th>\
+							<th>Algoritmos e Estruturas de Dados 2</th>\
+						</tr>\
+						<tr>\
+							<th>Linguagens de Programação</th>\
+							<th>64</th>\
+							<th>NE-OBR</th>\
+							<th>Linguagens e Paradigmas de Programação</th>\
+						</tr>\
+						<tr>\
+							<th>Requisitos de Software</th>\
+							<th>64</th>\
+							<th>NE-OBR</th>\
+							<th>Requisitos de Software</th>\
+						</tr>\
+						<tr>\
+							<th>Projeto Detalhado de Software</th>\
+							<th>64</th>\
+							<th>NE-OBR</th>\
+							<th>Projeto de Software</th>\
+						</tr>\
+						<tr>\
+							<th>Processo de Software</th>\
+							<th>64</th>\
+							<th>NE-OBR</th>\
+							<th>Processos de Software</th>\
+						</tr>\
+						<tr>\
+							<th>Algoritmos em Grafos</th>\
+							<th>64</th>\
+							<th>NC-OBR</th>\
+							<th>Algoritmos e Estruturas de Dados 2</th>\
+						</tr>\
+						<tr>\
+							<th>Interação Homem-Computador</th>\
+							<th>64</th>\
+							<th>NE-OBR</th>\
+							<th>Interação Humano-Computador</th>\
+						</tr>\
+						<tr>\
+							<th>Segurança</th>\
+							<th>64</th>\
+							<th>NE-OBR</th>\
+							<th>Optativa 1, Optativa 2 ou Optativa 3</th>\
+						</tr>\
+						<tr>\
+							<th>Qualidade de Software</th>\
+							<th>64</th>\
+							<th>NE-OBR</th>\
+							<th>Processos de Qualidade de Software</th>\
+						</tr>\
+						<tr>\
+							<th>Arquitetura de Software</th>\
+							<th>64</th>\
+							<th>NE-OBR</th>\
+							<th>Arquitetura de Software</th>\
+						</tr>\
+					</table></p>'
 		},
 		{
 			titulo: 'EnsinoPesquisa',
