@@ -21,8 +21,8 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 		},
 		{
 			titulo: 'Identificacao',
-			conteudo: '<b>Identificação do Curso</b></br></br>\
-					<p><table class="tabela-identificacao">\
+			conteudo: '<p><b>Identificação do Curso</b></br></br>\
+					<table class="tabela-identificacao">\
 					  <tr>\
 					    <th>Nome do curso</th>\
 					    <th>Engenharia de Software</th>\
@@ -249,7 +249,7 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 		},
 		{
 			titulo: 'NDE',
-			conteudo: '<p><b>O Núcleo Docente Estruturante/b></br></br>\
+			conteudo: '<p><b>O Núcleo Docente Estruturante</b></br></br>\
 						Em vez de atribuir atividades ao NDE, o NDE adota os seguintes princípios:</br></br>\
 						- O NDE possui duas prioridades. A maior prioridade é colocar em prática o Projeto Pedagógico do Curso (PPC). A prioridade seguinte é mantê-lo relevante.</br>\
 						- Qualquer questão que diz respeito às prioridades é do interesse do NDE e pode resultar em ação.</br>\
