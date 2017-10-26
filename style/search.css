@@ -7,7 +7,7 @@ body {
 /* NAVBAR */
 
 .navbar-cor {
-    background-color: #1b98e0;
+    background-color: #005ca1;
 }
 
 .logo-small {
@@ -27,11 +27,13 @@ body {
 }
 
 .toplink:hover{
-  background-color: #82c6ee;
+  background-color: #4588ba;
   border-radius: 8px;
 }
-.modulo-escolhido {
-  background-color: #59b4e8;
-  border-radius: 8px;
+
+#search-results {
+  display: inline-block;
+  padding-top: 2rem;
 }
+
 

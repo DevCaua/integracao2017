@@ -8,7 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="es_curricular.css">
+    <link rel="stylesheet" type="text/css" href="style/search.css">
     
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -25,7 +25,7 @@
               <a class="nav-link toplink" href="curso.html">O Curso</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link toplink modulo-escolhido" href="#">Estrutura Curricular</a>
+              <a class="nav-link toplink" href="es_curricular.html">Estrutura Curricular</a>
             </li>
             <li class="nav-item">
               <a class="nav-link toplink" href="disciplinas.html">Disciplinas</a>
@@ -34,19 +34,13 @@
               <a class="nav-link toplink" href="infos.html">Outras Informações</a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="O que você procura?">
-            <button class="btn btn-success my-2 my-sm-0" type="submit">Busca</button>
+          <form class="form-inline my-2 my-lg-0" action="search.html" method="get">
+            <input class="form-control mr-sm-2" type="text" placeholder="O que você procura?" id="search-box" name="query">
+            <button class="btn btn-success my-2 my-sm-0" type="submit" value="search">Busca</button>
           </form>
         </div>
     </nav>
     <div class="container-fluid">
-        <form action="search.html" method="get">
-          <label for="search-box">Search</label>
-          <input type="text" id="search-box" name="query">
-          <input type="submit" value="search">
-        </form>
-
         <ul id="search-results"></ul>
     </div>
     <script>
@@ -55,7 +49,7 @@
         "nome" : "Computação e Sociedade",
         "url" : "https://caua539.github.io/integracao2017/disciplinas.html#!/Computacao_e_Sociedade",
         "palavrasChave" : ["Empreendedorismo",
-            "1° Período",	
+            "1°",	
             "Obrigatória",	
             "Núcleo Comum",	
             "Computação",	
@@ -1316,6 +1310,6 @@
 ]
     </script>
     <script src="https://unpkg.com/lunr/lunr.js"></script>
-    <script src="search.js"></script>
+    <script src="content/Busca/search.js"></script>
   </body>
 </html>

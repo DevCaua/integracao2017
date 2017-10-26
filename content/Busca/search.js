@@ -5,14 +5,22 @@ function displaySearchResults(results, docs) {
     var appendString = '';
 
     for (var i = 0; i < results.length; i++) {  // Iterate over the results
-        console.log(results[i].ref);
-        var item = docs[results[i].ref];
+        var urlnow = results[i].ref;
+        var item = getSingleDoc(docs, urlnow);
         appendString += '<li><a href="' + item.url + '"><h3>' + item.nome + '</h3></a>';
     }
 
     searchResults.innerHTML = appendString;
     } else {
     searchResults.innerHTML = '<li>Sem resultados encontrados.</li>';
+    }
+}
+
+function getSingleDoc(docs, url) {
+    for (var i = 0; i < docs.length; i++) {
+        if (docs[i].url == url) {
+            return docs[i];
+        }
     }
 }
 
