@@ -56,6 +56,10 @@
 	color:#454545;
 }
 
+.link{
+	color: white!important;
+}
+
 .link_holder a{
 	visibility: hidden;
 	position: relative;
