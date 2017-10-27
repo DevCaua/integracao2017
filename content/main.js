@@ -1,6 +1,6 @@
 angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
 .config(function($stateProvider) {
-    
+
     var apresentacaoState = {
         name: 'apresentacao',
         url: '/apresentacao',
@@ -44,7 +44,7 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
             subMenuSelecionado: 'Motivacao'
         }
     }
-  
+
     var objetivoState = {
         name: 'objetivos',
         url: '/objetivos',
@@ -55,7 +55,7 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
             subMenuSelecionado: 'Objetivos'
         }
     }
-    
+
     var principioState = {
         name: 'principios',
         url: '/principios',
@@ -66,7 +66,7 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
             subMenuSelecionado: 'Principios'
         }
     }
-    
+
     var expectativaState = {
         name: 'expectativas',
         url: '/expectativas',
@@ -121,7 +121,7 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
             subMenuSelecionado: 'NL'
         }
     }
-  
+
     var fluxoState = {
         name: 'fluxo',
         url: '/fluxo',
@@ -132,7 +132,7 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
             subMenuSelecionado: 'FluxoSugerido'
         }
     }
-    
+
     var cargaState = {
         name: 'carga',
         url: '/carga',
@@ -164,7 +164,7 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
             menuEscolhido: 'Informacoes',
             subMenuSelecionado: 'Estagio'
         }
-    }  
+    }
 
     var equivalenciasState = {
         name: 'equivalencias',
@@ -221,6 +221,17 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
         }
     }
 
+    var ppcState = {
+        name: 'ppc',
+        url: '/ppc',
+        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
+        controller: 'TemplatesController',
+        params:{
+            menuEscolhido: 'Informacoes',
+            subMenuSelecionado: 'PPC'
+        }
+    }
+
     // state Curso
     $stateProvider.state(apresentacaoState);
     $stateProvider.state(identificacaoState);
@@ -246,6 +257,6 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
     $stateProvider.state(avaliacaoProcessoState);
     $stateProvider.state(avaliacaoProjetoState);
     $stateProvider.state(politicaState);
-    
-  });
+    $stateProvider.state(ppcState);
 
+  });
