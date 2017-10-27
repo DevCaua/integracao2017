@@ -17,7 +17,7 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 						A busca pela qualidade é a motivação dessa segunda versão, que só pode ser adequadamente compreendida com o detalhamento da história da criação do curso e do cenário no qual está inserido, o que lembra Paulo Freire, segundo o qual "toda leitura de texto pressupõe uma rigorosa leitura do contexto".</br></br>\
 						Não houve alteração relevante dos objetivos do curso, nem tampouco do perfil do egresso, contudo,ambos foram refinados.Os requisitos legais e normativos foram ampliados pelas diretrizes curriculares nacionais(que não existem quando a primeira versão foi produzida). Em particular, a estratégia para atender a educação das relações etnico-raciais e para o ensino de história e cultura afro-brasileira foi revista em sua totalidade.</br></br>\
 						A estrutura curricular sofreu mudanças significativas.Em particular, o fluxo sugerido, nos quatro primeiros períodos, inclui apenas disciplinas de formação básica em computação.A disciplina "Prática em Engenharia de Software" é o elemento intetegrador do curso, com carga horária de 320 horas. Em particular, as disciplinas específicas da Engenharia de Software são acompanhadas em uma seção adicional, "condições mínimas", que estabelece competências a serem demonstradas/adiquiridas pelo estudante em cada uma delas.</br></br>\
-						A busca por um curso de Engenharia de Software melhor é uma atribuição contínua do NDE estabelecida nesse PPC por meio de princípios. Esse compromisso é oportuno para estabelecer claramente a responsabilidade pela gestão do presente PPC pelo NDE, sem o qual esse texto resume-se a um registro de intenções.</p>'	
+						A busca por um curso de Engenharia de Software melhor é uma atribuição contínua do NDE estabelecida nesse PPC por meio de princípios. Esse compromisso é oportuno para estabelecer claramente a responsabilidade pela gestão do presente PPC pelo NDE, sem o qual esse texto resume-se a um registro de intenções.</p>'
 		},
 		{
 			titulo: 'Identificacao',
@@ -95,7 +95,7 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 					    <th>Forma de ingresso</th>\
 					    <th>Sistema de Seleção Unificada(SISU). Em caso de existência de vagas é possível o ingresso através : (a) Transferência de outras instituições de ensino superior; (b) portadores de diploma e (c) reingresso. Essas opções dependem de processo seletivo específico da ufg</th>\
 					  </tr>\
-					</table></p>'	
+					</table></p>'
 		},
 		{
 			titulo: 'Contexto',
@@ -137,7 +137,7 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 				Dezenas de docentes acumularam lições aprendidas desde o início da primeira turma do curso em março de 2009. A partir de outubro de 2014, o Núcleo Docente Estruturante (NDE) do curso iniciou esforço para refletir essas lições em uma nova versão do PPC. Ao longo de quase meia centena de encontros, o NDE fez uma exaustiva revisão do curso. As lições aprendidas e outras demandas, por exemplo, as diretrizes curriculares e o alinhamento com uma formação básica de qualidade em computação, definida pelo próprio INF, foram acomodadas na presente versão.</br></br>\
 				Convém esclarecer que na época da criação do BES, sem similar no país, não existiam diretrizes curriculares específicas. Essas diretrizes vieram apenas em 2012 [CNE 2012].</br></br>\
 				A presente versão não é resultado de alterações superficiais aplicadas à versão anterior, mas de ampla reflexão. Insumos empregados na elaboração da versão anterior foram revisitados. As Diretrizes Curriculares Nacionais (DCN), a versão mais recente do corpo de conhecimento da área e o modelo de competência para o engenheiro de software balizaram os esforços realizados. Projetos pedagógicos de cursos semelhantes, inclusive em outros países, também foram investigados. Esse substancial conjunto de informação foi analisado à luz da experiência dos docentes do próprio curso e do conte</br></br>\
-				Por fim, o BES obteve nota máxima na avaliação do MEC em 2015, o que estimulou o cuidado com o curso, reforçado pelo Guia dos Estudantes da Editora Abril 2015, no qual, dentre os 28 cursos superiores em Engenharia de Software investigados, dois recebem 5 estrelas, um desses é o curso do presente projeto pedagógico. Em 2016, esse cenário persiste, conforme o Guia dos Estudantes 2016.</p>'	
+				Por fim, o BES obteve nota máxima na avaliação do MEC em 2015, o que estimulou o cuidado com o curso, reforçado pelo Guia dos Estudantes da Editora Abril 2015, no qual, dentre os 28 cursos superiores em Engenharia de Software investigados, dois recebem 5 estrelas, um desses é o curso do presente projeto pedagógico. Em 2016, esse cenário persiste, conforme o Guia dos Estudantes 2016.</p>'
 		},
 		{
 			titulo: 'Objetivos',
@@ -184,7 +184,7 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 			Essa disciplina de 320 horas tem como objetivo explícito a participação do estudante em um ou mais projetos integradores que usufruem de conhecimento e habilidades adquiridos por todo o curso. Os projetos exigem o contato com problemas reais, o que exige contato tanto com o conhecimento quanto profissionais de outras áreas. Consulte detalhes na página 75.</br></br>\
 			<b>Atividades Supervisionadas</b></br></br>\
 			De acordo com a Resolução  CNE/CES 03/2007 de 2 de julho de 2007, cabe às Instituições de Educação Superior, respeitando o mínimo dos duzentos dias letivos de trabalho acadêmico efetivo, a definição da duração da atividade acadêmica ou do  trabalho discente efetivo, o que compreende: (a) preleções e aulas expositivas e (b) atividades práticas supervisionadas, tais como laboratórios, atividades em biblioteca, iniciação científica, trabalhos individuais e em grupo, práticas de ensino e outras atividades no caso das licenciaturas.</br></br>\
-			O BES divide cada hora de atividade acadêmica em 45 minutos de preleções e aulas expositivas e 15 minutos de atividades práticas supervisionadas. O planejamento de cada hora deve estar devidamente registrado no plano de cada disciplina. Em particular, o plano deve incluir de forma clara as atividades práticas supervisionadas.</p>'	
+			O BES divide cada hora de atividade acadêmica em 45 minutos de preleções e aulas expositivas e 15 minutos de atividades práticas supervisionadas. O planejamento de cada hora deve estar devidamente registrado no plano de cada disciplina. Em particular, o plano deve incluir de forma clara as atividades práticas supervisionadas.</p>'
 		},
 		{
 			titulo: 'Expectativas',
@@ -245,7 +245,7 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 			- Auxiliar a elaboração de planos e revisões de qualidade.</br>\
 			- Participar da construção de software que segue princípios recomendados para segurança de código.</br>\
 			- Participar da construção de software que segue um plano de gerência de configuração de software.</br>\
-			- Participar da documentação de software.</p>'	
+			- Participar da documentação de software.</p>'
 		},
 		{
 			titulo: 'NDE',
@@ -270,7 +270,7 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 						- Acompanhar e promover a qualificação do corpo de técnico-administrativos.</br></br>\
 						O NDE, portanto, não se apresenta como órgão ou mecanismo deliberativo, mas consultivo. Reúne docentes que continuamente refletem sobre questões pertinentes ao curso e, em consequência, definem ações que assistem, apoiam e fomentam a qualidade do curso, bem como contribuem com a execução dessas ações.</br></br>\
 						A atuação do NDE deve ser realizada em estreita interação com a coordenação do curso. Entretanto, não é nem pode ser vista como meio para auxiliar a realização de fluxos administrativos (atribuição da coordenação do curso).</br></br>\
-						Convém observar que as atribuições estabelecidas acima estão em conformidade com a resolução da Comissão Nacional de Avaliação da Educação Superior (CONAES), 01/2010 de 17 de junho de 2010, a qual “normatiza o núcleo docente estruturante”, e esclarecido pelo parecer CONAES 04/2010 de 17 de junho de 2010.</p>'	
+						Convém observar que as atribuições estabelecidas acima estão em conformidade com a resolução da Comissão Nacional de Avaliação da Educação Superior (CONAES), 01/2010 de 17 de junho de 2010, a qual “normatiza o núcleo docente estruturante”, e esclarecido pelo parecer CONAES 04/2010 de 17 de junho de 2010.</p>'
 		},
 		{
 			titulo: 'TCC',
@@ -278,7 +278,7 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 			O Trabalho de Conclusão de Curso (TCC) no BES é um componente curricular obrigatório regulado pelas Normas e Procedimentos de Trabalho de Conclusão de Curso do Bacharelado em Engenharia de Software.</br></br>\
 			O TCC é desenvolvido na última etapa da graduação, sob a orientação de um professor e compreende um relatório e uma apresentação.</br></br>\
 			O relatório é individual e tem como objetivo a expressão do estudante na forma escrita, a capacidade de analisar, caracterizar, investigar, discutir, implantar, pesquisar, realizar, sintetizar e avaliar, entre outras. Neste sentido, o relatório descreve, de forma crítica, as atividades teórico-práticas e de formação profissional relacionadas ao desenvolvimento do estudante como profissional, em especial, durante a disciplina Prática em Engenharia de Software.</br></br>\
-			A apresentação do relatório, também individual, é realizada como última atividade do curso e tem como objetivo a expressão do estudante, agora na forma oral, das atividades descritas no relatório, em seção pública e para uma banca formada por professores do INF. A banca de professores tem o direito a um período de arguição e é responsável pela avaliação tanto do relatório quanto da apresentação.</p>'	
+			A apresentação do relatório, também individual, é realizada como última atividade do curso e tem como objetivo a expressão do estudante, agora na forma oral, das atividades descritas no relatório, em seção pública e para uma banca formada por professores do INF. A banca de professores tem o direito a um período de arguição e é responsável pela avaliação tanto do relatório quanto da apresentação.</p>'
 		},
 	];
 
@@ -773,24 +773,24 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 							<th>NE</th>\
 							<th>3</th>\
 						</tr>\
-					</table></p>'	
+					</table></p>'
 		},
 		{
 			titulo: 'AtividadesComplementares',
 			conteudo: '<p><b>Atividades Complementares do Curso</b></br></br>\
 			O estudante do BES deve cumprir o mínimo de 192 horas em atividades complementares para a integralização curricular. Essas horas correspondem a 6% da carga horária do curso, conforme a distribuição da carga horária do curso.</br></br>\
-			As atividades complementares contemplam ações de monitoria, produção científica, extensão, produção técnica e de representação e qualificação, dentre outras. O cumprimento das atividades complementares é estabelecido formalmente pelo Regulamento de Atividades Complementares do Bacharelado em Engenharia de Software.</p>'	
+			As atividades complementares contemplam ações de monitoria, produção científica, extensão, produção técnica e de representação e qualificação, dentre outras. O cumprimento das atividades complementares é estabelecido formalmente pelo Regulamento de Atividades Complementares do Bacharelado em Engenharia de Software.</p>'
 		},
 		{
 			titulo: 'NL',
 			conteudo: '<p><b>Núcleo Livre do Curso</b></br></br>\
 			O Núcleo Livre (NL) é o conjunto de conteúdos voltado para promover a interdisciplinaridade e a transdisciplinaridade, dentre outros objetivos.</br></br>\
-			A carga horária definida pelo BES para o NL é de 128 horas, que é o mínimo estabelecido pelo Regimento Geral dos Cursos de Graduação (RGCG) da UFG [RGCG]. Tais 128 horas perfazem 4% da carga horária do curso</p>'	
+			A carga horária definida pelo BES para o NL é de 128 horas, que é o mínimo estabelecido pelo Regimento Geral dos Cursos de Graduação (RGCG) da UFG [RGCG]. Tais 128 horas perfazem 4% da carga horária do curso</p>'
 		},
 		{
 			titulo: 'FluxoSugerido',
 			conteudo: '<b>O Fluxograma </b></br></br>\
-					<iframe src="content/Fluxograma/fluxograma.html"></iframe> '	
+					<iframe src="content/Fluxograma/fluxograma.html"></iframe> '
 		},
 		{
 			titulo: 'CargaHoraria',
@@ -832,7 +832,7 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 					<th><b>3200</b></th>\
 					<th><b>100%</b></th>\
 				</tr>\
-			</table></p>'	
+			</table></p>'
 		},
 	];
 
@@ -845,7 +845,7 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 			O estágio do BES não é de caráter obrigatório, ficando a critério do estudante realizá-lo ou não, desde que o mesmo esteja regularmente matriculado no curso. Ou seja, caracteriza estágio curricular não obrigatório. Adicionalmente, esse estágio deve ser realizado a partir do terceiro período do curso, ou após a conclusão de pelo menos 640 horas da carga horária do curso.</br></br>\
 			Convém observar que o estágio está restrito às empresas devidamente conveniadas com a UFG ou que se utilizam de agentes de integração conveniados. Adicionalmente, dois outros papéis são obrigatórios no estágio: (a) supervisor (no local do estágio) e (b) orientador (professor do curso).</br><br>\
 			Durante o estágio, que não pode ultrapassar 24 meses em mesmo local, o estudante deverá apresentar o Termo de Compromisso, o Plano de Estágio, além da frequência e dos relatórios semestrais.</br></br>\
-			Os documentos citados acima, bem como outros detalhes do estágio, em conformidade com a Lei 11.788/2008, são definidos pelo Regulamento de Estágio de Curso do Bacharelado em Engenharia de Software.</p>'	
+			Os documentos citados acima, bem como outros detalhes do estágio, em conformidade com a Lei 11.788/2008, são definidos pelo Regulamento de Estágio de Curso do Bacharelado em Engenharia de Software.</p>'
 		},
 		{
 			titulo: 'Equivalencias',
@@ -1005,7 +1005,7 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 			O estágio não obrigatório é um instrumento de integração. As atividades a serem realizadas pelo estudante podem incluir ações de pesquisa.</br></br>\
 			A disciplina Metodologia e Experimentação em Engenharia de Software oferece a visão exigida para a realização de pesquisas na área. Isso significa não apenas orientar o estudante acerca da elaboração de uma revisão sistemática, mas também da necessidade da expansão do conhecimento da área e dos mecanismos atualmente empregados para tal.</br></br>\
 			Um contundente exemplo é a disciplina de 320 horas, Prática em Engenharia de Software. Essa disciplina envolve em sua concepção o ensino, a extensão e a pesquisa ao se concentrar em projetos reais executados no ambiente de uma Fábrica de Software. Qualquer que seja o projeto, esse envolverá extensão e/ou pesquisa, naturalmente, ainda em um cenário de aprendizado (ensino).</br></br>\
-			A integração, contudo, não ocorre apenas por meio dos elementos acima, que seriam pontos de integração localizados e em períodos específicos. A integração deve ocorrer, onde oportuno, em cada ação do curso. Por exemplo, uma postura didática recomendável exige a contextualização de cada aula acerca do que será visto, da repercussão ou relação dela com a indústria de software (sociedade) e do estado da arte corrente. De fato, essa postura não é apenas recomendável, mas exigida por meio das “condições mínimas” definidas para cada disciplina. Ou seja, a integração do ensino com a pesquisa e a extensão ocorre por toda a extensão do curso.</p>'	
+			A integração, contudo, não ocorre apenas por meio dos elementos acima, que seriam pontos de integração localizados e em períodos específicos. A integração deve ocorrer, onde oportuno, em cada ação do curso. Por exemplo, uma postura didática recomendável exige a contextualização de cada aula acerca do que será visto, da repercussão ou relação dela com a indústria de software (sociedade) e do estado da arte corrente. De fato, essa postura não é apenas recomendável, mas exigida por meio das “condições mínimas” definidas para cada disciplina. Ou seja, a integração do ensino com a pesquisa e a extensão ocorre por toda a extensão do curso.</p>'
 		},
 		{
 			titulo: 'AvaliacaoProcesso',
@@ -1019,14 +1019,14 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 						Cabe ressaltar que o Sistema de Avaliação do BES tem como objetivo primeiro de sua aplicação, por meio de sua Estrutura Curricular, utilizando instrumentos pedagógicos norteados pelos Princípios Norteadores , permitir que cada estudante adquira o perfil desejado.</br></br>\
 						A avaliação do estudante deve levar em consideração não apenas o atendimento de requisitos técnicos de produtos e processos das diversas disciplinas da Engenharia de Software, mas também demonstrar postura ética e profissional ao desenvolver ações do curso.</br></br>\
 						Convém destacar que as disciplinas específicas de Engenharia de Software são acompanhadas, cada uma delas, de seção de “Condições mínimas”, que identificam elementos obrigatórios a serem satisfeitos pelo estudante para ser considerado aprovado na disciplina. Embora essa seja uma interpretação correta, a intenção é estabelecer um contrato claro do compromisso do estudante e do docente com a disciplina em questão. A avaliação de cada uma dessas disciplinas, portanto, necessariamente deve observar as condições mínimas estabelecidas. De fato, a condução de toda a disciplina deve ser orientada por tais condições.</br></br>\
-						Dada a especificidade da disciplina “Prática em Engenharia de Software”, o sistema de avaliação também é específico. Nesse caso, as avaliações devem envolver o domínio de processos e a geração de produtos de Engenharia de Software. Em particular, atividades avaliativas podem ser realizadas mesclando teoria e prática em um ambiente real de desenvolvimento de software, no qual a qualidade estabelecida para os entregáveis do projeto em questão é verificada.</p>'	
+						Dada a especificidade da disciplina “Prática em Engenharia de Software”, o sistema de avaliação também é específico. Nesse caso, as avaliações devem envolver o domínio de processos e a geração de produtos de Engenharia de Software. Em particular, atividades avaliativas podem ser realizadas mesclando teoria e prática em um ambiente real de desenvolvimento de software, no qual a qualidade estabelecida para os entregáveis do projeto em questão é verificada.</p>'
 		},
 		{
 			titulo: 'AvaliacaoProjeto',
 			conteudo: '<p><b>Avaliação do Projeto de Curso</b></br></br>\
 			O presente PPC deverá ser revisado formalmente de cinco em cinco anos, em ação proativa, ou em intervalo de tempo menor, na ocorrência de evento que justifique tal decisão.</br></br>\
 			O NDE é responsável pelas revisões do PPC e, em particular, por contínua vigilância da adequação do PPC ao cenário corrente. Esse esforço se realizada de duas formas. Uma no sentido de fazer com que as orientações do PPC sejam observadas no cotidiano do curso e outra, onde considerado oportuno, na análise de possíveis melhorias para reagir adequadamente às mudanças do ambiente.</br></br>\
-			Ao acompanhar o curso, o NDE continuamente coleta, detecta e propõe alterações. As demandas podem se originar dos estudantes, dos docentes e de outras fontes como os resultados dos estudantes do curso no Exame Nacional de Desempenho de Estudantes (ENADE).</p>'	
+			Ao acompanhar o curso, o NDE continuamente coleta, detecta e propõe alterações. As demandas podem se originar dos estudantes, dos docentes e de outras fontes como os resultados dos estudantes do curso no Exame Nacional de Desempenho de Estudantes (ENADE).</p>'
 		},
 		{
 			titulo: 'Politica',
@@ -1035,7 +1035,13 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 			A qualificação de docentes do INF também pode ser obtida pela sua participação em congressos, simpósios, dentre outros eventos, quer seja nos papéis de autor de artigo, organizador de evento, membro de comitê de programa ou avaliador de artigo. O Instituto de Informática ainda financia ou co-financia viagens e inscrições de seus docentes em congressos e simpósios importantes, principalmente quando há publicação de artigo.</br></br>\
 			Em harmonia com a política de capacitação docente, o INF é favorável ao aprimoramento e à capacitação de seu corpo Técnico-Administrativo em Educação (TAE). Normalmente, um TAE faz solicitação ao diretor, encarregado de registrar as intenções de afastamento no plano anual de capacitação e conduzir a apreciação das intenções pelo Conselho Diretor do INF, haja vista que é do interesse da unidade fomentar a especialização e capacitação dos seus profissionais.</br></br>\
 			É frequente a liberação das atividades de TAE para que possam participar de treinamentos, tanto em cursos esporádicos quanto em programas de pós-graduação. Em tempo, as ações de extensão do INF reservam vagas exclusivas para participação de TAEs, sem necessidade de pagamento (quando é o caso). Do ponto de vista legal, o INF se apoia na Resolução CEPEC 1286/2014 de 2014 [CEPEC 2014], que regulamenta o afastamento de docentes para cursar Mestrado, Doutorado e estágios Pós-Doutorais, e na Resolução CONSUNI 02/2014 [CONSUNI 2014], que regulamenta o Programa de Capacitação e o Plano Anual de Capacitação dos TAEs. Em consonância com a Resolução CEPEC 1286/2014, o INF instrui o afastamento de docentes com a Resolução CD/INF n. 01 de 2014, que dá suporte ao planejamento administrativo e incentiva a participação de seus docentes, em cursos de doutorado, pós-doutorado e capacitação, no país e no exterior, de acordo com a sua política de pessoal para o ensino, a pesquisa, a extensão e a administração.</br></br>\
-			Por fim, cabe ao NDE monitorar o PPC e, consequentemente, promover ações que promovam a qualidade dos serviços oferecidos tanto por docentes quanto por TAEs.</p>'	
+			Por fim, cabe ao NDE monitorar o PPC e, consequentemente, promover ações que promovam a qualidade dos serviços oferecidos tanto por docentes quanto por TAEs.</p>'
+		},
+		{
+			titulo: 'PPC',
+			conteudo: '<p><b>Download PPC</b></br></br>\
+			Para download do PPC 2017-1 em PDF clique no botão abaixo: </br></br>\
+			<a class="btn btn-primary" href="content/ppcESPrograd.pdf" target="_blank">Download</a></p>'
 		},
 	];
 
