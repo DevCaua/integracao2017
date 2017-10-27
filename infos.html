@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"  ng-app="ocurso">
   <head>
-    
+
     <title>BES - Outras Informações</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -9,18 +9,18 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    
+
     <link rel="stylesheet" type="text/css" href="style/infos.css">
-    
+
     <!-- Font Awesome -->
     <script src="https://use.fontawesome.com/f81c0812b8.js"></script>
 
-    
+
     <!-- Angular -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-resource/1.6.6/angular-resource.min.js"></script>
-    
+
     <script src="content/main.js"></script>
     <script src="content/TemplatesConteudo/templates-diretivas.js"></script>
     <script src="content/TemplatesConteudo/templates-controller.js"></script>
@@ -31,7 +31,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand" href="index.html"><div class="logo-large">BES</div><div class="logo-small">Bacharelado em Engenharia de Software</div></a>
-  
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
@@ -78,7 +78,7 @@
                     <li>
                         <a ui-sref="avaliacao-processo" ui-sref-active="active">
                             <span class="sidebar-icon"><i class="fa fa-certificate"></i></span>
-                            <span class="sidebar-title">Avaliação do processo</span> 
+                            <span class="sidebar-title">Avaliação do processo</span>
                         </a>
                     </li>
                     <li>
@@ -93,15 +93,21 @@
                             <span class="sidebar-title">Política de qualificação</span>
                         </a>
                     </li>
+                    <li>
+                        <a ui-sref="ppc" ui-sref-active="active">
+                            <span class="sidebar-icon"><i class="fa fa-coffee"></i></span>
+                            <span class="sidebar-title">Download PPC</span>
+                        </a>
+                    </li>
                     <button type="button" data-name="hide" value="Toggle" id="toggle" class="btn btn-warning my-2 my-sm-0"><span class="sidebar-icon"><i class="fa fa-caret-square-o-right"></i></span></button>
                 </ul>
-            </aside>            
+            </aside>
         </div>
         <div id="page-content-wrapper">
           <ui-view>
           </ui-view>
         </main>
-      </div> 
+      </div>
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
