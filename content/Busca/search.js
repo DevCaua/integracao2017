@@ -1,3 +1,8 @@
+var lunr = require("lunr")
+require("lunr-languages/lunr.stemmer.support")(lunr)
+require('lunr-languages/lunr.multi')(lunr)
+require("lunr-languages/lunr.pt")(lunr)
+
 function displaySearchResults(results, docs) {
     var searchResults = document.getElementById('search-results');
 
@@ -45,10 +50,10 @@ if (searchTerm) {
     // Initalize lunr with the fields it will be searching on. I've given title
     // a boost of 10 to indicate matches on this field are more important.
     var idx = lunr(function () {
+      this.use(lunr.multiLanguage('en', 'pt'))
       this.field('nome', {boost: 10})
       this.ref('url')
       this.field('palavrasChave')
-      this.field('areaSwebok')
     
       window.documents.forEach(function (doc) {
         this.add(doc)
