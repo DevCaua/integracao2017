@@ -40,6 +40,9 @@
   background-color: #005ca1;
 }
 
+.busca {
+  float: right;
+}
 
 a {
   color: white;
