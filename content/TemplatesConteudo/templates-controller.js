@@ -12,7 +12,7 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 	var arrayCurso = [
 		{
 			titulo: 'Apresentacao',
-			conteudo: '<p><b>Apresentação do Curso</b></br></br>\
+			conteudo: '<p><h1>Apresentação do Curso</h1></br></br>\
 						O curso de bacharelado em Engenharia de Software(BES) é oferecido pelo Instituto de Informática(INF) da Universidade Federal de Goiás(UFG). A primeira versão do Projeto Pedagógico do Curso(PPCi criada em 2008, a segunda versão, registrada nesse documento, é fruto de uma reflexão de dois anos do Núcleo Docente Estruturante (NDE) que reinventou o BES</br></br>\
 						A busca pela qualidade é a motivação dessa segunda versão, que só pode ser adequadamente compreendida com o detalhamento da história da criação do curso e do cenário no qual está inserido, o que lembra Paulo Freire, segundo o qual "toda leitura de texto pressupõe uma rigorosa leitura do contexto".</br></br>\
 						Não houve alteração relevante dos objetivos do curso, nem tampouco do perfil do egresso, contudo,ambos foram refinados.Os requisitos legais e normativos foram ampliados pelas diretrizes curriculares nacionais(que não existem quando a primeira versão foi produzida). Em particular, a estratégia para atender a educação das relações etnico-raciais e para o ensino de história e cultura afro-brasileira foi revista em sua totalidade.</br></br>\
@@ -21,7 +21,7 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 		},
 		{
 			titulo: 'Identificacao',
-			conteudo: '<p><b>Identificação do Curso</b></br></br>\
+			conteudo: '<p><h1>Identificação do Curso</h1></br></br>\
 					<table class="tabela-identificacao">\
 					  <tr>\
 					    <th>Nome do curso</th>\
@@ -99,7 +99,7 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 		},
 		{
 			titulo: 'Contexto',
-			conteudo: '<p><b>O Contexto do Curso</b></br></br>\
+			conteudo: '<p><h1>Contexto do Curso</h1></br></br>\
 						O Bacharelado em Engenharia de Software (BES) existe e se mantém em um contexto no qual se destaca a aptidão do Instituto de Informática, a carência de mão de obra apta a desenvolver softwares de qualidade e a mportância local do curso, detalhados nas seções seguintes.</br></br>\
 						<b>Da aptidão do Instituto de Informática</b></br></br>\
 						O Instituto de Informática da UFG possui sólida experiência no ensino superior em Computação, iniciada em 1983, com a primeira turma do curso de Bacharelado em Ciências da Computação (CC). A partir de 2009 foram criados mais dois cursos de graduação: o Bacharelado em Engenharia de Software (BES) e o Bacharelado em Sistemas de Informação (SI). O INF também é responsável por dezenas de disciplinas da área de Computação ministradas para diversos cursos de graduação de várias unidades de ensino da UFG.</br></br>\
@@ -119,18 +119,11 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 						Aqueles que conseguem acesso ao ensino superior, público ou privado, são minoria em Goiás. Segundo o [IBGE], em 2010 Goiás tinha 1.213.946 pessoas com 10 ou mais anos de idade com curso médio completo, enquanto apenas 218.548 estavam matriculadas em curso superior. Ou seja, menos de 20% continuam seus estudos até o ensino superior. Neste censo, Goiás tinha 394.491 cidadãos com curso superior completo em uma população total de 6.003.788, ou seja, 6,5% da população com curso superior. O Estado de São Paulo, por exemplo, apresenta uma taxa superior a 10%. Taxas ainda bem superiores são encontradas em outros países [OECD, 2012].</br></br>\
 						Além de contribuir para melhoria dos indicadores de educação em Goiás, o BES potencializa o crescimento da economia goiana por meio de alternativa à atual dependência do agronegócio. Essa alternativa fomenta a participação de Goiás em um mercado valioso, além de promover a criação de empregos.</br></br>\
 						A posição estratégia do BES pode ser esclarecida por meio de iniciativas internacionais. Por exemplo, TechHire Initiative e Computer Scicence for All são programas americanos lançados nos dois últimos anos, orçados em cerca de 2 bilhões de dólares, com o propósito de promover a capacitação em produção de software nos Estados Unidos.</br></br>\
-						<b>Exposição de Motivos</b></br></br>\
-						A dependência da sociedade em relação a softwares continua se expandindo, inclusive em tarefas que antes eram exclusivas dos seres humanos, por exemplo, estacionar um veículo. Isso tem ampliado a demanda por softwares e consequentemente por profissionais que visam atender essa demanda. O conhecimento necessário para produzir software é denominado de Engenharia de Software.</br></br>\
-						Tradicionalmente esse conhecimento e as habilidades necessárias são adquiridas por egressos de outros cursos de graduação ou até por meio de cursos rápidos. Nesses casos, a apropriação de habilidades ocorre de forma parcial, pois não há espaço em tais cursos para cobrir adequadamente essa extensa área.</br></br>\
-						A vocação de docentes do INF e o Programa de Reestruturação e Expansão das Universidades Federais (REUNI) resultaram na criação do primeiro curso de graduação (bacharelado) em Engenharia de Software do Brasil, o presente curso, pelo INF/UFG em 27/06/2008, conforme a resolução CONSUNI 10/2008, com o foco na formação de egressos aptos a usar de forma efetiva o conhecimento da Engenharia de Software.  Essa primeira versão foi amplamente divulgada [BES1] [BES2].</br></br>\
-						Dezenas de docentes acumularam lições aprendidas desde o início da primeira turma do curso em março de 2009. A partir de outubro de 2014, o Núcleo Docente Estruturante (NDE) do curso iniciou esforço para refletir essas lições em uma nova versão do PPC. Ao longo de quase meia centena de encontros, o NDE fez uma exaustiva revisão do curso. As lições aprendidas e outras demandas, por exemplo, as diretrizes curriculares e o alinhamento com uma formação básica de qualidade em computação, definida pelo próprio INF, foram acomodadas na presente versão.</br></br>\
-						Convém esclarecer que na época da criação do BES, sem similar no país, não existiam diretrizes curriculares específicas. Essas diretrizes vieram apenas em 2012 [CNE 2012].</br>\
-						A presente versão não é resultado de alterações superficiais aplicadas à versão anterior, mas de ampla reflexão. Insumos empregados na elaboração da versão anterior foram revisitados. As Diretrizes Curriculares Nacionais (DCN), a versão mais recente do corpo de conhecimento da área e o modelo de competência para o engenheiro de software balizaram os esforços realizados. Projetos pedagógicos de cursos semelhantes, inclusive em outros países, também foram investigados. Esse substancial conjunto de informação foi analisado à luz da experiência dos docentes do próprio curso e do contexto local.</br></br>\
-						Por fim, o BES obteve nota máxima na avaliação do MEC em 2015, o que estimulou o cuidado com o curso, reforçado pelo Guia dos Estudantes da Editora Abril 2015, no qual, dentre os 28 cursos superiores em Engenharia de Software investigados, dois recebem 5 estrelas, um desses é o curso do presente projeto pedagógico. Em 2016, esse cenário persiste, conforme o Guia dos Estudantes 2016.</p>'
+						</p>'
 		},
 		{
 			titulo: 'Motivacao',
-			conteudo: '<p><b>Exposição de motivos</b></br></br>\
+			conteudo: '<p><h1>Exposição de motivos</h1></br></br>\
 				A dependência da sociedade em relação a softwares continua se expandindo, inclusive em tarefas que antes eram exclusivas dos seres humanos, por exemplo, estacionar um veículo. Isso tem ampliado a demanda por softwares e consequentemente porprofissionais que visam atender essa demanda. O conhecimento necessário paraproduzir software é denominado de Engenharia de Software.</br></br>\
 				Tradicionalmente esse conhecimento e as habilidades necessárias são adquiridas por egressos de outros cursos de graduação ou até por meio de cursos rápidos. Nesses casos, a apropriação de habilidades ocorre de forma parcial, pois não há espaço em tais cursos para cobrir adequadamente essa extensa área.</br></br>\
 				A vocação de docentes do INF e o Programa de Reestruturação e Expansão das Universidades Federais (REUNI) resultaram na criação do primeiro curso de graduação (bacharelado) em Engenharia de Software do Brasil, o presente curso, pelo INF/UFG em 27/06/2008, conforme a resolução CONSUNI 10/2008, com o foco na formação de egressos aptos a usar de forma efetiva o conhecimento da Engenharia de Software. Essa primeira versão foi amplamente divulgada [BES1] [BES2].</br></br>\
@@ -141,7 +134,7 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 		},
 		{
 			titulo: 'Objetivos',
-			conteudo: '<p><b>Os Objetivos do Curso</b></br></br>\
+			conteudo: '<p><h1>Objetivos do Curso</h1></br></br>\
 						<b>Objetivo geral</b></br></br>\
 						O BES tem como objetivo “Formar profissionais aptos a contribuir efetivamente com a produção de softwares de qualidade seguindo princípios éticos e postura profissional”</br></br>\
 						<b>Objetivos específicos</b></br></br>\
@@ -157,7 +150,7 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 		},
 		{
 			titulo: 'Principios',
-			conteudo: '<p><b>Os Princípios do Curso</b></br></br>\
+			conteudo: '<p><h1>Princípios do Curso</h1></br></br>\
 			O BES baseia-se em princípios que fornecem a sustentação necessária para atingir os objetivos do curso e o perfil do egresso. Esses princípios são fornecidos abaixo.</br></br>\
 			<b>Formação Ética e Função Social do Profissional</b></br></br>\
 			A vivência de princípios éticos e o conhecimento sobre a responsabilidade social do Engenheiro de Software são elementos imprescindíveis para a formação da postura profissional do egresso do BES.</br></br>\
@@ -188,9 +181,9 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 		},
 		{
 			titulo: 'Expectativas',
-			conteudo: '<p><b>As Expectativas do Curso</b></br></br>\
+			conteudo: '<p><h1>Expectativas do Egresso</h1></br></br>\
 			<b>Perfil do Egresso</b></br></br>\
-			O egresso do BES é um profissional com capacitação sólida em engenharia de software. Essa capacitação advém de formação básica consistente em computação e de abrangente e aprofundada em engenharia de software.</br>\
+			O egresso (pessoa que se formou no curso) do BES é um profissional com capacitação sólida em engenharia de software. Essa capacitação advém de formação básica consistente em computação e de abrangente e aprofundada em engenharia de software.</br>\
 			O mercado de atuação do egresso é abrangente, e decorre da dependência da sociedade por software. Adicionalmente, tal dependência tem se expandido com novos produtos, serviços e processos.</br>\
 			A bacharela ou o bacharel em Engenharia de Software é capaz de efetivamente contribuir com equipes na produção de modelos abstratos de software e realizá-los por meio de código de qualidade. Essa contribuição é pautada por postura profissional e conduta ética.</br>\
 			As habilidades do egresso incluem o que é necessário para lidar com requisitos de software, propor uma solução (software design), construí-la, testá-la e mantê-la, usando processos adequados.</br></br>\
@@ -249,14 +242,15 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 		},
 		{
 			titulo: 'NDE',
-			conteudo: '<p><b>O Núcleo Docente Estruturante</b></br></br>\
-						Em vez de atribuir atividades ao NDE, o NDE adota os seguintes princípios:</br></br>\
+			conteudo: '<p><h1>Núcleo Docente Estruturante</h1></br></br>\
+						O Núcleo Docente Estruturante (NDE) é composto por docentes (professores) e outros profisionais responsáveis pelo BES. </br></br>\
+						<b>Em vez de atribuir atividades ao NDE, o NDE adota os seguintes princípios:</b></br></br>\
 						- O NDE possui duas prioridades. A maior prioridade é colocar em prática o Projeto Pedagógico do Curso (PPC). A prioridade seguinte é mantê-lo relevante.</br>\
 						- Qualquer questão que diz respeito às prioridades é do interesse do NDE e pode resultar em ação.</br>\
 						- Toda ação necessariamente deve gerar valor e estar alinhada com as prioridades.</br>\
 						- Uma ação constante e preconcebida é zelar pelos princípios aqui descritos.</br>\
 						- O NDE entende que o diálogo é necessário e que a diversidade é natural, assim como o confronto de ideias.</br></br>\
-						Esses princípios definem que todo o conteúdo do presente PPC e a aplicação dele está no raio de atuação do NDE. O que inclui:</br></br>\
+						<b>Esses princípios definem que todo o conteúdo do presente PPC e a aplicação dele está no raio de atuação do NDE. O que inclui:</b></br></br>\
 						- Acompanhar a execução das ações de ensino, pesquisa e extensão pertinentes ao curso;</br>\
 						- Acompanhar a avaliação das ações do curso;</br>\
 						- Emitir opinião sobre ações pertinentes ao curso;</br>\
@@ -274,7 +268,7 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 		},
 		{
 			titulo: 'TCC',
-			conteudo: '<p><b>O TCC</b></br></br>\
+			conteudo: '<p><h1>Trabalho de Conclusão de Curso</h1></br></br>\
 			O Trabalho de Conclusão de Curso (TCC) no BES é um componente curricular obrigatório regulado pelas Normas e Procedimentos de Trabalho de Conclusão de Curso do Bacharelado em Engenharia de Software.</br></br>\
 			O TCC é desenvolvido na última etapa da graduação, sob a orientação de um professor e compreende um relatório e uma apresentação.</br></br>\
 			O relatório é individual e tem como objetivo a expressão do estudante na forma escrita, a capacidade de analisar, caracterizar, investigar, discutir, implantar, pesquisar, realizar, sintetizar e avaliar, entre outras. Neste sentido, o relatório descreve, de forma crítica, as atividades teórico-práticas e de formação profissional relacionadas ao desenvolvimento do estudante como profissional, em especial, durante a disciplina Prática em Engenharia de Software.</br></br>\
@@ -286,7 +280,7 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 	var arrayEstruturaCurricular = [
 		{
 			titulo: 'MatrizCurricular',
-			conteudo: '<p><b>A Matriz Curricular do Curso</b></br></br>\
+			conteudo: '<p><h1>Matriz Curricular do Curso</h1></br></br>\
 					<table class="tabela-matriz">\
 						<tr>\
 							<th>Nº</th>\
@@ -662,7 +656,7 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 							<th>NE</th>\
 						</tr>\
 					</table></br></br>\
-					São nove as disciplinas optativas. O estudante terá que escolher três delas, conforme as opções oferecidas na tabela abaixo.</br></br>\
+					São nove as disciplinas optativas. O estudante terá que escolher três delas, conforme as opções oferecidas na tabela abaixo:</br></br>\
 					<table class="tabela-matriz">\
 						<tr>\
 							<th>Nº</th>\
@@ -777,24 +771,24 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 		},
 		{
 			titulo: 'AtividadesComplementares',
-			conteudo: '<p><b>Atividades Complementares do Curso</b></br></br>\
+			conteudo: '<p><h1>Atividades Complementares</h1></br></br>\
 			O estudante do BES deve cumprir o mínimo de 192 horas em atividades complementares para a integralização curricular. Essas horas correspondem a 6% da carga horária do curso, conforme a distribuição da carga horária do curso.</br></br>\
 			As atividades complementares contemplam ações de monitoria, produção científica, extensão, produção técnica e de representação e qualificação, dentre outras. O cumprimento das atividades complementares é estabelecido formalmente pelo Regulamento de Atividades Complementares do Bacharelado em Engenharia de Software.</p>'
 		},
 		{
 			titulo: 'NL',
-			conteudo: '<p><b>Núcleo Livre do Curso</b></br></br>\
+			conteudo: '<p><h1>Núcleo Livre</h1></br></br>\
 			O Núcleo Livre (NL) é o conjunto de conteúdos voltado para promover a interdisciplinaridade e a transdisciplinaridade, dentre outros objetivos.</br></br>\
-			A carga horária definida pelo BES para o NL é de 128 horas, que é o mínimo estabelecido pelo Regimento Geral dos Cursos de Graduação (RGCG) da UFG [RGCG]. Tais 128 horas perfazem 4% da carga horária do curso</p>'
+			A carga horária definida pelo BES para o NL é de 128 horas, que é o mínimo estabelecido pelo Regimento Geral dos Cursos de Graduação (RGCG) da UFG [RGCG]. Tais 128 horas perfazem 4% da carga horária do curso.</p>'
 		},
 		{
 			titulo: 'FluxoSugerido',
-			conteudo: '<b>O Fluxograma </b></br></br>\
+			conteudo: '<h1>Fluxograma</h1></br></br>\
 					<iframe src="content/Fluxograma/fluxograma.html"></iframe> '
 		},
 		{
 			titulo: 'CargaHoraria',
-			conteudo: '<p><b>Carga Horária do Curso</b></br></br>\
+			conteudo: '<p><h1>Carga Horária do Curso</h1></br></br>\
 			As Tabelas mostradas na "Matriz Curricular" juntamente com a definição das horas do Núcleo Livre (NL) e das atividades complementares, resultam nos valores compilados na tabela abaixo.</br></br>\
 			<table class="tabela">\
 				<tr>\
@@ -840,7 +834,7 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 	var arrayInformacoes = [
 		{
 			titulo: 'Estagio',
-			conteudo: '<p><b>O Estágio</b></br></br>\
+			conteudo: '<p><h1>Estágio</h1></br></br>\
 			O estágio do BES constitui-se em um mecanismo de complementação de conhecimento e aperfeiçoamento de habilidades, além de oportunidade de prática em Engenharia de Software. O convívio com profissionais, obrigações, hierarquias e processos onde o estágio se desenvolve, resulta em oportunidade valiosa para a formação profissional do egresso.</br><br>\
 			O estágio do BES não é de caráter obrigatório, ficando a critério do estudante realizá-lo ou não, desde que o mesmo esteja regularmente matriculado no curso. Ou seja, caracteriza estágio curricular não obrigatório. Adicionalmente, esse estágio deve ser realizado a partir do terceiro período do curso, ou após a conclusão de pelo menos 640 horas da carga horária do curso.</br></br>\
 			Convém observar que o estágio está restrito às empresas devidamente conveniadas com a UFG ou que se utilizam de agentes de integração conveniados. Adicionalmente, dois outros papéis são obrigatórios no estágio: (a) supervisor (no local do estágio) e (b) orientador (professor do curso).</br><br>\
@@ -849,7 +843,7 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 		},
 		{
 			titulo: 'Equivalencias',
-			conteudo: '<p><b>As Equivalências</b></br></br>\
+			conteudo: '<p><h1>Equivalências com PPC de 2009</h1></br></br>\
 						<table class="tabela">\
 						<tr>\
 							<th><b>Disciplina do PPC De 2009-1</b></th>\
@@ -999,7 +993,7 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 		},
 		{
 			titulo: 'EnsinoPesquisa',
-			conteudo: '<p><b>Integração Ensino, Pesquisa e Extensão</b></br></br>\
+			conteudo: '<p><h1>Integração Ensino, Pesquisa e Extensão</h1></br></br>\
 			A integração do ensino com a pesquisa e a extensão se verifica por meio de atividades complementares, do estágio não obrigatório, de disciplinas do curso e da postura didática dos docentes, conforme comentado abaixo.</br></br>\
 			As atividades complementares são identificadas em resolução própria, perfazem pelo menos 192 horas e explicitamente incluem ações de extensão e de pesquisa. Por exemplo, divulgação de trabalhos em eventos científicos, participação em projetos de extensão e participação em projetos de pesquisa, dentre outras.</br></br>\
 			O estágio não obrigatório é um instrumento de integração. As atividades a serem realizadas pelo estudante podem incluir ações de pesquisa.</br></br>\
@@ -1009,7 +1003,7 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 		},
 		{
 			titulo: 'AvaliacaoProcesso',
-			conteudo: '<p><b>Avaliação do Processo de Ensino e Aprendizagem</b></br></br>\
+			conteudo: '<p><h1>Avaliação do Processo de Ensino e Aprendizagem</h1></br></br>\
 						O que é realizado em nome do curso para que o estudante adquira o perfil esperado pode ser avaliado considerando informações geradas externamente e outras internamente. A avaliação do curso pelo MEC e os resultados obtidos pelos estudantes do curso no ENADE são exemplos de insumos para a avaliação do processo de ensino. Internamente, a avaliação do docente pelo discente (instrumento formal e institucionalizado na UFG), o desempenho dos estudantes do curso nas disciplinas e os planos de ensino das disciplinas são fontes valiosas de informação.</br></br>\
 						O NDE do curso é o principal consumidor dessas informações com o propósito de detectar possíveis melhorias e fomentar a introdução delas. Por exemplo, embora o docente tenha autonomia metodológica ao planejar e executar o plano de ensino de uma disciplina, cabe ao NDE analisar o plano e, quando considerar oportuno, recomendar ajustes. Essas e outras ações devem ser realizadas durante a semana de planejamento pedagógico e administrativo (semana formalmente institucionalizada na UFG), que ocorre no início de cada período letivo. Convém destacar que o plano de ensino de cada disciplina deve ser aprovado formalmente pelo Conselho Diretor da unidade antes do início do período letivo. Adicionalmente, a ação de avaliação não deve estar restrita à semana de planejamento, mas contínua. O objetivo é viabilizar a introdução de uma eventual mudança o mais próximo possível do instante no qual a necessidade foi detectada.</br></br>\
 						Outra ação relevante do NDE na semana de planejamento pedagógico é apresentar as lições aprendidas no período anterior. Oferecer visibilidade de processos de ensino exitosos, o que é um instrumento de valorização do docente e, ao mesmo tempo, forma de socializar o que produziu bons resultados, também é uma ação a ser executada nessa semana. Enfim, acerca da avaliação do processo de ensino, o NDE possui papel relevante na identificação de dificuldades e busca de alternativas, em comunhão com os docentes do curso.</br></br>\
@@ -1023,14 +1017,14 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 		},
 		{
 			titulo: 'AvaliacaoProjeto',
-			conteudo: '<p><b>Avaliação do Projeto de Curso</b></br></br>\
+			conteudo: '<p><h1>Avaliação do Projeto de Curso</h1></br></br>\
 			O presente PPC deverá ser revisado formalmente de cinco em cinco anos, em ação proativa, ou em intervalo de tempo menor, na ocorrência de evento que justifique tal decisão.</br></br>\
 			O NDE é responsável pelas revisões do PPC e, em particular, por contínua vigilância da adequação do PPC ao cenário corrente. Esse esforço se realizada de duas formas. Uma no sentido de fazer com que as orientações do PPC sejam observadas no cotidiano do curso e outra, onde considerado oportuno, na análise de possíveis melhorias para reagir adequadamente às mudanças do ambiente.</br></br>\
 			Ao acompanhar o curso, o NDE continuamente coleta, detecta e propõe alterações. As demandas podem se originar dos estudantes, dos docentes e de outras fontes como os resultados dos estudantes do curso no Exame Nacional de Desempenho de Estudantes (ENADE).</p>'
 		},
 		{
 			titulo: 'Politica',
-			conteudo: '<p><b>Política de Qualificação</b></br></br>\
+			conteudo: '<p><h1>Política de Qualificação</h1></br></br>\
 			Desde a criação o Instituto de Informática implementa uma política vigorosa de capacitação do seu corpo docente, a qual inclui a meta de que todos os docentes tenham a titulação mínima de doutor. De fato, a liberação de docentes para prosseguirem os seus estudos de pós-graduação é uma prática comum, em consequência, nenhum pedido para afastamento com o propósito de realizar o doutorado foi negado até o momento. Essa política é acrescentada de regras institucionalizadas para a concessão de afastamento para o pós-doutorado e de licença para capacitação.</br></br>\
 			A qualificação de docentes do INF também pode ser obtida pela sua participação em congressos, simpósios, dentre outros eventos, quer seja nos papéis de autor de artigo, organizador de evento, membro de comitê de programa ou avaliador de artigo. O Instituto de Informática ainda financia ou co-financia viagens e inscrições de seus docentes em congressos e simpósios importantes, principalmente quando há publicação de artigo.</br></br>\
 			Em harmonia com a política de capacitação docente, o INF é favorável ao aprimoramento e à capacitação de seu corpo Técnico-Administrativo em Educação (TAE). Normalmente, um TAE faz solicitação ao diretor, encarregado de registrar as intenções de afastamento no plano anual de capacitação e conduzir a apreciação das intenções pelo Conselho Diretor do INF, haja vista que é do interesse da unidade fomentar a especialização e capacitação dos seus profissionais.</br></br>\
@@ -1039,7 +1033,7 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 		},
 		{
 			titulo: 'PPC',
-			conteudo: '<p><b>Download PPC</b></br></br>\
+			conteudo: '<p><h1>Download do PPC</h1></br></br>\
 			Para download do PPC 2017-1 em PDF clique no botão abaixo: </br></br>\
 			<a class="btn btn-primary" href="content/ppcESPrograd.pdf" target="_blank">Download</a></p>'
 		},

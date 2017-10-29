@@ -17,7 +17,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 	var arrayPrimeiroSemestre = [
 		{
 			titulo: 'ComputacaoSociedade',
-			conteudo: '<p><b>Computação e Sociedade</b></br></br>\
+			conteudo: '<p><h1>Computação e Sociedade</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
@@ -44,7 +44,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'IntProgramacao',
-			conteudo: '<p><b>Introdução a Programação</b></br></br>\
+			conteudo: '<p><h1>Introdução a Programação</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
@@ -80,7 +80,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'Calculo',
-			conteudo: '<p><b>Cálculo 1A</b></br></br>\
+			conteudo: '<p><h1>Cálculo 1A</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo IME (Instituto de Matemática e Estatística)</br>\
@@ -107,7 +107,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'FundMatematica',
-			conteudo: '<p><b>Fundamentos de Matemática para Computação</b></br></br>\
+			conteudo: '<p><h1>Fundamentos de Matemática para Computação</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
@@ -142,7 +142,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 	var arraySegundoSemestre = [
 		{
 			titulo: 'Arquitetura',
-			conteudo: '<p><b>Arquitetura de Computadores</b></br></br>\
+			conteudo: '<p><h1>Arquitetura de Computadores</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
@@ -172,7 +172,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'Algoritmos1',
-			conteudo: '<p><b>Algoritmos e Estruturas de Dados 1</b></br></br>\
+			conteudo: '<p><h1>Algoritmos e Estruturas de Dados 1</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
@@ -200,7 +200,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'ProbEstatistica',
-			conteudo: '<p><b>Probabilidade e Estatística A</b></br></br>\
+			conteudo: '<p><h1>Probabilidade e Estatística A</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo IME (Instituto de Matemática e Estatística)</br>\
@@ -229,7 +229,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'AlgebraLinear',
-			conteudo: '<p><b>Álgebra Linear</b></br></br>\
+			conteudo: '<p><h1>Álgebra Linear</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo IME (Instituto de Matemática e Estatística)</br>\
@@ -254,7 +254,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'LogicaMat',
-			conteudo: '<p><b>Lógica Matemática</b></br></br>\
+			conteudo: '<p><h1>Lógica Matemática</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo IME (Instituto de Matemática e Estatística)</br>\
@@ -282,7 +282,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 	var arrayTerceiroSemestre = [
 		{
 			titulo: 'Poo',
-			conteudo: '<p><b>Programação Orientada a Objetos</b></br></br>\
+			conteudo: '<p><h1>Programação Orientada a Objetos</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
@@ -308,7 +308,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'Algoritmos2',
-			conteudo: '<p><b>Algoritmos e Estruturas de Dados 2</b></br></br>\
+			conteudo: '<p><h1>Algoritmos e Estruturas de Dados 2</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
@@ -335,7 +335,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'LinguagensProg',
-			conteudo: '<p><b>Linguagens e Paradigmas da Programação</b></br></br>\
+			conteudo: '<p><h1>Linguagens e Paradigmas da Programação</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
@@ -360,7 +360,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'EngenhariaSoftware',
-			conteudo: '<p><b>Engenharia de Software</b></br></br>\
+			conteudo: '<p><h1>Engenharia de Software</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
@@ -393,7 +393,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'SistemasOp',
-			conteudo: '<p><b>Sistemas Operacionais</b></br></br>\
+			conteudo: '<p><h1>Sistemas Operacionais</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
@@ -416,7 +416,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'PesquisaOp',
-			conteudo: '<p><b>Pesquisa Operacional</b></br></br>\
+			conteudo: '<p><h1>Pesquisa Operacional</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
@@ -440,7 +440,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'LinguagensFormais',
-			conteudo: '<p>Linguagens Formais e Autômatos</br></br>\
+			conteudo: '<p><h1>Linguagens Formais e Autômatos</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
@@ -467,7 +467,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 	var arrayQuartoSemestre = [
 		{
 			titulo: 'AnaliseAlg',
-			conteudo: '<p><b>Análise e Projeto de Algoritmos</b></br></br>\
+			conteudo: '<p><h1>Análise e Projeto de Algoritmos</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
@@ -494,7 +494,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'Ihc',
-			conteudo: '<p><b>Interação Humano-Computador</b></br></br>\
+			conteudo: '<p><h1>Interação Humano-Computador</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
@@ -527,7 +527,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'BD',
-			conteudo: '<p><b>Banco de Dados</b></br></br>\
+			conteudo: '<p><h1>Banco de Dados</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
@@ -554,7 +554,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'ProjetoSoftware',
-			conteudo: '<p><b>Projeto de Software</b></br></br>\
+			conteudo: '<p><h1>Projeto de Software</h1></br></br>\
 						<b>Características</b></br></br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
@@ -583,7 +583,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'RedesComp',
-			conteudo: '<p><b>Redes de Computadores</b></br></br>\
+			conteudo: '<p><h1>Redes de Computadores</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
@@ -609,7 +609,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'LinguaBrasileira',
-			conteudo: '<p><b>Introdução a Língua Brasileira de Sinais</b></br></br>\
+			conteudo: '<p><h1>Introdução a Língua Brasileira de Sinais</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
@@ -632,7 +632,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'Compiladores',
-			conteudo: '<p><b>Compiladores</b></br></br>\
+			conteudo: '<p><h1>Compiladores</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
@@ -668,7 +668,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 	var arrayQuintoSemestre = [
 		{
 			titulo: 'ConstrucaoSoftware',
-			conteudo: '<p><b>Construção de Software</b></br></br>\
+			conteudo: '<p><h1>Construção de Software</h1></br></br>\
 						<b>Modelagem de Software</b></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
@@ -694,7 +694,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Refatoração (8h).</br>\
 						- Testes de unidade (16h).</br>\
 						- Detecção e remoção de defeitos (debugging) (8h).</br>\
-						- Integração (4h): integração contínua.</b></br><br>\
+						- Integração (4h): integração contínua.</br><br>\
 						<b>Condições Mínimas(qual o domínio do conteúdo abordado que o estudante deve ter, no final da disciplina, para que ele seja aprovado)</b></br><br>\
 						<i>Seguindo instruções (passo-a-passo), o estudante deve ser capaz de:</i></br></br>\
 						- Explicar a construção de software, a relação dessa área de conhecimento com as demais da engenharia de software e a relação com o conceito de sistema.</br>\
@@ -713,7 +713,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'ModelagemSoftware',
-			conteudo: '<p><b>Modelagem de Software</b></br></br>\
+			conteudo: '<p><h1>Modelagem de Software</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
@@ -733,7 +733,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Conceitos (4h): software, qualidade de software, requisitos de software, projeto de software.</br>\
 						- Processo de projeto de software (4h).</br>\
 						- Notações para registro de modelos orientados a objetos (16h).</br>\
-						- Modelagem de software orientado a objetos (40h).</b></br><br>\
+						- Modelagem de software orientado a objetos (40h).</br><br>\
 						<b>Condições Mínimas(qual o domínio do conteúdo abordado que o estudante deve ter, no final da disciplina, para que ele seja aprovado)</b></br><br>\
 						<i>Seguindo instruções (passo-a-passo), o estudante deve ser capaz de:</i></br></br>\
 						- Criar modelos de projeto de software orientado a objetos</br></br>\
@@ -744,7 +744,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'ProcessosSoftware',
-			conteudo: '<p><b>Modelagem de Software</b></br></br>\
+			conteudo: '<p><h1>Modelagem de Software</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
@@ -777,7 +777,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'EngenhariaSistema',
-			conteudo: '<p><b>Engenharia de Sistemas</b></br></br>\
+			conteudo: '<p><h1>Engenharia de Sistemas</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
@@ -813,7 +813,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 	var arraySextoSemestre = [
 		{
 			titulo: 'DesignSoftware',
-			conteudo: '<p><b>Design de Software</b></br></br>\
+			conteudo: '<p><h1>Design de Software</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
@@ -853,7 +853,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'DominioSoftware',
-			conteudo: '<p><b>Domínio de Software</b></br></br>\
+			conteudo: '<p><h1>Domínio de Software</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
@@ -890,7 +890,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'QualidadeSoftware',
-			conteudo: '<p><b>Processos de Qualidade de Software</b></br></br>\
+			conteudo: '<p><h1>Processos de Qualidade de Software</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
@@ -926,7 +926,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'GerenciaSoftware',
-			conteudo: '<p><b>Gerência de Projeto de Software</b></br></br>\
+			conteudo: '<p><h1>Gerência de Projeto de Software</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
@@ -963,7 +963,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 	var arraySetimoSemestre = [
 		{
 			titulo: 'SoftwareConcorrente',
-			conteudo: '<p><b>Software Concorrente e Distribuído</b></br></br>\
+			conteudo: '<p><h1>Software Concorrente e Distribuído</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
@@ -1004,7 +1004,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'ExperienciaUsuario',
-			conteudo: '<p><b>Experiência do Usuário de Software</b></br></br>\
+			conteudo: '<p><h1>Experiência do Usuário de Software</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
@@ -1045,7 +1045,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'ArquiteturaSoftware',
-			conteudo: '<p><b>Arquitetura de Software</b></br></br>\
+			conteudo: '<p><h1>Arquitetura de Software</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
@@ -1080,7 +1080,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'RequisitosSoftware',
-			conteudo: '<p><b>Requisitos de Software</b></br></br>\
+			conteudo: '<p><h1>Requisitos de Software</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
@@ -1116,7 +1116,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'GovernancaSoftware',
-			conteudo: '<p><b>Governança e Gestão de Serviços de Software</b></br></br>\
+			conteudo: '<p><h1>Governança e Gestão de Serviços de Software</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
@@ -1157,7 +1157,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 	var arrayOitavoSemestre = [
 		{
 			titulo: 'SoftwaresUbiquos',
-			conteudo: '<p><b>Softwares para Sistemas Obíquos</b></br></br>\
+			conteudo: '<p><h1>Softwares para Sistemas Obíquos</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
@@ -1196,7 +1196,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'SoftwarePersistencia',
-			conteudo: '<p><b>Software para Persistência de Dados</b></br></br>\
+			conteudo: '<p><h1>Software para Persistência de Dados</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
@@ -1233,7 +1233,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'PadroesArqSoftware',
-			conteudo: '<p><b>Padrões de Arquitetura de Software</b></br></br>\
+			conteudo: '<p><h1>Padrões de Arquitetura de Software</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
@@ -1266,7 +1266,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'TestesSoftware',
-			conteudo: '<p><b>Teste de Software</b></br></br>\
+			conteudo: '<p><h1>Teste de Software</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
@@ -1304,7 +1304,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'SitemasDist',
-			conteudo: '<p><b>Sistemas Distribuídos</b></br></br>\
+			conteudo: '<p><h1>Sistemas Distribuídos</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
@@ -1330,7 +1330,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'Mercado',
-			conteudo: '<p><b>Mercado e Economia de Software</b></br></br>\
+			conteudo: '<p><h1>Mercado e Economia de Software</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
@@ -1362,7 +1362,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 		},
 		{
 			titulo: 'MetodologiaES',
-			conteudo: '<p><b>Metodologia e Experimentação em Engenharia de Software</b></br></br>\
+			conteudo: '<p><h1>Metodologia e Experimentação em Engenharia de Software</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
@@ -1396,7 +1396,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 	var arrayNonoSemestre = [
 		{
 			titulo: 'PraticaES',
-			conteudo: '<p><b>Prática em Engenharia de Software</b></br></br>\
+			conteudo: '<p><h1>Prática em Engenharia de Software</h1></br></br>\
 						<b>Características</b></br><br>\
 						- Núcleo Comum</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
