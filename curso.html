@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="ocurso">
   <head>
-    
+
     <title>BES - O Curso</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -9,18 +9,18 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    
+
     <link rel="stylesheet" type="text/css" href="style/curso.css">
-    
+
     <!-- Font Awesome -->
     <script src="https://use.fontawesome.com/f81c0812b8.js"></script>
 
-    
+
     <!-- Angular -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-resource/1.6.6/angular-resource.min.js"></script>
-    
+
     <script src="content/main.js"></script>
     <script src="content/TemplatesConteudo/templates-diretivas.js"></script>
     <script src="content/TemplatesConteudo/templates-controller.js"></script>
@@ -33,7 +33,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand" href="index.html"><div class="logo-large">BES</div><div class="logo-small">Bacharelado em Engenharia de Software</div></a>
-  
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
@@ -113,9 +113,9 @@
                             <span class="sidebar-title">TCC</span>
                         </a>
                     </li>
-                    <button type="button" data-name="hide" value="Toggle" id="toggle" class="btn btn-warning my-2 my-sm-0"><span class="sidebar-icon"><i class="fa fa-caret-square-o-right"></i></span></button>
+                    <button type="button" data-name="hide" value="Toggle" id="toggle" class="btn btn-warning my-2 my-sm-0"><span class="sidebar-icon"><i id="icon" class="fa fa-expand"></i></span></button>
                 </ul>
-            </aside>            
+            </aside>
         </div>
         <div id="page-content-wrapper">
             <ui-view>
@@ -126,22 +126,22 @@
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    
+
     <script>
         $(document).ready(function () {
   	    $("#toggle").click(function () {
             if ($(this).data('name') == 'show') {
                 $("#sidebar-wrapper").css("width", "45px")
                 $(this).data('name', 'hide')
-                $('.sidebar-nav').find('.fa-caret-square-o-left').removeClass('fa-caret-square-o-left').addClass('fa-caret-square-o-right')
+                $('#icon').removeClass('fa fa-compress').addClass('fa fa-expand')
             } else {
                 $("#sidebar-wrapper").css("width", "225px")
                 $(this).data('name', 'show')
-                $('.sidebar-nav').find('.fa-caret-square-o-right').removeClass('fa-caret-square-o-right').addClass('fa-caret-square-o-left')
+                $('#icon').removeClass('fa fa-expand').addClass('fa fa-compress')
     	      }
     	    });
     	});
     </script>
-    
+
   </body>
 </html>

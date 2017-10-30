@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="ocurso">
   <head>
-    
+
     <title>BES - Disciplinas</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -10,7 +10,7 @@
         <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style/disciplinas.css">
-    
+
     <!-- Font Awesome -->
     <script src="https://use.fontawesome.com/f81c0812b8.js"></script>
 
@@ -22,16 +22,16 @@
     <script src="content/disciplinasContent.js"></script>
     <script src="content/TemplatesConteudo/templates-diretivas.js"></script>
     <script src="content/TemplatesConteudo/templates-disciplinas-controller.js"></script>
-    
+
   </head>
-  
+
   <body>
     <nav class="navbar-cor navbar navbar-toggleable-md fixed-top navbar-inverse">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand" href="index.html"><div class="logo-large">BES</div><div class="logo-small">Bacharelado em Engenharia de Software</div></a>
-  
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
@@ -182,7 +182,7 @@
                     <li><a class="disc" ui-sref="praticaES" ui-sref-active="active"><i class="fa fa-caret-right"> Prática em Engenharia de Software</i></a></li>
                   </ul>
                 </li>
-                <button type="button" data-name="hide" value="Toggle" id="toggle" class="btn btn-warning my-2 my-sm-0"><span class="sidebar-icon"><i class="fa fa-caret-square-o-right"></i></span></button>
+                <button type="button" data-name="hide" value="Toggle" id="toggle" class="btn btn-warning my-2 my-sm-0"><span class="sidebar-icon"><i id="icon" class="fa fa-expand"></i></span></button>
             </ul>
         </aside>
       </div>
@@ -199,25 +199,25 @@
       jQuery('.toggle-switch').click( function(e) {
         jQuery('.collapse').collapse('hide');
       });
-      
+
       $('.disc').click(function() {
         $('.disc').removeClass('selected');
         $(this).addClass('selected');
       });
-      
+
       $(document).ready(function () {
-  	    $("#toggle").click(function () {
-	        if ($(this).data('name') == 'show') {
-	            $("#sidebar-wrapper").css("width", "45px")
-	            $(this).data('name', 'hide')
-	            $('.sidebar-nav').find('.fa-caret-square-o-left').removeClass('fa-caret-square-o-left').addClass('fa-caret-square-o-right')
-	        } else {
-	            $("#sidebar-wrapper").css("width", "225px")
-	            $(this).data('name', 'show')
-	            $('.sidebar-nav').find('.fa-caret-square-o-right').removeClass('fa-caret-square-o-right').addClass('fa-caret-square-o-left')
-		      }
-		    });
-		  });
+      $("#toggle").click(function () {
+          if ($(this).data('name') == 'show') {
+              $("#sidebar-wrapper").css("width", "45px")
+              $(this).data('name', 'hide')
+              $('#icon').removeClass('fa fa-compress').addClass('fa fa-expand')
+          } else {
+              $("#sidebar-wrapper").css("width", "225px")
+              $(this).data('name', 'show')
+              $('#icon').removeClass('fa fa-expand').addClass('fa fa-compress')
+          }
+        });
+    });
     </script>
   </body>
 </html>
