@@ -30,8 +30,12 @@ body {
     padding: 1em;
 }
 
-.tabela-identificacao tr:nth-child(2n+0){
+.tabela-identificacao th:nth-child(1){
     background-color: #E4EEF3;
+}
+
+.tabela-identificacao th:nth-child(2){
+  font-weight: normal!important;
 }
 
 
@@ -176,7 +180,7 @@ body {
     .container-fluid #sidebar-wrapper {
         width: 45px;
     }
-    
+
     .btn-warning {
         display: inline;
     }
@@ -236,4 +240,3 @@ body {
 .sidebar-nav li a:hover .sidebar-icon {
     color: #13293d !important;
 }
-
