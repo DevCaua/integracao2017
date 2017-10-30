@@ -96,7 +96,7 @@ body {
     z-index: 1000;
     position: fixed;
     left: 225px;
-    width: 0;
+    width: 16em!important;
     height: 100%;
     margin-left: -225px;
     overflow-y: auto;
@@ -110,7 +110,7 @@ body {
 #sidebar-wrapper .sidebar-nav {
     position: absolute;
     top: 0;
-    width: 225px;
+    width: 20em!important;
     font-size: 14px;
     margin: 0;
     padding: 0;
@@ -160,10 +160,14 @@ body {
 }
 
 @media (max-width: 992px) {
+    #sidebar-wrapper{
+      width: 45px!important;
+    }
+
     .container-fluid #sidebar-wrapper {
         width: 45px;
     }
-    
+
     .btn-warning {
         display: inline;
     }
