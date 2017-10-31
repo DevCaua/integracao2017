@@ -1,0 +1,3 @@
+O estudante do BES deve cumprir o mínimo de 192 horas em atividades complementares para a integralização curricular. Essas horas correspondem a 6% da carga horária do curso, conforme a distribuição da carga horária do curso na Tabela 4 (p. 38).
+
+As atividades complementares contemplam ações de monitoria, produção científica, extensão, produção técnica e de representação e qualificação, dentre outras. O cumprimento das atividades complementares é estabelecido formalmente pelo Regulamento de Atividades Complementares do Bacharelado em Engenharia de Software.
