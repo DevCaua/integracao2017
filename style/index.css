@@ -1,13 +1,10 @@
 /* Estilos da Barra de Acessibilidade
 ------------------------------------ */
-.acessibilidade{
-    margin-left: 80%;
-    background-color: #B0B0B3!important;
-    height: 2em;
-}
-
 .dropdownAcess{
+
   margin-top: 1em;
+  display: flex;
+  align-items: baseline;
 }
 
 .sidebar-icon {
@@ -42,10 +39,6 @@
   background-color: #cfe5fc;
 }
 
-.IconContrasteBlue{
-  color: #cfe5fc;
-}
-
 .ContrasteBlue,
 .NavContrasteBlue{
   background-color: #9FCFFF!important;
@@ -55,7 +48,8 @@
   background-color: #000066!important;
 }
 
-.TitleAcessibilidadeBlue{
+.TitleAcessibilidadeBlue,
+.IconContrasteBlue{
   color: #000066!important;
 }
 
@@ -77,11 +71,8 @@
   background-color: #FFFF00!important;
 }
 
+.TitleAcessibilidadeBlackYellow,
 .IconContrasteBlackYellow{
-  color: #FFFF00!important;
-}
-
-.TitleAcessibilidadeBlackYellow{
   color: #000!important;
 }
 
@@ -113,6 +104,9 @@
 
 /* outros
 ------------------------------------------- */
+.Logo{
+  flex: 1;
+}
 
 .logo-small {
   font-size:12px;
@@ -155,7 +149,9 @@
 }
 
 .busca {
-  float: right;
+  display: flex;
+  align-items: baseline;
+  flex-flow: row;
 }
 
 a {
@@ -167,12 +163,13 @@ a:hover {
 }
 
 @media (min-width: 992px) {
-  #navbarSupportedContent {
-    display: initial !important;
+
+  .navbar-collapse{
+    flex-basis: 0%;
   }
 
-  #search-button {
-    float: right;
+  .busca {
+    flex-flow: row;
   }
 
   .row {

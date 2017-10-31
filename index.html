@@ -27,10 +27,25 @@
 
   <body ng-controller="PagesController" ng-class="{'AcessibilidadeBlue': acessibilidadeBlue, 'AcessibilidadeBlackYellow': acessibilidadeByellow, 'AcessibilidadeYellow': acessibilidadeYellow}">
     <nav class="navbar navbar-expand-lg navbar-dark" ng-class="{'NavContrasteBlue': acessibilidadeBlue, 'NavContrasteBlackYellow': acessibilidadeByellow, 'NavContrasteYellow': acessibilidadeYellow, 'NavSemContraste': acessibilidadeNula}">
-      <a class="navbar-brand" ng-class="{'TitleAcessibilidadeBlue': acessibilidadeBlue, 'TitleAcessibilidadeBlackYellow': acessibilidadeByellow, 'TitleAcessibilidadeYellow': acessibilidadeYellow}" href="index.html"><div class="logo-large">BES</div><div class="logo-small">Bacharelado em Engenharia de Software</div></a>
+      <a class="navbar-brand Logo" ng-class="{'TitleAcessibilidadeBlue': acessibilidadeBlue, 'TitleAcessibilidadeBlackYellow': acessibilidadeByellow, 'TitleAcessibilidadeYellow': acessibilidadeYellow}" href="index.html"><div class="logo-large">BES</div><div class="logo-small">Bacharelado em Engenharia de Software</div></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item dropdown">
+          <a ng-class="{'IconContrasteBlue': acessibilidadeBlue, 'IconContrasteBlackYellow': acessibilidadeByellow, 'IconContrasteYellow': acessibilidadeYellow}" class="nav-link dropdown-toggle dropdownAcess" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+              <i class="fa fa-universal-access sidebar-icon "></i>
+              Acessibilidade
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrasteNulo')" class="btn btn-light" type="submit">Acessibilidade</button></a>
+            <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrasteAzul')" class="btn botao-blue" type="submit">Acessibilidade</button></a>
+            <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrastePretoAmarelo')" class="btn botao-black-yellow" type="submit">Acessibilidade</button></a>
+            <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrasteAmarelo')" class="btn botao-yellow" type="submit">Acessibilidade</button></a>
+          </div>
+        </li>
+      </ul>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <form class="form-inline my-2 my-lg-0 busca" action="search.html" method="get">
@@ -38,22 +53,6 @@
             <button class="btn btn-success my-2 my-sm-0" type="submit" value="search">Busca</button>
         </form>
       </div>
-    </nav>
-    <nav class="navbar acessibilidade" ng-class="{'BarraAcessContrasteBlue': acessibilidadeBlue, 'BarraAcessContrasteBlackYellow': acessibilidadeByellow, 'BarraAcessContrasteYellow': acessibilidadeYellow}">
-        <ul class="nav nav-pills">
-          <li class="nav-item dropdown">
-            <a ng-class="{'IconContrasteBlue': acessibilidadeBlue, 'IconContrasteBlackYellow': acessibilidadeByellow, 'IconContrasteYellow': acessibilidadeYellow}" class="nav-link dropdown-toggle dropdownAcess" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                <i class="fa fa-universal-access sidebar-icon "></i>
-                Acessibilidade
-            </a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrasteNulo')" class="btn btn-light" type="submit">Acessibilidade</button></a>
-              <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrasteAzul')" class="btn botao-blue" type="submit">Acessibilidade</button></a>
-              <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrastePretoAmarelo')" class="btn botao-black-yellow" type="submit">Acessibilidade</button></a>
-              <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrasteAmarelo')" class="btn botao-yellow" type="submit">Acessibilidade</button></a>
-            </div>
-          </li>
-        </ul>
     </nav>
 
     <div class="container-fluid" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}">
