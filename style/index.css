@@ -1,4 +1,118 @@
+/* Estilos da Barra de Acessibilidade
+------------------------------------ */
+.acessibilidade{
+    margin-left: 80%;
+    background-color: #B0B0B3!important;
+    height: 2em;
+}
 
+.dropdownAcess{
+  margin-top: 1em;
+}
+
+.sidebar-icon {
+  width: 45px;
+  height: 45px;
+  font-size: 25px;
+  padding: 0 2px;
+  display: inline-block;
+  text-indent: 7px;
+  margin-right: 1px;
+  float: left;
+}
+
+.botao-blue{
+  background-color: #9FCFFF;
+  color: #000066;
+}
+
+.botao-black-yellow{
+  background-color: #000;
+  color: #FFFF00;
+}
+
+.botao-yellow{
+  background-color: #DFD179;
+  color: #020167;
+}
+
+/* Estilos da Acessibilidade Azul
+------------------------------------ */
+.AcessibilidadeBlue{
+  background-color: #cfe5fc;
+}
+
+.IconContrasteBlue{
+  color: #cfe5fc;
+}
+
+.ContrasteBlue,
+.NavContrasteBlue{
+  background-color: #9FCFFF!important;
+}
+
+.BarraAcessContrasteBlue{
+  background-color: #000066!important;
+}
+
+.TitleAcessibilidadeBlue{
+  color: #000066!important;
+}
+
+/* Estilos da Acessibilidade Preto e Amarelo
+------------------------------------------- */
+.AcessibilidadeBlackYellow,
+.CaixaAcessibilidadeBlackYellow,
+.TextoAcessibilidadeBlackYellow{
+  background-color: #2F2F2E!important;
+  color: #FFFF00!important;
+}
+
+.ContrasteBlackYellow,
+.BarraAcessContrasteBlackYellow{
+  background-color: #000!important;
+}
+
+.NavContrasteBlackYellow{
+  background-color: #FFFF00!important;
+}
+
+.IconContrasteBlackYellow{
+  color: #FFFF00!important;
+}
+
+.TitleAcessibilidadeBlackYellow{
+  color: #000!important;
+}
+
+/* Estilos da Acessibilidade Amarelo
+------------------------------------------- */
+.AcessibilidadeYellow{
+  background-color: #F7F3AE;
+}
+
+.ContrasteYellow{
+  background-color: #DFD179;
+}
+
+.BarraAcessContrasteYellow{
+  background-color: #020167!important;
+}
+
+.IconContrasteYellow{
+  color: #F7F3AE!important;
+}
+
+.NavContrasteYellow{
+  background-color: #020167!important;
+}
+
+.CaixaAcessibilidadeYellow{
+  background-color: #919193!important;
+}
+
+/* outros
+------------------------------------------- */
 
 .logo-small {
   font-size:12px;
@@ -11,7 +125,7 @@
 
 .container-fluid{
   width: 90%;
-  
+
 }
 .col-sm-12, .col-md-6, .col-lg-3 {
   padding: 1rem;
@@ -56,16 +170,13 @@ a:hover {
   #navbarSupportedContent {
     display: initial !important;
   }
-  
+
   #search-button {
     float: right;
   }
-  
+
   .row {
     margin-top: 15%;
   }
-  
+
 }
-
-
-
