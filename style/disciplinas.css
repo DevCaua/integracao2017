@@ -1,4 +1,129 @@
+/* Estilos da Barra de Acessibilidade
+------------------------------------ */
+.dropdownAcess{
+  display: flex;
+  align-items: baseline;
+  color: #fff;
+}
 
+.sidebar-icon {
+  width: 45px;
+  height: 45px;
+  font-size: 25px;
+  padding: 0 2px;
+  text-indent: 7px;
+  margin-right: 1px;
+  float: left;
+}
+
+.botao-blue{
+  background-color: #9FCFFF;
+  color: #000066;
+}
+
+.botao-black-yellow{
+  background-color: #000;
+  color: #FFFF00;
+}
+
+.botao-yellow{
+  background-color: #DFD179;
+  color: #020167;
+}
+
+/* Estilos da Acessibilidade Azul
+------------------------------------ */
+.AcessibilidadeBlue{
+  background-color: #cfe5fc!important;
+}
+
+.ContrasteBlue{
+  background-color: #9FCFFF!important;
+  border: 2px solid #fff;
+  color: #000066!important;
+}
+
+.BarraAcessContrasteBlue,
+.NavContrasteBlue{
+  background-color: #000066!important;
+}
+
+.ConteudoAcessibilidadeBlue{
+  color: #000066!important;
+}
+
+.TitleAcessibilidadeBlue,
+.IconContrasteBlue{
+  color: #fff!important;
+}
+
+.EscolhidoAcessibilidadeBlue{
+  background-color: #cfe5fc!important;
+  color: #000066!important;
+}
+
+/* Estilos da Acessibilidade Preto e Amarelo
+------------------------------------------- */
+.AcessibilidadeBlackYellow,
+.CaixaAcessibilidadeBlackYellow,
+.TextoAcessibilidadeBlackYellow{
+  background-color: #2F2F2E!important;
+  color: #FFFF00!important;
+}
+
+.ContrasteBlackYellow,
+.BarraAcessContrasteBlackYellow{
+  background-color: #000!important;
+  border: 2px solid #FFFF00!important;
+  color: #FFFF00!important;
+}
+
+.NavContrasteBlackYellow{
+  background-color: #FFFF00!important;
+}
+
+.TitleAcessibilidadeBlackYellow,
+.IconContrasteBlackYellow{
+  color: #000!important;
+}
+
+.EscolhidoAcessibilidadeBlackYellow{
+  color: #FFFF00!important;
+  background-color: #000!important;
+}
+
+/* Estilos da Acessibilidade Amarelo
+------------------------------------------- */
+.AcessibilidadeYellow{
+  background-color: #F7F3AE;
+}
+
+.ContrasteYellow{
+  background-color: #919193!important;
+  border: 2px solid #020167!important;
+  color: #020167!important;
+}
+
+.BarraAcessContrasteYellow{
+  background-color: #020167!important;
+}
+
+.IconContrasteYellow,
+.TitleAcessibilidadeYellow{
+  color: #F7F3AE!important;
+}
+
+.EscolhidoAcessibilidadeYellow{
+  background-color: #F7F3AE!important;
+  color: #020167!important;
+}
+
+.NavContrasteYellow{
+  background-color: #020167!important;
+}
+
+/* outros
+------------------------------------------- */
 body {
   padding-top: 4.5rem;
 }
@@ -37,7 +162,7 @@ body {
 }
 
 .toplink {
-  color: white !important;
+  color: white;
 }
 
 .toplink:hover{
@@ -132,7 +257,7 @@ body {
     display: block;
     text-decoration: none;
     width: 100%;
-    text-align: left; 
+    text-align: left;
     border-radius: 0;
     border-color: transparent;
 }
@@ -168,7 +293,6 @@ body {
     display: inline-block;
     text-indent: -5px;
     padding-right: 4px;
-    color: #fff;
     float: left;
 }
 
@@ -180,15 +304,15 @@ body {
 }
 
 @media (max-width: 992px) {
-    
+
     .container-fluid #sidebar-wrapper {
         width: 45px;
     }
-    
+
     .btn-warning {
         display: inline;
     }
-    
+
     .container-fluid #sidebar-wrapper #sidebar #sidemenu li ul {
         position: fixed;
         left: 45px;
@@ -200,48 +324,48 @@ body {
 }
 
 .sidebar-nav li:first-child button {
-    background: #f5ca80 !important;
-    color: #fff !important;
+    background: #f5ca80;
+    color: #fff;
 }
 
 .sidebar-nav li:nth-child(2) button {
-    background: #f3c16b !important;
-    color: #fff !important;
+    background: #f3c16b;
+    color: #fff;
 }
 
 .sidebar-nav li:nth-child(3) button {
-    background: #f1b856 !important;
-    color: #fff !important;
+    background: #f1b856;
+    color: #fff;
 }
 
 .sidebar-nav li:nth-child(4) button {
-    background: #f0af41 !important;
-    color: #fff !important;
+    background: #f0af41;
+    color: #fff;
 }
 
 .sidebar-nav li:nth-child(5) button {
-    background: #eea62c !important;
-    color: #fff !important;
+    background: #eea62c;
+    color: #fff;
 }
 
 .sidebar-nav li:nth-child(6) button {
-    background: #ed9e17 !important;
-    color: #fff !important;
+    background: #ed9e17;
+    color: #fff;
 }
 
 .sidebar-nav li:nth-child(7) button {
-    background: #d89015 !important;
-    color: #fff !important;
+    background: #d89015;
+    color: #fff;
 }
 
 .sidebar-nav li:nth-child(8) button {
-    background: #c28213 !important;
-    color: #fff !important;
+    background: #c28213;
+    color: #fff;
 }
 
 .sidebar-nav li:nth-child(9) button {
-    background: #ad7311 !important;
-    color: #fff !important;
+    background: #ad7311;
+    color: #fff;
 }
 
 .sidebar-nav li ul.panel-collapse li a {

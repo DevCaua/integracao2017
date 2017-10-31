@@ -1,4 +1,125 @@
+/* Estilos da Barra de Acessibilidade
+------------------------------------ */
+.dropdownAcess{
+  display: flex;
+  align-items: baseline;
+}
 
+.sidebar-icon {
+  width: 45px;
+  height: 45px;
+  font-size: 25px;
+  padding: 0 2px;
+  display: inline-block;
+  text-indent: 7px;
+  margin-right: 1px;
+  float: left;
+}
+
+.botao-blue{
+  background-color: #9FCFFF;
+  color: #000066;
+}
+
+.botao-black-yellow{
+  background-color: #000;
+  color: #FFFF00;
+}
+
+.botao-yellow{
+  background-color: #DFD179;
+  color: #020167;
+}
+
+/* Estilos da Acessibilidade Azul
+------------------------------------ */
+.AcessibilidadeBlue{
+  background-color: #cfe5fc!important;
+}
+
+.ContrasteBlue{
+  background-color: #9FCFFF!important;
+  border: 2px solid #fff;
+  color: #000066!important;
+}
+
+.BarraAcessContrasteBlue,
+.NavContrasteBlue{
+  background-color: #000066!important;
+}
+
+.ConteudoAcessibilidadeBlue{
+  color: #000066!important;
+}
+
+.TitleAcessibilidadeBlue,
+.EscolhidoAcessibilidadeBlue,
+.IconContrasteBlue{
+  color: #fff!important;
+}
+
+/* Estilos da Acessibilidade Preto e Amarelo
+------------------------------------------- */
+.AcessibilidadeBlackYellow,
+.CaixaAcessibilidadeBlackYellow,
+.TextoAcessibilidadeBlackYellow{
+  background-color: #2F2F2E!important;
+  color: #FFFF00!important;
+}
+
+.ContrasteBlackYellow,
+.BarraAcessContrasteBlackYellow{
+  background-color: #000!important;
+  border: 2px solid #FFFF00!important;
+  color: #FFFF00!important;
+}
+
+.NavContrasteBlackYellow{
+  background-color: #FFFF00!important;
+}
+
+.TitleAcessibilidadeBlackYellow,
+.IconContrasteBlackYellow{
+  color: #000!important;
+}
+
+.EscolhidoAcessibilidadeBlackYellow{
+  background-color: #000!important;
+  color: #FFFF00!important;
+}
+
+/* Estilos da Acessibilidade Amarelo
+------------------------------------------- */
+.AcessibilidadeYellow{
+  background-color: #F7F3AE;
+}
+
+.ContrasteYellow{
+  background-color: #919193!important;
+  border: 2px solid #020167!important;
+  color: #020167!important;
+}
+
+.BarraAcessContrasteYellow{
+  background-color: #020167!important;
+}
+
+.IconContrasteYellow,
+.TitleAcessibilidadeYellow,
+.EscolhidoAcessibilidadeBlackYellow{
+  color: #F7F3AE!important;
+}
+
+.NavContrasteYellow{
+  background-color: #020167!important;
+}
+
+.CaixaAcessibilidadeYellow{
+  background-color: #919193!important;
+}
+
+/* outros
+------------------------------------------- */
 body {
   padding-top: 4.5rem;
 }
@@ -36,7 +157,7 @@ body {
 }
 
 .toplink {
-  color: white !important;
+  color: white;
 }
 
 .toplink:hover{
@@ -132,12 +253,6 @@ body {
 #sidebar-wrapper .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #428bca;
-}
-
-.sidebar-nav li:first-child a {
-    background: #92bce0 !important;
-    color: #fff !important;
 }
 
 #sidebar-wrapper .sidebar-nav li a .sidebar-icon {
@@ -148,7 +263,6 @@ body {
     display: inline-block;
     text-indent: 7px;
     margin-right: 1px;
-    color: #fff;
     float: left;
 }
 
@@ -163,45 +277,45 @@ body {
     .container-fluid #sidebar-wrapper {
         width: 45px;
     }
-    
+
     .btn-warning {
         display: inline;
     }
 }
 
 .sidebar-nav li:first-child a {
-    background: #bbbcc0 !important;
-    color: #fff !important;
+    background: #bbbcc0;
+    color: #fff;
 }
 
 .sidebar-nav li:nth-child(2) a {
-    background: #a0a2a7 !important;
-    color: #fff !important;
+    background: #a0a2a7;
+    color: #fff;
 }
 
 .sidebar-nav li:nth-child(3) a {
-    background: #85878e !important;
-    color: #fff !important;
+    background: #85878e;
+    color: #fff;
 }
 
 .sidebar-nav li:nth-child(4) a {
-    background: #6b6d76 !important;
-    color: #fff !important;
+    background: #6b6d76;
+    color: #fff;
 }
 
 .sidebar-nav li:nth-child(5) a {
-    background: #62646C !important;
-    color: #fff !important;
+    background: #62646C;
+    color: #fff;
 }
 
 .sidebar-nav li:nth-child(6) a {
-    background: #4E5056 !important;
-    color: #fff !important;
+    background: #4E5056;
+    color: #fff;
 }
 
 .sidebar-nav li:nth-child(7) a {
-    background: #3B3C41 !important;
-    color: #fff !important;
+    background: #3B3C41;
+    color: #fff;
 }
 
 .sidebar-nav li a:hover {

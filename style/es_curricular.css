@@ -1,4 +1,122 @@
+/* Estilos da Barra de Acessibilidade
+------------------------------------ */
+.dropdownAcess{
+  display: flex;
+  align-items: baseline;
+}
 
+.sidebar-icon {
+  width: 45px;
+  height: 45px;
+  font-size: 25px;
+  padding: 0 2px;
+  display: inline-block;
+  text-indent: 7px;
+  margin-right: 1px;
+  float: left;
+}
+
+.botao-blue{
+  background-color: #9FCFFF;
+  color: #000066;
+}
+
+.botao-black-yellow{
+  background-color: #000;
+  color: #FFFF00;
+}
+
+.botao-yellow{
+  background-color: #DFD179;
+  color: #020167;
+}
+
+/* Estilos da Acessibilidade Azul
+------------------------------------ */
+.AcessibilidadeBlue{
+  background-color: #cfe5fc!important;
+}
+
+.ContrasteBlue{
+  background-color: #9FCFFF!important;
+  border: 2px solid #fff;
+  color: #000066!important;
+}
+
+.BarraAcessContrasteBlue,
+.NavContrasteBlue{
+  background-color: #000066!important;
+}
+
+.ConteudoAcessibilidadeBlue{
+  color: #000066!important;
+}
+
+.TitleAcessibilidadeBlue,
+.EscolhidoAcessibilidadeBlue,
+.IconContrasteBlue{
+  color: #fff!important;
+}
+
+/* Estilos da Acessibilidade Preto e Amarelo
+------------------------------------------- */
+.AcessibilidadeBlackYellow,
+.CaixaAcessibilidadeBlackYellow,
+.TextoAcessibilidadeBlackYellow{
+  background-color: #2F2F2E!important;
+  color: #FFFF00!important;
+}
+
+.ContrasteBlackYellow{
+  background-color: #000!important;
+  border: 2px solid #FFFF00!important;
+  color: #FFFF00!important;
+}
+
+.NavContrasteBlackYellow,
+.BarraAcessContrasteBlackYellow{
+  background-color: #FFFF00!important;
+}
+
+.TitleAcessibilidadeBlackYellow,
+.IconContrasteBlackYellow{
+  color: #000!important;
+}
+
+.EscolhidoAcessibilidadeBlackYellow{
+  background-color: #000!important;
+  color: #FFFF00!important;
+}
+
+/* Estilos da Acessibilidade Amarelo
+------------------------------------------- */
+.AcessibilidadeYellow{
+  background-color: #F7F3AE;
+}
+
+.ContrasteYellow{
+  background-color: #919193!important;
+  border: 2px solid #020167!important;
+  color: #020167!important;
+}
+
+.BarraAcessContrasteYellow,
+.NavContrasteYellow{
+  background-color: #020167!important;
+}
+
+.IconContrasteYellow,
+.TitleAcessibilidadeYellow{
+  color: #F7F3AE!important;
+}
+
+.EscolhidoAcessibilidadeYellow{
+  background-color: #F7F3AE!important;
+  color: #020167!important;
+}
+
+/* outros
+------------------------------------------- */
 body {
   padding-top: 4.5rem;
 }
@@ -81,7 +199,7 @@ iframe {
 }
 
 .toplink {
-  color: white !important;
+  color: #fff;
 }
 
 .toplink:hover{
@@ -172,7 +290,6 @@ iframe {
 #sidebar-wrapper .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #428bca;
 }
 
 
@@ -184,7 +301,6 @@ iframe {
     display: inline-block;
     text-indent: 7px;
     margin-right: 1px;
-    color: #fff;
     float: left;
 }
 
@@ -199,7 +315,7 @@ iframe {
     .container-fluid #sidebar-wrapper {
         width: 45px;
     }
-    
+
     .btn-warning {
         display: inline;
     }
@@ -207,33 +323,33 @@ iframe {
 
 
 .sidebar-nav li:first-child a {
-    background: #97d0f0 !important;
-    color: #fff !important;
+    background: #97d0f0;
+    color: #fff;
 }
 
 .sidebar-nav li:nth-child(2) a {
-    background: #59b4e8 !important;
-    color: #fff !important;
+    background: #59b4e8;
+    color: #fff;
 }
 
 .sidebar-nav li:nth-child(3) a {
-    background: #1b98e0 !important;
-    color: #fff !important;
+    background: #1b98e0;
+    color: #fff;
 }
 
 .sidebar-nav li:nth-child(4) a {
-    background: #198BCC !important;
-    color: #fff !important;
+    background: #198BCC;
+    color: #fff;
 }
 
 .sidebar-nav li:nth-child(5) a {
-    background: #177DB8 !important;
-    color: #fff !important;
+    background: #177DB8;
+    color: #fff;
 }
 
 .sidebar-nav li a:hover {
-    background: #fff !important;
-    color: #1b98e0 !important;
+    background: #fff;
+    color: #1b98e0;
 }
 
 .sidebar-nav li a:hover .sidebar-icon {

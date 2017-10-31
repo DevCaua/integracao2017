@@ -22,29 +22,42 @@
     <script src="content/main.js"></script>
     <script src="content/TemplatesConteudo/templates-diretivas.js"></script>
     <script src="content/TemplatesConteudo/templates-controller.js"></script>
+    <script src="pages-controller.js"></script>
 
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
-  <body>
-    <nav class="navbar-cor navbar navbar-toggleable-md fixed-top navbar-inverse">
+  <body ng-controller="PagesController" ng-class="{'AcessibilidadeBlue': acessibilidadeBlue, 'AcessibilidadeBlackYellow': acessibilidadeByellow, 'AcessibilidadeYellow': acessibilidadeYellow}">
+    <nav class="navbar-cor navbar navbar-toggleable-md fixed-top navbar-inverse" ng-class="{'NavContrasteBlue': acessibilidadeBlue, 'NavContrasteBlackYellow': acessibilidadeByellow, 'NavContrasteYellow': acessibilidadeYellow, 'NavSemContraste': acessibilidadeNula}">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="index.html"><div class="logo-large">BES</div><div class="logo-small">Bacharelado em Engenharia de Software</div></a>
+        <a class="navbar-brand" ng-class="{'TitleAcessibilidadeBlue': acessibilidadeBlue, 'TitleAcessibilidadeBlackYellow': acessibilidadeByellow, 'TitleAcessibilidadeYellow': acessibilidadeYellow}" href="index.html"><div class="logo-large">BES</div><div class="logo-small">Bacharelado em Engenharia de Software</div></a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link toplink" href="curso.html">O Curso</a>
+              <a class="nav-link toplink" ng-class="{'TitleAcessibilidadeBlue': acessibilidadeBlue, 'TitleAcessibilidadeBlackYellow': acessibilidadeByellow, 'TitleAcessibilidadeYellow': acessibilidadeYellow}" href="curso.html">O Curso</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link toplink modulo-escolhido" href="#">Estrutura Curricular</a>
+              <a class="nav-link toplink modulo-escolhido" ng-class="{'EscolhidoAcessibilidadeBlue': acessibilidadeBlue, 'EscolhidoAcessibilidadeBlackYellow': acessibilidadeByellow, 'EscolhidoAcessibilidadeYellow': acessibilidadeYellow}" href="#">Estrutura Curricular</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link toplink" href="disciplinas.html">Disciplinas</a>
+              <a class="nav-link toplink" ng-class="{'TitleAcessibilidadeBlue': acessibilidadeBlue, 'TitleAcessibilidadeBlackYellow': acessibilidadeByellow, 'TitleAcessibilidadeYellow': acessibilidadeYellow}" href="disciplinas.html">Disciplinas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link toplink" href="infos.html">Outras Informações</a>
+              <a class="nav-link toplink" ng-class="{'TitleAcessibilidadeBlue': acessibilidadeBlue, 'TitleAcessibilidadeBlackYellow': acessibilidadeByellow, 'TitleAcessibilidadeYellow': acessibilidadeYellow}" href="infos.html">Outras Informações</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a ng-class="{'IconContrasteBlue': acessibilidadeBlue, 'IconContrasteBlackYellow': acessibilidadeByellow, 'IconContrasteYellow': acessibilidadeYellow}" class="nav-link dropdown-toggle dropdownAcess" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                  <i class="fa fa-universal-access sidebar-icon "></i>
+                  Acessibilidade
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrasteNulo')" class="btn btn-light" type="submit">Acessibilidade</button></a>
+                <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrasteAzul')" class="btn botao-blue" type="submit">Acessibilidade</button></a>
+                <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrastePretoAmarelo')" class="btn botao-black-yellow" type="submit">Acessibilidade</button></a>
+                <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrasteAmarelo')" class="btn botao-yellow" type="submit">Acessibilidade</button></a>
+              </div>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0" action="search.html" method="get">
@@ -54,35 +67,35 @@
         </div>
     </nav>
     <div class="container-fluid">
-      <div id="sidebar-wrapper">
+      <div id="sidebar-wrapper"  ng-class="{'BarraAcessContrasteBlue': acessibilidadeBlue, 'BarraAcessContrasteBlackYellow': acessibilidadeByellow, 'BarraAcessContrasteYellow': acessibilidadeYellow}">
           <aside id="sidebar">
               <ul id="sidemenu" class="sidebar-nav">
                   <li>
-                      <a ui-sref="matriz" ui-sref-active="active">
+                      <a ui-sref="matriz" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}">
                           <span class="sidebar-icon"><i class="fa fa-th"></i></span>
                           <span class="sidebar-title">Matriz Curricular</span>
                       </a>
                   </li>
                   <li>
-                      <a ui-sref="nl" ui-sref-active="active">
+                      <a ui-sref="nl" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}">
                           <span class="sidebar-icon"><i class="fa fa-globe"></i></span>
                           <span class="sidebar-title">Núcleo Livre</span>
                       </a>
                   </li>
                   <li>
-                        <a ui-sref="atividades" ui-sref-active="active">
+                        <a ui-sref="atividades" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}">
                             <span class="sidebar-icon"><i class="fa fa-pencil-square-o"></i></span>
                             <span class="sidebar-title">Atividades Complementares</span>
                         </a>
                     </li>
                   <li>
-                      <a ui-sref="fluxo" ui-sref-active="active">
+                      <a ui-sref="fluxo" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}">
                           <span class="sidebar-icon"><i class="fa fa-sitemap"></i></span>
                           <span class="sidebar-title">Fluxo Sugerido</span>
                       </a>
                   </li>
                   <li>
-                      <a ui-sref="carga" ui-sref-active="active">
+                      <a ui-sref="carga" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}">
                           <span class="sidebar-icon"><i class="fa fa-clock-o"></i></span>
                           <span class="sidebar-title">Carga Horária</span>
                       </a>

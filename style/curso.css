@@ -1,4 +1,124 @@
+/* Estilos da Barra de Acessibilidade
+------------------------------------ */
+.dropdownAcess{
+  display: flex;
+  align-items: baseline;
+}
 
+.sidebar-icon {
+  width: 45px;
+  height: 45px;
+  font-size: 25px;
+  padding: 0 2px;
+  display: inline-block;
+  text-indent: 7px;
+  margin-right: 1px;
+  float: left;
+}
+
+.botao-blue{
+  background-color: #9FCFFF;
+  color: #000066;
+}
+
+.botao-black-yellow{
+  background-color: #000;
+  color: #FFFF00;
+}
+
+.botao-yellow{
+  background-color: #DFD179;
+  color: #020167;
+}
+
+/* Estilos da Acessibilidade Azul
+------------------------------------ */
+.AcessibilidadeBlue{
+  background-color: #cfe5fc!important;
+}
+
+.ContrasteBlue{
+  background-color: #9FCFFF!important;
+  border: 2px solid #fff;
+  color: #000066!important;
+}
+
+.BarraAcessContrasteBlue,
+.NavContrasteBlue{
+  background-color: #000066!important;
+}
+
+.ConteudoAcessibilidadeBlue{
+  color: #000066!important;
+}
+
+.TitleAcessibilidadeBlue,
+.EscolhidoAcessibilidadeBlue,
+.IconContrasteBlue{
+  color: #fff!important;
+}
+
+/* Estilos da Acessibilidade Preto e Amarelo
+------------------------------------------- */
+.AcessibilidadeBlackYellow,
+.CaixaAcessibilidadeBlackYellow,
+.TextoAcessibilidadeBlackYellow{
+  background-color: #2F2F2E!important;
+  color: #FFFF00!important;
+}
+
+.ContrasteBlackYellow,
+.BarraAcessContrasteBlackYellow{
+  background-color: #000!important;
+  border: 2px solid #FFFF00!important;
+  color: #FFFF00!important;
+}
+
+.NavContrasteBlackYellow{
+  background-color: #FFFF00!important;
+}
+
+.TitleAcessibilidadeBlackYellow,
+.IconContrasteBlackYellow{
+  color: #000!important;
+}
+
+.EscolhidoAcessibilidadeBlackYellow{
+  color: #FFFF00!important;
+}
+
+/* Estilos da Acessibilidade Amarelo
+------------------------------------------- */
+.AcessibilidadeYellow{
+  background-color: #F7F3AE;
+}
+
+.ContrasteYellow{
+  background-color: #919193!important;
+  border: 2px solid #020167!important;
+  color: #020167!important;
+}
+
+.BarraAcessContrasteYellow{
+  background-color: #020167!important;
+}
+
+.IconContrasteYellow,
+.TitleAcessibilidadeYellow,
+.EscolhidoAcessibilidadeBlackYellow{
+  color: #F7F3AE!important;
+}
+
+.NavContrasteYellow{
+  background-color: #020167!important;
+}
+
+.CaixaAcessibilidadeYellow{
+  background-color: #919193!important;
+}
+
+/* outros
+------------------------------------------- */
 body {
   padding-top: 4.5rem;
 }
@@ -57,7 +177,7 @@ body {
 }
 
 .toplink {
-  color: white !important;
+  color: white;
 }
 
 .toplink:hover{
@@ -153,7 +273,6 @@ body {
 #sidebar-wrapper .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #428bca;
 }
 
 
@@ -165,7 +284,6 @@ body {
     display: inline-block;
     text-indent: 7px;
     margin-right: 1px;
-    color: #fff;
     float: left;
 }
 
@@ -188,48 +306,48 @@ body {
 
 
 .sidebar-nav li:first-child a {
-    background: #687683 !important;
-    color: #fff !important;
+    background: #687683;
+    color: #fff;
 }
 
 .sidebar-nav li:nth-child(2) a {
-    background: #536371 !important;
-    color: #fff !important;
+    background: #536371;
+    color: #fff;
 }
 
 .sidebar-nav li:nth-child(3) a {
-    background: #3d4f60 !important;
-    color: #fff !important;
+    background: #3d4f60;
+    color: #fff;
 }
 
 .sidebar-nav li:nth-child(4) a {
-    background: #283c4e !important;
-    color: #fff !important;
+    background: #283c4e;
+    color: #fff;
 }
 
 .sidebar-nav li:nth-child(5) a {
-    background: #13293d !important;
-    color: #fff !important;
+    background: #13293d;
+    color: #fff;
 }
 
 .sidebar-nav li:nth-child(6) a {
-    background: #122638 !important;
-    color: #fff !important;
+    background: #122638;
+    color: #fff;
 }
 
 .sidebar-nav li:nth-child(7) a {
-    background: #102232 !important;
-    color: #fff !important;
+    background: #102232;
+    color: #fff;
 }
 
 .sidebar-nav li:nth-child(8) a {
-    background: #0e1e2d !important;
-    color: #fff !important;
+    background: #0e1e2d;
+    color: #fff;
 }
 
 .sidebar-nav li:nth-child(9) a {
-    background: #0d1b27 !important;
-    color: #fff !important;
+    background: #0d1b27;
+    color: #fff;
 }
 
 .sidebar-nav li a:hover {

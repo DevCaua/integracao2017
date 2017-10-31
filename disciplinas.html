@@ -22,29 +22,42 @@
     <script src="content/disciplinasContent.js"></script>
     <script src="content/TemplatesConteudo/templates-diretivas.js"></script>
     <script src="content/TemplatesConteudo/templates-disciplinas-controller.js"></script>
+    <script src="pages-controller.js"></script>
 
   </head>
 
-  <body>
-    <nav class="navbar-cor navbar navbar-toggleable-md fixed-top navbar-inverse">
+  <body ng-controller="PagesController" ng-class="{'AcessibilidadeBlue': acessibilidadeBlue, 'AcessibilidadeBlackYellow': acessibilidadeByellow, 'AcessibilidadeYellow': acessibilidadeYellow}">
+    <nav class="navbar-cor navbar navbar-toggleable-md fixed-top navbar-inverse" ng-class="{'NavContrasteBlue': acessibilidadeBlue, 'NavContrasteBlackYellow': acessibilidadeByellow, 'NavContrasteYellow': acessibilidadeYellow, 'NavSemContraste': acessibilidadeNula}">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="index.html"><div class="logo-large">BES</div><div class="logo-small">Bacharelado em Engenharia de Software</div></a>
+        <a class="navbar-brand" ng-class="{'TitleAcessibilidadeBlue': acessibilidadeBlue, 'TitleAcessibilidadeBlackYellow': acessibilidadeByellow, 'TitleAcessibilidadeYellow': acessibilidadeYellow}" href="index.html"><div class="logo-large">BES</div><div class="logo-small">Bacharelado em Engenharia de Software</div></a>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link toplink" href="curso.html">O Curso</a>
+              <a class="nav-link toplink" ng-class="{'TitleAcessibilidadeBlue': acessibilidadeBlue, 'TitleAcessibilidadeBlackYellow': acessibilidadeByellow, 'TitleAcessibilidadeYellow': acessibilidadeYellow}" href="curso.html">O Curso</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link toplink" href="es_curricular.html">Estrutura Curricular</a>
+              <a class="nav-link toplink" ng-class="{'TitleAcessibilidadeBlue': acessibilidadeBlue, 'TitleAcessibilidadeBlackYellow': acessibilidadeByellow, 'TitleAcessibilidadeYellow': acessibilidadeYellow}" href="es_curricular.html">Estrutura Curricular</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link toplink modulo-escolhido" href="#">Disciplinas</a>
+              <a class="nav-link toplink modulo-escolhido" ng-class="{'EscolhidoAcessibilidadeBlue': acessibilidadeBlue, 'EscolhidoAcessibilidadeBlackYellow': acessibilidadeByellow, 'EscolhidoAcessibilidadeYellow': acessibilidadeYellow}" href="#">Disciplinas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link toplink" href="infos.html">Outras Informações</a>
+              <a class="nav-link toplink" ng-class="{'TitleAcessibilidadeBlue': acessibilidadeBlue, 'TitleAcessibilidadeBlackYellow': acessibilidadeByellow, 'TitleAcessibilidadeYellow': acessibilidadeYellow}" href="infos.html">Outras Informações</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a ng-class="{'IconContrasteBlue': acessibilidadeBlue, 'IconContrasteBlackYellow': acessibilidadeByellow, 'IconContrasteYellow': acessibilidadeYellow}" class="nav-link dropdown-toggle dropdownAcess" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                  <i class="fa fa-universal-access sidebar-icon "></i>
+                  Acessibilidade
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrasteNulo')" class="btn btn-light" type="submit">Acessibilidade</button></a>
+                <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrasteAzul')" class="btn botao-blue" type="submit">Acessibilidade</button></a>
+                <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrastePretoAmarelo')" class="btn botao-black-yellow" type="submit">Acessibilidade</button></a>
+                <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrasteAmarelo')" class="btn botao-yellow" type="submit">Acessibilidade</button></a>
+              </div>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0" action="search.html" method="get">
@@ -54,11 +67,11 @@
         </div>
     </nav>
     <div class="container-fluid">
-      <div id="sidebar-wrapper">
+      <div id="sidebar-wrapper" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}">
         <aside id="sidebar">
             <ul id="sidemenu" class="sidebar-nav">
                 <li>
-                  <button class="btn btn-warning collapsed toggle-switch" data-toggle="collapse" data-target="#submenu-1">
+                  <button class="btn btn-warning collapsed toggle-switch" data-toggle="collapse" data-target="#submenu-1" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}">
                     <span class="sidebar-icon"><b>1º</b></span>
                     <span class="sidebar-title">Período</span>
                     <b class="caret"></b>
@@ -71,7 +84,7 @@
                   </ul>
                 </li>
                 <li>
-                  <button class="btn btn-warning collapsed toggle-switch" data-toggle="collapse" data-target="#submenu-2">
+                  <button class="btn btn-warning collapsed toggle-switch" data-toggle="collapse" data-target="#submenu-2" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}">
                     <span class="sidebar-icon"><b>2º</b></span>
                     <span class="sidebar-title">Período</span>
                     <b class="caret"></b>
@@ -85,7 +98,7 @@
                   </ul>
                 </li>
                 <li>
-                  <button class="btn btn-warning collapsed toggle-switch" data-toggle="collapse" data-target="#submenu-3">
+                  <button class="btn btn-warning collapsed toggle-switch" data-toggle="collapse" data-target="#submenu-3" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}">
                     <span class="sidebar-icon"><b>3º</b></span>
                     <span class="sidebar-title">Período</span>
                     <b class="caret"></b>
@@ -101,7 +114,7 @@
                   </ul>
                 </li>
                 <li>
-                  <button class="btn btn-warning collapsed toggle-switch" data-toggle="collapse" data-target="#submenu-4">
+                  <button class="btn btn-warning collapsed toggle-switch" data-toggle="collapse" data-target="#submenu-4" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}">
                     <span class="sidebar-icon"><b>4º</b></span>
                     <span class="sidebar-title">Período</span>
                     <b class="caret"></b>
@@ -117,7 +130,7 @@
                   </ul>
                 </li>
                 <li>
-                  <button class="btn btn-warning collapsed toggle-switch" data-toggle="collapse" data-target="#submenu-5">
+                  <button class="btn btn-warning collapsed toggle-switch" data-toggle="collapse" data-target="#submenu-5" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}">
                     <span class="sidebar-icon"><b>5º</b></span>
                     <span class="sidebar-title">Período</span>
                     <b class="caret"></b>
@@ -130,7 +143,7 @@
                   </ul>
                 </li>
                 <li>
-                  <button class="btn btn-warning collapsed toggle-switch" data-toggle="collapse" data-target="#submenu-6">
+                  <button class="btn btn-warning collapsed toggle-switch" data-toggle="collapse" data-target="#submenu-6" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}">
                     <span class="sidebar-icon"><b>6º</b></span>
                     <span class="sidebar-title">Período</span>
                     <b class="caret"></b>
@@ -143,7 +156,7 @@
                   </ul>
                 </li>
                 <li>
-                  <button class="btn btn-warning collapsed toggle-switch" data-toggle="collapse" data-target="#submenu-7">
+                  <button class="btn btn-warning collapsed toggle-switch" data-toggle="collapse" data-target="#submenu-7" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}">
                     <span class="sidebar-icon"><b>7º</b></span>
                     <span class="sidebar-title">Período</span>
                     <b class="caret"></b>
@@ -157,7 +170,7 @@
                   </ul>
                 </li>
                 <li>
-                  <button class="btn btn-warning collapsed toggle-switch" data-toggle="collapse" data-target="#submenu-8">
+                  <button class="btn btn-warning collapsed toggle-switch" data-toggle="collapse" data-target="#submenu-8" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}">
                     <span class="sidebar-icon"><b>8º</b></span>
                     <span class="sidebar-title">Período</span>
                     <b class="caret"></b>
@@ -173,7 +186,7 @@
                   </ul>
                 </li>
                 <li>
-                  <button class="btn btn-warning collapsed toggle-switch" data-toggle="collapse" data-target="#submenu-9">
+                  <button class="btn btn-warning collapsed toggle-switch" data-toggle="collapse" data-target="#submenu-9" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}">
                     <span class="sidebar-icon"><b>9º</b></span>
                     <span class="sidebar-title">Período</span>
                     <b class="caret"></b>
