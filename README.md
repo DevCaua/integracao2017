@@ -1,5 +1,7 @@
 # Trabalho de Integração 2017.2
 
+Este é o trabalho final da disciplina Integração I, lecionada pelo professor Fábio Nogueira de Lucena.  
+
 #### Membros:  
 
 [Affonso Giesel](https://github.com/AffonsoGiesel)  
