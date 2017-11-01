@@ -341,9 +341,9 @@ body {
 
 .tabela tr:nth-child(1){
     background-color: #39444E;
-    color: #A7ACB0;
+    color: white;
 }
 
 .tabela tr:nth-child(2n+0){
-    background-color: #E4EEF3;
+    background-color: #C0C3C9;
 }
