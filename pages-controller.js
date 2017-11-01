@@ -12,7 +12,9 @@ angular.module('ocurso').controller('PagesController', function($scope, localSto
   //função responsável por ler os dados do localStorage ao carregar o controller
   (function () {
     var recebeValoresAcessibilidade = localStorage.getData();
-    $scope.arrayConvertidoParaString = recebeValoresAcessibilidade.split(',');
+    if(recebeValoresAcessibilidade != null){
+      $scope.arrayConvertidoParaString = recebeValoresAcessibilidade.split(',');
+    }
   }());
 
   // converte o array de string para array de booleano
