@@ -59,7 +59,7 @@ angular.module('index',[]).controller('FluxogramaController', function($scope) {
 			possuiDependencia: true,
 			dependenciaAcionada: false,
 			opcaoSelecionada: false,
-			link: '../../disciplinas.html#!/Arquitetura_Linear'
+			link: '../../disciplinas.html#!/Algebra_Linear'
 		},
 		{
 			titulo : 'Lógica Matemática',
@@ -606,11 +606,11 @@ angular.module('index',[]).controller('FluxogramaController', function($scope) {
 				.concat($scope.dependencias9)
 				.concat($scope.dependencias10)
 				.concat($scope.dependencias11)
-				.concat($scope.dependencias12)	
+				.concat($scope.dependencias12)
 				.concat($scope.dependencias13)
 				.concat($scope.dependencias14
 
-					)	
+					)
 
 	//atributos utilizados para a busca de dependências
 	$scope.arrayDependencias = [];
@@ -630,7 +630,7 @@ angular.module('index',[]).controller('FluxogramaController', function($scope) {
 			dependenciasCompleta.forEach(function(atual) {
 				if(fluxograma.titulo == atual.titulo) {
 					$scope.arrayDependencias = $scope.arrayDependencias
-											.concat($scope.obterArrayDaDependencia(atual.array));	
+											.concat($scope.obterArrayDaDependencia(atual.array));
 				}
 			})
 			$scope.verificaDependencia(fluxograma);
@@ -749,6 +749,6 @@ angular.module('index',[]).controller('FluxogramaController', function($scope) {
 					$scope.optativaAcionada2 = false;
 					$scope.optativaAcionada3 = false;
 		}
-		
+
 	}
 });
