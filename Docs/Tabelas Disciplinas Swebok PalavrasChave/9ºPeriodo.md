@@ -6,7 +6,7 @@
       <th>Palavras relevantes SWEBOK</th>
     </tr>
     <tr>
-        <td>Software para persistência de dados</td>
+        <td>Software para Persistência de Dados</td>
             <td>Banco de dados</br>	
                 Serialização de objetos</br>
                 XML</br>
@@ -75,7 +75,7 @@
             </td>
     </tr>
     <tr>
-        <td>Padrões de arquiteutura de software</td>
+        <td>Padrões de Arquiteutura de Software</td>
             <td>   
                     8° período</br>	
                     Obrigatória</br>	
@@ -113,7 +113,7 @@
                 Famílias de programas e frameworks</br>
             </td>
             <td>
-                Decomposição de software</br>
+                Decomposição de Software</br>
                 Eventos</br>
                 Callbacks</br>
                 Abstração</br>
@@ -132,7 +132,7 @@
             </td>
     </tr>
         <tr>
-        <td>Metodologia e experimentação em Engenharia de software</td>
+        <td>Metodologia e Experimentação em Engenharia de Software</td>
             <td>   
                  	8° período	</br>
                     Obrigatória	</br>
@@ -274,7 +274,7 @@
             </td>
     </tr>
     <tr>
-        <td>Software para sistemas ubíquos</td>
+        <td>Software para Sistemas Ubíquos</td>
             <td>Teórica</br>	
                 Prática	</br>
                 Núcleo Comum	</br>
@@ -321,14 +321,14 @@
                 Alogoritmos e Complexidade</br>
             </td>
             <td>
-                Internet das coisas</br>
+                Internet das Coisas</br>
                 Dispotivos vestíveis</br>
                 Internet</br>
                 Computação pervasiva</br>
             </td>
     </tr>
     <tr>
-        <td>Teste de software</td>
+        <td>Teste de Software</td>
             <td>Núcleo Comum	</br>
                 Teórica	</br>
                 Prática	</br>
@@ -362,7 +362,7 @@
                 Software Testing Tools</br>
             </td>
             <td>
-                Análise dinâmica</br>
+                Análise Dinâmica</br>
                 Verificação e validação</br>
                 Verificação Dinâmica</br>
                 Domínio de execução</br>
