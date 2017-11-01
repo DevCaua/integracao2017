@@ -80,7 +80,7 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
 
     var algebraLinearState = {
         name: 'algebraLinear',
-        url: '/Arquitetura_Linear',
+        url: '/Algebra_Linear',
         template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
       	controller: 'TemplatesDisciplinasController',
       	params:{
