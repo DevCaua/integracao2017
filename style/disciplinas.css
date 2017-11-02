@@ -41,7 +41,7 @@ body {
   color: white !important;
 }
 
-.toplink:hover{
+.nav-link:hover{
   background-color: #f3c16b;
   border-radius: 8px;
 }

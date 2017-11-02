@@ -85,7 +85,7 @@ iframe {
   color: #fff !important;
 }
 
-.toplink:hover{
+.nav-link:hover{
   background-color: #82c6ee;
   border-radius: 8px;
 }
