@@ -1,122 +1,3 @@
-/* Estilos da Barra de Acessibilidade
------------------------------------- */
-.dropdownAcess{
-  display: flex;
-  align-items: baseline;
-}
-
-.sidebar-icon {
-  width: 45px;
-  height: 45px;
-  font-size: 25px;
-  padding: 0 2px;
-  display: inline-block;
-  text-indent: 7px;
-  margin-right: 1px;
-  float: left;
-}
-
-.botao-blue{
-  background-color: #9FCFFF;
-  color: #000066;
-}
-
-.botao-black-yellow{
-  background-color: #000;
-  color: #FFFF00;
-}
-
-.botao-yellow{
-  background-color: #DFD179;
-  color: #020167;
-}
-
-/* Estilos da Acessibilidade Azul
------------------------------------- */
-.AcessibilidadeBlue{
-  background-color: #cfe5fc!important;
-}
-
-.ContrasteBlue{
-  background-color: #9FCFFF!important;
-  border: 2px solid #fff;
-  color: #000066!important;
-}
-
-.BarraAcessContrasteBlue,
-.NavContrasteBlue{
-  background-color: #000066!important;
-}
-
-.ConteudoAcessibilidadeBlue{
-  color: #000066!important;
-}
-
-.TitleAcessibilidadeBlue,
-.EscolhidoAcessibilidadeBlue,
-.IconContrasteBlue{
-  color: #fff!important;
-}
-
-/* Estilos da Acessibilidade Preto e Amarelo
-------------------------------------------- */
-.AcessibilidadeBlackYellow,
-.CaixaAcessibilidadeBlackYellow,
-.TextoAcessibilidadeBlackYellow{
-  background-color: #2F2F2E!important;
-  color: #FFFF00!important;
-}
-
-.ContrasteBlackYellow,
-.BarraAcessContrasteBlackYellow{
-  background-color: #000!important;
-  border: 2px solid #FFFF00!important;
-  color: #FFFF00!important;
-}
-
-.NavContrasteBlackYellow{
-  background-color: #FFFF00!important;
-}
-
-.TitleAcessibilidadeBlackYellow,
-.IconContrasteBlackYellow{
-  color: #000!important;
-}
-
-.EscolhidoAcessibilidadeBlackYellow{
-  background-color: #000!important;
-  color: #FFFF00!important;
-}
-
-/* Estilos da Acessibilidade Amarelo
-------------------------------------------- */
-.AcessibilidadeYellow{
-  background-color: #F7F3AE;
-}
-
-.ContrasteYellow{
-  background-color: #919193!important;
-  border: 2px solid #020167!important;
-  color: #020167!important;
-}
-
-.BarraAcessContrasteYellow{
-  background-color: #020167!important;
-}
-
-.IconContrasteYellow,
-.TitleAcessibilidadeYellow,
-.EscolhidoAcessibilidadeBlackYellow{
-  color: #F7F3AE!important;
-}
-
-.NavContrasteYellow{
-  background-color: #020167!important;
-}
-
-.CaixaAcessibilidadeYellow{
-  background-color: #919193!important;
-}
 
 /* outros
 ------------------------------------------- */
@@ -129,7 +10,6 @@ body {
 .ng-scope {
     z-index: 1000;
     left: 15%;
-    height: 100%;
     margin-left: 5%;
     margin-right: 5%;
     overflow-y: auto;
@@ -156,11 +36,11 @@ body {
   font-size: 18px;
 }
 
-.toplink {
-  color: white;
+.nav-link {
+  color: white !important;
 }
 
-.toplink:hover{
+.nav-link:hover{
   background-color: #aeafb4;
   border-radius: 8px;
 }
@@ -347,3 +227,145 @@ body {
 .tabela tr:nth-child(2n+0){
     background-color: #C0C3C9;
 }
+
+/* Estilos da Barra de Acessibilidade
+------------------------------------ */
+.dropdownAcess{
+    display: flex;
+    align-items: baseline;
+    color: white !important;
+  }
+  
+  .drop-botao-desktop {
+    float: right;
+    display: none;
+  }
+
+  .drop-botao-mobile{
+      display: inline;
+  }
+
+  @media (min-width: 992px) {
+    .drop-botao-desktop{
+        display: inline;
+    }
+    .drop-botao-mobile{
+        display: none;
+    }
+  }
+
+  .access-icon {
+    width: 45px;
+    font-size: 25px;
+    padding: 0 2px;
+    display: inline-block;
+    text-indent: 7px;
+    margin-right: 1px;
+  }
+  
+  .botao-blue{
+    background-color: #9FCFFF;
+    color: #000066;
+  }
+  
+  .botao-black-yellow{
+    background-color: #000;
+    color: #FFFF00;
+  }
+  
+  .botao-yellow{
+    background-color: #DFD179;
+    color: #020167;
+  }
+  
+  /* Estilos da Acessibilidade Azul
+  ------------------------------------ */
+  .AcessibilidadeBlue{
+    background-color: #cfe5fc!important;
+  }
+  
+  .ContrasteBlue{
+    background-color: #9FCFFF!important;
+    border: 2px solid #fff;
+    color: #000066!important;
+  }
+  
+  .BarraAcessContrasteBlue,
+  .NavContrasteBlue{
+    background-color: #000066!important;
+  }
+  
+  .ConteudoAcessibilidadeBlue{
+    color: #000066!important;
+  }
+  
+  .TitleAcessibilidadeBlue,
+  .EscolhidoAcessibilidadeBlue,
+  .IconContrasteBlue{
+    color: #fff!important;
+  }
+  
+  /* Estilos da Acessibilidade Preto e Amarelo
+  ------------------------------------------- */
+  .AcessibilidadeBlackYellow,
+  .CaixaAcessibilidadeBlackYellow,
+  .TextoAcessibilidadeBlackYellow{
+    background-color: #2F2F2E!important;
+    color: #FFFF00!important;
+  }
+  
+  .ContrasteBlackYellow,
+  .BarraAcessContrasteBlackYellow{
+    background-color: #000!important;
+    border: 2px solid #FFFF00!important;
+    color: #FFFF00!important;
+  }
+  
+  .NavContrasteBlackYellow{
+    background-color: #FFFF00!important;
+  }
+  
+  .TitleAcessibilidadeBlackYellow,
+  .IconContrasteBlackYellow{
+    color: #000!important;
+  }
+  
+  .EscolhidoAcessibilidadeBlackYellow{
+    background-color: #000!important;
+    color: #FFFF00!important;
+  }
+
+  .CollapseButtonBlackYellow {
+    background-color: black;
+    border-color: black;
+  }
+  
+  /* Estilos da Acessibilidade Amarelo
+  ------------------------------------------- */
+  .AcessibilidadeYellow{
+    background-color: #F7F3AE;
+  }
+  
+  .ContrasteYellow{
+    background-color: #919193!important;
+    border: 2px solid #020167!important;
+    color: #020167!important;
+  }
+  
+  .BarraAcessContrasteYellow{
+    background-color: #020167!important;
+  }
+  
+  .IconContrasteYellow,
+  .TitleAcessibilidadeYellow,
+  .EscolhidoAcessibilidadeBlackYellow{
+    color: #F7F3AE!important;
+  }
+  
+  .NavContrasteYellow{
+    background-color: #020167!important;
+  }
+  
+  .CaixaAcessibilidadeYellow{
+    background-color: #919193!important;
+  }
