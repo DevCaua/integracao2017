@@ -37,30 +37,30 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link toplink" ng-class="{'TitleAcessibilidadeBlue': acessibilidadeBlue, 'TitleAcessibilidadeBlackYellow': acessibilidadeByellow, 'TitleAcessibilidadeYellow': acessibilidadeYellow}" href="curso.html">O Curso</a>
+              <a class="nav-link " ng-class="{'TitleAcessibilidadeBlue': acessibilidadeBlue, 'TitleAcessibilidadeBlackYellow': acessibilidadeByellow, 'TitleAcessibilidadeYellow': acessibilidadeYellow}" href="curso.html">O Curso</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link toplink modulo-escolhido" ng-class="{'EscolhidoAcessibilidadeBlue': acessibilidadeBlue, 'EscolhidoAcessibilidadeBlackYellow': acessibilidadeByellow, 'EscolhidoAcessibilidadeYellow': acessibilidadeYellow}" href="#">Estrutura Curricular</a>
+              <a class="nav-link  modulo-escolhido" ng-class="{'EscolhidoAcessibilidadeBlue': acessibilidadeBlue, 'EscolhidoAcessibilidadeBlackYellow': acessibilidadeByellow, 'EscolhidoAcessibilidadeYellow': acessibilidadeYellow}" href="#">Estrutura Curricular</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link toplink" ng-class="{'TitleAcessibilidadeBlue': acessibilidadeBlue, 'TitleAcessibilidadeBlackYellow': acessibilidadeByellow, 'TitleAcessibilidadeYellow': acessibilidadeYellow}" href="disciplinas.html">Disciplinas</a>
+              <a class="nav-link " ng-class="{'TitleAcessibilidadeBlue': acessibilidadeBlue, 'TitleAcessibilidadeBlackYellow': acessibilidadeByellow, 'TitleAcessibilidadeYellow': acessibilidadeYellow}" href="disciplinas.html">Disciplinas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link toplink" ng-class="{'TitleAcessibilidadeBlue': acessibilidadeBlue, 'TitleAcessibilidadeBlackYellow': acessibilidadeByellow, 'TitleAcessibilidadeYellow': acessibilidadeYellow}" href="infos.html">Outras Informações</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a ng-class="{'IconContrasteBlue': acessibilidadeBlue, 'IconContrasteBlackYellow': acessibilidadeByellow, 'IconContrasteYellow': acessibilidadeYellow}" class="nav-link dropdown-toggle dropdownAcess" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                  <i class="fa fa-universal-access sidebar-icon "></i>
-                  Acessibilidade
-              </a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrasteNulo')" class="btn btn-light" type="submit">Acessibilidade</button></a>
-                <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrasteAzul')" class="btn botao-blue" type="submit">Acessibilidade</button></a>
-                <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrastePretoAmarelo')" class="btn botao-black-yellow" type="submit">Acessibilidade</button></a>
-                <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrasteAmarelo')" class="btn botao-yellow" type="submit">Acessibilidade</button></a>
-              </div>
+              <a class="nav-link " ng-class="{'TitleAcessibilidadeBlue': acessibilidadeBlue, 'TitleAcessibilidadeBlackYellow': acessibilidadeByellow, 'TitleAcessibilidadeYellow': acessibilidadeYellow}" href="infos.html">Outras Informações</a>
             </li>
           </ul>
+          <div class="nav-item dropdown drop-botao">
+                <a ng-class="{'IconContrasteBlue': acessibilidadeBlue, 'IconContrasteBlackYellow': acessibilidadeByellow, 'IconContrasteYellow': acessibilidadeYellow}" class="nav-link dropdown-toggle dropdownAcess" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                    <i class="fa fa-universal-access access-icon "></i>
+                    Acessibilidade
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrasteNulo')" class="btn btn-light" type="submit">Original</button></a>
+                  <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrasteAzul')" class="btn botao-blue" type="submit">Acessibilidade</button></a>
+                  <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrastePretoAmarelo')" class="btn botao-black-yellow" type="submit">Acessibilidade</button></a>
+                  <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrasteAmarelo')" class="btn botao-yellow" type="submit">Acessibilidade</button></a>
+                </div>
+          </div>
           <form class="form-inline my-2 my-lg-0" action="search.html" method="get">
             <input class="form-control mr-sm-2" type="text" placeholder="O que você procura?" id="search-box" name="query">
             <button class="btn btn-success my-2 my-sm-0" type="submit" value="search">Busca</button>
