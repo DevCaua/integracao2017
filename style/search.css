@@ -7,33 +7,26 @@ body {
 /* NAVBAR */
 
 .navbar-cor {
-    background-color: #005ca1;
+  background-color: black;
 }
 
 .logo-small {
-  font-size:12px;
+font-size:12px;
 }
 
 .logo-large {
-  font-size: 30px;
-  line-height: 100%;
+font-size: 30px;
+line-height: 100%;
 }
 .nav-item {
-  font-size: 18px;
+font-size: 18px;
 }
 
-.toplink {
-  color: white !important;
+.nav-link {
+color: #fff !important;
 }
 
-.toplink:hover{
-  background-color: #4588ba;
-  border-radius: 8px;
+.nav-link:hover{
+background-color: #404446;
+border-radius: 8px;
 }
-
-#search-results {
-  display: inline-block;
-  padding-top: 2rem;
-}
-
-
