@@ -29,7 +29,7 @@
 
   <body ng-controller="PagesController" ng-class="{'AcessibilidadeBlue': acessibilidadeBlue, 'AcessibilidadeBlackYellow': acessibilidadeByellow, 'AcessibilidadeYellow': acessibilidadeYellow}">
     <nav class="navbar-cor navbar navbar-toggleable-md fixed-top navbar-inverse" ng-class="{'NavContrasteBlue': acessibilidadeBlue, 'NavContrasteBlackYellow': acessibilidadeByellow, 'NavContrasteYellow': acessibilidadeYellow, 'NavSemContraste': acessibilidadeNula}">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler navbar-toggler-right" ng-class="{'CollapseButtonBlackYellow': acessibilidadeByellow}" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand" ng-class="{'TitleAcessibilidadeBlue': acessibilidadeBlue, 'TitleAcessibilidadeBlackYellow': acessibilidadeByellow, 'TitleAcessibilidadeYellow': acessibilidadeYellow}" href="index.html"><div class="logo-large">BES</div><div class="logo-small">Bacharelado em Engenharia de Software</div></a>
@@ -37,20 +37,33 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link toplink" ng-class="{'TitleAcessibilidadeBlue': acessibilidadeBlue, 'TitleAcessibilidadeBlackYellow': acessibilidadeByellow, 'TitleAcessibilidadeYellow': acessibilidadeYellow}" href="curso.html">O Curso</a>
+              <a class="nav-link " ng-class="{'TitleAcessibilidadeBlue': acessibilidadeBlue, 'TitleAcessibilidadeBlackYellow': acessibilidadeByellow, 'TitleAcessibilidadeYellow': acessibilidadeYellow}" href="curso.html">O Curso</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link toplink" ng-class="{'TitleAcessibilidadeBlue': acessibilidadeBlue, 'TitleAcessibilidadeBlackYellow': acessibilidadeByellow, 'TitleAcessibilidadeYellow': acessibilidadeYellow}" href="es_curricular.html">Estrutura Curricular</a>
+              <a class="nav-link " ng-class="{'TitleAcessibilidadeBlue': acessibilidadeBlue, 'TitleAcessibilidadeBlackYellow': acessibilidadeByellow, 'TitleAcessibilidadeYellow': acessibilidadeYellow}" href="es_curricular.html">Estrutura Curricular</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link toplink modulo-escolhido" ng-class="{'EscolhidoAcessibilidadeBlue': acessibilidadeBlue, 'EscolhidoAcessibilidadeBlackYellow': acessibilidadeByellow, 'EscolhidoAcessibilidadeYellow': acessibilidadeYellow}" href="#">Disciplinas</a>
+              <a class="nav-link  modulo-escolhido" ng-class="{'EscolhidoAcessibilidadeBlue': acessibilidadeBlue, 'EscolhidoAcessibilidadeBlackYellow': acessibilidadeByellow, 'EscolhidoAcessibilidadeYellow': acessibilidadeYellow}" href="#">Disciplinas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link toplink" ng-class="{'TitleAcessibilidadeBlue': acessibilidadeBlue, 'TitleAcessibilidadeBlackYellow': acessibilidadeByellow, 'TitleAcessibilidadeYellow': acessibilidadeYellow}" href="infos.html">Outras Informações</a>
+              <a class="nav-link " ng-class="{'TitleAcessibilidadeBlue': acessibilidadeBlue, 'TitleAcessibilidadeBlackYellow': acessibilidadeByellow, 'TitleAcessibilidadeYellow': acessibilidadeYellow}" href="infos.html">Outras Informações</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown drop-botao-mobile">
+                <a ng-class="{'IconContrasteBlue': acessibilidadeBlue, 'IconContrasteBlackYellow': acessibilidadeByellow, 'IconContrasteYellow': acessibilidadeYellow}" class="nav-link dropdown-toggle dropdownAcess" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                    <i class="fa fa-universal-access access-icon "></i>
+                    Acessibilidade
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrasteNulo')" class="btn btn-light" type="submit">Original</button></a>
+                  <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrasteAzul')" class="btn botao-blue" type="submit">Acessibilidade</button></a>
+                  <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrastePretoAmarelo')" class="btn botao-black-yellow" type="submit">Acessibilidade</button></a>
+                  <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrasteAmarelo')" class="btn botao-yellow" type="submit">Acessibilidade</button></a>
+                </div>
+            </li>
+          </ul>
+          <div class="nav-item dropdown drop-botao-desktop">
               <a ng-class="{'IconContrasteBlue': acessibilidadeBlue, 'IconContrasteBlackYellow': acessibilidadeByellow, 'IconContrasteYellow': acessibilidadeYellow}" class="nav-link dropdown-toggle dropdownAcess" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                  <i class="fa fa-universal-access sidebar-icon "></i>
+                  <i class="fa fa-universal-access access-icon "></i>
                   Acessibilidade
               </a>
               <div class="dropdown-menu">
@@ -59,8 +72,7 @@
                 <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrastePretoAmarelo')" class="btn botao-black-yellow" type="submit">Acessibilidade</button></a>
                 <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrasteAmarelo')" class="btn botao-yellow" type="submit">Acessibilidade</button></a>
               </div>
-            </li>
-          </ul>
+          </div>
           <form class="form-inline my-2 my-lg-0" action="search.html" method="get">
             <input class="form-control mr-sm-2" type="text" placeholder="O que você procura?" id="search-box" name="query">
             <button class="btn btn-success my-2 my-sm-0" type="submit" value="search">Busca</button>
@@ -78,10 +90,10 @@
                     <b class="caret"></b>
                   </button>
                   <ul id="submenu-1" class="panel-collapse collapse panel-switch" role="menu">
-                    <li><a class="disc" ui-sref="computacaoSociedade" ui-sref-active="active"><i class="fa fa-caret-right"> Computação e Sociedade</i></a></li>
-                    <li><a class="disc" ui-sref="intProgramacao" ui-sref-active="active"><i class="fa fa-caret-right"> Introdução à Programação</i></a></li>
-                    <li><a class="disc" ui-sref="calculo" ui-sref-active="active"><i class="fa fa-caret-right"> Cálculo 1A</i></a></li>
-                    <li><a class="disc" ui-sref="fundMatematica" ui-sref-active="active"><i class="fa fa-caret-right"> Fundamentos de Matemática para Computação</i></a></li>
+                    <li><a class="disc" ui-sref="computacaoSociedade" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Computação e Sociedade</i></a></li>
+                    <li><a class="disc" ui-sref="intProgramacao" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Introdução à Programação</i></a></li>
+                    <li><a class="disc" ui-sref="calculo" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Cálculo 1A</i></a></li>
+                    <li><a class="disc" ui-sref="fundMatematica" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Fundamentos de Matemática para Computação</i></a></li>
                   </ul>
                 </li>
                 <li>
@@ -91,11 +103,11 @@
                     <b class="caret"></b>
                   </button>
                   <ul id="submenu-2" class="panel-collapse collapse panel-switch" role="menu">
-                    <li><a class="disc" ui-sref="arquitetura" ui-sref-active="active"><i class="fa fa-caret-right"> Arquitetura de Computadores</i></a></li>
-                    <li><a class="disc" ui-sref="algoritmos1" ui-sref-active="active"><i class="fa fa-caret-right"> Algoritmo e Estruturas de Dados 1</i></a></li>
-                    <li><a class="disc" ui-sref="probEstatistica" ui-sref-active="active"><i class="fa fa-caret-right"> Probabilidade e Estatísica A</i></a></li>
-                    <li><a class="disc" ui-sref="algebraLinear" ui-sref-active="active"><i class="fa fa-caret-right"> Álgebra Linear</i></a></li>
-                    <li><a class="disc" ui-sref="logicaMat" ui-sref-active="active"><i class="fa fa-caret-right"> Lógica Matemática</i></a></li>
+                    <li><a class="disc" ui-sref="arquitetura" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Arquitetura de Computadores</i></a></li>
+                    <li><a class="disc" ui-sref="algoritmos1" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Algoritmo e Estruturas de Dados 1</i></a></li>
+                    <li><a class="disc" ui-sref="probEstatistica" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Probabilidade e Estatísica A</i></a></li>
+                    <li><a class="disc" ui-sref="algebraLinear" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Álgebra Linear</i></a></li>
+                    <li><a class="disc" ui-sref="logicaMat" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Lógica Matemática</i></a></li>
                   </ul>
                 </li>
                 <li>
@@ -105,13 +117,13 @@
                     <b class="caret"></b>
                   </button>
                   <ul id="submenu-3" class="panel-collapse collapse panel-switch" role="menu">
-                    <li><a class="disc" ui-sref="poo" ui-sref-active="active"><i class="fa fa-caret-right"> Programação Orientada a Objetos</i></a></li>
-                    <li><a class="disc" ui-sref="algoritmos2" ui-sref-active="active"><i class="fa fa-caret-right"> Algoritmo e Estruturas de Dados 2</i></a></li>
-                    <li><a class="disc" ui-sref="linguagensProg" ui-sref-active="active"><i class="fa fa-caret-right"> Linguagens e Paradigmas de Programação</i></a></li>
-                    <li><a class="disc" ui-sref="engenhariaSoftware" ui-sref-active="active"><i class="fa fa-caret-right"> Engenharia de Software</i></a></li>
-                    <li><a class="disc" ui-sref="sistemasOp" ui-sref-active="active"><i class="fa fa-caret-right"> Optativa: Sistemas Operacionais</i></a></li>
-                    <li><a class="disc" ui-sref="pesquisaOp" ui-sref-active="active"><i class="fa fa-caret-right"> Optativa: Pesquisa Operacional</i></a></li>
-                    <li><a class="disc" ui-sref="linguagensFormais" ui-sref-active="active"><i class="fa fa-caret-right"> Optativa: Linguagens Formais e Autômatos</i></a></li>
+                    <li><a class="disc" ui-sref="poo" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Programação Orientada a Objetos</i></a></li>
+                    <li><a class="disc" ui-sref="algoritmos2" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Algoritmo e Estruturas de Dados 2</i></a></li>
+                    <li><a class="disc" ui-sref="linguagensProg" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Linguagens e Paradigmas de Programação</i></a></li>
+                    <li><a class="disc" ui-sref="engenhariaSoftware" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Engenharia de Software</i></a></li>
+                    <li><a class="disc" ui-sref="sistemasOp" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Optativa: Sistemas Operacionais</i></a></li>
+                    <li><a class="disc" ui-sref="pesquisaOp" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Optativa: Pesquisa Operacional</i></a></li>
+                    <li><a class="disc" ui-sref="linguagensFormais" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Optativa: Linguagens Formais e Autômatos</i></a></li>
                   </ul>
                 </li>
                 <li>
@@ -121,13 +133,13 @@
                     <b class="caret"></b>
                   </button>
                   <ul id="submenu-4" class="panel-collapse collapse panel-switch" role="menu">
-                    <li><a class="disc" ui-sref="analiseAlg" ui-sref-active="active"><i class="fa fa-caret-right"> Análise e Projeto de Algoritmos</i></a></li>
-                    <li><a class="disc" ui-sref="ihc" ui-sref-active="active"><i class="fa fa-caret-right"> Interação Humano-Computador</i></a></li>
-                    <li><a class="disc" ui-sref="bd" ui-sref-active="active"><i class="fa fa-caret-right"> Banco de Dados</i></a></li>
-                    <li><a class="disc" ui-sref="projetoSoftware" ui-sref-active="active"><i class="fa fa-caret-right"> Projeto de Software</i></a></li>
-                    <li><a class="disc" ui-sref="redesComp" ui-sref-active="active"><i class="fa fa-caret-right"> Optativa: Redes de Computadores</i></a></li>
-                    <li><a class="disc" ui-sref="linguaBrasileira" ui-sref-active="active"><i class="fa fa-caret-right"> Optativa:Introdução à Lingua Brasileira de Sinais</i></a></li>
-                    <li><a class="disc" ui-sref="compiladores" ui-sref-active="active"><i class="fa fa-caret-right"> Optativa: Compiladores</i></a></li>
+                    <li><a class="disc" ui-sref="analiseAlg" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Análise e Projeto de Algoritmos</i></a></li>
+                    <li><a class="disc" ui-sref="ihc" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Interação Humano-Computador</i></a></li>
+                    <li><a class="disc" ui-sref="bd" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Banco de Dados</i></a></li>
+                    <li><a class="disc" ui-sref="projetoSoftware" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Projeto de Software</i></a></li>
+                    <li><a class="disc" ui-sref="redesComp" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Optativa: Redes de Computadores</i></a></li>
+                    <li><a class="disc" ui-sref="linguaBrasileira" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Optativa:Introdução à Lingua Brasileira de Sinais</i></a></li>
+                    <li><a class="disc" ui-sref="compiladores" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Optativa: Compiladores</i></a></li>
                   </ul>
                 </li>
                 <li>
@@ -137,10 +149,10 @@
                     <b class="caret"></b>
                   </button>
                   <ul id="submenu-5" class="panel-collapse collapse panel-switch" role="menu">
-                    <li><a class="disc" ui-sref="construcaoSoftware" ui-sref-active="active"><i class="fa fa-caret-right"> Construção de Software</i></a></li>
-                    <li><a class="disc" ui-sref="modelagemSoftware" ui-sref-active="active"><i class="fa fa-caret-right"> Modelagem de Software</i></a></li>
-                    <li><a class="disc" ui-sref="processosSoftware" ui-sref-active="active"><i class="fa fa-caret-right"> Processos de Software</i></a></li>
-                    <li><a class="disc" ui-sref="engenhariaSistema" ui-sref-active="active"><i class="fa fa-caret-right"> Engenharia de Sistemas</i></a></li>
+                    <li><a class="disc" ui-sref="construcaoSoftware" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Construção de Software</i></a></li>
+                    <li><a class="disc" ui-sref="modelagemSoftware" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Modelagem de Software</i></a></li>
+                    <li><a class="disc" ui-sref="processosSoftware" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Processos de Software</i></a></li>
+                    <li><a class="disc" ui-sref="engenhariaSistema" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Engenharia de Sistemas</i></a></li>
                   </ul>
                 </li>
                 <li>
@@ -150,10 +162,10 @@
                     <b class="caret"></b>
                   </button>
                   <ul id="submenu-6" class="panel-collapse collapse panel-switch" role="menu">
-                    <li><a class="disc" ui-sref="designSoftware" ui-sref-active="active"><i class="fa fa-caret-right"> Design de Software</i></a></li>
-                    <li><a class="disc" ui-sref="dominioSoftware" ui-sref-active="active"><i class="fa fa-caret-right"> Domínios de Software</i></a></li>
-                    <li><a class="disc" ui-sref="qualidadeSoftware" ui-sref-active="active"><i class="fa fa-caret-right"> Processos de Qualidade de Software</i></a></li>
-                    <li><a class="disc" ui-sref="gerenciaSoftware" ui-sref-active="active"><i class="fa fa-caret-right"> Gerência de Projeto de Software</i></a></li>
+                    <li><a class="disc" ui-sref="designSoftware" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Design de Software</i></a></li>
+                    <li><a class="disc" ui-sref="dominioSoftware" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Domínios de Software</i></a></li>
+                    <li><a class="disc" ui-sref="qualidadeSoftware" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Processos de Qualidade de Software</i></a></li>
+                    <li><a class="disc" ui-sref="gerenciaSoftware" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Gerência de Projeto de Software</i></a></li>
                   </ul>
                 </li>
                 <li>
@@ -163,11 +175,11 @@
                     <b class="caret"></b>
                   </button>
                   <ul id="submenu-7" class="panel-collapse collapse panel-switch" role="menu">
-                    <li><a class="disc" ui-sref="softwareConcorrente" ui-sref-active="active"><i class="fa fa-caret-right"> Software Concorrente e Distribuído</i></a></li>
-                    <li><a class="disc" ui-sref="experienciaUsuario" ui-sref-active="active"><i class="fa fa-caret-right"> Experiência do Usuário de Software</i></a></li>
-                    <li><a class="disc" ui-sref="arquiteturaSoftware" ui-sref-active="active"><i class="fa fa-caret-right"> Arquitetura de Software</i></a></li>
-                    <li><a class="disc" ui-sref="requisitosSoftware" ui-sref-active="active"><i class="fa fa-caret-right"> Requisitos de Software</i></a></li>
-                    <li><a class="disc" ui-sref="governancaSoftware" ui-sref-active="active"><i class="fa fa-caret-right"> Governança e Gestão de Serviços de Software</i></a></li>
+                    <li><a class="disc" ui-sref="softwareConcorrente" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Software Concorrente e Distribuído</i></a></li>
+                    <li><a class="disc" ui-sref="experienciaUsuario" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Experiência do Usuário de Software</i></a></li>
+                    <li><a class="disc" ui-sref="arquiteturaSoftware" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Arquitetura de Software</i></a></li>
+                    <li><a class="disc" ui-sref="requisitosSoftware" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Requisitos de Software</i></a></li>
+                    <li><a class="disc" ui-sref="governancaSoftware" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Governança e Gestão de Serviços de Software</i></a></li>
                   </ul>
                 </li>
                 <li>
@@ -177,13 +189,13 @@
                     <b class="caret"></b>
                   </button>
                   <ul id="submenu-8" class="panel-collapse collapse panel-switch" role="menu">
-                    <li><a class="disc" ui-sref="softwaresUbiquos" ui-sref-active="active"><i class="fa fa-caret-right"> Software para Sistemas Ubíquos</i></a></li>
-                    <li><a class="disc" ui-sref="softwarePersistencia" ui-sref-active="active"><i class="fa fa-caret-right"> Software para Persistência de Dados</i></a></li>
-                    <li><a class="disc" ui-sref="padroesArqSoftware" ui-sref-active="active"><i class="fa fa-caret-right"> Padrões de Arquitetura de Software</i></a></li>
-                    <li><a class="disc" ui-sref="testesSoftware" ui-sref-active="active"><i class="fa fa-caret-right"> Testes de Software</i></a></li>
-                    <li><a class="disc" ui-sref="sitemasDist" ui-sref-active="active"><i class="fa fa-caret-right"> Optativa: Sistemas Distribuídos</i></a></li>
-                    <li><a class="disc" ui-sref="mercado" ui-sref-active="active"><i class="fa fa-caret-right"> Optativa: Mercado e Economia de Software</i></a></li>
-                    <li><a class="disc" ui-sref="metodologiaES" ui-sref-active="active"><i class="fa fa-caret-right"> Optativa: Metodologia e Experimentação em Engenharia de Software</i></a></li>
+                    <li><a class="disc" ui-sref="softwaresUbiquos" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Software para Sistemas Ubíquos</i></a></li>
+                    <li><a class="disc" ui-sref="softwarePersistencia" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Software para Persistência de Dados</i></a></li>
+                    <li><a class="disc" ui-sref="padroesArqSoftware" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Padrões de Arquitetura de Software</i></a></li>
+                    <li><a class="disc" ui-sref="testesSoftware" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Testes de Software</i></a></li>
+                    <li><a class="disc" ui-sref="sitemasDist" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Optativa: Sistemas Distribuídos</i></a></li>
+                    <li><a class="disc" ui-sref="mercado" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Optativa: Mercado e Economia de Software</i></a></li>
+                    <li><a class="disc" ui-sref="metodologiaES" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Optativa: Metodologia e Experimentação em Engenharia de Software</i></a></li>
                   </ul>
                 </li>
                 <li>
@@ -193,7 +205,7 @@
                     <b class="caret"></b>
                   </button>
                   <ul id="submenu-9" class="panel-collapse collapse panel-switch" role="menu">
-                    <li><a class="disc" ui-sref="praticaES" ui-sref-active="active"><i class="fa fa-caret-right"> Prática em Engenharia de Software</i></a></li>
+                    <li><a class="disc" ui-sref="praticaES" ui-sref-active="active" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}"><i class="fa fa-caret-right"> Prática em Engenharia de Software</i></a></li>
                   </ul>
                 </li>
                 <button type="button" data-name="hide" value="Toggle" id="toggle" class="btn btn-warning my-2 my-sm-0"><span class="sidebar-icon"><i id="icon" class="fa fa-expand"></i></span></button>

@@ -10,7 +10,6 @@ body {
 .ng-scope {
     z-index: 1000;
     left: 15%;
-    height: 100%;
     margin-left: 5%;
     margin-right: 5%;
     overflow-y: auto;
@@ -248,8 +247,22 @@ iframe {
     color: white !important;
   }
   
-  .drop-botao {
+  .drop-botao-desktop {
     float: right;
+    display: none;
+  }
+
+  .drop-botao-mobile{
+      display: inline;
+  }
+
+  @media (min-width: 992px) {
+    .drop-botao-desktop{
+        display: inline;
+    }
+    .drop-botao-mobile{
+        display: none;
+    }
   }
 
   .access-icon {
@@ -331,6 +344,11 @@ iframe {
   .EscolhidoAcessibilidadeBlackYellow{
     background-color: #000!important;
     color: #FFFF00!important;
+  }
+
+  .CollapseButtonBlackYellow {
+    background-color: black;
+    border-color: black;
   }
   
   /* Estilos da Acessibilidade Amarelo

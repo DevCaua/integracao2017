@@ -249,8 +249,22 @@ body {
     color: white !important;
   }
   
-  .drop-botao {
-      float: right;
+  .drop-botao-desktop {
+    float: right;
+    display: none;
+  }
+
+  .drop-botao-mobile{
+      display: inline;
+  }
+
+  @media (min-width: 992px) {
+    .drop-botao-desktop{
+        display: inline;
+    }
+    .drop-botao-mobile{
+        display: none;
+    }
   }
   
   .access-icon {
@@ -332,6 +346,12 @@ body {
   
   .EscolhidoAcessibilidadeBlackYellow{
     color: #FFFF00!important;
+    background-color: #000!important;
+  }
+
+  .CollapseButtonBlackYellow {
+    background-color: black;
+    border-color: black;
   }
   
   /* Estilos da Acessibilidade Amarelo
