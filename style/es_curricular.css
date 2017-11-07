@@ -31,6 +31,7 @@ iframe {
 }
 
 .tabela tr th{
+    overflow-x: auto;
     width: 15em;
     height: 3em;
     border: 1px solid #DBDFE2;
@@ -42,13 +43,14 @@ iframe {
 }
 
 .tabela-matriz tr th{
+    overflow-x: auto;
     width: 15em;
     height: 3em;
     border: 1px solid #DBDFE2;
     padding: 1em;
 }
 
-.tabela-matriz tr th:nth-child(1),
+.tabela-matriz tr th:nth-child(2),
 .tabela-matriz tr th:nth-child(3),
 .tabela-matriz tr th:nth-child(4),
 .tabela-matriz tr th:nth-child(5),

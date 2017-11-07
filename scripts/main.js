@@ -12,17 +12,6 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
       	}
     }
 
-    var identificacaoState = {
-        name: 'identificacao',
-        url: '/identificacao',
-        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
-        controller: 'TemplatesController',
-        params:{
-            menuEscolhido: 'Curso',
-            subMenuSelecionado: 'Identificacao'
-        }
-    }
-
     var contextoState = {
         name: 'contexto',
         url: '/contexto',
@@ -52,7 +41,7 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
         controller: 'TemplatesController',
         params:{
             menuEscolhido: 'Curso',
-            subMenuSelecionado: 'Objetivos'
+            subMenuSelecionado: 'Objetivos e Expectativas'
         }
     }
 
@@ -67,16 +56,6 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
         }
     }
 
-    var expectativaState = {
-        name: 'expectativas',
-        url: '/expectativas',
-        template: '<template-conteudo template="obterTemplate()"></template-conteudo>',
-        controller: 'TemplatesController',
-        params:{
-            menuEscolhido: 'Curso',
-            subMenuSelecionado: 'Expectativas'
-        }
-    }
 
     var NDEState = {
         name: 'NDE',
@@ -234,12 +213,10 @@ angular.module('ocurso', ['ui.router', 'ngResource', 'minhasDiretivas'])
 
     // state Curso
     $stateProvider.state(apresentacaoState);
-    $stateProvider.state(identificacaoState);
     $stateProvider.state(contextoState);
     $stateProvider.state(motivacaoState);
     $stateProvider.state(objetivoState);
     $stateProvider.state(principioState);
-    $stateProvider.state(expectativaState);
     $stateProvider.state(NDEState);
     $stateProvider.state(TCCState);
 
