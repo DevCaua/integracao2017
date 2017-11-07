@@ -176,3 +176,10 @@ a:hover {
   }
 
 }
+
+.botao-download{
+  margin-top: 8%;
+  margin-right: 6em;
+  margin-bottom: 1em;
+  float: right;
+}
