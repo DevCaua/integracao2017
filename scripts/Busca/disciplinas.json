@@ -89,7 +89,7 @@
             "Obrigatória",	
             "1º Período",	
             "Teórica"],
-        "areaSwebok" : ["area1", "area2", "area3"]
+        "areaSwebok" : ["sem áreas correlatas"]
     },
 
     {
@@ -112,7 +112,7 @@
             "Linguagem de Montagem",	
             "Fundamentos de Matemática para Computação",	
             "Programação"],
-        "areaSwebok" : [""]
+        "areaSwebok" : ["Sem áreas correlatas"]
     },
 
     {
@@ -139,7 +139,7 @@
             "Ordenação",	
             "Teórica",	
             "Dados"],
-        "areaSwebok" : [""]
+        "areaSwebok" : ["Sem áreas correlatas"]
     },
 
     {
@@ -186,7 +186,7 @@
             "Linear",	
             "Regreção",	
             "Obrigatória"],
-        "areaSwebok" : ["area1", "area2", "area3"]
+        "areaSwebok" : ["Sem áreas correlatas"]
     },
 
     {
@@ -207,7 +207,7 @@
             "Teórica",	
             "Sistemas",	
             "Espaços"	],
-        "areaSwebok" : ["area1", "area2", "area3"]
+        "areaSwebok" : ["Sem áreas correlatas"]
     },
 
     {
@@ -243,7 +243,7 @@
             "Contradição",	
             "Teórica",	
             "Consequência"],
-        "areaSwebok" : ["area1", "area2", "area3"]
+        "areaSwebok" : ["Sem áreas correlatas"]
     },
 
     {
@@ -307,7 +307,7 @@
             "Expressões",	
             "Subprogramas",	
             "Qual linguagem escolher"],
-        "areaSwebok" : ["area1", "area2", "area3"]
+        "areaSwebok" : ["Sem áreas correlatas"]
     },
 
     {
@@ -415,7 +415,7 @@
             "Entrada",	
             "Teórica",	
             "Saída"],
-        "areaSwebok" : ["area1", "area2", "area3"]
+        "areaSwebok" : ["Sem áreas correlatas"]
     },
 
     {
@@ -438,7 +438,7 @@
             "Simplex-Dual",	
             "Pós-Otimização",	
             "Análise de Sensibilidade"],
-        "areaSwebok" : ["area1", "area2", "area3"]
+        "areaSwebok" : ["Sem áreas correlatas"]
     },
 
     {
@@ -460,7 +460,7 @@
             "Reconhecedores",	
             "Gramáticas",	
             "Determinísticos"],
-        "areaSwebok" : ["area1", "area2", "area3"]
+        "areaSwebok" : ["Sem áreas correlatas"]
     },
 
     {
@@ -642,7 +642,7 @@
             "Surdez",	
             "Língua de Sinais",	
             "Intérprete"],
-        "areaSwebok" : ["area1", "area2", "area3"]
+        "areaSwebok" : ["Sem áreas correlatas"]
     },
 
     {
@@ -662,7 +662,7 @@
             "Símbolos",	
             "Programa-fonte",	
             "Código-objeto"],
-        "areaSwebok" : ["area1", "area2", "area3"]
+        "areaSwebok" : ["Sem áreas correlatas"]
     },
 
     {
