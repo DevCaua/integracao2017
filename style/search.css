@@ -6,6 +6,11 @@ body {
 
 /* NAVBAR */
 
+.logo-image{
+    margin-left: 0.5em;
+}
+
+
 .navbar-cor {
   background-color: black;
 }
@@ -18,6 +23,12 @@ font-size:12px;
 font-size: 30px;
 line-height: 100%;
 }
+
+.navbar-brand {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
 .nav-item {
 font-size: 18px;
 }

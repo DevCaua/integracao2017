@@ -82,6 +82,12 @@ iframe {
   font-size: 30px;
   line-height: 100%;
 }
+
+.navbar-brand {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
 .nav-item {
   font-size: 18px;
 }
