@@ -143,6 +143,10 @@
   line-height: 2rem;
 }
 
+.logo-image{
+    margin-left: 0.5em;
+}
+
 .navbar {
   background-color: #005ca1;
 }

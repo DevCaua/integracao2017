@@ -66,6 +66,9 @@ iframe {
 
 
 /* NAVBAR */
+.logo-image{
+    margin-left: 0.5em;
+}
 
 .navbar-cor {
     background-color: #1b98e0;
@@ -248,7 +251,7 @@ iframe {
     align-items: baseline;
     color: white !important;
   }
-  
+
   .drop-botao-desktop {
     float: right;
     display: none;
@@ -275,49 +278,49 @@ iframe {
     text-indent: 7px;
     margin-right: 1px;
   }
-  
+
   .botao-blue{
     background-color: #9FCFFF;
     color: #000066;
   }
-  
+
   .botao-black-yellow{
     background-color: #000;
     color: #FFFF00;
   }
-  
+
   .botao-yellow{
     background-color: #DFD179;
     color: #020167;
   }
-  
+
   /* Estilos da Acessibilidade Azul
   ------------------------------------ */
   .AcessibilidadeBlue{
     background-color: #cfe5fc!important;
   }
-  
+
   .ContrasteBlue{
     background-color: #9FCFFF!important;
     border: 2px solid #fff;
     color: #000066!important;
   }
-  
+
   .BarraAcessContrasteBlue,
   .NavContrasteBlue{
     background-color: #000066!important;
   }
-  
+
   .ConteudoAcessibilidadeBlue{
     color: #000066!important;
   }
-  
+
   .TitleAcessibilidadeBlue,
   .EscolhidoAcessibilidadeBlue,
   .IconContrasteBlue{
     color: #fff!important;
   }
-  
+
   /* Estilos da Acessibilidade Preto e Amarelo
   ------------------------------------------- */
   .AcessibilidadeBlackYellow,
@@ -326,23 +329,23 @@ iframe {
     background-color: #2F2F2E!important;
     color: #FFFF00!important;
   }
-  
+
   .ContrasteBlackYellow{
     background-color: #000!important;
     border: 2px solid #FFFF00!important;
     color: #FFFF00!important;
   }
-  
+
   .NavContrasteBlackYellow,
   .BarraAcessContrasteBlackYellow{
     background-color: #FFFF00!important;
   }
-  
+
   .TitleAcessibilidadeBlackYellow,
   .IconContrasteBlackYellow{
     color: #000!important;
   }
-  
+
   .EscolhidoAcessibilidadeBlackYellow{
     background-color: #000!important;
     color: #FFFF00!important;
@@ -352,29 +355,29 @@ iframe {
     background-color: black;
     border-color: black;
   }
-  
+
   /* Estilos da Acessibilidade Amarelo
   ------------------------------------------- */
   .AcessibilidadeYellow{
     background-color: #F7F3AE;
   }
-  
+
   .ContrasteYellow{
     background-color: #919193!important;
     border: 2px solid #020167!important;
     color: #020167!important;
   }
-  
+
   .BarraAcessContrasteYellow,
   .NavContrasteYellow{
     background-color: #020167!important;
   }
-  
+
   .IconContrasteYellow,
   .TitleAcessibilidadeYellow{
     color: #F7F3AE!important;
   }
-  
+
   .EscolhidoAcessibilidadeYellow{
     background-color: #F7F3AE!important;
     color: #020167!important;
