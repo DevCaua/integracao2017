@@ -3,11 +3,13 @@ function displaySearchResults(results, docs) {
 
     if (results.length) { // Are there any results?
     var appendString = '';
+    var numero = 0;
 
     for (var i = 0; i < results.length; i++) {  // Iterate over the results
         var urlnow = results[i].ref;
         var item = getSingleDoc(docs, urlnow);
-        appendString += '<li><a href="' + item.url + '"><h3>' + item.nome + '</h3></a>';
+        numero += 1;
+        appendString += '<li class="list-group-item"><a href="' + item.url + '">' + numero + ' - ' + item.nome + '</a>';
     }
 
     searchResults.innerHTML = appendString;
@@ -48,13 +50,13 @@ if (searchTerm) {
       this.field('nome')
       this.ref('url')
       this.field('palavrasChave')
-    
+
       window.documents.forEach(function (doc) {
         this.add(doc)
       }, this)
     })
-    
-    
+
+
     var results = idx.search(searchTerm); // Get lunr to perform a search
     displaySearchResults(results, window.documents);
 }
