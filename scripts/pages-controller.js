@@ -68,6 +68,7 @@ angular.module('ocurso').controller('PagesController', function($scope, $window,
   $scope.atribuiAcessibilidadeFonte = function(tipoFonte){
     $scope.inicializaFonte();
     $scope.tamanhoFonte = $window.fonte;
+    console.log($scope.tamanhoFonte);
     $scope.arrayAcessibilidadeFonte.push($scope.tamanhoFonte);
     $scope.atribuiValorFonte();
   }

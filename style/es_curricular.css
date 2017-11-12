@@ -389,11 +389,7 @@ iframe {
     color: #020167!important;
   }
 
-  .botao{
-    width: 3em;
-    display: inline-block;
-  }
-
   .font-acessibility{
-    display: inline-block;
+    display: flex;
+    justify-content: flex-start;
   }
