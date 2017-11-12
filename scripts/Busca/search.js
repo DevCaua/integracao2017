@@ -2,7 +2,7 @@ function displaySearchResults(results, docs) {
     var searchResults = document.getElementById('search-results');
 
     if (results.length) { // Are there any results?
-    var appendString = '';
+    var appendString = '<p>Os seguintes resultados encontram-se em ordem de relevância:</p></br>';
     var numero = 0;
 
     for (var i = 0; i < results.length; i++) {  // Iterate over the results
@@ -47,7 +47,7 @@ if (searchTerm) {
     // Initalize lunr with the fields it will be searching on. I've given title
     // a boost of 10 to indicate matches on this field are more important.
     var idx = lunr(function () {
-      this.field('nome')
+      this.field('nome', {boost: 10})
       this.ref('url')
       this.field('palavrasChave')
 
