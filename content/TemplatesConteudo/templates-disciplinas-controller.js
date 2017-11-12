@@ -57,16 +57,16 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Nenhum</br></br>\
 						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Introdução à Programação)</br>\
 						Diretamente<br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Programacao_Orientada_Objetos" target="_blank">Programação Orientada a Objetos</a></br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Linguagens_e_Paradigmas_da_Programacao" target="_blank">Linguagens e Paradigmas de Programação</a></br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Algoritmos_e_Estrutura_de_Dados_1" target="_blank">Algoritmos e Estruturas de Dados 1</a></br></br>\
+						- <a href="disciplinas.html#!/Programacao_Orientada_Objetos" target="_blank">Programação Orientada a Objetos</a></br>\
+						- <a href="disciplinas.html#!/Linguagens_e_Paradigmas_da_Programacao" target="_blank">Linguagens e Paradigmas de Programação</a></br>\
+						- <a href="disciplinas.html#!/Algoritmos_e_Estrutura_de_Dados_1" target="_blank">Algoritmos e Estruturas de Dados 1</a></br></br>\
 						Indiretamente<br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Projeto_De_Software" target="_blank">Projeto de Software</a></br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Algoritmos_e_Estrutura_de_Dados_2" target="_blank">Algoritmos e Estruturas de Dados 2</a></br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Analise_e_Projeto_de_Algoritmos" target="_blank">Análise e Projeto de Algoritmos</a></br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Interacao_Humano_Computador" target="_blank">Interação Humano-Computador</a></br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Compiladores" target="_blank">Compiladores</a></br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Sistemas_Distribuidos" target="_blank">Sistemas Distribuídos</a></br></br>\
+						- <a href="disciplinas.html#!/Projeto_De_Software" target="_blank">Projeto de Software</a></br>\
+						- <a href="disciplinas.html#!/Algoritmos_e_Estrutura_de_Dados_2" target="_blank">Algoritmos e Estruturas de Dados 2</a></br>\
+						- <a href="disciplinas.html#!/Analise_e_Projeto_de_Algoritmos" target="_blank">Análise e Projeto de Algoritmos</a></br>\
+						- <a href="disciplinas.html#!/Interacao_Humano_Computador" target="_blank">Interação Humano-Computador</a></br>\
+						- <a href="disciplinas.html#!/Compiladores" target="_blank">Compiladores</a></br>\
+						- <a href="disciplinas.html#!/Sistemas_Distribuidos" target="_blank">Sistemas Distribuídos</a></br></br>\
 						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Introdução a algoritmos.<br>\
 						- Conceitos básicos de programas: constantes; tipos de dados primitivos; variáveis; atribuição; entrada e saída de dados; expressões; estruturas de decisão; estruturas de repetição.<br>\
@@ -93,9 +93,9 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Nenhum</br></br>\
 						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Cálculo 1A)</br>\
 						Diretamente<br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Probabilidade_e_Estatistica" target="_blank">Probabilidade e Estatística A</a></br></br>\
+						- <a href="disciplinas.html#!/Probabilidade_e_Estatistica" target="_blank">Probabilidade e Estatística A</a></br></br>\
 						Indiretamente<br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Interacao_Humano_Computador" target="_blank">Interação Humano-Computador</a></br></br>\
+						- <a href="disciplinas.html#!/Interacao_Humano_Computador" target="_blank">Interação Humano-Computador</a></br></br>\
 						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Números reais. Funções reais de uma variável real e suas inversas.<br>\
 						- Noções sobre cônicas.<br>\
@@ -120,14 +120,14 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Nenhum</br><br>\
 						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Fundamentos de Matemática para Computação)</br>\
 						Diretamente<br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Logica_Matematica" target="_blank">Lógica Matemática</a></br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Arquitetura_De_Computadores" target="_blank">Arquitetura de Computadores</a></br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Analise_e_Projeto_de_Algoritmos" target="_blank">Análise e Projeto de Algoritmos</a></br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Linguagens_Formais_e_Automatos" target="_blank">Linguagens Formais e Autômatos</br></a></br>\
+						- <a href="disciplinas.html#!/Logica_Matematica" target="_blank">Lógica Matemática</a></br>\
+						- <a href="disciplinas.html#!/Arquitetura_De_Computadores" target="_blank">Arquitetura de Computadores</a></br>\
+						- <a href="disciplinas.html#!/Analise_e_Projeto_de_Algoritmos" target="_blank">Análise e Projeto de Algoritmos</a></br>\
+						- <a href="disciplinas.html#!/Linguagens_Formais_e_Automatos" target="_blank">Linguagens Formais e Autômatos</br></a></br>\
 						Indiretamente<br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Banco_de_Dados" target="_blank">Banco de Dados</a></br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Sistemas_Operacionais" target="_blank">Sistemas Operacionais</a></br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Compiladores" target="_blank">Compiladores</a></br></br>\
+						- <a href="disciplinas.html#!/Banco_de_Dados" target="_blank">Banco de Dados</a></br>\
+						- <a href="disciplinas.html#!/Sistemas_Operacionais" target="_blank">Sistemas Operacionais</a></br>\
+						- <a href="disciplinas.html#!/Compiladores" target="_blank">Compiladores</a></br></br>\
 						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Noções de lógica.<br>\
 						- Introdução a demonstrações.<br>\
@@ -152,10 +152,10 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Horas Práticas: 16h</br>\
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b></br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Fundamentos_de_Matematica_para_Computacao" target="_blank">Fundamentos de Matemática para Computação</a></br></br>\
+						- <a href="disciplinas.html#!/Fundamentos_de_Matematica_para_Computacao" target="_blank">Fundamentos de Matemática para Computação</a></br></br>\
 						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Arquitetura de Computadores)</br>\
 						Diretamente<br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Sistemas_Operacionais" target="_blank">Sistemas Operacionais</a></br></br>\
+						- <a href="disciplinas.html#!/Sistemas_Operacionais" target="_blank">Sistemas Operacionais</a></br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
 						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
@@ -182,14 +182,14 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Horas Práticas: 32h</br>\
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Introducao_a_Programacao" target="_blank">Introdução à Programação</a></br></br>\
+						- <a href="disciplinas.html#!/Introducao_a_Programacao" target="_blank">Introdução à Programação</a></br></br>\
 						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Algoritmos e Estruturas de Dados 1)</br>\
 						Diretamente<br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Algoritmos_e_Estrutura_de_Dados_2" target="_blank">Algoritmos e Estruturas de Dados 2</a></br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Interacao_Humano_Computador" target="_blank">Interação Humano-Computador</a></br></br>\
+						- <a href="disciplinas.html#!/Algoritmos_e_Estrutura_de_Dados_2" target="_blank">Algoritmos e Estruturas de Dados 2</a></br>\
+						- <a href="disciplinas.html#!/Interacao_Humano_Computador" target="_blank">Interação Humano-Computador</a></br></br>\
 						Indiretamente<br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Analise_e_Projeto_de_Algoritmos" target="_blank">Análise e Projeto de Algoritmos</a></br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Compiladores" target="_blank">Compiladores</a></br></br>\
+						- <a href="disciplinas.html#!/Analise_e_Projeto_de_Algoritmos" target="_blank">Análise e Projeto de Algoritmos</a></br>\
+						- <a href="disciplinas.html#!/Compiladores" target="_blank">Compiladores</a></br></br>\
 						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Noções de complexidade de algoritmos (notações de complexidade).<br>\
 						- Algoritmos de pesquisa: pesquisa sequencial e binária.<br>\
@@ -210,10 +210,10 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Horas Práticas: 00h</br>\
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Calculo_1A" target="_blank">Cálculo 1A</a></br></br>\
+						- <a href="disciplinas.html#!/Calculo_1A" target="_blank">Cálculo 1A</a></br></br>\
 						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Probabilidade Estatística A)</br>\
 						Diretamente<br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Interacao_Humano_Computador" target="_blank">Interação Humano-Computador</a></br></br>\
+						- <a href="disciplinas.html#!/Interacao_Humano_Computador" target="_blank">Interação Humano-Computador</a></br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
 						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
@@ -239,10 +239,10 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Horas Práticas: 00h</br>\
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Calculo_1A" target="_blank">Cálculo 1A</a></br></br>\
+						- <a href="disciplinas.html#!/Calculo_1A" target="_blank">Cálculo 1A</a></br></br>\
 						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Álgebra Linear)</br>\
 						Diretamente<br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Pesquisa_Operacional" target="_blank">Pesquisa Operacional</a></br></br>\
+						- <a href="disciplinas.html#!/Pesquisa_Operacional" target="_blank">Pesquisa Operacional</a></br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
 						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
@@ -264,10 +264,10 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Horas Práticas: 00h</br>\
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Fundamentos_de_Matematica_para_Computacao" target="_blank">Fundamentos de Matemática para Computação</a></br></br>\
+						- <a href="disciplinas.html#!/Fundamentos_de_Matematica_para_Computacao" target="_blank">Fundamentos de Matemática para Computação</a></br></br>\
 						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Lógica Matemática)</br>\
 						Diretamente<br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Banco_de_Dados" target="_blank">Banco de Dados</a></br></br>\
+						- <a href="disciplinas.html#!/Banco_de_Dados" target="_blank">Banco de Dados</a></br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
 						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
@@ -292,11 +292,11 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Horas Práticas: 32h</br>\
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Introducao_a_Programacao" target="_blank">Introdução à Programação</a></br></br>\
+						- <a href="disciplinas.html#!/Introducao_a_Programacao" target="_blank">Introdução à Programação</a></br></br>\
 						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Programação Orientada a Objetos)</br>\
 						Diretamente<br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Projeto_De_Software" target="_blank">Projeto de Software</a></br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Sistemas_Distribuidos" target="_blank">Sistemas Distribuídos</a></br></br>\
+						- <a href="disciplinas.html#!/Projeto_De_Software" target="_blank">Projeto de Software</a></br>\
+						- <a href="disciplinas.html#!/Sistemas_Distribuidos" target="_blank">Sistemas Distribuídos</a></br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
 						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
@@ -318,12 +318,12 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Horas Práticas: 00h</br>\
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Introducao_a_Programacao" target="_blank">Introdução à Programação</a></br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Algoritmos_e_Estrutura_de_Dados_1" target="_blank">Algoritmos e Estruturas de Dados 1</a></br></br>\
+						- <a href="disciplinas.html#!/Introducao_a_Programacao" target="_blank">Introdução à Programação</a></br>\
+						- <a href="disciplinas.html#!/Algoritmos_e_Estrutura_de_Dados_1" target="_blank">Algoritmos e Estruturas de Dados 1</a></br></br>\
 						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Algoritmos e Estruturas de Dados 2)</br>\
 						Diretamente<br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Analise_e_Projeto_de_Algoritmos" target="_blank">Análise e Projeto de Algoritmos</a></br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Compiladores" target="_blank">Compiladores</a></br></br>\
+						- <a href="disciplinas.html#!/Analise_e_Projeto_de_Algoritmos" target="_blank">Análise e Projeto de Algoritmos</a></br>\
+						- <a href="disciplinas.html#!/Compiladores" target="_blank">Compiladores</a></br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
 						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
@@ -345,7 +345,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Horas Práticas: 32h</br>\
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Introducao_a_Programacao" target="_blank">Introdução à Programação</a></br></br>\
+						- <a href="disciplinas.html#!/Introducao_a_Programacao" target="_blank">Introdução à Programação</a></br></br>\
 						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Linguagens e Paradigmas de Programação)</br>\
 						Diretamente<br>\
 						- Nenhum</br></br>\
@@ -373,7 +373,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Nenhum</br></br>\
 						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Engenharia de Software)</br>\
 						Diretamente<br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Projeto_De_Software" target="_blank">Projeto de Software</a></br></br>\
+						- <a href="disciplinas.html#!/Projeto_De_Software" target="_blank">Projeto de Software</a></br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
 						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
@@ -403,8 +403,8 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Horas Práticas: 32h</br>\
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Fundamentos_de_Matematica_para_Computacao" target="_blank">Fundamentos de Matemática para Computação</a></br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Arquitetura_De_Computadores" target="_blank">Arquitetura de Computadores</a></br></br>\
+						- <a href="disciplinas.html#!/Fundamentos_de_Matematica_para_Computacao" target="_blank">Fundamentos de Matemática para Computação</a></br>\
+						- <a href="disciplinas.html#!/Arquitetura_De_Computadores" target="_blank">Arquitetura de Computadores</a></br></br>\
 						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Sistemas Operacionais)</br>\
 						Diretamente<br>\
 						- Nenhum</br></br>\
@@ -427,7 +427,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Horas Práticas: 00h</br>\
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Algebra_Linear" target="_blank">Álgebra Linear</a></br></br>\
+						- <a href="disciplinas.html#!/Algebra_Linear" target="_blank">Álgebra Linear</a></br></br>\
 						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Pesquisa Operacional)</br>\
 						Diretamente<br>\
 						- Nenhum</br></br>\
@@ -451,10 +451,10 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Horas Práticas: 00h</br>\
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Fundamentos_de_Matematica_para_Computacao" target="_blank">Fundamentos de Matemática para Computaçã</a>o</br></br>\
+						- <a href="disciplinas.html#!/Fundamentos_de_Matematica_para_Computacao" target="_blank">Fundamentos de Matemática para Computaçã</a>o</br></br>\
 						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Linguagens Formais e Autômatos)</br>\
 						Diretamente<br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Compiladores" target="_blank">Compiladores</a></br></br>\
+						- <a href="disciplinas.html#!/Compiladores" target="_blank">Compiladores</a></br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
 						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
@@ -478,9 +478,9 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Horas Práticas: 00h</br>\
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Fundamentos_de_Matematica_para_Computacao" target="_blank">Fundamentos de Matemática para Computação</a></br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Algoritmos_e_Estrutura_de_Dados_1" target="_blank">Algoritmos e Estruturas de Dados 1</a></br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Algoritmos_e_Estrutura_de_Dados_2" target="_blank">Algoritmos e Estruturas de Dados 2</a></br></br>\
+						- <a href="disciplinas.html#!/Fundamentos_de_Matematica_para_Computacao" target="_blank">Fundamentos de Matemática para Computação</a></br>\
+						- <a href="disciplinas.html#!/Algoritmos_e_Estrutura_de_Dados_1" target="_blank">Algoritmos e Estruturas de Dados 1</a></br>\
+						- <a href="disciplinas.html#!/Algoritmos_e_Estrutura_de_Dados_2" target="_blank">Algoritmos e Estruturas de Dados 2</a></br></br>\
 						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Análise e Projeto de Algoritmos)</br>\
 						Diretamente<br>\
 						- Nenhum</br></br>\
@@ -505,10 +505,10 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Horas Práticas: 32h</br>\
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Introducao_a_Programacao" target="_blank">Introdução à Programação</a></br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Calculo_1A" target="_blank">Cálculo 1A</a></br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Algoritmos_e_Estrutura_de_Dados_1" target="_blank">Algoritmos e Estruturas de Dados 1</a></br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Probabilidade_e_Estatistica" target="_blank">Probabilidade e Estatística A</a></br></br>\
+						- <a href="disciplinas.html#!/Introducao_a_Programacao" target="_blank">Introdução à Programação</a></br>\
+						- <a href="disciplinas.html#!/Calculo_1A" target="_blank">Cálculo 1A</a></br>\
+						- <a href="disciplinas.html#!/Algoritmos_e_Estrutura_de_Dados_1" target="_blank">Algoritmos e Estruturas de Dados 1</a></br>\
+						- <a href="disciplinas.html#!/Probabilidade_e_Estatistica" target="_blank">Probabilidade e Estatística A</a></br></br>\
 						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Interação Humano-Computador)</br>\
 						Diretamente<br>\
 						- Nenhum</br></br>\
@@ -538,8 +538,8 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Horas Práticas: 16h</br>\
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b></br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Fundamentos_de_Matematica_para_Computacao" target="_blank">Fundamentos de Matemática para Computação</a></br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Logica_Matematica" target="_blank">Lógica Matemática</a></br></br>\
+						- <a href="disciplinas.html#!/Fundamentos_de_Matematica_para_Computacao" target="_blank">Fundamentos de Matemática para Computação</a></br>\
+						- <a href="disciplinas.html#!/Logica_Matematica" target="_blank">Lógica Matemática</a></br></br>\
 						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Banco de Dados)</br>\
 						Diretamente<br>\
 						- Nenhum</br></br>\
@@ -565,9 +565,9 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Horas Práticas: 00h</br>\
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Introducao_a_Programacao" target="_blank">Introdução à Programação</a></br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Programacao_Orientada_Objetos" target="_blank">Programação Orientada a Objetos</a></br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Engenharia_de_Software" target="_blank">Engenharia de Software</a></br></br>\
+						- <a href="disciplinas.html#!/Introducao_a_Programacao" target="_blank">Introdução à Programação</a></br>\
+						- <a href="disciplinas.html#!/Programacao_Orientada_Objetos" target="_blank">Programação Orientada a Objetos</a></br>\
+						- <a href="disciplinas.html#!/Engenharia_de_Software" target="_blank">Engenharia de Software</a></br></br>\
 						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Projeto de Software)</br>\
 						Diretamente</br>\
 						- Nenhum</br></br>\
@@ -643,11 +643,11 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Horas Práticas: 00h</br>\
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Fundamentos_de_Matematica_para_Computacao" target="_blank">Fundamentos de Matemática para Computação</a></br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Introducao_a_Programacao" target="_blank">Introdução à Programação</a></br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Algoritmos_e_Estrutura_de_Dados_1" target="_blank">Algoritmos e Estruturas de Dados 1</a></br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Linguagens_Formais_e_Automatos" target="_blank">Linguagens Formais e Autômatos</a></br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Algoritmos_e_Estrutura_de_Dados_2" target="_blank">Algoritmos e Estruturas de Dados 2</a></br></br>\
+						- <a href="disciplinas.html#!/Fundamentos_de_Matematica_para_Computacao" target="_blank">Fundamentos de Matemática para Computação</a></br>\
+						- <a href="disciplinas.html#!/Introducao_a_Programacao" target="_blank">Introdução à Programação</a></br>\
+						- <a href="disciplinas.html#!/Algoritmos_e_Estrutura_de_Dados_1" target="_blank">Algoritmos e Estruturas de Dados 1</a></br>\
+						- <a href="disciplinas.html#!/Linguagens_Formais_e_Automatos" target="_blank">Linguagens Formais e Autômatos</a></br>\
+						- <a href="disciplinas.html#!/Algoritmos_e_Estrutura_de_Dados_2" target="_blank">Algoritmos e Estruturas de Dados 2</a></br></br>\
 						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Compiladores)</br>\
 						Diretamente<br>\
 						- Nenhum</br></br>\
@@ -1315,8 +1315,8 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Horas Práticas: 32h</br>\
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Introducao_a_Programacao" target="_blank">Introdução à Programação</a></br>\
-						- <a href="https://caua539.github.io/integracao2017/disciplinas.html#!/Programacao_Orientada_Objetos" target="_blank">Programação Orientada a Objetos</a></br></br>\
+						- <a href="disciplinas.html#!/Introducao_a_Programacao" target="_blank">Introdução à Programação</a></br>\
+						- <a href="disciplinas.html#!/Programacao_Orientada_Objetos" target="_blank">Programação Orientada a Objetos</a></br></br>\
 						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Software para Sistemas Ubiquos)</br>\
 						Diretamente<br>\
 						- Nenhum</br></br>\
