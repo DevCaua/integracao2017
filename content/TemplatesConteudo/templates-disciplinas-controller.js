@@ -28,9 +28,9 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Carga horária total: 32h<br></br>\
 						<b>Pré-Requisitos</b></br>\
 						- Nenhum</br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Computação e Sociedade)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Computação e Sociedade)</br>\
 						- Nenhum</br><br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- História da computação.<br>\
 						- Estudo e análise de casos de aplicação de computadores na sociedade e para o meio ambiente.<br>\
 						- Subáreas da computação e áreas interdisciplinares.<br>\
@@ -55,7 +55,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Carga horária total: 128h<br></br>\
 						<b>Pré-Requisitos</b></br>\
 						- Nenhum</br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Introdução à Programação)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Introdução à Programação)</br>\
 						Diretamente<br>\
 						- <a href="disciplinas.html#!/Programacao_Orientada_Objetos" target="_blank">Programação Orientada a Objetos</a></br>\
 						- <a href="disciplinas.html#!/Linguagens_e_Paradigmas_da_Programacao" target="_blank">Linguagens e Paradigmas de Programação</a></br>\
@@ -67,7 +67,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- <a href="disciplinas.html#!/Interacao_Humano_Computador" target="_blank">Interação Humano-Computador</a></br>\
 						- <a href="disciplinas.html#!/Compiladores" target="_blank">Compiladores</a></br>\
 						- <a href="disciplinas.html#!/Sistemas_Distribuidos" target="_blank">Sistemas Distribuídos</a></br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Introdução a algoritmos.<br>\
 						- Conceitos básicos de programas: constantes; tipos de dados primitivos; variáveis; atribuição; entrada e saída de dados; expressões; estruturas de decisão; estruturas de repetição.<br>\
 						- Ponteiro.<br>\
@@ -91,12 +91,12 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Carga horária total: 96h<br></br>\
 						<b>Pré-Requisitos</b></br>\
 						- Nenhum</br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Cálculo 1A)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Cálculo 1A)</br>\
 						Diretamente<br>\
 						- <a href="disciplinas.html#!/Probabilidade_e_Estatistica" target="_blank">Probabilidade e Estatística A</a></br></br>\
 						Indiretamente<br>\
 						- <a href="disciplinas.html#!/Interacao_Humano_Computador" target="_blank">Interação Humano-Computador</a></br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Números reais. Funções reais de uma variável real e suas inversas.<br>\
 						- Noções sobre cônicas.<br>\
 						- Limite e continuidade.<br>\
@@ -118,7 +118,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b></br>\
 						- Nenhum</br><br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Fundamentos de Matemática para Computação)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Fundamentos de Matemática para Computação)</br>\
 						Diretamente<br>\
 						- <a href="disciplinas.html#!/Logica_Matematica" target="_blank">Lógica Matemática</a></br>\
 						- <a href="disciplinas.html#!/Arquitetura_De_Computadores" target="_blank">Arquitetura de Computadores</a></br>\
@@ -128,7 +128,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- <a href="disciplinas.html#!/Banco_de_Dados" target="_blank">Banco de Dados</a></br>\
 						- <a href="disciplinas.html#!/Sistemas_Operacionais" target="_blank">Sistemas Operacionais</a></br>\
 						- <a href="disciplinas.html#!/Compiladores" target="_blank">Compiladores</a></br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Noções de lógica.<br>\
 						- Introdução a demonstrações.<br>\
 						- Indução matemática, Recursividade e Relações de Recorrência, Conjuntos e Combinatória.<br>\
@@ -153,12 +153,12 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b></br>\
 						- <a href="disciplinas.html#!/Fundamentos_de_Matematica_para_Computacao" target="_blank">Fundamentos de Matemática para Computação</a></br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Arquitetura de Computadores)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Arquitetura de Computadores)</br>\
 						Diretamente<br>\
 						- <a href="disciplinas.html#!/Sistemas_Operacionais" target="_blank">Sistemas Operacionais</a></br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Visão geral dos computadores modernos.<br>\
 						- Evolução da arquitetura dos computadores.<br>\
 						- Memória e representação de dados e instruções.<br>\
@@ -183,14 +183,14 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
 						- <a href="disciplinas.html#!/Introducao_a_Programacao" target="_blank">Introdução à Programação</a></br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Algoritmos e Estruturas de Dados 1)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Algoritmos e Estruturas de Dados 1)</br>\
 						Diretamente<br>\
 						- <a href="disciplinas.html#!/Algoritmos_e_Estrutura_de_Dados_2" target="_blank">Algoritmos e Estruturas de Dados 2</a></br>\
 						- <a href="disciplinas.html#!/Interacao_Humano_Computador" target="_blank">Interação Humano-Computador</a></br></br>\
 						Indiretamente<br>\
 						- <a href="disciplinas.html#!/Analise_e_Projeto_de_Algoritmos" target="_blank">Análise e Projeto de Algoritmos</a></br>\
 						- <a href="disciplinas.html#!/Compiladores" target="_blank">Compiladores</a></br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Noções de complexidade de algoritmos (notações de complexidade).<br>\
 						- Algoritmos de pesquisa: pesquisa sequencial e binária.<br>\
 						- Algoritmos de ordenação.<br>\
@@ -211,12 +211,12 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
 						- <a href="disciplinas.html#!/Calculo_1A" target="_blank">Cálculo 1A</a></br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Probabilidade Estatística A)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Probabilidade Estatística A)</br>\
 						Diretamente<br>\
 						- <a href="disciplinas.html#!/Interacao_Humano_Computador" target="_blank">Interação Humano-Computador</a></br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Estatística descritiva. Noções sobre amostragem.<br>\
 						- Introdução à teoria de conjuntos.<br>\
 						- Introdução à teoria de probabilidade: espaço amostral, eventos, frequência relativa, fundamentos de probabilidade, probabilidade condicional, eventos independentes e teorema de Bayes.<br>\
@@ -240,12 +240,12 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
 						- <a href="disciplinas.html#!/Calculo_1A" target="_blank">Cálculo 1A</a></br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Álgebra Linear)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Álgebra Linear)</br>\
 						Diretamente<br>\
 						- <a href="disciplinas.html#!/Pesquisa_Operacional" target="_blank">Pesquisa Operacional</a></br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Sistemas lineares e matrizes.</br>\
 						- Espaços vetoriais.</br>\
 						- Transformações lineares.</br>\
@@ -265,12 +265,12 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
 						- <a href="disciplinas.html#!/Fundamentos_de_Matematica_para_Computacao" target="_blank">Fundamentos de Matemática para Computação</a></br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Lógica Matemática)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Lógica Matemática)</br>\
 						Diretamente<br>\
 						- <a href="disciplinas.html#!/Banco_de_Dados" target="_blank">Banco de Dados</a></br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Noções básicas: linguagem natural vs linguagens formais; verdade, validade, satisfatibilidade; lógica proposicional (sintaxe e semântica, propriedades e relações semânticas, consequência lógica, simplificação de fórmulas); lógica de primeira ordem (sintaxe e semântica, propriedades e relações semânticas, formas normais);</br>\
 						- Métodos de validação: métodos diretos de prova; métodos de prova por contradição; indução estrutural.</br>\
 						- Linguagem para experimentação.</br>\
@@ -293,13 +293,13 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
 						- <a href="disciplinas.html#!/Introducao_a_Programacao" target="_blank">Introdução à Programação</a></br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Programação Orientada a Objetos)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Programação Orientada a Objetos)</br>\
 						Diretamente<br>\
 						- <a href="disciplinas.html#!/Projeto_De_Software" target="_blank">Projeto de Software</a></br>\
 						- <a href="disciplinas.html#!/Sistemas_Distribuidos" target="_blank">Sistemas Distribuídos</a></br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Abstração e tipos abstratos de dados.</br>\
 						- Classes, métodos, encapsulamento, interface. Mensagens, instâncias e inicialização. Herança e composição. Polimorfismo.</br>\
 						- Uso de uma linguagem orientada a objetos.</br>\
@@ -320,13 +320,13 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						<b>Pré-Requisitos</b><br>\
 						- <a href="disciplinas.html#!/Introducao_a_Programacao" target="_blank">Introdução à Programação</a></br>\
 						- <a href="disciplinas.html#!/Algoritmos_e_Estrutura_de_Dados_1" target="_blank">Algoritmos e Estruturas de Dados 1</a></br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Algoritmos e Estruturas de Dados 2)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Algoritmos e Estruturas de Dados 2)</br>\
 						Diretamente<br>\
 						- <a href="disciplinas.html#!/Analise_e_Projeto_de_Algoritmos" target="_blank">Análise e Projeto de Algoritmos</a></br>\
 						- <a href="disciplinas.html#!/Compiladores" target="_blank">Compiladores</a></br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Árvores: formas de representação, recursão em árvores, árvores binárias, árvores binárias de busca, árvores balanceadas (AVL e rubro-negras).</br>\
 						- Filas de prioridades. Heaps, Heapsort. Hashing: tipos de funções de hashing; tratamento de colisões.</br>\
 						- Definições de Grafos.</br>\
@@ -346,12 +346,12 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
 						- <a href="disciplinas.html#!/Introducao_a_Programacao" target="_blank">Introdução à Programação</a></br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Linguagens e Paradigmas de Programação)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Linguagens e Paradigmas de Programação)</br>\
 						Diretamente<br>\
 						- Nenhum</br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Estudo dos conceitos de linguagens de programação e dos paradigmas de programação: procedural, funcional, lógico, orientado a objeto e script.</br>\
 						- Reflexão sobre as características desejáveis em uma linguagem de programação e os critérios de seleção de linguagens de acordo com as especificidades dos domínios de aplicação.</br>\
 						- Uso de uma linguagem orientada a objetos.</br>\
@@ -371,12 +371,12 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
 						- Nenhum</br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Engenharia de Software)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Engenharia de Software)</br>\
 						Diretamente<br>\
 						- <a href="disciplinas.html#!/Projeto_De_Software" target="_blank">Projeto de Software</a></br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Requisitos de software.</br>\
 						- Projeto (design) de software.</br>\
 						- Construção de software.</br>\
@@ -405,12 +405,12 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						<b>Pré-Requisitos</b><br>\
 						- <a href="disciplinas.html#!/Fundamentos_de_Matematica_para_Computacao" target="_blank">Fundamentos de Matemática para Computação</a></br>\
 						- <a href="disciplinas.html#!/Arquitetura_De_Computadores" target="_blank">Arquitetura de Computadores</a></br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Sistemas Operacionais)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Sistemas Operacionais)</br>\
 						Diretamente<br>\
 						- Nenhum</br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Conceitos de Hardware e Software.</br>\
 						- Tipos de Sistemas Operacionais. Organização da Estrutura Interna do Sistema Operacional. Gerência de Processos. Gerência do Processador. Gerência de Memória. Gerência de Dispositivos de Entrada e Saída. Sistemas de Arquivos.</br>\
 						- Estudos de casos de sistemas operacionais atuais.</p>'
@@ -428,12 +428,12 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
 						- <a href="disciplinas.html#!/Algebra_Linear" target="_blank">Álgebra Linear</a></br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Pesquisa Operacional)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Pesquisa Operacional)</br>\
 						Diretamente<br>\
 						- Nenhum</br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Modelagem.</br>\
 						- Problema de Programação Linear (PL). Resolução gráfica de PL.</br>\
 						- Algoritmo Simplex. Dualidade. Algoritmo Simplex-Dual.</br>\
@@ -452,12 +452,12 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
 						- <a href="disciplinas.html#!/Fundamentos_de_Matematica_para_Computacao" target="_blank">Fundamentos de Matemática para Computaçã</a>o</br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Linguagens Formais e Autômatos)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Linguagens Formais e Autômatos)</br>\
 						Diretamente<br>\
 						- <a href="disciplinas.html#!/Compiladores" target="_blank">Compiladores</a></br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Conceitos básicos de linguagens.</br>\
 						- Mecanismos geradores (gramáticas) e reconhecedores (determinísticos e não determinísticos) de linguagens regulares, livres de contexto e sensíveis ao contexto; relação entre estas classes de linguagens e suas principais propriedades.</br>\
 						- Hierarquia de Chomsky.</p>'
@@ -481,12 +481,12 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- <a href="disciplinas.html#!/Fundamentos_de_Matematica_para_Computacao" target="_blank">Fundamentos de Matemática para Computação</a></br>\
 						- <a href="disciplinas.html#!/Algoritmos_e_Estrutura_de_Dados_1" target="_blank">Algoritmos e Estruturas de Dados 1</a></br>\
 						- <a href="disciplinas.html#!/Algoritmos_e_Estrutura_de_Dados_2" target="_blank">Algoritmos e Estruturas de Dados 2</a></br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Análise e Projeto de Algoritmos)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Análise e Projeto de Algoritmos)</br>\
 						Diretamente<br>\
 						- Nenhum</br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Medidas de complexidade, análise assintótica de limites de complexidade para algoritmos iterativos e recursivos, técnicas de prova de cotas inferiores.</br>\
 						- Corretude de Algoritmos.</br>\
 						- Exemplos de análise de algoritmos.</br>\
@@ -509,12 +509,12 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- <a href="disciplinas.html#!/Calculo_1A" target="_blank">Cálculo 1A</a></br>\
 						- <a href="disciplinas.html#!/Algoritmos_e_Estrutura_de_Dados_1" target="_blank">Algoritmos e Estruturas de Dados 1</a></br>\
 						- <a href="disciplinas.html#!/Probabilidade_e_Estatistica" target="_blank">Probabilidade e Estatística A</a></br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Interação Humano-Computador)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Interação Humano-Computador)</br>\
 						Diretamente<br>\
 						- Nenhum</br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Aspectos gerais sobre interação humano-computador.</br>\
 						- Características humanísticas e biológicas, envolvendo questões sobre genealogia, gênero, aspectos étnicos, raciais e culturais, direitos e aspectos políticos, deficiências, limitações e capacidades, dentre outros.</br>\
 						- Ciclo da interação e principais problemas. Metas de usabilidade e experiência do usuário.</br>\
@@ -540,12 +540,12 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						<b>Pré-Requisitos</b></br>\
 						- <a href="disciplinas.html#!/Fundamentos_de_Matematica_para_Computacao" target="_blank">Fundamentos de Matemática para Computação</a></br>\
 						- <a href="disciplinas.html#!/Logica_Matematica" target="_blank">Lógica Matemática</a></br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Banco de Dados)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Banco de Dados)</br>\
 						Diretamente<br>\
 						- Nenhum</br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br></br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br></br>\
 						- Conceitos básicos de Banco de Dados.</br>\
 						- Modelo relacional.</br>\
 						- Linguagens para Banco de Dados: álgebra relacional, cálculo relacional e SQL.</br>\
@@ -568,12 +568,12 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- <a href="disciplinas.html#!/Introducao_a_Programacao" target="_blank">Introdução à Programação</a></br>\
 						- <a href="disciplinas.html#!/Programacao_Orientada_Objetos" target="_blank">Programação Orientada a Objetos</a></br>\
 						- <a href="disciplinas.html#!/Engenharia_de_Software" target="_blank">Engenharia de Software</a></br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Projeto de Software)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Projeto de Software)</br>\
 						Diretamente</br>\
 						- Nenhum</br></br>\
 						Indiretamente</br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br></br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br></br>\
 						- Fundamentos de design de software.</br>\
 						- Questões básicas de design de software: concorrência, controle e tratamento de eventos, persistência de dados, distribuição, tratamento de erro e exceção, tolerância a falhas, interação e apresentação, e segurança. Estrutura e arquitetura de software.</br>\
 						- Projeto de interface de usuário.</br>\
@@ -595,12 +595,12 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
 						- Nenhum</br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Redes de Computadores)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Redes de Computadores)</br>\
 						Diretamente<br>\
 						- Nenhum</br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Fundamentos.</br>\
 						- Arquitetura de Redes TCP/IP (Internet).</br>\
 						- Camadas de Aplicação, Transporte, Rede, Enlace e Física.</br>\
@@ -621,12 +621,12 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
 						- Nenhum</br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Introdução à Língua Brasileira de Sinais)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Introdução à Língua Brasileira de Sinais)</br>\
 						Diretamente<br>\
 						- Nenhum</br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Introdução às práticas de compreensão e produção em LIBRAS através do uso de estruturas e funções comunicativas elementares.</br>\
 						- Concepções sobre a Língua de Sinais.</br>\
 						- O surdo e a sociedade.</p>'
@@ -648,12 +648,12 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- <a href="disciplinas.html#!/Algoritmos_e_Estrutura_de_Dados_1" target="_blank">Algoritmos e Estruturas de Dados 1</a></br>\
 						- <a href="disciplinas.html#!/Linguagens_Formais_e_Automatos" target="_blank">Linguagens Formais e Autômatos</a></br>\
 						- <a href="disciplinas.html#!/Algoritmos_e_Estrutura_de_Dados_2" target="_blank">Algoritmos e Estruturas de Dados 2</a></br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Compiladores)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Compiladores)</br>\
 						Diretamente<br>\
 						- Nenhum</br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- A estrutura de um compilador.</br>\
 						- Análises léxica e sintática.</br>\
 						- Definições dirigidas por sintaxe e análise semântica.</br>\
@@ -681,12 +681,12 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Carga horária total: 128h<br></br>\
 						<b>Pré-Requisitos</b><br>\
 						- Nenhum</br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Modelagem de Software)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Modelagem de Software)</br>\
 						Diretamente<br>\
 						- Nenhum</br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Visão geral (4h): construção (minimizar complexidade, antecipação de mudança, verificação, padrões), projeto de software (software design), qualidade de produto.</br>\
 						- Planejamento (8h): linguagens de programação e processos de construção.</br>\
 						- Gerência de construção (16h): controle de versão, inspeção e revisão de código.</br>\
@@ -725,12 +725,12 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
 						- Nenhum</br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Modelagem de Software)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Modelagem de Software)</br>\
 						Diretamente<br>\
 						- Nenhum</br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Conceitos (4h): software, qualidade de software, requisitos de software, projeto de software.</br>\
 						- Processo de projeto de software (4h).</br>\
 						- Notações para registro de modelos orientados a objetos (16h).</br>\
@@ -756,12 +756,12 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
 						- Nenhum</br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Modelagem de Software)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Modelagem de Software)</br>\
 						Diretamente<br>\
 						- Nenhum</br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Visão geral (8h): processo, método e modelo.</br>\
 						- Processos específicos de software: processos de implementação (12h), processos de suporte (12h) e processos de reutilização (2h).</br>\
 						- Qualidade de Processo: modelos de qualidade de processos (12h), avaliação da qualidade do processo (12h) e abordagens de implementação de processo (6h).</br><br>\
@@ -789,12 +789,12 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
 						- Nenhum</br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Engenharia de Sistemas)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Engenharia de Sistemas)</br>\
 						Diretamente<br>\
 						- Nenhum</br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Fundamentos de engenharia (16h): métodos empíricos e técnicas experimentais; análise estatística; medição; design; modelagem, prototipação e simulação; normas e padrões; análise de causa raiz.</br>\
 						- Fundamentos de sistema (16h): taxonomias de sistema; sistemas de engenharia (sistemas produzidos por engenharia - engineered systems); sistemas intensivos em software (software-intensive systems); sistemas de sistemas; complexidade de sistemas; propriedades emergentes; princípios do pensamento sistêmico; representação de sistemas por modelos.</br>\
 						- Engenharia de Sistemas (32h): abordagens e metodologias; partes interessadas (stakeholders) e suas necessidades; ciclo de vida de sistemas de engenharia (concepção, conceitos operacionais, design, validação de design, construção, validação de construção, implantação, sustentação e descontinuação); processos do ciclo de vida de sistemas (negociação, preparação para projeto organizacional, gestão técnica, processos técnicos); qualidade de processo.</br></br>\
@@ -825,12 +825,12 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Carga horária total: 128h<br></br>\
 						<b>Pré-Requisitos</b><br>\
 						- Nenhum</br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Engenharia de Sistemas)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Engenharia de Sistemas)</br>\
 						Diretamente<br>\
 						- Nenhum</br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Conceitos (8h): design, software, qualidade de software, requisitos de software, arquitetura de software e projeto detalhado.</br>\
 						- Contexto de projeto de software (4h).</br>\
 						- Processos e artefatos de projeto de software (8h).</br>\
@@ -865,12 +865,12 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
 						- Nenhum</br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Engenharia de Sistemas)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Engenharia de Sistemas)</br>\
 						Diretamente<br>\
 						- Nenhum</br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Visão ampla de domínios de desenvolvimento (4h): sistemas, componentes e a relação entre eles.</br>\
 						- Especificidades de alguns domínios de desenvolvimento (8h).</br>\
 						- Especificidades de um domínio (12h): requisitos, projeto, construção.</br>\
@@ -902,12 +902,12 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
 						- Nenhum</br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Engenharia de Sistemas)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Engenharia de Sistemas)</br>\
 						Diretamente<br>\
 						- Nenhum</br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Visão Geral de Qualidade de Software (4h): custos e impactos da qualidade de software, questões éticas e culturais da qualidade de software.</br>\
 						- Processo de garantia da qualidade de software (10h): garantia do produto e garantia do processo.</br>\
 						- Processo de Verificação e Validação de Software (36h): requisito, projeto (design), código, integração, documentação.</br>\
@@ -938,12 +938,12 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
 						- Nenhum</br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Engenharia de Sistemas)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Engenharia de Sistemas)</br>\
 						Diretamente<br>\
 						- Nenhum</br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Projeto e gerência de projeto (4h): ciclo de vida de produto, serviço e projeto; partes interessadas (stakeholders); correlação entre projetos, operações e programas; gerência de portfólio de projetos; escritório de projetos (PMO).</br>\
 						- Tipos de projeto de software (4h): aquisição, desenvolvimento, refatoração, descontinuação.</br>\
 						- Tipos de ciclo de vida de projeto de software (4h): preditivo, iterativo, adaptativo; processos empíricos e processos definidos e sua relação com métodos ágeis e métodos planejados para gerência de projeto de software.</br>\
@@ -975,12 +975,12 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
 						- Nenhum</br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Software Concorrente e Distribuído)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Software Concorrente e Distribuído)</br>\
 						Diretamente<br>\
 						- Nenhum</br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Qualidade de produto (4h): escalabilidade, tolerância a falhas, disponibilidade, desempenho.</br>\
 						- Conceitos (4h): middleware, distribuição, paralelismo, concorrência, RESTful, web, internet das coisas, contêineres, troca de mensagens, micro-serviços, serviços web.</br>\
 						- Métodos para construção de software distribuído e para construção de software concorrente (8h).</br>\
@@ -1016,12 +1016,12 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
 						- Nenhum</br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Experiência do Usu´´ario de Software)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Experiência do Usu´´ario de Software)</br>\
 						Diretamente<br>\
 						- Nenhum</br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Qualidade em uso (4h): usabilidade, acessibilidade.</br>\
 						- Design centrado no usuário (8h): diretrizes, pesquisa, personas, jornadas de usuário, modelagem (especificação) e ferramentas.</br>\
 						- Projeto de interação (16h): diretrizes, criação, modelagem (especificação) e ferramentas.</br>\
@@ -1057,12 +1057,12 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
 						- Nenhum</br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Arquitetura de Software)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Arquitetura de Software)</br>\
 						Diretamente<br>\
 						- Nenhum</br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Conceitos (4h): software, qualidade de software, requisitos de software, arquitetura de software e projeto detalhado.</br>\
 						- Requisitos funcionais e requisitos de qualidade (8h): conceituação e identificação de requisitos relevantes para a arquitetura.</br>\
 						- Documentação de arquitetura de software (8h).</br>\
@@ -1092,12 +1092,12 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
 						- Nenhum</br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Requisitos de Software)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Requisitos de Software)</br>\
 						Diretamente<br>\
 						- Nenhum</br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Processo de requisitos (16h): definições básicas, eliciação de requisitos, análise de requisitos, especificação de requisitos, verificação e validação de requisitos.</br>\
 						- Modelos e métodos da engenharia de requisitos (32).</br>\
 						- Gerência de projetos de engenharia de requisitos (8).</br>\
@@ -1128,12 +1128,12 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
 						- Nenhum</br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Governança e Gestão de Serviços de Software)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Governança e Gestão de Serviços de Software)</br>\
 						Diretamente<br>\
 						- Nenhum</br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Governança (8h): governança corporativa; governança de TI (GTI); governança de Software (GS); princípios da GS; conformidade (compliance); alinhamento dos serviços de software ao negócio da organização; normas, frameworks, padrões, modelos de qualidade e de maturidade de GS.</br>\
 						- Abordagens para GS (8h): aplicação de abordagens de GS em um contexto organizacional. Objetivos de controle para GS; indicadores e avaliação de desempenho de software; direcionamento, avaliação e controle do uso de serviços de software para apoiar os objetivos de uma organização.</br>\
 						- Planejamento e controle estratégico de software (8h): alinhamento entre objetivos organizacionais e objetivos relacionados a software; avaliação, direcionamento e monitoramento de processos de software; diagnóstico de maturidade de processos de software; alinhamento de políticas de software ao plano diretor de TI de uma organização. Gestão de riscos de software; riscos organizacionais; riscos relacionados à segurança física e lógica de software.</br>\
@@ -1169,12 +1169,12 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
 						- Nenhum</br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Software para Sistemas Ubiquos)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Software para Sistemas Ubiquos)</br>\
 						Diretamente<br>\
 						- Nenhum</br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Sistemas de informação que fazem uso de dispositivos (ubíquos) (16h): smartphones, sensores, internet das coisas (IoT), stream analytics e aspectos de segurança (vulnerabilidades, criptografia, certificados digitais).</br>\
 						- Definição de arquiteturas para soluções móveis (16): conectar serviços, possivelmente de grande volume, fluxo e em tempo real, com a necessidade de analisá-los.</br>\
 						- Desenvolvimento de código para smartphone, sensor ou outro dispositivo capaz de alimentar/receber informações de sistema de informação (32h).</br></br>\
@@ -1208,12 +1208,12 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
 						- Nenhum</br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Software para Sistemas Ubiquos)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Software para Sistemas Ubiquos)</br>\
 						Diretamente<br>\
 						- Nenhum</br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Visão geral de persistência (12h): arquivos em formato texto/binário. Serialização de objetos. Documentos XML. JSON. Bancos de dados relacionais. Bancos NoSql.</br>\
 						- Modelagem e implementação de bancos de dados (28h).</br>\
 						- Mapeamento entre OO e relacional (8h).</br>\
@@ -1245,12 +1245,12 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
 						- Nenhum</br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Software para Sistemas Ubiquos)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Software para Sistemas Ubiquos)</br>\
 						Diretamente<br>\
 						- Nenhum</br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Conceitos (12h): arquitetura de software e padrões de arquitetura (blackboard, microservices, invocação implícita, arquitetura orientada a serviços, multitier, arquitetura orienta a eventos, plugin, filtros e pipes, MVC.</br>\
 						- Norma ISO/IEC/IEEE 42010:2011 (8h).</br>\
 						- Análise (avaliação) de arquiteturas de software (12h).</br>\
@@ -1278,12 +1278,12 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
 						- Nenhum</br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Software para Sistemas Ubiquos)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Software para Sistemas Ubiquos)</br>\
 						Diretamente<br>\
 						- Nenhum</br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Processo de construção (8h): definições básicas, atividades e documentação.</br>\
 						- Processo de Teste de Software (56): definições básicas, técnicas de teste, teste baseado em intuição e experiência do engenheiro de software, atividades do processo, documentação e ferramentas.</br></br>\
 						<b>Condições Mínimas(qual o domínio do conteúdo abordado que o estudante deve ter, no final da disciplina, para que ele seja aprovado)</b></br><br>\
@@ -1317,12 +1317,12 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						<b>Pré-Requisitos</b><br>\
 						- <a href="disciplinas.html#!/Introducao_a_Programacao" target="_blank">Introdução à Programação</a></br>\
 						- <a href="disciplinas.html#!/Programacao_Orientada_Objetos" target="_blank">Programação Orientada a Objetos</a></br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Software para Sistemas Ubiquos)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Software para Sistemas Ubiquos)</br>\
 						Diretamente<br>\
 						- Nenhum</br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Introdução a Sistemas Distribuídos.</br>\
 						- Invocação Remota.</br>\
 						- Objetos Distribuídos.</br>\
@@ -1342,12 +1342,12 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
 						- Nenhum</br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Software para Sistemas Ubiquos)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Software para Sistemas Ubiquos)</br>\
 						Diretamente<br>\
 						- Nenhum</br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Modelos de negócio para software (aluguel, serviço, código aberto). </br>\
 						- Leis, normas, impostos e legislação brasileira para o mercado local e para a exportação de software. </br>\
 						- Programas de incentivo à exportação e à produção de software.</br>\
@@ -1374,12 +1374,12 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
 						- Nenhum</br></br>\
-						Pré-Requisito para(disciplina(s) que só pode(m) ser cursada(s) após Software para Sistemas Ubiquos)</br>\
+						Pré-Requisito para (disciplinas que só podem ser cursadas após Software para Sistemas Ubiquos)</br>\
 						Diretamente<br>\
 						- Nenhum</br></br>\
 						Indiretamente<br>\
 						- Nenhum</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Metodologia Científica (16h): aplicação de metodologia científica em atividades de Engenharia de Software.</br>\
 						- Fundamentos da Engenharia de Software Experimental (16h): contexto da experimentação na Engenharia de Software; principais tipos de experimentos aplicados à Engenharia de Software; estudos primários e secundários; revisão e mapeamento sistemático da literatura.</br>\
 						- Realização de Experimentos em Engenharia de Software (32h).</br></br>\
@@ -1419,7 +1419,7 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 						A “Prática em Engenharia de Software” é realizada pelo estudante preferencialmente após ter obtido aprovação nas demais disciplinas do BES. A disciplina é integralizada com 320 horas de atividades relacionadas a projetos da FS/INF, é ofertada a cada semestre letivo e os docentes atuam como preceptores. Neste sentido, o docente é o profissional responsável pela integração teoria-prática ao longo do projeto, ensinando, supervisionando, orientando e conduzindo o aluno na prática efetiva de sua futura profissão. </br></br>\
 						Os estudantes são divididos em três grupos para melhor acompanhamento das atividades. Cada grupo, em um dado instante, realiza um tipo de atividade típica do exercício profissional: processos técnicos, processos de gestão ou domínio de tecnologias. Ao final da disciplina, é garantido que todos os grupos vivenciaram atividades dos três tipos. A avaliação do estudante é formativa, enfatizando o seu acompanhamento durante todo o período letivo, com o intuito de não apenas verificar se o estudante está alcançando os objetivos propostos, mas também informando seus erros e acertos, além de promover o estímulo necessário para continuar os estudos e o seu desenvolvimento. </br></br>\
 						Concluindo, a disciplina “Prática em Engenharia de Software” favorece um ensino baseado na prática, com foco centrado na ética e na postura do profissional de Engenharia de Software perante os desafios que ocorrem quando se trabalha com software, que é um dos artefatos mais complexos que a humanidade produz. Quando o estudante atua em atividades práticas relevantes para a sua futura vida profissional, enfrentando os desafios reais de sua profissão ainda durante sua formação, sua compreensão se torna cada vez mais crítica e comprometida com a sociedade na qual se insere. Portanto, essa disciplina estimula e valoriza as dimensões ética e humanística na formação do Engenheiro de Software, desenvolvendo atitudes e valores orientados para a cidadania e para o desenvolvimento da sociedade.</br></br>\
-						<b>Ementa(corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
+						<b>Ementa (corresponde ao conteúdo que será abordado durante as aulas)</b></br><br>\
 						- Aplicação do corpo de conhecimento da Engenharia de Software no contexto de projetos realizados em uma Fábrica de Software (320h): emprego de processos de Engenharia de Software em abrangência e profundidade; seleção e utilização de normas, métodos, técnicas e ferramentas de Engenharia de Software para atingir objetivos estabelecidos no projeto; integração e consolidação de conhecimentos e habilidades esperadas do profissional de Engenharia de Software; exercício de práticas e atitudes profissionais embasadas no código de ética e na postura profissional da Engenharia de Software; prática em processos técnicos de Engenharia de Software; prática em Gestão de Engenharia de Software; prática em Tecnologias de Engenharia de Software.</br></br>\
 						<b>Condições Mínimas(qual o domínio do conteúdo abordado que o estudante deve ter, no final da disciplina, para que ele seja aprovado)</b></br><br>\
 						<i>Seguindo instruções (passo-a-passo), o estudante deve ser capaz de:</i></br></br>\
