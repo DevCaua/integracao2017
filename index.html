@@ -18,14 +18,17 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-resource/1.6.6/angular-resource.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-sanitize/1.5.8/angular-sanitize.js"></script>
     <script src="content/TemplatesConteudo/templates-diretivas.js"></script>
 
     <script src="scripts/main.js"></script>
     <script src="scripts/pages-controller.js"></script>
     <script src="scripts/pages-factory.js"></script>
+
   </head>
 
   <body ng-controller="PagesController" ng-class="{'AcessibilidadeBlue': acessibilidadeBlue, 'AcessibilidadeBlackYellow': acessibilidadeByellow, 'AcessibilidadeYellow': acessibilidadeYellow}">
+    <span id="tamanho-fonte" tamanho>{{tamanho}}</span>
     <nav class="navbar navbar-expand-lg navbar-dark" ng-class="{'NavContrasteBlue': acessibilidadeBlue, 'NavContrasteBlackYellow': acessibilidadeByellow, 'NavContrasteYellow': acessibilidadeYellow, 'NavSemContraste': acessibilidadeNula}">
       <a class="navbar-brand Logo" ng-class="{'TitleAcessibilidadeBlue': acessibilidadeBlue, 'TitleAcessibilidadeBlackYellow': acessibilidadeByellow, 'TitleAcessibilidadeYellow': acessibilidadeYellow}" href="index.html"><div class="logo-large">BES<img class="logo-image" src="content/img/logo2.png"></div><div class="logo-small">Bacharelado em Engenharia de Software</div></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,6 +46,10 @@
             <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrasteAzul')" class="btn botao-blue" type="submit">Acessibilidade</button></a>
             <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrastePretoAmarelo')" class="btn botao-black-yellow" type="submit">Acessibilidade</button></a>
             <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrasteAmarelo')" class="btn botao-yellow" type="submit">Acessibilidade</button></a>
+            <div class="font-acessibility">
+              <a class="dropdown-item botao" href="#"><button ng-click="atribuiAcessibilidadeFonte('fonteMenor')" id="reduz_fonte" class="btn btn-outline-primary" type="submit">A-</button></a>
+              <a class="dropdown-item botao" href="#"><button ng-click="atribuiAcessibilidadeFonte('fonteMaior')" id="aumenta_fonte" class="btn btn-outline-primary" type="submit">A+</button></a>
+            </div>
           </div>
         </li>
       </ul>
@@ -104,11 +111,27 @@
       <a class="btn btn-primary" href="content/ppcESPrograd.pdf" target="_blank">Download PPC</a>
     </div>
 
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script>
+    $(document).ready(function(){
+        window.fonte = parseInt($('#tamanho-fonte').text());
+          $('#aumenta_fonte').click(function(){
+            fonte = fonte+3;
+            $('body').css({'font-size' : fonte+'px'});
+            $('div').css({'font-size' : fonte+'px'});
+            $('a').css({'font-size' : fonte+'px'});
+          });
+          $('#reduz_fonte').click(function(){
+            fonte = fonte-3;
+            $('body').css({'font-size' : fonte+'px'});
+            $('div').css({'font-size' : fonte+'px'});
+            $('a').css({'font-size' : fonte+'px'});
+          });
+        });
+    </script>
   </body>
 </html>

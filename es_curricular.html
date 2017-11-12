@@ -29,6 +29,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
   <body ng-controller="PagesController" ng-class="{'AcessibilidadeBlue': acessibilidadeBlue, 'AcessibilidadeBlackYellow': acessibilidadeByellow, 'AcessibilidadeYellow': acessibilidadeYellow}">
+    <span id="tamanho-fonte" tamanho>{{tamanho}}</span>
     <nav class="navbar-cor navbar navbar-toggleable-md fixed-top navbar-inverse" ng-class="{'NavContrasteBlue': acessibilidadeBlue, 'NavContrasteBlackYellow': acessibilidadeByellow, 'NavContrasteYellow': acessibilidadeYellow, 'NavSemContraste': acessibilidadeNula}">
         <button class="navbar-toggler navbar-toggler-right" ng-class="{'CollapseButtonBlackYellow': acessibilidadeByellow}" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -58,6 +59,10 @@
                       <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrasteAzul')" class="btn botao-blue" type="submit">Acessibilidade</button></a>
                       <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrastePretoAmarelo')" class="btn botao-black-yellow" type="submit">Acessibilidade</button></a>
                       <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrasteAmarelo')" class="btn botao-yellow" type="submit">Acessibilidade</button></a>
+                      <div class="font-acessibility">
+                        <a class="dropdown-item botao" href="#"><button ng-click="atribuiAcessibilidadeFonte('fonteMenor')" id="reduz_fonte" class="btn btn-outline-primary" type="submit">A-</button></a>
+                        <a class="dropdown-item botao" href="#"><button ng-click="atribuiAcessibilidadeFonte('fonteMaior')" id="aumenta_fonte" class="btn btn-outline-primary" type="submit">A+</button></a>
+                      </div>
                     </div>
             </li>
           </ul>
@@ -139,6 +144,23 @@
             $('#icon').removeClass('fa fa-expand').addClass('fa fa-compress')
         }
       });
+
+      window.fonte = parseInt($('#tamanho-fonte').text());
+        $('body').css({'font-size' : window.fonte+'px'});
+        $('div').css({'font-size' : window.fonte+'px'});
+        $('a').css({'font-size' : window.fonte+'px'});
+        $('#aumenta_fonte').click(function(){
+          fonte = fonte+3;
+          $('body').css({'font-size' : fonte+'px'});
+          $('div').css({'font-size' : fonte+'px'});
+          $('a').css({'font-size' : fonte+'px'});
+        });
+        $('#reduz_fonte').click(function(){
+          fonte = fonte-3;
+          $('body').css({'font-size' : fonte+'px'});
+          $('div').css({'font-size' : fonte+'px'});
+          $('a').css({'font-size' : fonte+'px'});
+        });
   });
     </script>
   </body>

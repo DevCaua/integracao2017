@@ -388,4 +388,7 @@ iframe {
     background-color: #F7F3AE!important;
     color: #020167!important;
   }
-  
+
+  .font-acessibility{
+    display: inline-block;
+  }

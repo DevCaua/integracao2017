@@ -187,3 +187,12 @@ a:hover {
   margin-bottom: 1em;
   float: right;
 }
+
+.botao{
+  width: 3em;
+  display: inline-block;
+}
+
+.font-acessibility{
+  display: inline-block;
+}

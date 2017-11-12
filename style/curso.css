@@ -393,3 +393,7 @@ body {
   .CaixaAcessibilidadeYellow{
     background-color: #919193!important;
   }
+
+  .font-acessibility{
+    display: inline-block;
+  }

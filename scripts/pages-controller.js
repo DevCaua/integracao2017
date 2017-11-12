@@ -1,4 +1,4 @@
-angular.module('ocurso').controller('PagesController', function($scope, localStorage) {
+angular.module('ocurso').controller('PagesController', function($scope, $window, localStorage) {
 
   var acessibilidadeBlue = 'contrasteAzul';
   var acessibilidadeBlackYellow = 'contrastePretoAmarelo';
@@ -8,10 +8,16 @@ angular.module('ocurso').controller('PagesController', function($scope, localSto
 
   $scope.arrayConvertidoParaBoolean = [];
   $scope.arrayConvertidoParaString = [];
+  $scope.arrayAcessibilidadeFonte = [];
+  $scope.arrayAcessibilidadeTotal = [];
+  $scope.arrayRecebido = [];
+  $scope.tamanho = 13;
+  $scope.tamanhoFonte = $window.fonte;
 
   //função responsável por ler os dados do localStorage ao carregar o controller
   (function () {
     var recebeValoresAcessibilidade = localStorage.getData();
+    console.log(recebeValoresAcessibilidade);
     if(recebeValoresAcessibilidade != null){
       $scope.arrayConvertidoParaString = recebeValoresAcessibilidade.split(',');
     }
@@ -22,8 +28,10 @@ angular.module('ocurso').controller('PagesController', function($scope, localSto
     arrayDeString.forEach(function(atual){
       if(atual == "false"){
         $scope.arrayConvertidoParaBoolean.push(false);
-      }else{
+      }else if(atual == "true"){
         $scope.arrayConvertidoParaBoolean.push(true);
+      }else{
+        $scope.arrayConvertidoParaBoolean.push(atual);
       }
     })
   }
@@ -34,6 +42,11 @@ angular.module('ocurso').controller('PagesController', function($scope, localSto
   $scope.acessibilidadeByellow = $scope.arrayConvertidoParaBoolean[1];
   $scope.acessibilidadeYellow = $scope.arrayConvertidoParaBoolean[2];
   $scope.acessibilidadeNula = $scope.arrayConvertidoParaBoolean[3];
+  $scope.tamanhoFonte = $scope.arrayConvertidoParaBoolean[4];
+  $scope.tamanho = $scope.arrayConvertidoParaBoolean[4];
+
+  console.log($scope.arrayConvertidoParaBoolean);
+
 
   // determina as classes da acessibilidade selecionada
   $scope.buscaAcessibilidade = function(tipoAcessibilidade){
@@ -49,6 +62,26 @@ angular.module('ocurso').controller('PagesController', function($scope, localSto
       }
       $scope.atribuiValor();
       localStorage.setData(arrayAcessibilidade);
+  }
+
+  // atribui o tamanho da fonte de acordo com a acessibilidade escolhida
+  $scope.atribuiAcessibilidadeFonte = function(tipoFonte){
+    $scope.inicializaFonte();
+    $scope.tamanhoFonte = $window.fonte;
+    $scope.arrayAcessibilidadeFonte.push($scope.tamanhoFonte);
+    $scope.atribuiValorFonte();
+  }
+
+  $scope.atribuiValorFonte = function(){
+    arrayAcessibilidade[4] = $scope.tamanhoFonte;
+    console.log(arrayAcessibilidade);
+    localStorage.setData(arrayAcessibilidade);
+  }
+
+ //inicializa as fontes
+  $scope.inicializaFonte = function(){
+    $scope.arrayAcessibilidadeFonte = [];
+    localStorage.clearData();
   }
 
   // Inicializa todas variáveis
@@ -67,6 +100,8 @@ angular.module('ocurso').controller('PagesController', function($scope, localSto
       arrayAcessibilidade.push($scope.acessibilidadeByellow);
       arrayAcessibilidade.push($scope.acessibilidadeYellow);
       arrayAcessibilidade.push($scope.acessibilidadeNula);
+      $scope.arrayRecebido = arrayAcessibilidade;
+      console.log(arrayAcessibilidade);
   }
 
 });

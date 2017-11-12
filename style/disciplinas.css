@@ -418,3 +418,7 @@ body {
   .NavContrasteYellow{
     background-color: #020167!important;
   }
+
+  .font-acessibility{
+    display: inline-block;
+  }
