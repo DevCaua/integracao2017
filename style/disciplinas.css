@@ -419,6 +419,11 @@ body {
     background-color: #020167!important;
   }
 
+  .botao{
+    width: 3em;
+    display: inline-block;
+  }
+
   .font-acessibility{
     display: inline-block;
   }
