@@ -55,7 +55,7 @@ body {
 }
 
 .logo-large {
-  font-size: 30px;
+  font-size: 30px!important;
   line-height: 100%;
 }
 
@@ -406,6 +406,10 @@ body {
     justify-content: flex-start;
   }
 
-  #tamanho-fonte{
+  #tamanho-fonte,
+  #tamanho-navItem,
+  #tamanho-logoSmall,
+  #tamanho-logoLarge,
+  #tamanho-navLateral{
       display: none;
   }

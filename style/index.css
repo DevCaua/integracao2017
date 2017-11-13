@@ -108,7 +108,12 @@
   justify-content: flex-start;
 }
 
-#tamanho-fonte{
+#tamanho-fonte,
+#tamanho-navItem,
+#tamanho-logoSmall,
+#tamanho-logoLarge,
+#tamanho-nomeBotao,
+#tamanho-descricaoItem{
     display: none;
 }
 
@@ -123,7 +128,7 @@
 }
 
 .logo-large {
-  font-size: 30px;
+  font-size: 30px!important;
   line-height: 100%;
 }
 
@@ -197,4 +202,8 @@ a:hover {
   margin-right: 6em;
   margin-bottom: 1em;
   float: right;
+}
+
+body{
+  background-image: url('../content/img/teste.png');
 }
