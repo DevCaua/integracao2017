@@ -43,6 +43,7 @@ $("#toggle").click(function () {
     tamanhoFonteNavItem = parseInt($('#tamanho-navItem').text());
     tamanhoFonteNavLateral = parseInt($('#tamanho-navLateral').text());
     tamanhoDiv = parseInt($('#tamanho-fonte').text());
+    lineHeight = parseInt($('#tamanho-fonte').text()) * 5;
     tamanhoSubMenuDisciplinas = parseInt($('#tamanho-fonte').text()) - 2;
     atribuiValor(tamanhoFonteLogoLarge, tamanhoFonteLogoSmall, tamanhoFonteNavItem, tamanhoFonteNavLateral,tamanhoDiv, tamanhoSubMenuDisciplinas);
   }else{
@@ -55,6 +56,7 @@ $("#toggle").click(function () {
     tamanhoFonteNomeBotao = 32;
     tamanhoFonteDescricaoItem = 16;
     tamanhoDiv = 16;
+    lineHeight = 80;
   }
 
   // busca valor da fonte dos elementos especificos
