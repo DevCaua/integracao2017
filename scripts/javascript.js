@@ -28,6 +28,7 @@ $("#toggle").click(function () {
   var tamanhoFonteNavLateral;
   var tamanhoFonteNomeBotao;
   var tamanhoFonteDescricaoItem;
+  var tamanhoDiv;
 
   if($('#tamanho-fonte').text() != undefined && $('#tamanho-fonte').text() != 'NaN' && $('#tamanho-fonte').text() != ""
     && $('#tamanho-navItem').text() != undefined && $('#tamanho-navItem').text() != 'NaN' && $('#tamanho-navItem').text() != ""
@@ -39,7 +40,8 @@ $("#toggle").click(function () {
     tamanhoFonteLogoSmall = parseInt($('#tamanho-logoSmall').text());
     tamanhoFonteNavItem = parseInt($('#tamanho-navItem').text());
     tamanhoFonteNavLateral = parseInt($('#tamanho-navLateral').text());
-    atribuiValor(tamanhoFonteLogoLarge, tamanhoFonteLogoSmall, tamanhoFonteNavItem, tamanhoFonteNavLateral);
+    tamanhoDiv = parseInt($('#tamanho-fonte').text());
+    atribuiValor(tamanhoFonteLogoLarge, tamanhoFonteLogoSmall, tamanhoFonteNavItem, tamanhoFonteNavLateral,tamanhoDiv );
   }else{
     tamanhoFonte = 16;
     tamanhoFonteLogoLarge = 30;
@@ -48,6 +50,7 @@ $("#toggle").click(function () {
     tamanhoFonteNavLateral = 16;
     tamanhoFonteNomeBotao = 32;
     tamanhoFonteDescricaoItem = 16;
+    tamanhoDiv = 16;
   }
 
   // busca valor da fonte dos elementos especificos
@@ -73,7 +76,7 @@ $("#toggle").click(function () {
       fonteNomeBotao = fonteNomeBotao+3;
       fonteDescricaoItem = fonteDescricaoItem+3;
 
-      atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNavLateral);
+      atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNavLateral, fonte);
     });
 
     $('#reduz_fonte').click(function(){
@@ -88,10 +91,11 @@ $("#toggle").click(function () {
       atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNavLateral);
     });
 
-     function atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNavLateral){
+     function atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNavLateral, fonte){
       $('.logo-large').css({'font-size' : fonteLogoLarge+'px'});
       $('.logo-small').css({'font-size' : fonteLogoSmall+'px'});
       $('.nav-item').css({'font-size' : fonteNavItem+'px'});
       $('.sidebar-title').css({'font-size' : fonteNavLateral+'px'});
+      $('div').css({'font-size' : fonte+'px'});
     }
 });
