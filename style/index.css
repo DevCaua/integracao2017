@@ -145,7 +145,7 @@
   border-radius: 5px;
   display: flex;
   flex-direction: column;
-  height: 12rem;
+  min-height: 12rem;
   word-break: keep-all;
   text-align: center;
   font-size: 1rem;
