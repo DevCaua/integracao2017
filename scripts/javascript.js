@@ -108,7 +108,7 @@ $("#toggle").click(function () {
       $('.logo-small').css({'font-size' : fonteLogoSmall+'px'});
       $('.nav-item').css({'font-size' : fonteNavItem+'px'});
       $('.sidebar-title').css({'font-size' : fonteNavLateral+'px'});
-      $('div').css({'font-size' : fonte+'px'});
+      $('.ng-scope').css({'font-size' : fonte+'px'});
       $('.disc ').css({'font-size' : tamanhoSubMenuDisciplinas+'px'});
       $('.sidebar-nav li').css({'line-height' : lineHeight+'px'});
     }

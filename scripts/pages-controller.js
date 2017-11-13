@@ -69,6 +69,15 @@ angular.module('ocurso').controller('PagesController', function($scope, $window,
   $scope.tamanhoFonteNomeBotao = $scope.arrayConvertidoParaBoolean[9];
   $scope.tamanhoFonteDescricaoItem = $scope.arrayConvertidoParaBoolean[10];
 
+  console.log("fonte " + $scope.tamanhoFonte);
+  console.log("navitem " + $scope.tamanhoFonteNavItem);
+  console.log("logosmall " + $scope.tamanhoFonteLogoSmall);
+  console.log("logolarge " + $scope.tamanhoFonteLogoLarge);
+  console.log("navlateral " + $scope.tamanhoFonteNavLateral);
+  console.log("nomebotao " + $scope.tamanhoFonteNomeBotao);
+  console.log("fontedescricao " + $scope.tamanhoFonteDescricaoItem);
+
+
   // define os tamanhos para view
   $scope.tamanho = $scope.tamanhoFonte;
   $scope.tamanhoNavItem = $scope.tamanhoFonteNavItem;
