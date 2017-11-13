@@ -1,0 +1,200 @@
+/* Estilos da Barra de Acessibilidade
+------------------------------------ */
+.dropdownAcess{
+  margin-top: 1em;
+  display: flex;
+  align-items: baseline;
+}
+
+.sidebar-icon {
+  width: 45px;
+  height: 45px;
+  font-size: 25px;
+  padding: 0 2px;
+  display: inline-block;
+  text-indent: 7px;
+  margin-right: 1px;
+  float: left;
+}
+
+.botao-blue{
+  background-color: #9FCFFF;
+  color: #000066;
+}
+
+.botao-black-yellow{
+  background-color: #000;
+  color: #FFFF00;
+}
+
+.botao-yellow{
+  background-color: #DFD179;
+  color: #020167;
+}
+
+/* Estilos da Acessibilidade Azul
+------------------------------------ */
+.AcessibilidadeBlue{
+  background-color: #cfe5fc;
+}
+
+.ContrasteBlue,
+.NavContrasteBlue{
+  background-color: #9FCFFF!important;
+}
+
+.BarraAcessContrasteBlue{
+  background-color: #000066!important;
+}
+
+.TitleAcessibilidadeBlue,
+.IconContrasteBlue{
+  color: #000066!important;
+}
+
+/* Estilos da Acessibilidade Preto e Amarelo
+------------------------------------------- */
+.AcessibilidadeBlackYellow,
+.CaixaAcessibilidadeBlackYellow,
+.TextoAcessibilidadeBlackYellow{
+  background-color: #2F2F2E!important;
+  color: #FFFF00!important;
+}
+
+.ContrasteBlackYellow,
+.BarraAcessContrasteBlackYellow{
+  background-color: #000!important;
+}
+
+.NavContrasteBlackYellow{
+  background-color: #FFFF00!important;
+}
+
+.TitleAcessibilidadeBlackYellow,
+.IconContrasteBlackYellow{
+  color: #000!important;
+}
+
+/* Estilos da Acessibilidade Amarelo
+------------------------------------------- */
+.AcessibilidadeYellow{
+  background-color: #F7F3AE;
+}
+
+.ContrasteYellow{
+  background-color: #DFD179;
+}
+
+.BarraAcessContrasteYellow{
+  background-color: #020167!important;
+}
+
+.IconContrasteYellow{
+  color: #F7F3AE!important;
+}
+
+.NavContrasteYellow{
+  background-color: #020167!important;
+}
+
+.CaixaAcessibilidadeYellow{
+  background-color: #919193!important;
+}
+
+/* acessbilidade fonte
+------------------------------------------- */
+.font-acessibility{
+  display: flex;
+  justify-content: flex-start;
+}
+
+#tamanho-fonte{
+    display: none;
+}
+
+/* outros
+------------------------------------------- */
+.Logo{
+  flex: 1;
+}
+
+.logo-small {
+  font-size:12px;
+}
+
+.logo-large {
+  font-size: 30px!important;
+  line-height: 100%;
+}
+
+.container-fluid{
+  width: 90%;
+
+}
+.col-sm-12, .col-md-6, .col-lg-3 {
+  padding: 1rem;
+}
+
+
+.caixa {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  height: 12rem;
+  word-break: keep-all;
+  text-align: center;
+  font-size: 1rem;
+  color: white;
+}
+
+.nome-botao {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  line-height: 2rem;
+}
+
+.logo-image{
+    margin-left: 0.5em;
+}
+
+.navbar {
+  background-color: #005ca1;
+}
+
+.busca {
+  display: flex;
+  align-items: baseline;
+  flex-flow: row;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+@media (min-width: 992px) {
+
+  .navbar-collapse{
+    flex-basis: 0%;
+  }
+
+  .busca {
+    flex-flow: row;
+  }
+
+  .row {
+    margin-top: 15%;
+  }
+
+}
+
+.botao-download{
+  margin-top: 8%;
+  margin-right: 6em;
+  margin-bottom: 1em;
+  float: right;
+}

@@ -1,0 +1,436 @@
+
+/* outros
+------------------------------------------- */
+body {
+  padding-top: 4.5rem;
+}
+
+/* CONTEUDO */
+
+.ng-scope {
+    z-index: 1000;
+    left: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    overflow-y: auto;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+/* NAVBAR */
+
+.logo-image{
+    margin-left: 0.5em;
+}
+
+.navbar-cor {
+    background-color: #ed9e17;
+}
+
+.logo-small {
+  font-size:12px;
+}
+
+.logo-large {
+  font-size: 30px;
+  line-height: 100%;
+}
+
+.navbar-brand {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.nav-item {
+  font-size: 18px;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover{
+  background-color: #f3c16b;
+  border-radius: 8px;
+}
+.modulo-escolhido {
+  background-color: #f0af41;
+  border-radius: 8px;
+}
+
+/* SIDEBAR */
+
+.btn-warning {
+    display: none;
+    width: 40px;
+}
+
+.btn-warning:focus {
+    box-shadow: 0 0 0 0;
+}
+
+.container-fluid {
+    padding-left: 45px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+@media (min-width: 992px) {
+    .container-fluid {
+        padding-left: 225px;
+    }
+}
+
+
+#sidebar-wrapper {
+    border-right: 1px solid #e7e7e7;
+}
+
+@media (min-width: 992px) {
+    .container-fluid #sidebar-wrapper {
+        width: 225px;
+        overflow-x: hidden;
+    }
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 225px;
+    width: 0;
+    height: calc(100% - 72px);
+    margin-left: -225px;
+    overflow-y: auto;
+    background: #f5ca80;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+#sidebar-wrapper .sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 224px;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#sidebar-wrapper .sidebar-nav li {
+    text-indent: 0;
+    line-height: 45px;
+}
+
+@media (min-width: 992px) {
+    #sidebar-wrapper .sidebar-nav li {
+        text-indent: -10px;
+        line-height: 50px;
+    }
+}
+
+#sidebar-wrapper .sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+}
+
+#sidebar-wrapper .sidebar-nav li button {
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    text-align: left;
+    border-radius: 0;
+    border-color: transparent;
+}
+
+#sidebar-wrapper .sidebar-nav li button .sidebar-title{
+    vertical-align: -2px;
+}
+
+#sidebar-wrapper .sidebar-nav li ul.panel-collapse {
+    list-style: none;
+    -moz-padding-start: 0;
+    -webkit-padding-start: 0;
+    -khtml-padding-start: 0;
+    -o-padding-start: 0;
+    padding-start: 0;
+    padding: 0;
+}
+
+#sidebar-wrapper .sidebar-nav li ul.panel-collapse li i {
+    margin-right: 15px;
+}
+
+
+#sidebar-wrapper .sidebar-nav li ul.panel-collapse li {
+    text-indent: 1px;
+    white-space: pre-wrap;
+    word-break: keep-all;
+}
+
+#sidebar-wrapper .sidebar-nav li button .sidebar-icon {
+    width: 30px;
+    font-size: 18px;
+    display: inline-block;
+    text-indent: -5px;
+    padding-right: 4px;
+    float: left;
+}
+
+#sidebar-wrapper .sidebar-nav li button .caret {
+  position: absolute;
+  right: 23px;
+  top: auto;
+  margin-top: 20px;
+}
+
+@media (max-width: 992px) {
+
+    .container-fluid #sidebar-wrapper {
+        width: 45px;
+    }
+
+    .btn-warning {
+        display: inline;
+    }
+
+    .container-fluid #sidebar-wrapper #sidebar #sidemenu li ul {
+        position: fixed;
+        left: 45px;
+        margin-top: -45px;
+        z-index: 1000;
+        width: 225px;
+        height: 0;
+    }
+}
+
+.sidebar-nav li:first-child button {
+    background: #f5ca80;
+    color: #fff;
+}
+
+.sidebar-nav li:nth-child(2) button {
+    background: #f3c16b;
+    color: #fff;
+}
+
+.sidebar-nav li:nth-child(3) button {
+    background: #f1b856;
+    color: #fff;
+}
+
+.sidebar-nav li:nth-child(4) button {
+    background: #f0af41;
+    color: #fff;
+}
+
+.sidebar-nav li:nth-child(5) button {
+    background: #eea62c;
+    color: #fff;
+}
+
+.sidebar-nav li:nth-child(6) button {
+    background: #ed9e17;
+    color: #fff;
+}
+
+.sidebar-nav li:nth-child(7) button {
+    background: #d89015;
+    color: #fff;
+}
+
+.sidebar-nav li:nth-child(8) button {
+    background: #c28213;
+    color: #fff;
+}
+
+.sidebar-nav li:nth-child(9) button {
+    background: #ad7311;
+    color: #fff;
+}
+
+.sidebar-nav li ul.panel-collapse li a {
+    background: #fae4bf;
+    color: #ad7311;
+    border-bottom-style: solid;
+    border-color: #EDCC94;
+    border-width: 1px;
+    height: 50px;
+    line-height: 50px;
+    width:225px;
+}
+
+.sidebar-nav li button:hover, .selected {
+    background: #fff !important;
+    color: #ed9e17 !important;
+}
+
+.sidebar-nav li button:hover .sidebar-icon {
+    color: #ed9e17 !important;
+}
+
+/* Estilos da Barra de Acessibilidade
+------------------------------------ */
+.dropdownAcess{
+    display: flex;
+    align-items: baseline;
+    color: #fff !important;
+  }
+
+  .drop-botao-desktop {
+    float: right;
+    display: none;
+  }
+
+  .drop-botao-mobile{
+      display: inline;
+  }
+
+  @media (min-width: 992px) {
+    .drop-botao-desktop{
+        display: inline;
+    }
+    .drop-botao-mobile{
+        display: none;
+    }
+  }
+
+  .access-icon {
+    width: 45px;
+    font-size: 25px;
+    padding: 0 2px;
+    text-indent: 7px;
+    margin-right: 1px;
+  }
+
+  .botao-blue{
+    background-color: #9FCFFF;
+    color: #000066;
+  }
+
+  .botao-black-yellow{
+    background-color: #000;
+    color: #FFFF00;
+  }
+
+  .botao-yellow{
+    background-color: #DFD179;
+    color: #020167;
+  }
+
+  /* Estilos da Acessibilidade Azul
+  ------------------------------------ */
+  .AcessibilidadeBlue{
+    background-color: #cfe5fc!important;
+  }
+
+  .ContrasteBlue{
+    background-color: #9FCFFF!important;
+    border: 2px solid #fff;
+    color: #000066!important;
+  }
+
+  .BarraAcessContrasteBlue,
+  .NavContrasteBlue{
+    background-color: #000066!important;
+  }
+
+  .ConteudoAcessibilidadeBlue{
+    color: #000066!important;
+  }
+
+  .TitleAcessibilidadeBlue,
+  .IconContrasteBlue{
+    color: #fff!important;
+  }
+
+  .EscolhidoAcessibilidadeBlue{
+    background-color: #cfe5fc!important;
+    color: #000066!important;
+  }
+
+  /* Estilos da Acessibilidade Preto e Amarelo
+  ------------------------------------------- */
+  .AcessibilidadeBlackYellow,
+  .CaixaAcessibilidadeBlackYellow,
+  .TextoAcessibilidadeBlackYellow{
+    background-color: #2F2F2E!important;
+    color: #FFFF00!important;
+  }
+
+  .ContrasteBlackYellow,
+  .BarraAcessContrasteBlackYellow{
+    background-color: #000!important;
+    border: 2px solid #FFFF00!important;
+    color: #FFFF00!important;
+  }
+
+  .NavContrasteBlackYellow{
+    background-color: #FFFF00!important;
+  }
+
+  .TitleAcessibilidadeBlackYellow,
+  .IconContrasteBlackYellow{
+    color: #000!important;
+  }
+
+  .EscolhidoAcessibilidadeBlackYellow{
+    color: #FFFF00!important;
+    background-color: #000!important;
+  }
+
+  .CollapseButtonBlackYellow {
+      background-color: black;
+      border-color: black;
+  }
+
+  /* Estilos da Acessibilidade Amarelo
+  ------------------------------------------- */
+  .AcessibilidadeYellow{
+    background-color: #F7F3AE;
+  }
+
+  .ContrasteYellow{
+    background-color: #919193!important;
+    border: 2px solid #020167!important;
+    color: #020167!important;
+  }
+
+  .BarraAcessContrasteYellow{
+    background-color: #020167!important;
+  }
+
+  .IconContrasteYellow,
+  .TitleAcessibilidadeYellow{
+    color: #F7F3AE!important;
+  }
+
+  .EscolhidoAcessibilidadeYellow{
+    background-color: #F7F3AE!important;
+    color: #020167!important;
+  }
+
+  .NavContrasteYellow{
+    background-color: #020167!important;
+  }
+
+  .font-acessibility{
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  /* acessbilidade fonte
+  ------------------------------------------- */
+  .font-acessibility{
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  #tamanho-fonte{
+      display: none;
+  }
