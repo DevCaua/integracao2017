@@ -29,7 +29,11 @@
 
   </head>
   <body ng-controller="PagesController" ng-class="{'AcessibilidadeBlue': acessibilidadeBlue, 'AcessibilidadeBlackYellow': acessibilidadeByellow, 'AcessibilidadeYellow': acessibilidadeYellow}">
-    <span id="tamanho-fonte" tamanho>{{tamanho}}</span>
+    <span id="tamanho-fonte">{{tamanho}}</span>
+    <span id="tamanho-navItem">{{tamanhoNavItem}}</span>
+    <span id="tamanho-logoSmall">{{tamanhoLogoSmall}}</span>
+    <span id="tamanho-logoLarge">{{tamanhoLogoLarge}}</span>
+    <span id="tamanho-navLateral">{{tamanhoNavLateral}}</span>
     <nav class="navbar-cor navbar navbar-toggleable-md fixed-top navbar-inverse" ng-class="{'NavContrasteBlue': acessibilidadeBlue, 'NavContrasteBlackYellow': acessibilidadeByellow, 'NavContrasteYellow': acessibilidadeYellow, 'NavSemContraste': acessibilidadeNula}">
         <button class="navbar-toggler navbar-toggler-right" ng-class="{'CollapseButtonBlackYellow': acessibilidadeByellow}" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -160,27 +164,63 @@
     	    });
 
           var tamanhoFonte;
-          if($('#tamanho-fonte').text() != undefined && $('#tamanho-fonte').text() != 'NaN'){
+          var tamanhoFonteLogoLarge;
+          var tamanhoFonteLogoSmall;
+          var tamanhoFonteNavItem;
+          var tamanhoFonteNavLateral;
+
+          if($('#tamanho-fonte').text() != undefined && $('#tamanho-fonte').text() != 'NaN'
+            && $('#tamanho-navItem').text() != undefined && $('#tamanho-fonte').text() != 'NaN'
+            && $('#tamanho-logoSmall').text() != undefined && $('#tamanho-fonte').text() != 'NaN'
+            && $('#tamanho-logoLarge').text() != undefined && $('#tamanho-fonte').text() != 'NaN'
+            && $('#tamanho-navLateral').text() != undefined && $('#tamanho-fonte').text() != 'NaN'){
             tamanhoFonte = parseInt($('#tamanho-fonte').text());
+            tamanhoFonteLogoLarge = parseInt($('#tamanho-logoLarge').text());
+            tamanhoFonteLogoSmall = parseInt($('#tamanho-logoSmall').text());
+            tamanhoFonteNavItem = parseInt($('#tamanho-navItem').text());
+            tamanhoFonteNavLateral = parseInt($('#tamanho-navLateral').text());
+            atribuiValor(tamanhoFonteLogoLarge, tamanhoFonteLogoSmall, tamanhoFonteNavItem, tamanhoFonteNavLateral);
           }else{
             tamanhoFonte = 16;
           }
+
+          // busca valor da fonte dos elementos especificos
+          window.fonteLogoLarge = parseInt($(".logo-large").css('font-size'), 10);
+          window.fonteLogoSmall = parseInt($(".logo-small").css('font-size'), 10);
+          window.fonteNavItem = parseInt($(".nav-item").css('font-size'), 10);
+          window.fonteNavLateral = parseInt($(".sidebar-title").css('font-size'), 10);
+
           window.fonte = tamanhoFonte;
-            $('body').css({'font-size' : window.fonte+'px'});
-            $('div').css({'font-size' : window.fonte+'px'});
-            $('a').css({'font-size' : window.fonte+'px'});
+          window.fonteLogoLarge = tamanhoFonteLogoLarge;
+          window.fonteLogoSmall = tamanhoFonteLogoSmall;
+          window.fonteNavItem = tamanhoFonteNavItem;
+          window.fonteNavLateral = tamanhoFonteNavLateral;
             $('#aumenta_fonte').click(function(){
               fonte = fonte+3;
-              $('body').css({'font-size' : fonte+'px'});
-              $('div').css({'font-size' : fonte+'px'});
-              $('a').css({'font-size' : fonte+'px'});
+              fonteLogoLarge = fonteLogoLarge+3;
+              fonteLogoSmall = fonteLogoSmall+3;
+              fonteNavItem = fonteNavItem+3;
+              fonteNavLateral = fonteNavLateral+3;
+
+              atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNavLateral);
             });
+
             $('#reduz_fonte').click(function(){
               fonte = fonte-3;
-              $('body').css({'font-size' : fonte+'px'});
-              $('div').css({'font-size' : fonte+'px'});
-              $('a').css({'font-size' : fonte+'px'});
+              fonteLogoLarge = fonteLogoLarge-3;
+              fonteLogoSmall = fonteLogoSmall-3;
+              fonteNavItem = fonteNavItem-3;
+              fonteNavLateral = fonteNavLateral-3;
+
+              atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNavLateral);
             });
+
+             function atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNavLateral){
+              $('.logo-large').css({'font-size' : fonteLogoLarge+'px'});
+              $('.logo-small').css({'font-size' : fonteLogoSmall+'px'});
+              $('.nav-item').css({'font-size' : fonteNavItem+'px'});
+              $('.sidebar-title').css({'font-size' : fonteNavLateral+'px'});
+            }
     	});
     </script>
 

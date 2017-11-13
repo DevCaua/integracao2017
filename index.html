@@ -28,7 +28,12 @@
   </head>
 
   <body ng-controller="PagesController" ng-class="{'AcessibilidadeBlue': acessibilidadeBlue, 'AcessibilidadeBlackYellow': acessibilidadeByellow, 'AcessibilidadeYellow': acessibilidadeYellow}">
-    <span id="tamanho-fonte" tamanho>{{tamanho}}</span>
+    <span id="tamanho-fonte">{{tamanho}}</span>
+    <span id="tamanho-navItem">{{tamanhoNavItem}}</span>
+    <span id="tamanho-logoSmall">{{tamanhoLogoSmall}}</span>
+    <span id="tamanho-logoLarge">{{tamanhoLogoLarge}}</span>
+    <span id="tamanho-nomeBotao">{{tamanhoNomeBotao}}</span>
+    <span id="tamanho-descricaoItem">{{tamanhoDescricaoItem}}</span>
     <nav class="navbar navbar-expand-lg navbar-dark" ng-class="{'NavContrasteBlue': acessibilidadeBlue, 'NavContrasteBlackYellow': acessibilidadeByellow, 'NavContrasteYellow': acessibilidadeYellow, 'NavSemContraste': acessibilidadeNula}">
       <a class="navbar-brand Logo" ng-class="{'TitleAcessibilidadeBlue': acessibilidadeBlue, 'TitleAcessibilidadeBlackYellow': acessibilidadeByellow, 'TitleAcessibilidadeYellow': acessibilidadeYellow}" href="index.html"><div class="logo-large">BES<img class="logo-image" src="content/img/logo2.png"></div><div class="logo-small">Bacharelado em Engenharia de Software</div></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -69,7 +74,7 @@
                     <a href="curso.html">
                       <div ng-class="{'TextoAcessibilidadeBlackYellow': acessibilidadeByellow, 'TextoAcessibilidadeYellow': acessibilidadeYellow}">
                         <p class="nome-botao">O Curso</p>
-                        Apresentação, Objetivos do curso, Expectativas...
+                        <i class="descricao-item">Apresentação, Objetivos do curso, Expectativas...</i>
                       </div>
                     </a>
                 </div>
@@ -79,7 +84,7 @@
                     <a href="es_curricular.html">
                       <div ng-class="{'TextoAcessibilidadeBlackYellow': acessibilidadeByellow, 'TextoAcessibilidadeYellow': acessibilidadeYellow}">
                         <p class="nome-botao">Estrutura Curricular</p>
-                        <i>Matriz curricular, Fluxo sugerido, Carga horária...</i>
+                        <i class="descricao-item">Matriz curricular, Fluxo sugerido, Carga horária...</i>
                       </div>
                     </a>
                 </div>
@@ -89,7 +94,7 @@
                     <a href="disciplinas.html">
                       <div ng-class="{'TextoAcessibilidadeBlackYellow': acessibilidadeByellow, 'TextoAcessibilidadeYellow': acessibilidadeYellow}">
                         <p class="nome-botao">Disciplinas</p>
-                        Lista de disciplinas, Dependências, Equivalências...
+                        <i class="descricao-item">Lista de disciplinas, Dependências, Equivalências...</i>
                       </div>
                     </a>
                 </div>
@@ -99,7 +104,7 @@
                     <a href="infos.html">
                       <div ng-class="{'TextoAcessibilidadeBlackYellow': acessibilidadeByellow, 'TextoAcessibilidadeYellow': acessibilidadeYellow}">
                         <p class="nome-botao">Outras Informações</p>
-                        Estágio, Atividades complementares, Sobre o INF...
+                        <i class="descricao-item">Estágio, Atividades complementares, Sobre o INF...</i>
                       </div>
                     </a>
                 </div>
@@ -118,25 +123,83 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
     <script>
     $(document).ready(function(){
-      var tamanhoFonte;
-      if($('#tamanho-fonte').text() != undefined && $('#tamanho-fonte').text() != 'NaN'){
-        tamanhoFonte = parseInt($('#tamanho-fonte').text());
-      }else{
-        tamanhoFonte = 16;
-      }
+
+        var tamanhoFonte;
+        var tamanhoFonteLogoLarge;
+        var tamanhoFonteLogoSmall;
+        var tamanhoFonteNavItem;
+        var tamanhoFonteNomeBotao;
+        var tamanhoFonteDescricaoItem;
+        var tamanhoFonteNavLateral;
+
+        if($('#tamanho-fonte').text() != undefined && $('#tamanho-fonte').text() != 'NaN'
+          && $('#tamanho-navItem').text() != undefined && $('#tamanho-fonte').text() != 'NaN'
+          && $('#tamanho-logoSmall').text() != undefined && $('#tamanho-fonte').text() != 'NaN'
+          && $('#tamanho-logoLarge').text() != undefined && $('#tamanho-fonte').text() != 'NaN'
+          && $('#tamanho-nomeBotao').text() != undefined && $('#tamanho-fonte').text() != 'NaN'
+          && $('#tamanho-descricaoItem').text() != undefined && $('#tamanho-fonte').text() != 'NaN'){
+            tamanhoFonte = parseInt($('#tamanho-fonte').text());
+            tamanhoFonteLogoLarge = parseInt($('#tamanho-logoLarge').text());
+            tamanhoFonteLogoSmall = parseInt($('#tamanho-logoSmall').text());
+            tamanhoFonteNavItem = parseInt($('#tamanho-navItem').text());
+            tamanhoFonteNomeBotao = parseInt($('#tamanho-nomeBotao').text());
+            tamanhoFonteDescricaoItem = parseInt($('#tamanho-descricaoItem').text());
+            atribuiValor(tamanhoFonteLogoLarge, tamanhoFonteLogoSmall, tamanhoFonteNavItem, tamanhoFonteNomeBotao, tamanhoFonteDescricaoItem);
+        }else{
+          tamanhoFonte = 16;
+          tamanhoFonteLogoLarge = 30;
+          tamanhoFonteLogoSmall = 12;
+          tamanhoFonteNavItem = 16;
+          tamanhoFonteNavLateral = 16;
+          tamanhoFonteNomeBotao = 32;
+          tamanhoFonteDescricaoItem = 16;
+        }
+
+        // busca valor da fonte dos elementos especificos
+        window.fonteLogoLarge = parseInt($(".logo-large").css('font-size'), 10);
+        window.fonteLogoSmall = parseInt($(".logo-small").css('font-size'), 10);
+        window.fonteNavItem = parseInt($(".nav-item").css('font-size'), 10);
+        window.fonteNomeBotao = parseInt($(".nome-botao").css('font-size'), 10);
+        window.fonteDescricaoItem = parseInt($(".descricao-item").css('font-size'), 10);
+
         window.fonte = tamanhoFonte;
+        window.fonteLogoLarge = tamanhoFonteLogoLarge;
+        window.fonteLogoSmall = tamanhoFonteLogoSmall;
+        window.fonteNavItem = tamanhoFonteNavItem;
+        window.fonteNomeBotao = tamanhoFonteNomeBotao;
+        window.fonteDescricaoItem = tamanhoFonteDescricaoItem;
+        window.fonteNavLateral = tamanhoFonteNavLateral;
           $('#aumenta_fonte').click(function(){
             fonte = fonte+3;
-            $('body').css({'font-size' : fonte+'px'});
-            $('div').css({'font-size' : fonte+'px'});
-            $('a').css({'font-size' : fonte+'px'});
+            fonteLogoLarge = tamanhoFonteLogoLarge+3;
+            fonteLogoSmall = tamanhoFonteLogoSmall+3;
+            fonteNavItem = tamanhoFonteNavItem+3;
+            fonteNomeBotao = tamanhoFonteNomeBotao+3;
+            fonteDescricaoItem = tamanhoFonteDescricaoItem+3;
+            fonteNavLateral = tamanhoFonteNavLateral+3;
+
+            atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNomeBotao, fonteDescricaoItem);
           });
+
           $('#reduz_fonte').click(function(){
             fonte = fonte-3;
-            $('body').css({'font-size' : fonte+'px'});
-            $('div').css({'font-size' : fonte+'px'});
-            $('a').css({'font-size' : fonte+'px'});
+            fonteLogoLarge = tamanhoFonteLogoLarge-3;
+            fonteLogoSmall = tamanhoFonteLogoSmall-3;
+            fonteNavItem = tamanhoFonteNavItem-3;
+            fonteNomeBotao = tamanhoFonteNomeBotao-3;
+            fonteDescricaoItem = tamanhoFonteDescricaoItem-3;
+            fonteNavLateral = tamanhoFonteNavLateral-3;
+
+            atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNomeBotao, fonteDescricaoItem);
           });
+
+           function atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNomeBotao, fonteDescricaoItem){
+            $('.logo-large').css({'font-size' : fonteLogoLarge+'px'});
+            $('.logo-small').css({'font-size' : fonteLogoSmall+'px'});
+            $('.nav-item').css({'font-size' : fonteNavItem+'px'});
+            $('.nome-botao').css({'font-size' : fonteNomeBotao+'px'});
+            $('.descricao-item').css({'font-size' : fonteDescricaoItem+'px'});
+          }
         });
     </script>
   </body>
