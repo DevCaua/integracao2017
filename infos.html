@@ -158,7 +158,13 @@
         }
       });
 
-      window.fonte = parseInt($('#tamanho-fonte').text());
+      var tamanhoFonte;
+      if($('#tamanho-fonte').text() != undefined && $('#tamanho-fonte').text() != 'NaN'){
+        tamanhoFonte = parseInt($('#tamanho-fonte').text());
+      }else{
+        tamanhoFonte = 16;
+      }
+      window.fonte = tamanhoFonte;
         $('body').css({'font-size' : window.fonte+'px'});
         $('div').css({'font-size' : window.fonte+'px'});
         $('a').css({'font-size' : window.fonte+'px'});

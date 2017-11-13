@@ -118,7 +118,13 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
     <script>
     $(document).ready(function(){
-        window.fonte = parseInt($('#tamanho-fonte').text());
+      var tamanhoFonte;
+      if($('#tamanho-fonte').text() != undefined && $('#tamanho-fonte').text() != 'NaN'){
+        tamanhoFonte = parseInt($('#tamanho-fonte').text());
+      }else{
+        tamanhoFonte = 16;
+      }
+        window.fonte = tamanhoFonte;
           $('#aumenta_fonte').click(function(){
             fonte = fonte+3;
             $('body').css({'font-size' : fonte+'px'});
