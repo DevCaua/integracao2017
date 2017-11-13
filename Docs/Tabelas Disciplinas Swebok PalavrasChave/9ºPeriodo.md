@@ -201,7 +201,8 @@
                  	Núcleo Comum</br>	
                     Teórica</br>	
                     8º Período</br>	
-                    Sem Pré-Requisito</br>	
+                    Sem Pré-Requisito</br>
+                    Optativa</br>
                     Modelos de negócio</br>	
                     Open source</br> 	
                     On premisses</br>	
