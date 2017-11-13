@@ -39,6 +39,15 @@ function getQueryVariable(variable) {
     }
 }
 
+function stripPrep(term) {
+    var preps = [" de ", " da ", " à ", " e ", " a ", " no ", " na ", " do "];
+    for (var i = 0; i < preps.length; i++){
+        var re = new RegExp(preps[i], "g");
+        term = term.replace(re, ' ');
+    }
+    return term;
+}
+
 var searchTerm = getQueryVariable('query');
 
 if (searchTerm) {
@@ -56,7 +65,7 @@ if (searchTerm) {
       }, this)
     })
 
-
+    searchTerm = stripPrep(searchTerm);
     var results = idx.search(searchTerm); // Get lunr to perform a search
     displaySearchResults(results, window.documents);
 }
