@@ -124,13 +124,13 @@ body {
 
 #sidebar-wrapper .sidebar-nav li {
     text-indent: 0;
-    line-height: 45px;
+    line-height: 80px;
 }
 
 @media (min-width: 992px) {
     #sidebar-wrapper .sidebar-nav li {
         text-indent: -10px;
-        line-height: 50px;
+        line-height: 80px;
     }
 }
 

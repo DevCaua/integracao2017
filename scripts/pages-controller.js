@@ -78,13 +78,6 @@ angular.module('ocurso').controller('PagesController', function($scope, $window,
   $scope.tamanhoNomeBotao = $scope.tamanhoFonteNomeBotao;
   $scope.tamanhoDescricaoItem = $scope.tamanhoFonteDescricaoItem;
 
-  console.log($scope.tamanhoNavItem);
-  console.log($scope.tamanhoLogoSmall);
-  console.log($scope.tamanhoLogoLarge);
-  console.log($scope.tamanhoNavLateral);
-  console.log($scope.tamanhoNomeBotao);
-  console.log($scope.tamanhoDescricaoItem);
-
   // determina as classes da acessibilidade selecionada
   $scope.buscaAcessibilidade = function(tipoAcessibilidade){
       $scope.inicializa();
@@ -112,12 +105,6 @@ angular.module('ocurso').controller('PagesController', function($scope, $window,
       $scope.tamanhoFonteNavLateral = $window.fonteNavLateral+3;
       $scope.tamanhoFonteNomeBotao = $window.fonteNomeBotao+3;
       $scope.tamanhoFonteDescricaoItem = $window.fonteDescricaoItem+3;
-      console.log($window.fonteNavItem);
-      console.log($window.fonteLogoSmall);
-      console.log($window.fonteLogoLarge);
-      console.log($window.fonteNavLateral);
-      console.log($window.fonteNomeBotao);
-      console.log($window.fonteDescricaoItem);
     }else{
       $scope.tamanhoFonte = $window.fonte-3;
       $scope.tamanhoFonteNavItem = $window.fonteNavItem-3;

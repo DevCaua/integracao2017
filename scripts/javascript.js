@@ -21,6 +21,7 @@ $("#toggle").click(function () {
     }
   });
 
+  var lineHeight;
   var tamanhoFonte;
   var tamanhoFonteLogoLarge;
   var tamanhoFonteLogoSmall;
@@ -29,6 +30,7 @@ $("#toggle").click(function () {
   var tamanhoFonteNomeBotao;
   var tamanhoFonteDescricaoItem;
   var tamanhoDiv;
+  var tamanhoSubMenuDisciplinas;
 
   if($('#tamanho-fonte').text() != undefined && $('#tamanho-fonte').text() != 'NaN' && $('#tamanho-fonte').text() != ""
     && $('#tamanho-navItem').text() != undefined && $('#tamanho-navItem').text() != 'NaN' && $('#tamanho-navItem').text() != ""
@@ -41,8 +43,10 @@ $("#toggle").click(function () {
     tamanhoFonteNavItem = parseInt($('#tamanho-navItem').text());
     tamanhoFonteNavLateral = parseInt($('#tamanho-navLateral').text());
     tamanhoDiv = parseInt($('#tamanho-fonte').text());
-    atribuiValor(tamanhoFonteLogoLarge, tamanhoFonteLogoSmall, tamanhoFonteNavItem, tamanhoFonteNavLateral,tamanhoDiv );
+    tamanhoSubMenuDisciplinas = parseInt($('#tamanho-fonte').text()) - 2;
+    atribuiValor(tamanhoFonteLogoLarge, tamanhoFonteLogoSmall, tamanhoFonteNavItem, tamanhoFonteNavLateral,tamanhoDiv, tamanhoSubMenuDisciplinas);
   }else{
+    tamanhoSubMenuDisciplinas = 14;
     tamanhoFonte = 16;
     tamanhoFonteLogoLarge = 30;
     tamanhoFonteLogoSmall = 12;
@@ -58,6 +62,9 @@ $("#toggle").click(function () {
   window.fonteLogoSmall = parseInt($(".logo-small").css('font-size'), 10);
   window.fonteNavItem = parseInt($(".nav-item").css('font-size'), 10);
   window.fonteNavLateral = parseInt($(".sidebar-title").css('font-size'), 10);
+
+  lineHeight =  parseInt($(".sidebar-nav li").css('line-height'), 10);
+  tamanhoSubMenuDisciplinas =  parseInt($(".disc").css('font-size'), 10);
 
   window.fonte = tamanhoFonte;
   window.fonteLogoLarge = tamanhoFonteLogoLarge;
@@ -75,8 +82,10 @@ $("#toggle").click(function () {
       fonteNavLateral = fonteNavLateral+3;
       fonteNomeBotao = fonteNomeBotao+3;
       fonteDescricaoItem = fonteDescricaoItem+3;
+      lineHeight =  lineHeight+20;
+      tamanhoSubMenuDisciplinas = tamanhoSubMenuDisciplinas+3;
 
-      atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNavLateral, fonte);
+      atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNavLateral, fonte, lineHeight, tamanhoSubMenuDisciplinas);
     });
 
     $('#reduz_fonte').click(function(){
@@ -87,15 +96,19 @@ $("#toggle").click(function () {
       fonteNavLateral = fonteNavLateral-3;
       fonteNomeBotao = fonteNomeBotao-3;
       fonteDescricaoItem = fonteDescricaoItem-3;
+      lineHeight =  lineHeight-20;
+      tamanhoSubMenuDisciplinas = tamanhoSubMenuDisciplinas-3;
 
-      atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNavLateral);
+      atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNavLateral, fonte, lineHeight, tamanhoSubMenuDisciplinas);
     });
 
-     function atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNavLateral, fonte){
+     function atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNavLateral, fonte, lineHeight, tamanhoSubMenuDisciplinas){
       $('.logo-large').css({'font-size' : fonteLogoLarge+'px'});
       $('.logo-small').css({'font-size' : fonteLogoSmall+'px'});
       $('.nav-item').css({'font-size' : fonteNavItem+'px'});
       $('.sidebar-title').css({'font-size' : fonteNavLateral+'px'});
       $('div').css({'font-size' : fonte+'px'});
+      $('.disc ').css({'font-size' : tamanhoSubMenuDisciplinas+'px'});
+      $('.sidebar-nav li').css({'line-height' : lineHeight+'px'});
     }
 });
