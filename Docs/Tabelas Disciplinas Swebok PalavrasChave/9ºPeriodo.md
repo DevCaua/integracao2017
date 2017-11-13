@@ -135,7 +135,7 @@
         <td>Metodologia e Experimentação em Engenharia de Software</td>
             <td>   
                  	8° período	</br>
-                    Obrigatória	</br>
+                    Optativa	</br>
                     Núcleo Específico</br>	
                     Engenharia de software</br>	
                     Experimentos</br>	
