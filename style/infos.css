@@ -384,3 +384,14 @@ body {
     display: flex;
     justify-content: flex-start;
   }
+
+  /* acessbilidade fonte
+  ------------------------------------------- */
+  .font-acessibility{
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  #tamanho-fonte{
+      display: none;
+  }

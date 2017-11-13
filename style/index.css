@@ -101,6 +101,17 @@
   background-color: #919193!important;
 }
 
+/* acessbilidade fonte
+------------------------------------------- */
+.font-acessibility{
+  display: flex;
+  justify-content: flex-start;
+}
+
+#tamanho-fonte{
+    display: none;
+}
+
 /* outros
 ------------------------------------------- */
 .Logo{
@@ -186,9 +197,4 @@ a:hover {
   margin-right: 6em;
   margin-bottom: 1em;
   float: right;
-}
-
-.font-acessibility{
-  display: flex;
-  justify-content: flex-start;
 }
