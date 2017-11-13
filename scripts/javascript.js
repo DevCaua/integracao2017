@@ -1,13 +1,5 @@
 $(document).ready(function () {
 
-  jQuery('.toggle-switch').click( function(e) {
-    jQuery('.collapse').collapse('hide');
-  });
-
-  $('.disc').click(function() {
-    $('.disc').removeClass('selected');
-    $(this).addClass('selected');
-  });
 
 $("#toggle").click(function () {
     if ($(this).data('name') == 'show') {

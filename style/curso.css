@@ -193,6 +193,10 @@ body {
     .btn-warning {
         display: inline;
     }
+    
+    h1 {
+      font-size: 2rem;
+    }
 }
 
 

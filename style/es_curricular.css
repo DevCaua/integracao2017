@@ -50,7 +50,7 @@ iframe {
     padding: 1em;
 }
 
-.tabela-matriz tr th:nth-child(2),
+.tabela-matriz tr th:nth-child(1),
 .tabela-matriz tr th:nth-child(3),
 .tabela-matriz tr th:nth-child(4),
 .tabela-matriz tr th:nth-child(5),
@@ -212,6 +212,10 @@ iframe {
 
     .btn-warning {
         display: inline;
+    }
+    
+    h1 {
+      font-size: 2rem;
     }
 }
 
