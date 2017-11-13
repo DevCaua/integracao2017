@@ -4,6 +4,8 @@ angular.module('ocurso').controller('PagesController', function($scope, $window,
   var acessibilidadeBlackYellow = 'contrastePretoAmarelo';
   var acessibilidadeYellow = 'contrasteAmarelo';
   var acessibilidadeSem = 'contrasteNulo';
+  var acessibilidadeFonteMaior = 'fonteMaior';
+  var acessibilidadeFonteMenor = 'fonteMenor';
   var arrayAcessibilidade = [];
 
   $scope.arrayConvertidoParaBoolean = [];
@@ -43,9 +45,9 @@ angular.module('ocurso').controller('PagesController', function($scope, $window,
   $scope.acessibilidadeYellow = $scope.arrayConvertidoParaBoolean[2];
   $scope.acessibilidadeNula = $scope.arrayConvertidoParaBoolean[3];
   $scope.tamanhoFonte = $scope.arrayConvertidoParaBoolean[4];
-  $scope.tamanho = $scope.arrayConvertidoParaBoolean[4];
-
+  $scope.tamanho = $scope.tamanhoFonte;
   console.log($scope.arrayConvertidoParaBoolean);
+  console.log($scope.arrayConvertidoParaBoolean[4]);
 
 
   // determina as classes da acessibilidade selecionada
@@ -67,8 +69,12 @@ angular.module('ocurso').controller('PagesController', function($scope, $window,
   // atribui o tamanho da fonte de acordo com a acessibilidade escolhida
   $scope.atribuiAcessibilidadeFonte = function(tipoFonte){
     $scope.inicializaFonte();
-    $scope.tamanhoFonte = $window.fonte;
-    console.log($scope.tamanhoFonte);
+    if(acessibilidadeFonteMaior == tipoFonte){
+      $scope.tamanhoFonte = $window.fonte+3;
+    }else{
+      $scope.tamanhoFonte = $window.fonte-3;
+    }
+    $scope.tamanho = $scope.tamanhoFonte;
     $scope.arrayAcessibilidadeFonte.push($scope.tamanhoFonte);
     $scope.atribuiValorFonte();
   }
