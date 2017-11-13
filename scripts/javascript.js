@@ -31,6 +31,7 @@ $("#toggle").click(function () {
   var tamanhoFonteDescricaoItem;
   var tamanhoDiv;
   var tamanhoSubMenuDisciplinas;
+  var tamanhoTituloConteudo;
 
   if($('#tamanho-fonte').text() != undefined && $('#tamanho-fonte').text() != 'NaN' && $('#tamanho-fonte').text() != ""
     && $('#tamanho-navItem').text() != undefined && $('#tamanho-navItem').text() != 'NaN' && $('#tamanho-navItem').text() != ""
@@ -44,7 +45,8 @@ $("#toggle").click(function () {
     tamanhoFonteNavLateral = parseInt($('#tamanho-navLateral').text());
     lineHeight = parseInt($('#tamanho-fonte').text()) * 5;
     tamanhoSubMenuDisciplinas = parseInt($('#tamanho-fonte').text()) - 2;
-    atribuiValor(tamanhoFonteLogoLarge, tamanhoFonteLogoSmall, tamanhoFonteNavItem, tamanhoFonteNavLateral,tamanhoFonte ,lineHeight, tamanhoSubMenuDisciplinas);
+    tamanhoTituloConteudo = parseInt($('#tamanho-fonte').text()) * 2;
+    atribuiValor(tamanhoFonteLogoLarge, tamanhoFonteLogoSmall, tamanhoFonteNavItem, tamanhoFonteNavLateral,tamanhoFonte ,lineHeight, tamanhoSubMenuDisciplinas, tamanhoTituloConteudo);
   }else{
     tamanhoSubMenuDisciplinas = 14;
     tamanhoFonte = 16;
@@ -53,6 +55,7 @@ $("#toggle").click(function () {
     tamanhoFonteNavItem = 18;
     tamanhoFonteNavLateral = 16;
     tamanhoFonteNomeBotao = 32;
+    tamanhoTituloConteudo = 32;
     tamanhoFonteDescricaoItem = 16;
     tamanhoDiv = 16;
     lineHeight = 80;
@@ -66,6 +69,7 @@ $("#toggle").click(function () {
 
   lineHeight =  parseInt($(".sidebar-nav li").css('line-height'), 10);
   tamanhoSubMenuDisciplinas =  parseInt($(".disc").css('font-size'), 10);
+  tamanhoTituloConteudo = parseInt($(".ng-scope h1").css('font-size'), 10);
 
   window.fonte = tamanhoFonte;
   window.fonteLogoLarge = tamanhoFonteLogoLarge;
@@ -86,7 +90,7 @@ $("#toggle").click(function () {
       lineHeight =  lineHeight+20;
       tamanhoSubMenuDisciplinas = tamanhoSubMenuDisciplinas+3;
 
-      atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNavLateral, fonte, lineHeight, tamanhoSubMenuDisciplinas);
+      atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNavLateral, fonte, lineHeight, tamanhoSubMenuDisciplinas, tamanhoTituloConteudo);
     });
 
     $('#reduz_fonte').click(function(){
@@ -100,16 +104,18 @@ $("#toggle").click(function () {
       lineHeight =  lineHeight-20;
       tamanhoSubMenuDisciplinas = tamanhoSubMenuDisciplinas-3;
 
-      atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNavLateral, fonte, lineHeight, tamanhoSubMenuDisciplinas);
+      atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNavLateral, fonte, lineHeight, tamanhoSubMenuDisciplinas, tamanhoTituloConteudo);
     });
 
-     function atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNavLateral, fonte, lineHeight, tamanhoSubMenuDisciplinas){
+     function atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNavLateral, fonte, lineHeight, tamanhoSubMenuDisciplinas, tamanhoTituloConteudo){
       $('.logo-large').css({'font-size' : fonteLogoLarge+'px'});
       $('.logo-small').css({'font-size' : fonteLogoSmall+'px'});
       $('.nav-item').css({'font-size' : fonteNavItem+'px'});
       $('.sidebar-title').css({'font-size' : fonteNavLateral+'px'});
       $('.ng-scope').css({'font-size' : fonte+'px'});
+      $('.ng-scope h1').css({'font-size' : tamanhoTituloConteudo+'px'});
       $('.disc ').css({'font-size' : tamanhoSubMenuDisciplinas+'px'});
       $('.sidebar-nav li').css({'line-height' : lineHeight+'px'});
+
     }
 });
