@@ -42,10 +42,9 @@ $("#toggle").click(function () {
     tamanhoFonteLogoSmall = parseInt($('#tamanho-logoSmall').text());
     tamanhoFonteNavItem = parseInt($('#tamanho-navItem').text());
     tamanhoFonteNavLateral = parseInt($('#tamanho-navLateral').text());
-    tamanhoDiv = parseInt($('#tamanho-fonte').text());
     lineHeight = parseInt($('#tamanho-fonte').text()) * 5;
     tamanhoSubMenuDisciplinas = parseInt($('#tamanho-fonte').text()) - 2;
-    atribuiValor(tamanhoFonteLogoLarge, tamanhoFonteLogoSmall, tamanhoFonteNavItem, tamanhoFonteNavLateral,tamanhoDiv, tamanhoSubMenuDisciplinas);
+    atribuiValor(tamanhoFonteLogoLarge, tamanhoFonteLogoSmall, tamanhoFonteNavItem, tamanhoFonteNavLateral,tamanhoFonte ,lineHeight, tamanhoSubMenuDisciplinas);
   }else{
     tamanhoSubMenuDisciplinas = 14;
     tamanhoFonte = 16;
