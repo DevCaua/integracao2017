@@ -168,12 +168,14 @@
           var tamanhoFonteLogoSmall;
           var tamanhoFonteNavItem;
           var tamanhoFonteNavLateral;
+          var tamanhoFonteNomeBotao;
+          var tamanhoFonteDescricaoItem;
 
-          if($('#tamanho-fonte').text() != undefined && $('#tamanho-fonte').text() != 'NaN'
-            && $('#tamanho-navItem').text() != undefined && $('#tamanho-fonte').text() != 'NaN'
-            && $('#tamanho-logoSmall').text() != undefined && $('#tamanho-fonte').text() != 'NaN'
-            && $('#tamanho-logoLarge').text() != undefined && $('#tamanho-fonte').text() != 'NaN'
-            && $('#tamanho-navLateral').text() != undefined && $('#tamanho-fonte').text() != 'NaN'){
+          if($('#tamanho-fonte').text() != undefined && $('#tamanho-fonte').text() != 'NaN' && $('#tamanho-fonte').text() != ""
+            && $('#tamanho-navItem').text() != undefined && $('#tamanho-navItem').text() != 'NaN' && $('#tamanho-navItem').text() != ""
+            && $('#tamanho-logoSmall').text() != undefined && $('#tamanho-logoSmall').text() != 'NaN' && $('#tamanho-logoSmall').text() != ""
+            && $('#tamanho-logoLarge').text() != undefined && $('#tamanho-logoLarge').text() != 'NaN' && $('#tamanho-logoLarge').text() != ""
+            && $('#tamanho-navLateral').text() != undefined && $('#tamanho-navLateral').text() != 'NaN' && $('#tamanho-navLateral').text() != ""){
             tamanhoFonte = parseInt($('#tamanho-fonte').text());
             tamanhoFonteLogoLarge = parseInt($('#tamanho-logoLarge').text());
             tamanhoFonteLogoSmall = parseInt($('#tamanho-logoSmall').text());
@@ -182,6 +184,12 @@
             atribuiValor(tamanhoFonteLogoLarge, tamanhoFonteLogoSmall, tamanhoFonteNavItem, tamanhoFonteNavLateral);
           }else{
             tamanhoFonte = 16;
+            tamanhoFonteLogoLarge = 30;
+            tamanhoFonteLogoSmall = 12;
+            tamanhoFonteNavItem = 18;
+            tamanhoFonteNavLateral = 16;
+            tamanhoFonteNomeBotao = 32;
+            tamanhoFonteDescricaoItem = 16;
           }
 
           // busca valor da fonte dos elementos especificos
@@ -195,12 +203,17 @@
           window.fonteLogoSmall = tamanhoFonteLogoSmall;
           window.fonteNavItem = tamanhoFonteNavItem;
           window.fonteNavLateral = tamanhoFonteNavLateral;
+          window.fonteNomeBotao = tamanhoFonteNomeBotao;
+          window.fonteDescricaoItem = tamanhoFonteDescricaoItem;
+          
             $('#aumenta_fonte').click(function(){
               fonte = fonte+3;
               fonteLogoLarge = fonteLogoLarge+3;
               fonteLogoSmall = fonteLogoSmall+3;
               fonteNavItem = fonteNavItem+3;
               fonteNavLateral = fonteNavLateral+3;
+              fonteNomeBotao = fonteNomeBotao+3;
+              fonteDescricaoItem = fonteDescricaoItem+3;
 
               atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNavLateral);
             });
@@ -211,6 +224,8 @@
               fonteLogoSmall = fonteLogoSmall-3;
               fonteNavItem = fonteNavItem-3;
               fonteNavLateral = fonteNavLateral-3;
+              fonteNomeBotao = fonteNomeBotao-3;
+              fonteDescricaoItem = fonteDescricaoItem-3;
 
               atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNavLateral);
             });

@@ -174,7 +174,6 @@ angular.module('ocurso').controller('PagesController', function($scope, $window,
         }else if(i == 8){
           arrayAcessibilidade[i] = $scope.tamanhoFonteNavLateral;
           console.log($scope.tamanhoFonteNavLateral);
-
         }else if(i == 9){
           arrayAcessibilidade[i] = $scope.tamanhoFonteNomeBotao;
         }else if(i == 10){

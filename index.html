@@ -133,11 +133,11 @@
         var tamanhoFonteNavLateral;
 
         if($('#tamanho-fonte').text() != undefined && $('#tamanho-fonte').text() != 'NaN'
-          && $('#tamanho-navItem').text() != undefined && $('#tamanho-fonte').text() != 'NaN'
-          && $('#tamanho-logoSmall').text() != undefined && $('#tamanho-fonte').text() != 'NaN'
-          && $('#tamanho-logoLarge').text() != undefined && $('#tamanho-fonte').text() != 'NaN'
-          && $('#tamanho-nomeBotao').text() != undefined && $('#tamanho-fonte').text() != 'NaN'
-          && $('#tamanho-descricaoItem').text() != undefined && $('#tamanho-fonte').text() != 'NaN'){
+          && $('#tamanho-navItem').text() != undefined && $('#tamanho-navItem').text() != 'NaN'
+          && $('#tamanho-logoSmall').text() != undefined && $('#tamanho-logoSmall').text() != 'NaN'
+          && $('#tamanho-logoLarge').text() != undefined && $('#tamanho-logoLarge').text() != 'NaN'
+          && $('#tamanho-nomeBotao').text() != undefined && $('#tamanho-nomeBotao').text() != 'NaN'
+          && $('#tamanho-descricaoItem').text() != undefined && $('#tamanho-descricaoItem').text() != 'NaN'){
             tamanhoFonte = parseInt($('#tamanho-fonte').text());
             tamanhoFonteLogoLarge = parseInt($('#tamanho-logoLarge').text());
             tamanhoFonteLogoSmall = parseInt($('#tamanho-logoSmall').text());
@@ -149,7 +149,7 @@
           tamanhoFonte = 16;
           tamanhoFonteLogoLarge = 30;
           tamanhoFonteLogoSmall = 12;
-          tamanhoFonteNavItem = 16;
+          tamanhoFonteNavItem = 18;
           tamanhoFonteNavLateral = 16;
           tamanhoFonteNomeBotao = 32;
           tamanhoFonteDescricaoItem = 16;
@@ -171,24 +171,24 @@
         window.fonteNavLateral = tamanhoFonteNavLateral;
           $('#aumenta_fonte').click(function(){
             fonte = fonte+3;
-            fonteLogoLarge = tamanhoFonteLogoLarge+3;
-            fonteLogoSmall = tamanhoFonteLogoSmall+3;
-            fonteNavItem = tamanhoFonteNavItem+3;
-            fonteNomeBotao = tamanhoFonteNomeBotao+3;
-            fonteDescricaoItem = tamanhoFonteDescricaoItem+3;
-            fonteNavLateral = tamanhoFonteNavLateral+3;
+            fonteLogoLarge = fonteLogoLarge+3;
+            fonteLogoSmall = fonteLogoSmall+3;
+            fonteNavItem = fonteNavItem+3;
+            fonteNomeBotao = fonteNomeBotao+3;
+            fonteDescricaoItem = fonteDescricaoItem+3;
+            fonteNavLateral = fonteNavLateral+3;
 
             atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNomeBotao, fonteDescricaoItem);
           });
 
           $('#reduz_fonte').click(function(){
             fonte = fonte-3;
-            fonteLogoLarge = tamanhoFonteLogoLarge-3;
-            fonteLogoSmall = tamanhoFonteLogoSmall-3;
-            fonteNavItem = tamanhoFonteNavItem-3;
-            fonteNomeBotao = tamanhoFonteNomeBotao-3;
-            fonteDescricaoItem = tamanhoFonteDescricaoItem-3;
-            fonteNavLateral = tamanhoFonteNavLateral-3;
+            fonteLogoLarge = fonteLogoLarge-3;
+            fonteLogoSmall = fonteLogoSmall-3;
+            fonteNavItem = fonteNavItem-3;
+            fonteNomeBotao = fonteNomeBotao-3;
+            fonteDescricaoItem = fonteDescricaoItem-3;
+            fonteNavLateral = fonteNavLateral-3;
 
             atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNomeBotao, fonteDescricaoItem);
           });
