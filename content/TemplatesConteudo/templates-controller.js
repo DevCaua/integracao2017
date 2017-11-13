@@ -666,6 +666,7 @@ angular.module('ocurso').controller("TemplatesController", function ($scope, $st
 							<th>64</th>\
 							<th>0</th>\
 							<th>64</th>\
+							<th>NE</th>\
 							<th>2</th>\
 						</tr>\
 						<tr>\

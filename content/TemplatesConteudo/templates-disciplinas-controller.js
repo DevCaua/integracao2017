@@ -395,9 +395,9 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 			titulo: 'SistemasOp',
 			conteudo: '<p><h1>Sistemas Operacionais</h1></br></br>\
 						<b>Características</b></br><br>\
-						- Núcleo Comum</br>\
+						- Núcleo Específico</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
-						- Disciplina Obrigatória</br><br>\
+						- Disciplina Optativa</br><br>\
 						<b>Carga Horária</b></br><br>\
 						- Horas Teóricas: 32h</br>\
 						- Horas Práticas: 32h</br>\
@@ -419,9 +419,9 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 			titulo: 'PesquisaOp',
 			conteudo: '<p><h1>Pesquisa Operacional</h1></br></br>\
 						<b>Características</b></br><br>\
-						- Núcleo Comum</br>\
+						- Núcleo Específico</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
-						- Disciplina Obrigatória</br><br>\
+						- Disciplina Optativa</br><br>\
 						<b>Carga Horária</b></br><br>\
 						- Horas Teóricas: 64h</br>\
 						- Horas Práticas: 00h</br>\
@@ -443,15 +443,15 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 			titulo: 'LinguagensFormais',
 			conteudo: '<p><h1>Linguagens Formais e Autômatos</h1></br></br>\
 						<b>Características</b></br><br>\
-						- Núcleo Comum</br>\
+						- Núcleo Específico</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
-						- Disciplina Obrigatória</br><br>\
+						- Disciplina Optativa</br><br>\
 						<b>Carga Horária</b></br><br>\
 						- Horas Teóricas: 64h</br>\
 						- Horas Práticas: 00h</br>\
 						- Carga horária total: 64h<br></br>\
 						<b>Pré-Requisitos</b><br>\
-						- <a href="disciplinas.html#!/Fundamentos_de_Matematica_para_Computacao" target="_blank">Fundamentos de Matemática para Computaçã</a>o</br></br>\
+						- <a href="disciplinas.html#!/Fundamentos_de_Matematica_para_Computacao" target="_blank">Fundamentos de Matemática para Computação</a></br></br>\
 						Pré-Requisito para (disciplinas que só podem ser cursadas após Linguagens Formais e Autômatos)</br>\
 						Diretamente<br>\
 						- <a href="disciplinas.html#!/Compiladores" target="_blank">Compiladores</a></br></br>\
@@ -586,9 +586,9 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 			titulo: 'RedesComp',
 			conteudo: '<p><h1>Redes de Computadores</h1></br></br>\
 						<b>Características</b></br><br>\
-						- Núcleo Comum</br>\
+						- Núcleo Específico</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
-						- Disciplina Obrigatória</br><br>\
+						- Disciplina Optativa</br><br>\
 						<b>Carga Horária</b></br><br>\
 						- Horas Teóricas: 32h</br>\
 						- Horas Práticas: 32h</br>\
@@ -612,9 +612,9 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 			titulo: 'LinguaBrasileira',
 			conteudo: '<p><h1>Introdução a Língua Brasileira de Sinais</h1></br></br>\
 						<b>Características</b></br><br>\
-						- Núcleo Comum</br>\
+						- Núcleo Específico</br>\
 						- Disciplina ministrada pela Faculdade de Letras</br>\
-						- Disciplina Obrigatória</br><br>\
+						- Disciplina Optativa</br><br>\
 						<b>Carga Horária</b></br><br>\
 						- Horas Teóricas: 64h</br>\
 						- Horas Práticas: 00h</br>\
@@ -635,9 +635,9 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 			titulo: 'Compiladores',
 			conteudo: '<p><h1>Compiladores</h1></br></br>\
 						<b>Características</b></br><br>\
-						- Núcleo Comum</br>\
+						- Núcleo Específico</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
-						- Disciplina Obrigatória</br><br>\
+						- Disciplina Optativa</br><br>\
 						<b>Carga Horária</b></br><br>\
 						- Horas Teóricas: 64h</br>\
 						- Horas Práticas: 00h</br>\
@@ -1307,9 +1307,9 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 			titulo: 'SitemasDist',
 			conteudo: '<p><h1>Sistemas Distribuídos</h1></br></br>\
 						<b>Características</b></br><br>\
-						- Núcleo Comum</br>\
+						- Núcleo Específico</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
-						- Disciplina Obrigatória</br><br>\
+						- Disciplina Optativa</br><br>\
 						<b>Carga Horária</b></br><br>\
 						- Horas Teóricas: 32h</br>\
 						- Horas Práticas: 32h</br>\
@@ -1333,9 +1333,9 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 			titulo: 'Mercado',
 			conteudo: '<p><h1>Mercado e Economia de Software</h1></br></br>\
 						<b>Características</b></br><br>\
-						- Núcleo Comum</br>\
+						- Núcleo Específico</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
-						- Disciplina Obrigatória</br><br>\
+						- Disciplina Optativa</br><br>\
 						<b>Carga Horária</b></br><br>\
 						- Horas Teóricas: 48h</br>\
 						- Horas Práticas: 16h</br>\
@@ -1365,9 +1365,9 @@ angular.module('ocurso').controller("TemplatesDisciplinasController", function (
 			titulo: 'MetodologiaES',
 			conteudo: '<p><h1>Metodologia e Experimentação em Engenharia de Software</h1></br></br>\
 						<b>Características</b></br><br>\
-						- Núcleo Comum</br>\
+						- Núcleo Específico</br>\
 						- Disciplina ministrada pelo INF (Instituto de Informática)</br>\
-						- Disciplina Obrigatória</br><br>\
+						- Disciplina Optativa</br><br>\
 						<b>Carga Horária</b></br><br>\
 						- Horas Teóricas: 48h</br>\
 						- Horas Práticas: 16h</br>\
