@@ -32,6 +32,8 @@ $("#toggle").click(function () {
   var tamanhoDiv;
   var tamanhoSubMenuDisciplinas;
   var tamanhoTituloConteudo;
+  var tamanhoBusca;
+  var tamanhoConteudoBusca;
 
   if($('#tamanho-fonte').text() != undefined && $('#tamanho-fonte').text() != 'NaN' && $('#tamanho-fonte').text() != ""
     && $('#tamanho-navItem').text() != undefined && $('#tamanho-navItem').text() != 'NaN' && $('#tamanho-navItem').text() != ""
@@ -46,7 +48,9 @@ $("#toggle").click(function () {
     lineHeight = parseInt($('#tamanho-fonte').text()) * 5;
     tamanhoSubMenuDisciplinas = parseInt($('#tamanho-fonte').text()) - 2;
     tamanhoTituloConteudo = parseInt($('#tamanho-fonte').text()) * 2;
-    atribuiValor(tamanhoFonteLogoLarge, tamanhoFonteLogoSmall, tamanhoFonteNavItem, tamanhoFonteNavLateral,tamanhoFonte ,lineHeight, tamanhoSubMenuDisciplinas, tamanhoTituloConteudo);
+    tamanhoBusca = parseInt($('#tamanho-fonte').text());
+    tamanhoConteudoBusca = parseInt($('#tamanho-fonte').text());
+    atribuiValor(tamanhoFonteLogoLarge, tamanhoFonteLogoSmall, tamanhoFonteNavItem, tamanhoFonteNavLateral,tamanhoFonte ,lineHeight, tamanhoSubMenuDisciplinas, tamanhoTituloConteudo, tamanhoBusca, tamanhoConteudoBusca);
   }else{
     tamanhoSubMenuDisciplinas = 14;
     tamanhoFonte = 16;
@@ -59,6 +63,8 @@ $("#toggle").click(function () {
     tamanhoFonteDescricaoItem = 16;
     tamanhoDiv = 16;
     lineHeight = 80;
+    tamanhoBusca = 16;
+    tamanhoConteudoBusca = 16;
   }
 
   // busca valor da fonte dos elementos especificos
@@ -70,6 +76,8 @@ $("#toggle").click(function () {
   lineHeight =  parseInt($(".sidebar-nav li").css('line-height'), 10);
   tamanhoSubMenuDisciplinas =  parseInt($(".disc").css('font-size'), 10);
   tamanhoTituloConteudo = parseInt($(".ng-scope h1").css('font-size'), 10);
+  tamanhoBusca = parseInt($("lista-resultados li a").css('font-size'), 10);
+  tamanhoConteudoBusca = parseInt($("lista-resultados").css('font-size'), 10);
 
   window.fonte = tamanhoFonte;
   window.fonteLogoLarge = tamanhoFonteLogoLarge;
@@ -89,8 +97,9 @@ $("#toggle").click(function () {
       fonteDescricaoItem = fonteDescricaoItem+3;
       lineHeight =  lineHeight+20;
       tamanhoSubMenuDisciplinas = tamanhoSubMenuDisciplinas+3;
-
-      atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNavLateral, fonte, lineHeight, tamanhoSubMenuDisciplinas, tamanhoTituloConteudo);
+      tamanhoBusca = tamanhoBusca+3;
+      tamanhoConteudoBusca = tamanhoConteudoBusca+3;
+      atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNavLateral, fonte, lineHeight, tamanhoSubMenuDisciplinas, tamanhoTituloConteudo, tamanhoBusca, tamanhoConteudoBusca);
     });
 
     $('#reduz_fonte').click(function(){
@@ -103,11 +112,13 @@ $("#toggle").click(function () {
       fonteDescricaoItem = fonteDescricaoItem-3;
       lineHeight =  lineHeight-20;
       tamanhoSubMenuDisciplinas = tamanhoSubMenuDisciplinas-3;
+      tamanhoBusca = tamanhoBusca-3;
+      tamanhoConteudoBusca = tamanhoConteudoBusca-3;
 
-      atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNavLateral, fonte, lineHeight, tamanhoSubMenuDisciplinas, tamanhoTituloConteudo);
+      atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNavLateral, fonte, lineHeight, tamanhoSubMenuDisciplinas, tamanhoTituloConteudo, tamanhoBusca, tamanhoConteudoBusca);
     });
 
-     function atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNavLateral, fonte, lineHeight, tamanhoSubMenuDisciplinas, tamanhoTituloConteudo){
+     function atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNavLateral, fonte, lineHeight, tamanhoSubMenuDisciplinas, tamanhoTituloConteudo, tamanhoBusca, tamanhoConteudoBusca){
       $('.logo-large').css({'font-size' : fonteLogoLarge+'px'});
       $('.logo-small').css({'font-size' : fonteLogoSmall+'px'});
       $('.nav-item').css({'font-size' : fonteNavItem+'px'});
@@ -116,6 +127,7 @@ $("#toggle").click(function () {
       $('.ng-scope h1').css({'font-size' : tamanhoTituloConteudo+'px'});
       $('.disc ').css({'font-size' : tamanhoSubMenuDisciplinas+'px'});
       $('.sidebar-nav li').css({'line-height' : lineHeight+'px'});
-
+      $("lista-resultados li a").css({'font-size' : tamanhoBusca+'px'});
+      $("lista-resultados").css({'font-size' : tamanhoConteudoBusca+'px'});
     }
 });

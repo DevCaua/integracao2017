@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="ocurso">
 
 <head>
 
@@ -21,9 +21,25 @@
     <!-- Lunr -->
     <script src="https://unpkg.com/lunr/lunr.js"></script>
 
+    <!-- Angular -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-resource/1.6.6/angular-resource.min.js"></script>
+
+    <script src="scripts/main.js"></script>
+    <script src="content/TemplatesConteudo/templates-diretivas.js"></script>
+    <script src="content/TemplatesConteudo/templates-controller.js"></script>
+    <script src="scripts/pages-controller.js"></script>
+    <script src="scripts/pages-factory.js"></script>
+
 </head>
 
-<body>
+<body ng-controller="PagesController" ng-class="{'AcessibilidadeBlue': acessibilidadeBlue, 'AcessibilidadeBlackYellow': acessibilidadeByellow, 'AcessibilidadeYellow': acessibilidadeYellow}">
+  <span id="tamanho-fonte">{{tamanho}}</span>
+  <span id="tamanho-navItem">{{tamanhoNavItem}}</span>
+  <span id="tamanho-logoSmall">{{tamanhoLogoSmall}}</span>
+  <span id="tamanho-logoLarge">{{tamanhoLogoLarge}}</span>
+  <span id="tamanho-navLateral">{{tamanhoNavLateral}}</span>
     <nav class="navbar-cor navbar navbar-toggleable-md fixed-top navbar-inverse" ng-class="{'NavContrasteBlue': acessibilidadeBlue, 'NavContrasteBlackYellow': acessibilidadeByellow, 'NavContrasteYellow': acessibilidadeYellow, 'NavSemContraste': acessibilidadeNula}">
         <button class="navbar-toggler navbar-toggler-right" ng-class="{'CollapseButtonBlackYellow': acessibilidadeByellow}" type="button"
             data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -50,6 +66,22 @@
                         href="infos.html">Outras Informações</a>
                 </li>
             </ul>
+            <div class="nav-item dropdown drop-botao-desktop">
+                  <a ng-class="{'IconContrasteBlue': acessibilidadeBlue, 'IconContrasteBlackYellow': acessibilidadeByellow, 'IconContrasteYellow': acessibilidadeYellow}" class="nav-link dropdown-toggle dropdownAcess" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                      <i class="fa fa-universal-access access-icon "></i>
+                      Acessibilidade
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrasteNulo')" class="btn btn-light" type="submit">Original</button></a>
+                    <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrasteAzul')" class="btn botao-blue" type="submit">Acessibilidade</button></a>
+                    <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrastePretoAmarelo')" class="btn botao-black-yellow" type="submit">Acessibilidade</button></a>
+                    <a class="dropdown-item" href="#"><button ng-click="buscaAcessibilidade('contrasteAmarelo')" class="btn botao-yellow" type="submit">Acessibilidade</button></a>
+                    <div class="font-acessibility">
+                      <a class="dropdown-item" href="#"><button ng-click="atribuiAcessibilidadeFonte('fonteMenor')" id="reduz_fonte" class="btn btn-outline-primary" type="submit">A-</button></a>
+                      <a class="dropdown-item" href="#"><button ng-click="atribuiAcessibilidadeFonte('fonteMaior')" id="aumenta_fonte" class="btn btn-outline-primary" type="submit">A+</button></a>
+                    </div>
+                  </div>
+            </div>
             <form class="form-inline my-2 my-lg-0" action="search.html" method="get">
                 <input class="form-control mr-sm-2" type="text" placeholder="O que você procura?" id="search-box" name="query">
                 <button class="btn btn-success my-2 my-sm-0" type="submit" value="search">Busca</button>
@@ -57,7 +89,7 @@
         </div>
     </nav>
     <div class="container-fluid">
-        <ul class="list-group" id="search-results"></ul>
+        <ul class="list-group lista-resultados" ng-class="{'ContrasteBlue': acessibilidadeBlue, 'ContrasteBlackYellow': acessibilidadeByellow, 'ContrasteYellow': acessibilidadeYellow}" id="search-results"></ul>
     </div>
     <script>
         window.documents = [{
@@ -422,6 +454,7 @@
 
     <script src="https://unpkg.com/lunr/lunr.js"></script>
     <script src="scripts/Busca/search.js"></script>
+    <script src="scripts/javascript.js"></script>
 </body>
 
 </html>
