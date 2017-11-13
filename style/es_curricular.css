@@ -401,6 +401,10 @@ iframe {
     justify-content: flex-start;
   }
 
-  #tamanho-fonte{
+  #tamanho-fonte,
+  #tamanho-navItem,
+  #tamanho-logoSmall,
+  #tamanho-logoLarge,
+  #tamanho-navLateral{
       display: none;
   }

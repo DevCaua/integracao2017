@@ -29,7 +29,11 @@
 
   </head>
   <body ng-controller="PagesController" ng-class="{'AcessibilidadeBlue': acessibilidadeBlue, 'AcessibilidadeBlackYellow': acessibilidadeByellow, 'AcessibilidadeYellow': acessibilidadeYellow}">
-    <span id="tamanho-fonte" tamanho>{{tamanho}}</span>
+    <span id="tamanho-fonte">{{tamanho}}</span>
+    <span id="tamanho-navItem">{{tamanhoNavItem}}</span>
+    <span id="tamanho-logoSmall">{{tamanhoLogoSmall}}</span>
+    <span id="tamanho-logoLarge">{{tamanhoLogoLarge}}</span>
+    <span id="tamanho-navLateral">{{tamanhoNavLateral}}</span>
     <nav class="navbar-cor navbar navbar-toggleable-md fixed-top navbar-inverse" ng-class="{'NavContrasteBlue': acessibilidadeBlue, 'NavContrasteBlackYellow': acessibilidadeByellow, 'NavContrasteYellow': acessibilidadeYellow, 'NavSemContraste': acessibilidadeNula}">
         <button class="navbar-toggler navbar-toggler-right" ng-class="{'CollapseButtonBlackYellow': acessibilidadeByellow}" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -144,43 +148,6 @@
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <script>
-    $(document).ready(function () {
-    $("#toggle").click(function () {
-        if ($(this).data('name') == 'show') {
-            $("#sidebar-wrapper").css("width", "45px")
-            $(this).data('name', 'hide')
-            $('#icon').removeClass('fa fa-compress').addClass('fa fa-expand')
-        } else {
-            $("#sidebar-wrapper").css("width", "225px")
-            $(this).data('name', 'show')
-            $('#icon').removeClass('fa fa-expand').addClass('fa fa-compress')
-        }
-      });
-
-      var tamanhoFonte;
-      if($('#tamanho-fonte').text() != undefined && $('#tamanho-fonte').text() != 'NaN'){
-        tamanhoFonte = parseInt($('#tamanho-fonte').text());
-      }else{
-        tamanhoFonte = 16;
-      }
-      window.fonte = tamanhoFonte;
-        $('body').css({'font-size' : window.fonte+'px'});
-        $('div').css({'font-size' : window.fonte+'px'});
-        $('a').css({'font-size' : window.fonte+'px'});
-        $('#aumenta_fonte').click(function(){
-          fonte = fonte+3;
-          $('body').css({'font-size' : fonte+'px'});
-          $('div').css({'font-size' : fonte+'px'});
-          $('a').css({'font-size' : fonte+'px'});
-        });
-        $('#reduz_fonte').click(function(){
-          fonte = fonte-3;
-          $('body').css({'font-size' : fonte+'px'});
-          $('div').css({'font-size' : fonte+'px'});
-          $('a').css({'font-size' : fonte+'px'});
-        });
-  });
-    </script>
+    <script src="scripts/javascript.js"></script>
   </body>
 </html>
