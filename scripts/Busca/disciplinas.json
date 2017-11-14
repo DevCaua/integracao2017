@@ -1106,7 +1106,13 @@
             "Orientadas a Serviços",	
             "Computação Móvel",	
             "Computação Ubíqua"],
-        "areaSwebok" : ["area1", "area2", "area3"]
+        "areaSwebok" : ["Fundamentos de Computação",	
+            "Computing Foundations",	
+            "Princípios de Redes de Computadores",	
+            "Network Communication Basics",	
+            "Computação paralela e distribuída",	
+            "Parallel and Distributed Computing",	
+            "Arquitetura de Computadores"]
     },
 
     {
@@ -1136,7 +1142,16 @@
             "Mobile",	
             "Fluxo de serviços",	
             "Serviços de Grande Volume"],
-        "areaSwebok" : ["area1", "area2", "area3"]
+        "areaSwebok" : ["Processo de Engenharia de Software",	
+            "Projetos de Software",	
+            "Design de Software",	
+            "Construção de Software",	
+            "Teste de Software",	
+            "Manutenção de Software",	
+            "Fundamentos de Computação",	
+            "Abstração",	
+            "Estrutura de Dados e representação",	
+            "Algoritmos e Complexidade"]
     },
 
     {
@@ -1163,7 +1178,24 @@
             "8° Período",	
             "Obrigatória",	
             "Núcleo específico"],
-        "areaSwebok" : ["area1", "area2", "area3"]
+        "areaSwebok" : [
+            "Processo de Engenharia de Software",	
+            "Design de Software",	
+            "Construção de Software",	
+            "Teste de Software",	
+            "Manutenção de Software",	
+            "Fundamentos da Computação",	
+            "Abstração",	
+            "Estruturas de Dados e Representação",	
+            "Algoritmos e Complexidade",	
+            "Banco de dados e gerenciamento de dados",	
+            "Mineração de Dados",	
+            "Entidade e esquema",	
+            "Sistemas Gerenciados de Banco de Dados",	
+            "SGBD",	
+            "Database Query Language",	
+            "Tarefas de SGBD"	
+        ]
     },
 
     {
@@ -1187,7 +1219,15 @@
             "Multitier",	
             "Invocação implícita",	
             "ISO/IEC/IEEE 42010"],
-        "areaSwebok" : ["area1", "area2", "area3"]
+        "areaSwebok" : ["Software Design",	
+            "Projeto de Software",	
+            "Arquitetura de Software",	
+            "Pontos de vista e estruturas arquiteturais",	
+            "Estilos de Arquitetura",	
+            "Design Patterns",	
+            "Padrões de Design",	
+            "Decisões de Design Arquitetural",	
+            "Famílias de programas e frameworks"]
     },
 
     {
@@ -1214,7 +1254,16 @@
             "Enquetes",	
             "Análise", 	
             "SBC"],
-        "areaSwebok" : ["area1", "area2", "area3"]
+        "areaSwebok" : ["Fundamentos de Engenharia",	
+            "Métodos Empíricos",	
+            "Técnicas Experimentais",	
+            "Análise Estatística",	
+            "Unidades de Análise, População e Amostra",	
+            "Conceitos de correção e regressão",	
+            "Medição",	
+            "Medições diretas e derivadas",	
+            "Confiabilidade e Validade",	
+            "Projeto de Engenharia"]
     },
 
     {
@@ -1237,7 +1286,53 @@
             "Engenharia econômica",	
             "Empreendedorismo",	
             "Inovação"],
-        "areaSwebok" : ["area1", "area2", "area3"]
+        "areaSwebok" : ["Fundamentos de Engenharia Econômica de Software",	
+            "Ciclo de Vida Econômico",	
+            "Riscos e incertezas",	
+            "Considerações Práticas",	
+            "Finanças",	
+            "Contabilidade",	
+            "Controle",	
+            "Fluxo de Caixa",	
+            "Processo de Tomada de Decisão",	
+            "Valuation",	
+            "Inflação",	
+            "Taxação",	
+            "Eficiência",	
+            "Produtividade",	
+            "Precificação",	
+            "Ciclo de Vida do Produto",	
+            "Objetivos, estimativas e planos"]
+    },
+
+    {
+        "nome": "Teste de Software",
+        "url": "https://caua539.github.io/integracao2017/disciplinas.html#!/Testes_de_Software",
+        "palavrasChave":[
+            "Núcleo Comum",	
+            "Teórica",	
+            "Prática",	
+            "8º Período",	
+            "Sem Pré-Requisito",	
+            "Construção de Teste",	
+            "Documentação",	
+            "Processo",	
+            "Técnicas de teste",	
+            "Intuição e Experiência",	
+            "Ferramentas"	
+        ],
+        "areaSwebok":[
+            "Teste de Software",	
+            "Construção de Software",	
+            "Fundamentos de Computação",	
+            "Abstração",	
+            "Fundamentos de Teste de Software",	
+            "Níveis de Teste",	
+            "Técnicas de Teste",	
+            "Métricas relacionadas a teste",	
+            "Processo de Teste"	
+        ]
+
     },
 
     {
@@ -1259,6 +1354,6 @@
             "Processos técnicos",	
             "Gestão de Engenharia de Software",	
             "Tecnologias"],
-        "areaSwebok" : ["area1", "area2", "area3"]
+        "areaSwebok" : []
     }
 ]
