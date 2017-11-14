@@ -205,5 +205,6 @@ a:hover {
 }
 
 body{
-  background-image: url('../content/img/teste.png');
+  background-image: url('../content/img/image3.png');
+  background-size: cover;
 }
