@@ -131,6 +131,8 @@
         var tamanhoFonteNomeBotao;
         var tamanhoFonteDescricaoItem;
         var tamanhoFonteNavLateral;
+        
+        var contador = 0;
 
         if($('#tamanho-fonte').text() != undefined && $('#tamanho-fonte').text() != 'NaN'
           && $('#tamanho-navItem').text() != undefined && $('#tamanho-navItem').text() != 'NaN'
@@ -170,27 +172,38 @@
         window.fonteDescricaoItem = tamanhoFonteDescricaoItem;
         window.fonteNavLateral = tamanhoFonteNavLateral;
           $('#aumenta_fonte').click(function(){
-            fonte = fonte+3;
-            fonteLogoLarge = fonteLogoLarge+3;
-            fonteLogoSmall = fonteLogoSmall+3;
-            fonteNavItem = fonteNavItem+3;
-            fonteNomeBotao = fonteNomeBotao+3;
-            fonteDescricaoItem = fonteDescricaoItem+3;
-            fonteNavLateral = fonteNavLateral+3;
-
-            atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNomeBotao, fonteDescricaoItem);
+            if (contador <2) {
+              contador += 1;
+              
+              fonte = fonte+3;
+              fonteLogoLarge = fonteLogoLarge+3;
+              fonteLogoSmall = fonteLogoSmall+3;
+              fonteNavItem = fonteNavItem+3;
+              fonteNomeBotao = fonteNomeBotao+3;
+              fonteDescricaoItem = fonteDescricaoItem+3;
+              fonteNavLateral = fonteNavLateral+3;
+  
+              atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNomeBotao, fonteDescricaoItem);
+            }
           });
 
           $('#reduz_fonte').click(function(){
-            fonte = fonte-3;
-            fonteLogoLarge = fonteLogoLarge-3;
-            fonteLogoSmall = fonteLogoSmall-3;
-            fonteNavItem = fonteNavItem-3;
-            fonteNomeBotao = fonteNomeBotao-3;
-            fonteDescricaoItem = fonteDescricaoItem-3;
-            fonteNavLateral = fonteNavLateral-3;
-
-            atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNomeBotao, fonteDescricaoItem);
+            if (contador > 0){
+              contador -= 1;
+              
+              fonte = fonte-3;
+              fonteLogoLarge = fonteLogoLarge-3;
+              fonteLogoSmall = fonteLogoSmall-3;
+              fonteNavItem = fonteNavItem-3;
+              fonteNomeBotao = fonteNomeBotao-3;
+              fonteDescricaoItem = fonteDescricaoItem-3;
+              fonteNavLateral = fonteNavLateral-3;
+  
+              atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNomeBotao, fonteDescricaoItem);
+            }
+            if (contador == 0){
+              removeValor();
+            }
           });
 
            function atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNomeBotao, fonteDescricaoItem){
@@ -199,6 +212,15 @@
             $('.nav-item').css({'font-size' : fonteNavItem+'px'});
             $('.nome-botao').css({'font-size' : fonteNomeBotao+'px'});
             $('.descricao-item').css({'font-size' : fonteDescricaoItem+'px'});
+          }
+          
+          function removeValor(){
+            $('.logo-large').removeAttr('style');
+            $('.logo-small').removeAttr('style');
+            $('.nav-item').removeAttr('style');
+            $('.nome-botao').removeAttr('style');
+            $('.descricao-item').removeAttr('style');
+            
           }
         });
     </script>
