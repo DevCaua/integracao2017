@@ -34,6 +34,15 @@ $("#toggle").click(function () {
   var tamanhoTituloConteudo;
   var tamanhoBusca;
   var tamanhoConteudoBusca;
+  
+  var contador = 0;
+  
+  console.log('fonte: '+$('#tamanho-fonte').text());
+  console.log('navItem: '+$('#tamanho-navItem').text());
+  console.log('logoSmall: '+$('#tamanho-logoSmall').text());
+  console.log('logoLarge: '+$('#tamanho-logoLarge').text());
+  console.log('navLateral: '+$('#tamanho-navLateral').text());
+  
 
   if($('#tamanho-fonte').text() != undefined && $('#tamanho-fonte').text() != 'NaN' && $('#tamanho-fonte').text() != ""
     && $('#tamanho-navItem').text() != undefined && $('#tamanho-navItem').text() != 'NaN' && $('#tamanho-navItem').text() != ""
@@ -88,34 +97,45 @@ $("#toggle").click(function () {
   window.fonteDescricaoItem = tamanhoFonteDescricaoItem;
 
     $('#aumenta_fonte').click(function(){
-      fonte = fonte+3;
-      fonteLogoLarge = fonteLogoLarge+3;
-      fonteLogoSmall = fonteLogoSmall+3;
-      fonteNavItem = fonteNavItem+3;
-      fonteNavLateral = fonteNavLateral+3;
-      fonteNomeBotao = fonteNomeBotao+3;
-      fonteDescricaoItem = fonteDescricaoItem+3;
-      lineHeight =  lineHeight+20;
-      tamanhoSubMenuDisciplinas = tamanhoSubMenuDisciplinas+3;
-      tamanhoBusca = tamanhoBusca+3;
-      tamanhoConteudoBusca = tamanhoConteudoBusca+3;
-      atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNavLateral, fonte, lineHeight, tamanhoSubMenuDisciplinas, tamanhoTituloConteudo, tamanhoBusca, tamanhoConteudoBusca);
+      if (contador <2) {
+        contador += 1;
+      
+        fonte = fonte+3;
+        fonteLogoLarge = fonteLogoLarge+3;
+        fonteLogoSmall = fonteLogoSmall+3;
+        fonteNavItem = fonteNavItem+3;
+        fonteNavLateral = fonteNavLateral+3;
+        fonteNomeBotao = fonteNomeBotao+3;
+        fonteDescricaoItem = fonteDescricaoItem+3;
+        lineHeight =  lineHeight+20;
+        tamanhoSubMenuDisciplinas = tamanhoSubMenuDisciplinas+3;
+        tamanhoBusca = tamanhoBusca+3;
+        tamanhoConteudoBusca = tamanhoConteudoBusca+3;
+        atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNavLateral, fonte, lineHeight, tamanhoSubMenuDisciplinas, tamanhoTituloConteudo, tamanhoBusca, tamanhoConteudoBusca);
+      }
     });
 
     $('#reduz_fonte').click(function(){
-      fonte = fonte-3;
-      fonteLogoLarge = fonteLogoLarge-3;
-      fonteLogoSmall = fonteLogoSmall-3;
-      fonteNavItem = fonteNavItem-3;
-      fonteNavLateral = fonteNavLateral-3;
-      fonteNomeBotao = fonteNomeBotao-3;
-      fonteDescricaoItem = fonteDescricaoItem-3;
-      lineHeight =  lineHeight-20;
-      tamanhoSubMenuDisciplinas = tamanhoSubMenuDisciplinas-3;
-      tamanhoBusca = tamanhoBusca-3;
-      tamanhoConteudoBusca = tamanhoConteudoBusca-3;
-
-      atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNavLateral, fonte, lineHeight, tamanhoSubMenuDisciplinas, tamanhoTituloConteudo, tamanhoBusca, tamanhoConteudoBusca);
+      if (contador > 0){
+        contador -= 1;
+        
+        fonte = fonte-3;
+        fonteLogoLarge = fonteLogoLarge-3;
+        fonteLogoSmall = fonteLogoSmall-3;
+        fonteNavItem = fonteNavItem-3;
+        fonteNavLateral = fonteNavLateral-3;
+        fonteNomeBotao = fonteNomeBotao-3;
+        fonteDescricaoItem = fonteDescricaoItem-3;
+        lineHeight =  lineHeight-20;
+        tamanhoSubMenuDisciplinas = tamanhoSubMenuDisciplinas-3;
+        tamanhoBusca = tamanhoBusca-3;
+        tamanhoConteudoBusca = tamanhoConteudoBusca-3;
+        atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNavLateral, fonte, lineHeight, tamanhoSubMenuDisciplinas, tamanhoTituloConteudo, tamanhoBusca, tamanhoConteudoBusca);
+      }
+      if (contador == 0){
+        removeValor();
+      }
+      
     });
 
      function atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNavLateral, fonte, lineHeight, tamanhoSubMenuDisciplinas, tamanhoTituloConteudo, tamanhoBusca, tamanhoConteudoBusca){
@@ -129,5 +149,19 @@ $("#toggle").click(function () {
       $('.sidebar-nav li').css({'line-height' : lineHeight+'px'});
       $("lista-resultados li a").css({'font-size' : tamanhoBusca+'px'});
       $("lista-resultados").css({'font-size' : tamanhoConteudoBusca+'px'});
+    }
+    
+    function removeValor(){
+      $('.logo-large').removeAttr('style');
+      $('.logo-small').removeAttr('style');
+      $('.nav-item').removeAttr('style');
+      $('.sidebar-title').removeAttr('style');
+      $('.ng-scope').removeAttr('style');
+      $('.ng-scope h1').removeAttr('style');
+      $('.disc ').removeAttr('style');
+      $('.sidebar-nav li').removeAttr('style');
+      $("lista-resultados li a").removeAttr('style');
+      $("lista-resultados").removeAttr('style');
+      
     }
 });
