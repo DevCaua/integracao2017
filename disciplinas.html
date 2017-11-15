@@ -219,6 +219,7 @@
     <script src="scripts/javascript.js"></script>
     <script>
       $('.toggle-switch').click( function(e) {
+        $('.collapse').collapse('hide');
         if ($("#sidebar-wrapper").css("width") == '45px'){
           $("#sidebar-wrapper").css("width", "225px")
           $(this).data('name', 'show');
