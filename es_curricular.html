@@ -29,6 +29,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
   <body ng-controller="PagesController" ng-class="{'AcessibilidadeBlue': acessibilidadeBlue, 'AcessibilidadeBlackYellow': acessibilidadeByellow, 'AcessibilidadeYellow': acessibilidadeYellow}">
+    <span id="tamanho-fonte">{{tamanho}}</span>
+    <span id="tamanho-navItem">{{tamanhoNavItem}}</span>
+    <span id="tamanho-logoSmall">{{tamanhoLogoSmall}}</span>
+    <span id="tamanho-logoLarge">{{tamanhoLogoLarge}}</span>
+    <span id="tamanho-navLateral">{{tamanhoNavLateral}}</span>
+    <span id="tamanho-contador">{{tamanhoContador}}</span>
     <nav class="navbar-cor navbar navbar-toggleable-md fixed-top navbar-inverse" ng-class="{'NavContrasteBlue': acessibilidadeBlue, 'NavContrasteBlackYellow': acessibilidadeByellow, 'NavContrasteYellow': acessibilidadeYellow, 'NavSemContraste': acessibilidadeNula}">
         <button class="navbar-toggler navbar-toggler-right" ng-class="{'CollapseButtonBlackYellow': acessibilidadeByellow}" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>

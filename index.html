@@ -28,6 +28,14 @@
   </head>
 
   <body ng-controller="PagesController" ng-class="{'AcessibilidadeBlue': acessibilidadeBlue, 'AcessibilidadeBlackYellow': acessibilidadeByellow, 'AcessibilidadeYellow': acessibilidadeYellow}">
+    <span id="tamanho-fonte">{{tamanho}}</span>
+    <span id="tamanho-navItem">{{tamanhoNavItem}}</span>
+    <span id="tamanho-logoSmall">{{tamanhoLogoSmall}}</span>
+    <span id="tamanho-logoLarge">{{tamanhoLogoLarge}}</span>
+    <span id="tamanho-nomeBotao">{{tamanhoNomeBotao}}</span>
+    <span id="tamanho-navLateral">{{tamanhoNavLateral}}</span>
+    <span id="tamanho-descricaoItem">{{tamanhoFonteDescricaoItem}}</span>
+    <span id="tamanho-contador">{{tamanhoContador}}</span>
     <nav class="navbar navbar-expand-lg navbar-dark" ng-class="{'NavContrasteBlue': acessibilidadeBlue, 'NavContrasteBlackYellow': acessibilidadeByellow, 'NavContrasteYellow': acessibilidadeYellow, 'NavSemContraste': acessibilidadeNula}">
       <a class="navbar-brand Logo" ng-class="{'TitleAcessibilidadeBlue': acessibilidadeBlue, 'TitleAcessibilidadeBlackYellow': acessibilidadeByellow, 'TitleAcessibilidadeYellow': acessibilidadeYellow}" href="index.html"><div class="logo-large">BES<img class="logo-image" src="content/img/logo2.png"></div><div class="logo-small">Bacharelado em Engenharia de Software</div></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -125,8 +133,8 @@
         var tamanhoFonteNomeBotao;
         var tamanhoFonteDescricaoItem;
         var tamanhoFonteNavLateral;
-        
-        var contador = 0;
+        var tamanhoContador;
+
 
         if($('#tamanho-fonte').text() != undefined && $('#tamanho-fonte').text() != 'NaN'
           && $('#tamanho-navItem').text() != undefined && $('#tamanho-navItem').text() != 'NaN'
@@ -140,6 +148,8 @@
             tamanhoFonteNavItem = parseInt($('#tamanho-navItem').text());
             tamanhoFonteNomeBotao = parseInt($('#tamanho-nomeBotao').text());
             tamanhoFonteDescricaoItem = parseInt($('#tamanho-descricaoItem').text());
+            tamanhoContador = parseInt($('#tamanho-contador').text());
+            tamanhoFonteNavLateral = parseInt($('#tamanho-navLateral').text());
             atribuiValor(tamanhoFonteLogoLarge, tamanhoFonteLogoSmall, tamanhoFonteNavItem, tamanhoFonteNomeBotao, tamanhoFonteDescricaoItem);
         }else{
           tamanhoFonte = 16;
@@ -149,6 +159,7 @@
           tamanhoFonteNavLateral = 16;
           tamanhoFonteNomeBotao = 32;
           tamanhoFonteDescricaoItem = 16;
+          tamanhoContador = 0;
         }
 
         // busca valor da fonte dos elementos especificos
@@ -165,10 +176,12 @@
         window.fonteNomeBotao = tamanhoFonteNomeBotao;
         window.fonteDescricaoItem = tamanhoFonteDescricaoItem;
         window.fonteNavLateral = tamanhoFonteNavLateral;
+        window.contador = tamanhoContador;
+
           $('#aumenta_fonte').click(function(){
-            if (contador < 2) {
-              contador += 1;
-              
+            if (tamanhoContador < 2) {
+              tamanhoContador = tamanhoContador + 1;
+
               fonte = fonte+3;
               fonteLogoLarge = fonteLogoLarge+3;
               fonteLogoSmall = fonteLogoSmall+3;
@@ -176,15 +189,16 @@
               fonteNomeBotao = fonteNomeBotao+3;
               fonteDescricaoItem = fonteDescricaoItem+3;
               fonteNavLateral = fonteNavLateral+3;
-  
+              contador = contador + 1;
+
               atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNomeBotao, fonteDescricaoItem);
             }
           });
 
           $('#reduz_fonte').click(function(){
-            if (contador > 0){
-              contador -= 1;
-              
+            if (tamanhoContador > 0){
+              tamanhoContador = tamanhoContador - 1;
+
               fonte = fonte-3;
               fonteLogoLarge = fonteLogoLarge-3;
               fonteLogoSmall = fonteLogoSmall-3;
@@ -192,7 +206,8 @@
               fonteNomeBotao = fonteNomeBotao-3;
               fonteDescricaoItem = fonteDescricaoItem-3;
               fonteNavLateral = fonteNavLateral-3;
-  
+              contador = contador - 1;
+
               atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNomeBotao, fonteDescricaoItem);
             }
             if (contador == 0){
@@ -207,14 +222,14 @@
             $('.nome-botao').css({'font-size' : fonteNomeBotao+'px'});
             $('.descricao-item').css({'font-size' : fonteDescricaoItem+'px'});
           }
-          
+
           function removeValor(){
             $('.logo-large').removeAttr('style');
             $('.logo-small').removeAttr('style');
             $('.nav-item').removeAttr('style');
             $('.nome-botao').removeAttr('style');
             $('.descricao-item').removeAttr('style');
-            
+
           }
         });
     </script>
