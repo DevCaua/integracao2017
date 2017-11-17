@@ -13,6 +13,7 @@ $("#toggle").click(function () {
     }
   });
 
+// declara variáveis
   var lineHeight;
   var tamanhoFonte;
   var tamanhoFonteLogoLarge;
@@ -26,16 +27,10 @@ $("#toggle").click(function () {
   var tamanhoTituloConteudo;
   var tamanhoBusca;
   var tamanhoConteudoBusca;
-  
-  var contador = 0;
-  
-  console.log('fonte: '+$('#tamanho-fonte').text());
-  console.log('navItem: '+$('#tamanho-navItem').text());
-  console.log('logoSmall: '+$('#tamanho-logoSmall').text());
-  console.log('logoLarge: '+$('#tamanho-logoLarge').text());
-  console.log('navLateral: '+$('#tamanho-navLateral').text());
-  
+  var tamanhoContador;
 
+
+// inicializa valor das variaveis
   if($('#tamanho-fonte').text() != undefined && $('#tamanho-fonte').text() != 'NaN' && $('#tamanho-fonte').text() != ""
     && $('#tamanho-navItem').text() != undefined && $('#tamanho-navItem').text() != 'NaN' && $('#tamanho-navItem').text() != ""
     && $('#tamanho-logoSmall').text() != undefined && $('#tamanho-logoSmall').text() != 'NaN' && $('#tamanho-logoSmall').text() != ""
@@ -51,6 +46,7 @@ $("#toggle").click(function () {
     tamanhoTituloConteudo = parseInt($('#tamanho-fonte').text()) * 2;
     tamanhoBusca = parseInt($('#tamanho-fonte').text());
     tamanhoConteudoBusca = parseInt($('#tamanho-fonte').text());
+    tamanhoContador = parseInt($('#tamanho-contador').text());
     atribuiValor(tamanhoFonteLogoLarge, tamanhoFonteLogoSmall, tamanhoFonteNavItem, tamanhoFonteNavLateral,tamanhoFonte ,lineHeight, tamanhoSubMenuDisciplinas, tamanhoTituloConteudo, tamanhoBusca, tamanhoConteudoBusca);
   }else{
     tamanhoSubMenuDisciplinas = 14;
@@ -66,6 +62,7 @@ $("#toggle").click(function () {
     lineHeight = 80;
     tamanhoBusca = 16;
     tamanhoConteudoBusca = 16;
+    tamanhoContador = 0;
   }
 
   // busca valor da fonte dos elementos especificos
@@ -87,11 +84,15 @@ $("#toggle").click(function () {
   window.fonteNavLateral = tamanhoFonteNavLateral;
   window.fonteNomeBotao = tamanhoFonteNomeBotao;
   window.fonteDescricaoItem = tamanhoFonteDescricaoItem;
+  window.contador = tamanhoContador;
 
+
+//funções
     $('#aumenta_fonte').click(function(){
-      if (contador <2) {
-        contador += 1;
-      
+
+
+      if (tamanhoContador < 2) {
+        tamanhoContador = tamanhoContador + 1;
         fonte = fonte+3;
         fonteLogoLarge = fonteLogoLarge+3;
         fonteLogoSmall = fonteLogoSmall+3;
@@ -103,14 +104,16 @@ $("#toggle").click(function () {
         tamanhoSubMenuDisciplinas = tamanhoSubMenuDisciplinas+3;
         tamanhoBusca = tamanhoBusca+3;
         tamanhoConteudoBusca = tamanhoConteudoBusca+3;
+        contador = contador + 1;
         atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNavLateral, fonte, lineHeight, tamanhoSubMenuDisciplinas, tamanhoTituloConteudo, tamanhoBusca, tamanhoConteudoBusca);
       }
     });
 
     $('#reduz_fonte').click(function(){
-      if (contador > 0){
-        contador -= 1;
-        
+
+      if (tamanhoContador > 0){
+
+        tamanhoContador = tamanhoContador - 1;
         fonte = fonte-3;
         fonteLogoLarge = fonteLogoLarge-3;
         fonteLogoSmall = fonteLogoSmall-3;
@@ -122,12 +125,13 @@ $("#toggle").click(function () {
         tamanhoSubMenuDisciplinas = tamanhoSubMenuDisciplinas-3;
         tamanhoBusca = tamanhoBusca-3;
         tamanhoConteudoBusca = tamanhoConteudoBusca-3;
+        contador = contador - 1;
         atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNavLateral, fonte, lineHeight, tamanhoSubMenuDisciplinas, tamanhoTituloConteudo, tamanhoBusca, tamanhoConteudoBusca);
       }
       if (contador == 0){
         removeValor();
       }
-      
+
     });
 
      function atribuiValor(fonteLogoLarge, fonteLogoSmall, fonteNavItem, fonteNavLateral, fonte, lineHeight, tamanhoSubMenuDisciplinas, tamanhoTituloConteudo, tamanhoBusca, tamanhoConteudoBusca){
@@ -142,7 +146,7 @@ $("#toggle").click(function () {
       $("lista-resultados li a").css({'font-size' : tamanhoBusca+'px'});
       $("lista-resultados").css({'font-size' : tamanhoConteudoBusca+'px'});
     }
-    
+
     function removeValor(){
       $('.logo-large').removeAttr('style');
       $('.logo-small').removeAttr('style');
@@ -154,6 +158,6 @@ $("#toggle").click(function () {
       $('.sidebar-nav li').removeAttr('style');
       $("lista-resultados li a").removeAttr('style');
       $("lista-resultados").removeAttr('style');
-      
+
     }
 });
