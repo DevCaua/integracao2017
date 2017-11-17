@@ -399,6 +399,7 @@ body {
   #tamanho-navItem,
   #tamanho-logoSmall,
   #tamanho-logoLarge,
-  #tamanho-navLateral{
+  #tamanho-navLateral,
+  #tamanho-contador{
       display: none;
   }

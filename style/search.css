@@ -211,6 +211,7 @@ border-radius: 8px;
   #tamanho-navItem,
   #tamanho-logoSmall,
   #tamanho-logoLarge,
-  #tamanho-navLateral{
+  #tamanho-navLateral,
+  #tamanho-contador{
       display: none;
   }

@@ -213,7 +213,7 @@ iframe {
     .btn-warning {
         display: inline;
     }
-    
+
     h1 {
       font-size: 2rem;
     }
@@ -409,6 +409,7 @@ iframe {
   #tamanho-navItem,
   #tamanho-logoSmall,
   #tamanho-logoLarge,
-  #tamanho-navLateral{
+  #tamanho-navLateral,
+  #tamanho-contador{
       display: none;
   }

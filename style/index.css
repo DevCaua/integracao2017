@@ -113,7 +113,9 @@
 #tamanho-logoSmall,
 #tamanho-logoLarge,
 #tamanho-nomeBotao,
-#tamanho-descricaoItem{
+#tamanho-descricaoItem,
+#tamanho-navLateral,
+#tamanho-contador{
     display: none;
 }
 
